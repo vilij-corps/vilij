@@ -2,4 +2,4 @@
 permalink: /index.html
 ---
 
-Yup, this is www.neitiv.org
+Yup, this is www.kompreni.org
