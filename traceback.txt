@@ -6,7 +6,6 @@ While running game code:
 OSError: Couldn't find file 'how-are-you-f.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
-
 Full traceback:
   File "game/script.rpy", line 57, in script
     e "You've created a new Ren'Py game."
