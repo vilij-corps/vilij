@@ -2,3 +2,5 @@
 traceback.txt
 projects.txt
 log.txt
+errors.txt
+*.save

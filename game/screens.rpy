@@ -75,7 +75,22 @@ style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
+################################################################################
+## Ruby styling for translation
+################################################################################
 
+
+style ruby_style is default:
+    size 16
+    yoffset -30
+
+style say_dialogue:
+    ruby_line_leading 16
+    ruby_style style.ruby_style
+
+style history_text:
+    ruby_line_leading 16
+    ruby_style style.ruby_style
 
 ################################################################################
 ## In-game screens
