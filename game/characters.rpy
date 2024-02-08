@@ -9,3 +9,8 @@ define e = Character("Eileen", image = "character-a-fr", kind = bubble) # kind =
 define akello = Character("Akello", image = "character-a-fr", kind = bubble) # kind = bubble
 # “one who laughs”
 define akiki = Character("Akiki", image = "character-a-fr", kind = bubble) # kind = bubble
+
+
+
+# “one who brings happiness”
+define wessesa = Character("Wessesa", image = "character-a-fr", kind = bubble) # kind = bubble
