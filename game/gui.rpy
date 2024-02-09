@@ -25,14 +25,14 @@ define config.check_conflicting_properties = True
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#fff'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#fff'
 
 ## The color that is used for buttons and bars that are hovered.
 define gui.hover_color = '#66c1e0'
@@ -42,7 +42,7 @@ define gui.hover_color = '#66c1e0'
 define gui.selected_color = '#ffffff'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#eeeeee'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
@@ -50,7 +50,7 @@ define gui.muted_color = '#003d51'
 define gui.hover_muted_color = '#005b7a'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#111111'
 define gui.interface_text_color = '#ffffff'
 
 
@@ -66,13 +66,13 @@ define gui.name_text_font = "fonts/whois-mono.ttf"
 define gui.interface_text_font = "fonts/whois-mono.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 48
 
 ## The size of character names.
-define gui.name_text_size = 40
+define gui.name_text_size = 48
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 48
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 40
@@ -81,8 +81,10 @@ define gui.label_text_size = 40
 define gui.notify_text_size = 48
 
 ## The size of the game's title.
-define gui.title_text_size = 150
+define gui.title_text_size = 128
 
+## The size of the game's title.
+define gui.translation_text_size = 36
 
 ## Main and Game Menus #########################################################
 
@@ -97,7 +99,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## time.
 
 ## The height of the textbox containing dialogue.
-define gui.textbox_height = 555
+define gui.textbox_height = 600
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -106,12 +108,12 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 720
+define gui.name_xpos = 50
 define gui.name_ypos = 0
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
-define gui.name_xalign = 0.0
+define gui.name_xalign = 0.5
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
@@ -130,15 +132,15 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 804
-define gui.dialogue_ypos = 150
+define gui.dialogue_xpos = 0.5
+define gui.dialogue_ypos = 200
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 2232
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
-define gui.dialogue_text_xalign = 0.0
+define gui.dialogue_text_xalign = 0.5
 
 
 ## Buttons #####################################################################

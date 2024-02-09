@@ -1,7 +1,5 @@
 ﻿# The script of the game goes in this file.
 
-
-
 define bubble.rows = 48
 define bubble.cols = 48
 
@@ -40,24 +38,11 @@ label start:
     # background with a file named "bg questmap.png"
     # in the images sub-directory start.
 
-    scene bg questmap
+    scene bg questmap:
+        zoom 0.5
 
-    # character sprite as file named "character-a-fr.png" 
-    # in the images directory.
+    "Select your adventure"
 
-    show character-a-fr at place_right
-    with Pause(1)
-    
-    # These display lines of dialogue.
-
-    voice "voice-overs/how-are-you-f.mp3"
-    akello "You've created a new Ren'Py game."
-
-    akello "Once you add a story, pictures, and music, you can release it to the world!"
-
-    akello "【Wasuze otyano Ssebo｜Good morning Sir】."
-
-    # This ends the game.
     jump greetings
 
     return
