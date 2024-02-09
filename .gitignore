@@ -4,3 +4,5 @@ projects.txt
 log.txt
 errors.txt
 *.save
+game/saves/
+game/cache/

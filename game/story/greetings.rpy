@@ -90,4 +90,7 @@ label greetings:
     # voice "voice-overs/how-are-you-f.mp3"
     akello "{rb}Mweraba.{/rb}{rt}{i}{color=#666}Goodbye (plural).{/color}{/i}{/rt}"
 
+    $ measure_a += 1
+    "You have finished this scenario."
+
     return
