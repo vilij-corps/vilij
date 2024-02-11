@@ -1,3 +1,13 @@
+'''
+
+ +-+-+ +-+-+ +-+-+-+
+     |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
 label school:
-    akello "Let's go on a scavenger hunt..."
+    me "Let's go on a scavenger hunt..."
     return

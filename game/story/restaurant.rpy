@@ -1,3 +1,13 @@
+'''
+
+ +-+-+ +-+-+ +-+-+-+
+     |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
 label restaurant:
-    akello "Let's go to a restaurant..."
+    me "Let's go to a restaurant..."
     return

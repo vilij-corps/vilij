@@ -1,3 +1,13 @@
+'''
+
+ +-+-+ +-+-+ +-+-+-+
+     |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
 label directions:
-    akello "Now we will focus on greetings..."
+    me "Now we will focus on greetings..."
     return

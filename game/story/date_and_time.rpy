@@ -1,3 +1,14 @@
+'''
+
+ +-+-+ +-+-+ +-+-+-+
+     |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
+
 label date_and_time:
-    akello "Now we will focus on greetings..."
+    me "Now we will focus on greetings..."
     return
