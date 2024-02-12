@@ -4,5 +4,9 @@ projects.txt
 log.txt
 errors.txt
 *.save
+*.rpyc
+*.rpyb
 game/saves/
 game/cache/
+saves/
+cache/
