@@ -1,0 +1,28 @@
+# The Experience
+
+### As if you were there...
+
+Let's take an example straight from the game script. You are not feeling well so you go to a medical clinic or hospital to get a diagnosis and treatment.  On arriving, consider:
+
+- what would you see?
+- what would you say?
+- what would you do? ( event / action / reaction )
+- what would the other characters do? ( action / reaction )
+
+The "image" that you have for the scenario is what we attempt to recreate, as accurately and vividly as possible, in the game environment. This approach is the foundation for the role-playing design.
+
+### Role playing
+
+During game play, you "exist" within a virtual world ( city / village ) that resembles the location where the language is spoken.  To reinforce the immersive experience, several game design techniques are used to simulate the real-life situations you might experience in-country.
+
+- your journey begins with a **village map** that can be explored like a virtual self-guided tour.
+- you will **navigate to waypoints** with an option to enter and launch the level, such as the entrance to a hospital.
+- each level represents one or more **scenarios**, such as entering the hospital to receive emergency care.
+- within each level are non-player **characters** ( NPC ) for dialogue (doctor) and interactive objects to build your **vocabulary** (x-ray machine).
+- NPC interaction triggers a **text and audio** (voice) based dialogue with branching.
+- you are also given **opportunities** to take on a mission ( non-map-based levels )
+- completing levels and missions is tracked with score / inventory / progress feedback; the higher the score, the likely increase of **fluency**.
+
+### Lights, Camera, Action, Interaction
+
+The video game platform serves as a perfect **experiential** learning environment, especially for language and cultural studies.  The specific learning and instructional design approaches, as well as the video game design methodology, are well-covered throughout this site.

@@ -1,3 +1,41 @@
-# Welcome {.unnumbered}
+## Welcome {.unnumbered}
 
-Welcome.
+VILIJ CORPS
+*... is a non-profit organization focused on promoting global engagement and cross-cultural relationship-building.*
+
+VILIJ
+*... is an immersive language learning and cultural experience video game.*
+
+Imagine getting off the plane and arriving at the airport to begin your new assignment as a public health worker. You were expecting to hear English, an official language of the country, but instead you hear unfamiliar words and realize that those you will work closest with are speaking an indigenous language that you have not learned. You are greeted with a friendly face and warm welcome, *Wasuze otyano*.
+
+And so begins your adventure to learn the language and the culture. Thankfully, you have VILIJ to guide the way...
+
+### What?
+
+VILIJ aspires to be ...
+
+- an **indigenous language learning video game** that bridges the gap of communications and enables cross-cultural relationship building and understanding.
+- a **free** and **open source**, **community developed** project with the technical and linguistic skills needed to realize the full potential and impact of the project. 
+- a **donor funded** project to fuel continuous development, enhancements, and the support needed to make this a thriving project.
+
+### How?
+
+VILIJ is a **fun** and **serious** language learning video game that:
+  
+- **simulates** the geographic, environmental, and location-specific features **where the language is spoken*** ( *as if you are there* ). 
+- **emulates** the unique behavioral, cultural, ethnic, identity, and societal characteristics of those **who speak the language** ( *real-to-life dialogue and interactivity* ). 
+- provides **role-playing** and **scenario-based** experiences to practice the language in context and reinforce retention with multi-sensory and emotional cues ( *the activities, actions, and events you may face* ). 
+- reinforces language learning with **interactive experiences** that enrich the understanding of the location such as current events, history, traditions, etc… ( *helping you understand, adapt to, and succeed in the environment* ) 
+- incentivizes learning with challenges, missions, **progress tracking**, scoring, and leaderboards ( *a measure of readiness and fluency?* ).
+
+Importantly, to fully realize a **realistic immersive experience**, all visual and audio assets are based on local sources collected by project team members. In other words, game art work is based on an actual scene captured from an in-country observation. All sound files are based on recordings at on-site locations similar to the scene shown in the game.
+
+### Why?
+
+VILIJ is ideal for:
+
+- Development and Humanitarian Aid ( United Nations, USAID, Peace Corps, etc. )
+- Diplomacy, Military, and Civil Affairs ( emergency and crisis response )
+- Non-Governmental, Community, & Volunteer Organizations ( NGOs, missionaries, etc. )
+- Awareness Campaigns & Education ( public health, governance, safety, security, voting, etc. )
+- Business, Communications, and Marketing ( social responsibility & ethics, sustainability, etc. )

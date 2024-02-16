@@ -4,23 +4,27 @@ project:
 website:
   title: ""
   site-url: "https://www.vilijcorps.org/"
+  open-graph: true
+  back-to-top-navigation: true
+  reader-mode: true
   sidebar:
+    logo: "./assets/vilijcorps.svg"
     style: "docked"
     search: true
     collapse-level: 1
-    back-to-top-navigation: true
-    reader-mode: true
     contents:
       - section: "Overview"
         contents:
           - index.qmd
+          - 1_1_the_experience.qmd
           - 1_2_team_and_contributers.qmd
           - 1_3_caveat-emptor.qmd
       - section: "Language"
         contents:
-          - 2_1_language_roadmap.qmd
+          - 2_1_path_to_proficiency
           - 2_2_scenarios.qmd
           - 2_3_missions.qmd
+          - 2_4_language_roadmap.qmd
       - section: "Game Design"
         contents:
           - 3_1_storytelling.qmd
@@ -55,7 +59,7 @@ website:
   page-footer: 
     background: dark
     foreground: light
-    left: "" 
+    left: "This work by Vilij Corps is licensed under Attribution 4.0 International [ CC BY 4.0 ]" 
     right: 
       - icon: github
         href: https://github.com/
@@ -64,8 +68,11 @@ website:
 
 format:
   html:
-    theme: cosmo
     toc: true
+    toc-location: right
+    theme: 
+    - cosmo
+    - assets/custom.scss
     page-layout: full
     grid:
       sidebar-width: 350px
