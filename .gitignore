@@ -10,3 +10,5 @@ game/saves/
 game/cache/
 saves/
 cache/
+/.quarto/
+/_site/
