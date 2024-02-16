@@ -1,0 +1,43 @@
+# The Journey
+
+### Quest Map
+
+Although street-level navigation is explored via side-scrolling horizontal movement, world navigation is provided by a map that enables non-linear teleport to any location. This enables to player to enter any level non-sequentially and on-demand.
+
+
+Flow, as defined by Csíkszentmihályi (1990), is a state of complete immersion in a given activity. In its purest form, a person experiencing flow would be totally focused on the task at hand, lose track of time, and even fail to notice other stimuli.
+
+Working from Csíkszentmihályi’s original research, thatgamecompany (TGC) founder Jenova Chen identifies the following factors that affect the experience of flow:
+- The presentation of a challenging activity that requires skill
+- The merging of action and awareness
+- The setting of clear goals
+- The provision of direct and immediate feedback
+- Concentration on the task at hand
+- Sense of control
+- Loss of self-consciousness
+- An altered sense of time
+
+Virtual Character Design for Games and Interactive Media
+
+
+
+Playability is the ease by which the game can be played or the quantity or duration that a game can be played and is a common measure of the quality of gameplay. (Usability Glossary)
+
+Playability is defined as a set of properties that describe the Player Experience using a specific game system whose main objective is to provide enjoyment and entertainment by being credible and satisfying when the player plays alone or in the company of others. Playability is characterized by different attributes and properties to measure the video game player experience.[21]
+
+
+González Sánchez, J. L.; Gutiérrez Vela, F.L.; Montero Simarro, F.; Padilla-Zea, N. (31 Aug 2012). "Playability: analysing user experience in video games". Behaviour & Information Technology. 31 (10): 1033–1054. doi:10.1080/0144929X.2012.710648. S2CID 7073571.
+
+Satisfaction: the degree of gratification or pleasure of the player for completing a video game or some aspect like mechanism, graphics, user interface, story, etc. Satisfaction is a highly subjective attribute that provokes a difficult measuring due to player preferences and pleasures influencing the satisfaction for specific game elements: characters, virtual world, challenges, and so on.
+
+Learning: the facility to understand and dominate the game system and mechanics (objectives, rules, how to interact with the video game, etc.). The Desktop Systems try to minimize the learning effort, but gamers can use the learning curve in video games according to the game's nature. For example, on the one hand, gamers can demand great initial abilities before playing, or training them harshly in the first phases of the game, to help players understand and dominate all the game rules and resources and use them from the beginning. On the other hand, players can learn step by step in a guided way when they need some ability in the video game.
+
+Efficiency: the necessary time and resources to offer fun and entertainment to players while achieving the different game objectives and reaching the final goal. An efficient video game can catch the player's attention immediately and provoke him to continue playing to the end of the game. Efficiency can be analyzed as the correct use of the challenge through the game, the correct structuring of the objectives or the best adaptation of the control to the actions in the game.
+
+Immersion: the capacity to believe in the video game contents and integrate the player in the virtual game world. The immersion provokes that the player looks involved in the virtual world, becoming part of this and interacting with it because the user perceives the virtual world represented by the video game, with its laws and rules that characterize it. A video game has a good immersion level when it has equilibrium between the proposed challenges and the necessary player abilities to overcome them.
+
+Motivation: the characteristics that provoke the player to realize concrete actions and persist in them until their culmination. To obtain a high degree of motivation, the game should have resources to ensure the player's perseverance in the performed actions to overcome the game challenges. This means providing different factors to ensure positive reception in the interpretation of the game process, keeping the player focused on the proposed challenges, showing the relevance of the objectives to reach, and rewards for challenges to keep the player confident and motivated. The player should feel satisfied after receiving the reward or after completing the challenge.
+
+Emotion: the involuntary impulse, originated in response to the stimulus of the video game and induces feelings or unleashes automatic reactions and conducts. The use of emotions in video games help to cultivate the best player experience and leads players to different emotional states: happiness, fear, intrigue, curiosity, sadness... using the game challenges, story, aesthetic, appearance, or the music compositions that are capable of affecting the player.
+
+Socialization: the degree of the game attributes, elements and resources that promote the social factor of the game experience in a group. This kind of experience provokes appreciating the video game differently, thanks to the relations established with other players or with other characters of the game that help the player resolve the game challenges in a collaborative, competitive or cooperative way. The game socialization allows players to have a totally different game experience when they play with other persons and promote new social relationships thanks to their interaction. In addition to this, socialization also is present in how the social connections that players have are projected with the group in the characters of the video game and the context in which the game is realized. For example, choosing the player to be connected or to share something, interacting, obtaining information, asking for help, or negotiating for some items, and how our influence with the other character is positive or negative to achieve the game objectives. To promote the social factor, it is advisable to develop new shared challenges that help players to integrate and being satisfied with the new game rules and objectives, creating a set of collective emotions where players (or characters) encourage and motivate themselves to overcome the collective challenges.
