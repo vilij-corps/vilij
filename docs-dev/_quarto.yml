@@ -1,0 +1,74 @@
+project:
+  type: website
+
+website:
+  title: ""
+  site-url: "https://www.vilijcorps.org/"
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    back-to-top-navigation: true
+    reader-mode: true
+    contents:
+      - section: "Overview"
+        contents:
+          - index.qmd
+          - 1_2_team_and_contributers.qmd
+          - 1_3_caveat-emptor.qmd
+      - section: "Language"
+        contents:
+          - 2_1_language_roadmap.qmd
+          - 2_2_scenarios.qmd
+          - 2_3_missions.qmd
+      - section: "Game Design"
+        contents:
+          - 3_1_storytelling.qmd
+          - 3_2_screenwriting.qmd
+          - 3_3_storyboarding.qmd
+          - 3_4_immersion.qmd
+          - 3_5_not_just_a_wall.qmd
+          - 3_6_emotion_and_sensation.qmd
+          - 3_7_truthful_realism.qmd
+      - section: "Content Creation"
+        contents:
+          - 4_1_art_style.qmd
+          - 4_2_location_unique.qmd
+          - 4_3_on_scene_photos.qmd
+          - 4_4_stylized_post_processing.qmd
+          - 4_5_compositing.qmd
+      - section: "Game Development"
+        contents:
+          - 5_1_renpy.qmd
+          - 5_2_krita.qmd
+          - 5_3_blender.qmd
+      - section: "Game Play"
+        contents:
+          - 6_1_characters.qmd
+          - 6_2_the_world.qmd
+          - 6_3_the_journey.qmd
+          - 6_4_interaction.qmd
+          - 6_5_flow_and_zone.qmd
+      - section: "Blog"
+        contents:
+          - blog.qmd
+  page-footer: 
+    background: dark
+    foreground: light
+    left: "" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    page-layout: full
+    grid:
+      sidebar-width: 350px
+      body-width: 850px
+      margin-width: 300px
+      gutter-width: 1.5rem

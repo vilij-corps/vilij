@@ -1,0 +1,70 @@
+# Dialogue
+
+### Writing from the heart
+
+Not long ago I crashed my motorcycle, painting the road with my skin, breaking my collar bone, squashing my confidence, and crushing my fearlessness. What follows from that moment is where the story begins.
+
+Writing must be personal or it is not worth writing.[^1]
+
+[^1]: Blueprint for Screenwriting.
+
+### Character
+
+
+![[maya-story.png|300]]
+
+NPCs
+
+Non-player characters (NPCs), populate the world of a game. They shoulder a large portion of the burden of moving the story of the game forward, and come in many shapes and sizes. They also provide a focus for the player’s emotion. The only emotion a player may feel on the death of a player-character who can be resurrected at the beginning of a level or back at a bind point might be frustration. The deaths of thousands of soldiers in a strategy game might mean defeat, but the player will not be attending their funerals as Commander-in-Chief. However, the death of a companion the player-character has adventured with, come to know, even rely upon, can be a potent source for much deeper emotion. We’ll explore this next as we look at major non-player characters.
+
+Story: Building blocks of plot, character, and dialogue
+
+Video games provide a have amazing storytelling power when used to their fullest potential in combining images, sound, and interactivity.
+
+film tells its story in a series of scenes that show action occurring at various times in a number of settings.
+
+Every story introduces characters and situations, reveals backstory, creates problems and conflicts for the characters, and then shows how the characters deal with them.
+
+Good writing and performances are essential ingredients of a compelling movie, but the story will fall short of its potential if the visual storytelling is not well designed. This is because films are primarily stories told in pictures.
+
+A scene consists of a single time and place where one part of a story takes place.
+
+A setting can mean the general time and place of an entire story, but more often it’s the specific time and place of one scene.
+
+Visual structure is based on an understanding of the principle of contrast and affinity.
+
+Contrast  Greater Visual Intensity
+Affinity  Less Visual Intensity
+
+### Role Playing
+
+- the real-life role you will play ...
+- a player role ...
+
+### Actors, Props, and Stage
+
+Planes of Depth
+
+What the camera sees is often divided into the foreground, middle ground, and background. Shots that are composed to show more than one of these planes of depth seem more three-dimensional and immersive. Often a shot can be improved by adding some foreground or by changing the camera angle so that there is more depth in the background behind the actors. When the camera moves, these planes move at varying speeds within the frame, which adds to the illusion of three-dimensionality and motion
+
+Depth of Field
+
+A lens can be made to focus on an object at any distance from the camera. The point along the camera’s line of sight where the focus is sharpest is called the focal point. The plane that extends outward from this point at a right angle to the line of sight is called the focal plane. Objects that are somewhat closer or somewhat farther away from that object will also be in focus, while objects that fall outside this range will be out of focus and appear fuzzy and soft. The zone in which objects are in focus is called the depth of field. An object that lies in the focal plane is not in the middle of the depth of field: one-third of the depth of field lies on the camera side of the object, while two-thirds of it lies behind the object.
+
+Increasing the Illusion of Depth
+
+- Linear Perspective, Distance and Size
+- Atmospheric
+- Curves and Zigzags
+- Focus and Blur
+- Shadows
+- Overlapping
+- Perspective Lines (vanishing point)
+- Reflections
+
+Elements of Structure
+
+- shots: A shot is a single “take” on an image.
+- scenes: A scene is a consecutive group of shots within a single location.
+- sequences: A sequence is a collection of shots and scenes that together tell a more or less continuous story of an event that is a piece of your bigger story.
+- acts: An act is a series of sequences that drives to a major turning point—a climactic moment that springs directly from the story and makes necessary the next series of sequences in the act that follows.

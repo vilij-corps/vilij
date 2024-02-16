@@ -1,0 +1,13 @@
+# Boda Man
+
+- provide directions to chase the mobile phone thief . . . using the "locate my phone" tracker
+
+# Monkey Spec Ops
+
+Yes, it happened to me - a well coordinated assault on my hanging laundry resulting in the theft of my favorite yellow shirt.
+
+Scene Images : Monkeys | Building | Clothes Line
+
+- intercepted communications giving play-by-play operation for the theft of an article of clothing.
+- mission will test comprehension from communications that will describe the item to be stolen and the actions the monkeys will take to do so.
+- player objective is to prevent the theft with a precise intervention to protect the item.

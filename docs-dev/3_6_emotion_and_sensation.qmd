@@ -1,0 +1,18 @@
+# To Play is to Feel
+
+### Inspiring Emotion
+
+*Why should I care?*
+
+According to XYZ, there are three levels of emotion for a game player.
+
+1. Voyeuristic — you're curious
+2. Vicarious — you identify with what the characters are feeling
+3. Visceral — you have emotional reactions to the story
+
+From a learning and game design perspective, we see each of these levels as emotions that can incentivize and reinforce the learning experience.
+
+
+- Setting up the player to understand a role’s reactions. For example, audiences may not feel empathy for a sad child until they know **why** the child is sad.
+- A realistic situation that the viewer can relate to. This is especially important for the role-playing aspect of the game and the sense of immersion.
+
