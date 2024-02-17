@@ -10,8 +10,7 @@ Writing must be personal or it is not worth writing.[^1]
 
 ### Character
 
-
-![[maya-story.png|300]]
+![](assets/maya-story.png){fig-align="center" width="300"}
 
 NPCs
 
@@ -33,13 +32,12 @@ A setting can mean the general time and place of an entire story, but more often
 
 Visual structure is based on an understanding of the principle of contrast and affinity.
 
-Contrast  Greater Visual Intensity
-Affinity  Less Visual Intensity
+Contrast Greater Visual Intensity Affinity Less Visual Intensity
 
 ### Role Playing
 
-- the real-life role you will play ...
-- a player role ...
+-   the real-life role you will play ...
+-   a player role ...
 
 ### Actors, Props, and Stage
 
@@ -53,18 +51,18 @@ A lens can be made to focus on an object at any distance from the camera. The po
 
 Increasing the Illusion of Depth
 
-- Linear Perspective, Distance and Size
-- Atmospheric
-- Curves and Zigzags
-- Focus and Blur
-- Shadows
-- Overlapping
-- Perspective Lines (vanishing point)
-- Reflections
+-   Linear Perspective, Distance and Size
+-   Atmospheric
+-   Curves and Zigzags
+-   Focus and Blur
+-   Shadows
+-   Overlapping
+-   Perspective Lines (vanishing point)
+-   Reflections
 
 Elements of Structure
 
-- shots: A shot is a single “take” on an image.
-- scenes: A scene is a consecutive group of shots within a single location.
-- sequences: A sequence is a collection of shots and scenes that together tell a more or less continuous story of an event that is a piece of your bigger story.
-- acts: An act is a series of sequences that drives to a major turning point—a climactic moment that springs directly from the story and makes necessary the next series of sequences in the act that follows.
+-   shots: A shot is a single “take” on an image.
+-   scenes: A scene is a consecutive group of shots within a single location.
+-   sequences: A sequence is a collection of shots and scenes that together tell a more or less continuous story of an event that is a piece of your bigger story.
+-   acts: An act is a series of sequences that drives to a major turning point—a climactic moment that springs directly from the story and makes necessary the next series of sequences in the act that follows.

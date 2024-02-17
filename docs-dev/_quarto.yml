@@ -4,14 +4,18 @@ project:
 website:
   title: ""
   site-url: "https://www.vilijcorps.org/"
+  page-navigation: true
   open-graph: true
   back-to-top-navigation: true
-  reader-mode: true
+  google-analytics: "G-P3W0Q1HS7T"
   sidebar:
     logo: "./assets/vilijcorps.svg"
     style: "docked"
     search: true
     collapse-level: 1
+    tools:
+      - icon: bi-envelope-at-fill 
+        href: https://www.vilijcorps.org/contact.html
     contents:
       - section: "Overview"
         contents:
@@ -19,9 +23,11 @@ website:
           - 1_1_the_experience.qmd
           - 1_2_team_and_contributers.qmd
           - 1_3_caveat-emptor.qmd
+          - 1_4_sponsorship_and_fundraising.qmd
+          - 1_5_about.qmd
       - section: "Language"
         contents:
-          - 2_1_path_to_proficiency
+          - 2_1_path_to_proficiency.qmd
           - 2_2_scenarios.qmd
           - 2_3_missions.qmd
           - 2_4_language_roadmap.qmd
@@ -34,37 +40,48 @@ website:
           - 3_5_not_just_a_wall.qmd
           - 3_6_emotion_and_sensation.qmd
           - 3_7_truthful_realism.qmd
-      - section: "Content Creation"
-        contents:
-          - 4_1_art_style.qmd
-          - 4_2_location_unique.qmd
-          - 4_3_on_scene_photos.qmd
-          - 4_4_stylized_post_processing.qmd
-          - 4_5_compositing.qmd
       - section: "Game Development"
         contents:
-          - 5_1_renpy.qmd
-          - 5_2_krita.qmd
-          - 5_3_blender.qmd
+          - 4_1_renpy.qmd
+          - 4_2_krita.qmd
+          - 4_3_blender.qmd
       - section: "Game Play"
         contents:
-          - 6_1_characters.qmd
-          - 6_2_the_world.qmd
-          - 6_3_the_journey.qmd
-          - 6_4_interaction.qmd
-          - 6_5_flow_and_zone.qmd
+          - 5_1_characters.qmd
+          - 5_2_the_world.qmd
+          - 5_3_the_journey.qmd
+          - 5_4_interaction.qmd
+          - 5_5_flow_and_zone.qmd
+      - section: "Content Creation"
+        contents:
+          - 6_1_art_style.qmd
+          - 6_2_location_unique.qmd
+          - 6_3_on_scene_photos.qmd
+          - 6_4_stylized_post_processing.qmd
+          - 6_5_compositing.qmd
+      - section: "Inspiration"
+        contents:
+          - 7_1_visual_novels.qmd
+          - 7_2_gameology.qmd
+          - 7_3_sequential_art.qmd
+          - 7_4_moving_images.qmd
+          - 7_5_illustrated_pages.qmd
       - section: "Blog"
         contents:
-          - blog.qmd
+          - posts.qmd
   page-footer: 
     background: dark
     foreground: light
-    left: "This work by Vilij Corps is licensed under Attribution 4.0 International [ CC BY 4.0 ]" 
+    center: "This work by Vilij Corps is licensed under Attribution 4.0 International [ CC BY 4.0 ]" 
     right: 
+      - icon: bi-cup-hot-fill
+        href: "https://www.vilijcorps.org/" 
       - icon: github
-        href: https://github.com/
-      - icon: twitter 
-        href: https://twitter.com/ 
+        href: https://github.com/vilij-corps/vilij
+      - icon: bi-chat-square-fill
+        href: https://github.com/vilij-corps/vilij/discussions
+      - icon: bi-envelope-at-fill 
+        href: "https://www.vilijcorps.org/contact.html" 
 
 format:
   html:

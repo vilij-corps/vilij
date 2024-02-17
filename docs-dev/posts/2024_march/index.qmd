@@ -1,0 +1,11 @@
+---
+title: "title" # https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
+description: "description"
+author:
+  - name: Vilij Corps
+    url: https://www.vilijcorps.org/
+date: 03-15-2024
+categories: [project, game, language] # self-defined categories
+image: preview-image.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---

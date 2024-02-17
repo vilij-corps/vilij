@@ -1,0 +1,37 @@
+# About Us
+
+
+<div class="row">
+<div class="column card">
+<img src="assets/icons/allie.png" alt="Avatar" style="height:150px">
+<div class="container">
+<p><b>Allie</b></p>
+<p>Canada, Uganda</p>
+</div>
+</div>
+<div class="column card">
+<img src="assets/icons/chloe.png" alt="Avatar" style="height:150px">
+<div class="container">
+<p><b>Chloe</b></p>
+<p>Canada, Uganda</p>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="column card">
+<img src="assets/icons/nancy.png" alt="Avatar" style="height:150px">
+<div class="container">
+<p><b>Nancy</b></p>
+<p>Uganda</p>
+</div>
+</div>
+<div class="column card">
+<img src="assets/icons/jb.png" alt="Avatar" style="height:150px">
+<div class="container">
+<p><b>JB</b></p>
+<p>Uganda</p>
+</div>
+</div>
+</div>
+

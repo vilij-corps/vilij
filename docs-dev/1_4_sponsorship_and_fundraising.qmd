@@ -1,0 +1,42 @@
+# Sponsorship and Fundraising
+
+### Why do we need funds?
+
+The VILIJ pilot is comprised of approximately XXX audio voice overs, XXX locally collected media assets, XXX game assets, and XXX code files, all created by a volunteer team and in-country contributors.
+
+### Exactly what are the funds used for?
+
+
+- all contributions are committed to support local skills and talents such as voice acting (the audio files we need from native speakers), art work, photographs, scripts, etc.
+- to the greatest extent possible, local support is prioritized for those with the **skills**, **opportunity** and **need**. For example, the living wage in rural Uganda is estimated to be around USD $177 per month. A small donation of USD $50 can make a difference!
+
+### How can we receive funds?
+
+EARNING DONATIONS
+
+- Paypal
+- Stripe
+- KO FI
+- Bonfire
+
+FUND RAISING
+
+- itch.io
+- Kick Starter
+
+MONETIZING SOCIAL MEDIA
+
+- YouTube
+
+SELLING CREATIVE WORKS
+
+- Itch.io
+- Patreon
+- Gumroad
+- Freepik
+
+GAME SALES via STEAM & Itch.io
+
+### Transparency and Progress Reporting
+
+All design and development progress are captured in this site and the github repository.  A weekly update in the blog highlights the major activities, accomplishments, and near-term plans.

@@ -1,0 +1,58 @@
+# Ren'Py
+
+# Overview
+## What we need...
+
+- [x] A splash screen that introduces the game when loading.
+- [ ] That the player is greeted with a menu to start a new game or continue playing a previously saved (for progress persistence). 
+- [ ] A map is shown to teleport the player to a scene space ( street view).
+- [ ] The player "walks" to a level entrance of interest ( level view ).
+- [ ] Within the level, the player interacts with NPCs and objects.
+- [ ] NPC interaction is based on a dialogue with text and voice overs.
+- [ ] Object interaction is based on a mouse click.
+- [ ] Player interactions are recorded in a progress tracker.
+- [ ] The progress tracker can be viewed in abbreviated form or a full report similar to an inventory system of objects collected.
+- [ ] Mission addons for fun, specialized cases, and practice.
+- [ ] Cut-Scenes for fun and entertainment.
+
+## Let's make...
+
+
+### a Splash Screen
+
+
+### a Main Menu
+
+
+### a Navigation Map
+
+
+### a Player Character
+
+- move
+- touch
+- talk
+
+### a Street Scene
+
+- what you see
+- what you hear
+- what you do
+
+### a Level Scene
+
+- what you see
+- what you hear
+- what you do
+
+### an NPC Character
+
+- what he/she looks like
+- what he/she does
+- what he/she says
+
+### an Interactive Prop
+
+- Hi, I'm a goat!
+
+### the Progress Tracker Interfaces

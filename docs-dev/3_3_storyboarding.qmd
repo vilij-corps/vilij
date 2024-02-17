@@ -4,6 +4,14 @@ Storyboarding is a planning and pre-visualization process for designing a frame-
 
 ### Cinematography
 
-LOCATION ( *where are you?* )
-GOAL / EVENT / ACTION ( *what is happening? what are you doing?* )
-OBSERVABLES ( *what do you see and hear?* )
+-   LOCATION ( *where are you?* )
+
+-   GOAL / EVENT / ACTION ( *what is happening? what are you doing?* )
+
+-   OBSERVABLES ( *what do you see and hear?* )
+
+# For Example
+
+### Formal greetings
+
+![](assets/formal-greetings-storyboard.png){fig-align="center" width="75%"}

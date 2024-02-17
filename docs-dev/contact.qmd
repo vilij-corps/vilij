@@ -1,0 +1,31 @@
+# Contact Us
+
+You can use this form to contact us.
+
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgegkney" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="email-address">Email Address [ required ]</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required>
+    <label for="played">Have you played the game? [ optional ]</label>
+    <select name="played" id="played">
+        <option value="" selected="" disabled="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+    <label for="interests">Are you interested in... [ optional ]</label>
+    <select name="interests" id="interests" >
+        <option value="" selected="" disabled="">Select</option>
+        <option value="game_dev">Contributing as a game developer?</option>
+        <option value="content_creation">Contributing with content creation?</option>
+        <option value="language">Providing language support? ?</option>
+        <option value="sponsor">Becoming a sponsor?</option>
+        <option value="other">Other</option>
+    </select>
+    <label for="location">What country / city are you located in? [ optional ]</label>
+    <input type="text" name="location" id="location" placeholder="Kampala, Uganda">
+    <label for="message">Message [ required ]</label>
+    <textarea rows="5" name="message" id="message" placeholder="I am learning a language with Vilij!" required></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
