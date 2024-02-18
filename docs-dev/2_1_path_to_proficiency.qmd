@@ -4,27 +4,47 @@ As Vilij is a multi-language learning platform, its success is hinged on a capab
 
 Drawing from a wide range of references, We've aligned the learning experience with practical learning objectives and goals.
 
--   1000 words allow you to understand about 80% of the common language which surrounds you.
+-   1000 words allow you to understand about 80% of the common language which surrounds you.[^3]
 
--   3000 words allow you to understand about 95% of most ordinary texts.
+-   3000 words allow you to understand about 95% of most ordinary texts.[^4]
 
--   5000 words allow you to understand about 98% of most ordinary text.
+-   5000 words allow you to understand about 98% of most ordinary text.[^5]
 
 -   6,000 to 7,000 words to understand 98% of spontaneous spoken language.
 
--   7,000 words to watch and understand a movie.
+-   7,000 words to watch and understand a movie.[^1]
 
--   8,000 words to read a newspaper.
+-   8,000 words to read a newspaper.[^2]
 
--   8,000-9,000 words to read a novel.
+-   8,000-9,000 words to read a novel.[^1]
 
--   10000 words allow you to understand about 99% of most texts
+-   10000 words allow you to understand about 99% of most texts[^5]
+
+### Let's get real
+
+In their book *Vocabulary in Language Teaching*, Norbert and Diane Schmitt state, for example, that the average French high school student knows 1,000 English words after 400 hours of teaching. Ouch!
+
+Stuart Webb, professor of applied linguistics at the University of Western Ontario, found that people who have been studying languages in a traditional setting - say French in Britain or English in Japan - often struggle to learn more than 2,000 to 3,000 words, even after years of study. [^1]
+
+In fact, a study in Taiwan showed that after nine years of learning a foreign language half of the students failed to learn the most frequently used 1,000 words. And that is the key, the frequency with which the words you learn appear in day-to-day use in the language you're learning. [^1]
+
+### Context is king
 
 Another key aspect of language learning is to clearly realize the progress and skills gained from the investment of time. Vilij implements a scoring and progress tracking system that aims to “describe” a player's gains towards language competency and fluency. The measures are based on a simplified interpretation and implementation of three frameworks: the Common European Framework of References (CEFR), The Interagency Language Roundtable (ILR) developed by the United States Foreign Service Institute, and the American Council on the Teaching of Foreign Languages scale (ACTFL)25.
 
-The fact is, immersion and context are critical to the language learning experience. This point is reinforced by Luca Lampariello24, a well-known polyglot with a popular language learning YouTube channel, who asserts that “context is king”. He suggests that good guessing skills are truly important when it comes to acquiring a foreign language. What happens is that you will eventually learn words through repeated exposure, in different contexts, at different places. This is called assimilation. And this is your aim when acquiring a foreign language.
+The fact is, immersion and context are critical to the language learning experience. This point is reinforced by Luca Lampariello[^6], a well-known polyglot with a popular language learning YouTube channel, who asserts that “context is king”. He suggests that good guessing skills are truly important when it comes to acquiring a foreign language. What happens is that you will eventually learn words through repeated exposure, in different contexts, at different places. This is called assimilation. And this is your aim when acquiring a foreign language.
 
 ### Measures of Language Proficiency Integrated in to the Game Platform
+
+VILIJ implements a scoring and progress tracking system that aims to “describe” a players gains towards language competency and fluency. The measures are based on a simplified interpretation and implementation of three frameworks:
+
+- CEFR
+- ILR
+- ACTFL 
+
+The Council of Europe’s Common European Framework of References (CEFR) for Languages groups language learners into concrete proficiency levels, where fluency and accuracy are just two of many examined criteria. The CEFR divides proficiency into six levels. The Interagency Language Roundtable (ILR) was developed by the United States Foreign Service Institute as a five-level scale. The ILR is the standard measure of language proficiency for jobs in the federal government. The American Council on the Teaching of Foreign Languages (ACTFL) was developed from the ILR to provide a *global assessment in academic and workplace settings*. It has five main levels, and each of the first four levels are each split into low, medium and high sub-levels.
+
+The table below summarizes the levels:
 
 +----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Measure                          | Criteria                                                                                                                                                                                                                                           |
@@ -85,3 +105,18 @@ The fact is, immersion and context are critical to the language learning experie
 |                                  |                                                                                                                                                                                                                                                    |
 |                                  | -   10,000+ words                                                                                                                                                                                                                                  |
 +----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Words of encouragement
+
+### Tracking Progress
+
+Following the path to proficiency approach, what we described as the *KOMPRENI? Immersive Experience Measure*, all time invested to learn the language will be carefully tracked and reported for you to see your progress.  The progress tracking is a simple earned reward system -- the more you do (time and activity) in the game, the higher the reward.
+
+Our goal is to have a progress tracker and measures that accurately reflect the real world equivalent.  For example, if you have earned a level that suggests you can engage in basic conversation, then that should be an accurate measure of your proficiency.
+
+[^1]: The study focused on English.  Müller, L-M. & Nation, I. (2018). How many words do learners need to know to understand novels, newspapers or films? OASIS Summary of Nation (2006) in Canadian Modern Language Review. https://oasis-database.org
+[^2]: BBC News. How many words do you need to speak a language? 24 June 2018. https://www.bbc.com/news/world-44569277
+ [^3]: Hwang, 1989; Hirsh and Nation, 1992; Sutarsyah, Nation and Kennedy, 1994
+[^4]: Hazenberg and Hulstijn, 1996
+[^5]: Nation (1990) and Laufer (1997)
+[^6]: http://www.thepolyglotdream.com/

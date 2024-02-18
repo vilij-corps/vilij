@@ -13,9 +13,6 @@ website:
     style: "docked"
     search: true
     collapse-level: 1
-    tools:
-      - icon: bi-envelope-at-fill 
-        href: https://www.vilijcorps.org/contact.html
     contents:
       - section: "Overview"
         contents:
@@ -24,13 +21,15 @@ website:
           - 1_2_team_and_contributers.qmd
           - 1_3_caveat-emptor.qmd
           - 1_4_sponsorship_and_fundraising.qmd
-          - 1_5_about.qmd
+          - 1_5_language_roadmap.qmd
+          - 1_6_about.qmd
+          - 1_7_contact.qmd
       - section: "Language"
         contents:
           - 2_1_path_to_proficiency.qmd
           - 2_2_scenarios.qmd
           - 2_3_missions.qmd
-          - 2_4_language_roadmap.qmd
+          - 2_4_cut_scenes.qmd
       - section: "Game Design"
         contents:
           - 3_1_storytelling.qmd
@@ -91,8 +90,3 @@ format:
     - cosmo
     - assets/custom.scss
     page-layout: full
-    grid:
-      sidebar-width: 350px
-      body-width: 850px
-      margin-width: 300px
-      gutter-width: 1.5rem

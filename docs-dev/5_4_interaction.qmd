@@ -3,3 +3,22 @@
 No waiting in lines
 Time counts
 Positive Feedback
+
+### Return Visits
+
+You've interacted with a character and yet every time you pass, a cue is shown to interact again.  You do so and the dialogue is the same.
+
+1. If the player concludes the conversation, then immediately reopens it without doing anything else.
+2. If the player remains in the area, but does other things, or briefly leaves the area and returns.
+3. If the player is gone for some time before returning.
+
+
+> Many games succumb to what some designers consider a necessary evil: the repetition of repeat visits. Players don’t always know they have exhausted an NPC of whatever primary use it had in the game, and that revisiting the NPC will not further the plot or provide additional gameplay ... One thing that destroys for me the illusion that the game is anything other than a game is when NPCs repeat the same old stock phrases over and over when you return to them. Simply because their utility is over doesn’t mean we can abandon them ... [^1]
+
+[^1]: Character Development and Storytelling for Games
+
+### Branching Narratives
+
+> As the most powerful representational medium yet invented, it should be put to the highest tasks of society. Whether or not we will one day be rewarded with the arrival of the cyberbard, we should hasten to place this new compositional tool as firmly as possible in the hands of the storytellers. [^1]
+
+[^1]: *Hamlet on the Holodeck*, Murray, p. 284

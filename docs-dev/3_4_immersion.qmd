@@ -6,8 +6,7 @@ Hear
 Taste
 Smell
 Essence
-
-identity
+Identity
 
 
 ### Fresh grasshopper

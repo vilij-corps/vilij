@@ -4,18 +4,19 @@ Let's start with an example.
 
 ### Ebola is not witchcraft
 
-![[uganda-evd-districts-only-20221027.png|500]]
-`Source: CDC` [^1]
+![Source: CDC \[\^1\]](assets/uganda-evd-districts-only-20221027.png){fig-align="center" width="60%"}
 
 **Backstory**
 
-On 20 September 2022, Uganda declared an Ebola disease outbreak caused by the Sudan ebolavirus species. In total there were 164 cases (142 confirmed and 22 probable), 55 confirmed deaths and 87 recovered patients. More than 4000 people who came in contact with confirmed cases were followed up and their health monitored for 21 days. Overall, the case-fatality ratio was 47%. The last patient was released from care on 30 November when the 42-day countdown to the end of the outbreak began. On 11 January 2023, Uganda declared the end of the outbreak.[^2]
+On 20 September 2022, Uganda declared an Ebola disease outbreak caused by the Sudan ebolavirus species. In total there were 164 cases (142 confirmed and 22 probable), 55 confirmed deaths and 87 recovered patients. More than 4000 people who came in contact with confirmed cases were followed up and their health monitored for 21 days. Overall, the case-fatality ratio was 47%. The last patient was released from care on 30 November when the 42-day countdown to the end of the outbreak began. On 11 January 2023, Uganda declared the end of the outbreak.[^1]
+
+[^1]: [WHO](https://www.afro.who.int/countries/uganda/news/uganda-declares-end-ebola-disease-outbreak)
 
 **Plot**
 
-According to Uganda's health minister, local people believe the new Ebola outbreak is caused by witchcraft. Prior to the first reported case, an 8-year-old girl fell sick with signs of vomiting, bloody diarrhea, fever and headache, potential symptoms of Ebola.  Family members thought that it was witchcraft, and instead of taking her to a health facility, the girl was rushed to a traditional healer for treatment.  She soon died, without receiving any form of medical diagnosis or care.
+According to Uganda's health minister, local people believe the new Ebola outbreak is caused by witchcraft. Prior to the first reported case, an 8-year-old girl fell sick with signs of vomiting, bloody diarrhea, fever and headache, potential symptoms of Ebola. Family members thought that it was witchcraft, and instead of taking her to a health facility, the girl was rushed to a traditional healer for treatment. She soon died, without receiving any form of medical diagnosis or care.
 
-Your task as a public health worker is to raise awareness, educate, and minimize mis-information in high risk areas.  You arrive at a "hotspot" District where the first cases emerged. Many in the district only speak Luganda with very limited English ability.  Your language skills and ability to communicate factual information will help save lives.  Get to work!
+Your task as a public health worker is to raise awareness, educate, and minimize mis-information in high risk areas. You arrive at a "hotspot" District where the first cases emerged. Many in the district only speak Luganda with very limited English ability. Your language skills and ability to communicate factual information will help save lives. Get to work!
 
 Note: although the story resembles real-life events, it is not intended to serve as a authoritative source.
 
@@ -23,13 +24,13 @@ Note: although the story resembles real-life events, it is not intended to serve
 
 We can take some lessons from Documentary films and the way they are directed to bring viewers into new worlds and experiences through the presentation of factual information about real people, places, and events, generally portrayed through the use of actual images and artifacts.
 
-What does a player expect from the game? [^1]
+What does a player expect from the game? [^2]
 
-- Take me to a place I have never been.
-- Make me into someone I could never be.
-- Let me do things I could never do.
+[^2]: [Uganda Ebola Outbreak, September 2022](https://www.cdc.gov/vhf/ebola/outbreaks/uganda/2022-sep.html)
 
-[^1]: Character Development and Storytelling for Games
+-   Take me to a place I have never been.
+-   Make me into someone I could never be.
+-   Let me do things I could never do.
 
 One of our main objectives is to offer an immersive experience, an objective well-suited for a video game and its exceptional capability to simulate environments and worlds.
 
@@ -41,14 +42,12 @@ It is the knowledge gained by experience in the game which is instrumental in th
 
 Games and animation both gauge progress by rewards attained or obstacles overcome. But it is in connection to story, where what the player has been through becomes more than just a sense of completion, but rises to a feeling of satisfaction by the end.
 
-Injecting story into a game provides a context increasing the feeling of immersion and believability, enhancing the suspension of disbelief. The viewer knows who the  characters are, their situation, and the relevant artifacts of the story world—all of which imparts meaning to the reactions of the player. In an FPS (e.g., Titanfall or Battlefield), the experience just isn’t as sustaining if the player is killing random people as compared to eradicating international terrorists.
+Injecting story into a game provides a context increasing the feeling of immersion and believability, enhancing the suspension of disbelief. The viewer knows who the characters are, their situation, and the relevant artifacts of the story world—all of which imparts meaning to the reactions of the player. In an FPS (e.g., Titanfall or Battlefield), the experience just isn’t as sustaining if the player is killing random people as compared to eradicating international terrorists.
 
-
-- Character: who the player identifies with.
-- Setting: where, .
-- Goal: what the main character wants.
-- Action
-
+-   Character: who the player identifies with.
+-   Setting: where, .
+-   Goal: what the main character wants.
+-   Action
 
 [^1]: [Uganda Ebola Outbreak, September 2022](https://www.cdc.gov/vhf/ebola/outbreaks/uganda/2022-sep.html)
 [^2]: [WHO](https://www.afro.who.int/countries/uganda/news/uganda-declares-end-ebola-disease-outbreak)

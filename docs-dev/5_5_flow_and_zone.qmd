@@ -27,3 +27,16 @@ Rules Metrics:
 - level of difficulty
 
 Game Narrative Design is the art of telling a story in a computer game using the techniques and devices available. It is the art of using gameplay and the sum of visual and acoustic methods to create an entertaining and engaging experience for players.
+
+In his book Finding Flow, Csikzentmihalyi and his colleagues studied people in a state of *flow*, identifying eight factors that define the optimal state for getting in the zone:
+
+- a challenging activity requiring skill 
+- a merging of action and awareness 
+- clear goals 
+- direct, immediate feedback 
+- concentration on the task at hand 
+- a sense of control 
+- a loss of self-consciousness 
+- an altered sense of time 
+
+The application to video games is compelling and provides a useful measure for evaluating the game experience and potential satisfaction of the player. The role of the flow state in games was a point of specific mention for Csikzentmihalyi, observing how games have been *developed over the centuries for the express purpose of enriching life with enjoyable experiences,* as excellent producers of flow in human beings.

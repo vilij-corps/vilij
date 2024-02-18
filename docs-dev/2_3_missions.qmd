@@ -1,8 +1,10 @@
-# Boda Man
+# Missions
+
+### Boda Man
 
 - provide directions to chase the mobile phone thief . . . using the "locate my phone" tracker
 
-# Monkey Spec Ops
+### Monkey Spec Ops
 
 Yes, it happened to me - a well coordinated assault on my hanging laundry resulting in the theft of my favorite yellow shirt.
 

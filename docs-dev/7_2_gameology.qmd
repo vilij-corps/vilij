@@ -4,18 +4,7 @@ As designers and developers of ==Kompreni?==, our goal is to make a **great** ga
 
 > Another risk is placing high hopes on games designed for the public good—as many nonprofits, health organizations, and social enterprises are doing—without realizing that bad game  design can undermine the most noble of ambitions. It’s quite possible to make terrible, dull, and unappealing games for learning or training or health. We need to have a language for discerning among these games—are they doing their job well or poorly? How can you tell? What makes them good?
 
-In his book Finding Flow, Csikzentmihalyi and his colleagues studied people in a state of *flow*, identifying eight factors that define the optimal state for getting in the zone:
 
-- a challenging activity requiring skill 
-- a merging of action and awareness 
-- clear goals 
-- direct, immediate feedback 
-- concentration on the task at hand 
-- a sense of control 
-- a loss of self-consciousness 
-- an altered sense of time 
-
-The application to video games is compelling and provides a useful measure for evaluating the game experience and potential satisfaction of the player. The role of the flow state in games was a point of specific mention for Csikzentmihalyi, observing how games have been *developed over the centuries for the express purpose of enriching life with enjoyable experiences,* as excellent producers of flow in human beings.
 
 How Games Move Us, Emotion by Design
 
