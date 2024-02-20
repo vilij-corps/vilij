@@ -17,54 +17,54 @@ website:
       - section: "Overview"
         contents:
           - index.qmd
-          - 1_1_the_experience.qmd
-          - 1_2_team_and_contributers.qmd
-          - 1_3_caveat-emptor.qmd
-          - 1_4_sponsorship_and_fundraising.qmd
-          - 1_5_language_roadmap.qmd
-          - 1_6_about.qmd
-          - 1_7_contact.qmd
-      - section: "Language"
+          - pages/1_overview/1_the_experience.qmd
+          - pages/1_overview/2_team_and_contributers.qmd
+          - pages/1_overview/3_caveat-emptor.qmd
+          - pages/1_overview/4_sponsorship_and_fundraising.qmd
+          - pages/1_overview/5_language_roadmap.qmd
+          - pages/1_overview/6_about.qmd
+          - pages/1_overview/7_contact.qmd
+      - section: "Language Learning"
         contents:
-          - 2_1_path_to_proficiency.qmd
-          - 2_2_scenarios.qmd
-          - 2_3_missions.qmd
-          - 2_4_cut_scenes.qmd
+          - pages/2_language_learning/1_path_to_proficiency.qmd
+          - pages/2_language_learning/2_scenarios.qmd
+          - pages/2_language_learning/3_missions.qmd
+          - pages/2_language_learning/4_cut_scenes.qmd
       - section: "Game Design"
         contents:
-          - 3_1_storytelling.qmd
-          - 3_2_screenwriting.qmd
-          - 3_3_storyboarding.qmd
-          - 3_4_immersion.qmd
-          - 3_5_not_just_a_wall.qmd
-          - 3_6_emotion_and_sensation.qmd
-          - 3_7_truthful_realism.qmd
+          - pages/3_game_design/1_storytelling.qmd
+          - pages/3_game_design/2_screenwriting.qmd
+          - pages/3_game_design/3_storyboarding.qmd
+          - pages/3_game_design/4_immersion.qmd
+          - pages/3_game_design/5_not_just_a_wall.qmd
+          - pages/3_game_design/6_emotion_and_sensation.qmd
+          - pages/3_game_design/7_truthful_realism.qmd
       - section: "Game Development"
         contents:
-          - 4_1_renpy.qmd
-          - 4_2_krita.qmd
-          - 4_3_blender.qmd
+          - pages/4_game_development/1_renpy.qmd
+          - pages/4_game_development/2_krita.qmd
+          - pages/4_game_development/3_blender.qmd
       - section: "Game Play"
         contents:
-          - 5_1_characters.qmd
-          - 5_2_the_world.qmd
-          - 5_3_the_journey.qmd
-          - 5_4_interaction.qmd
-          - 5_5_flow_and_zone.qmd
+          - pages/5_game_play/1_characters.qmd
+          - pages/5_game_play/2_the_world.qmd
+          - pages/5_game_play/3_the_journey.qmd
+          - pages/5_game_play/4_interaction.qmd
+          - pages/5_game_play/5_flow_and_zone.qmd
       - section: "Content Creation"
         contents:
-          - 6_1_art_style.qmd
-          - 6_2_location_unique.qmd
-          - 6_3_on_scene_photos.qmd
-          - 6_4_stylized_post_processing.qmd
-          - 6_5_compositing.qmd
+          - pages/6_content_creation/1_art_style.qmd
+          - pages/6_content_creation/2_location_unique.qmd
+          - pages/6_content_creation/3_on_scene_photos.qmd
+          - pages/6_content_creation/4_stylized_post_processing.qmd
+          - pages/6_content_creation/5_compositing.qmd
       - section: "Inspiration"
         contents:
-          - 7_1_visual_novels.qmd
-          - 7_2_gameology.qmd
-          - 7_3_sequential_art.qmd
-          - 7_4_moving_images.qmd
-          - 7_5_illustrated_pages.qmd
+          - pages/7_inspiration/1_visual_novels.qmd
+          - pages/7_inspiration/2_gameology.qmd
+          - pages/7_inspiration/3_sequential_art.qmd
+          - pages/7_inspiration/4_moving_images.qmd
+          - pages/7_inspiration/5_illustrated_pages.qmd
       - section: "Blog"
         contents:
           - posts.qmd

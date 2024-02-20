@@ -1,0 +1,38 @@
+# Actions
+
+You, the Player, did something.  And then something else happened. Godot provides all the needed to make this happen so let's take a close look at what we need to do and how to do it.
+
+## Events and Signals
+
+For things
+- I'm hovering my mouse over an object
+- I've clicked an object
+
+For spaces
+- I've moved into an area
+
+For characters
+- I've interacted with a character
+
+### You can click here...
+
+OK, so you moved your mouse over something and you expect some feedback.  Here's what is going to happen and how it is configured in Godot.
+
+- Play a feedback sound
+- Change the opacity of the image
+
+### Tell me more...
+
+- Click and see the object word revealed, and an option to play the voice for pronunciation.
+
+### Welcome, please come in...
+
+You're walking the street and on arriving to the entrance way of a venue, a sign is shown letting you know you can enter the level.
+
+- Show an entry indicator that can be clicked to launch the level
+
+### Hello, how are you?
+
+- You walk within a talking proximity to the character
+- A dialogue indicator (speech bubble) appears
+- Click the dialogue indicator to start the conversation.

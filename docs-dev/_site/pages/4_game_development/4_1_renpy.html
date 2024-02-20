@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Vilij Corps">
-<meta name="dcterms.date" content="2024-03-15">
-<meta name="description" content="description">
 
-<title>title</title>
+<title>renpy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,21 +77,18 @@ gtag('config', 'G-P3W0Q1HS7T', { 'anonymize_ip': true});
 </script>
 
 
-<meta property="og:title" content="title">
-<meta property="og:description" content="description">
-<meta property="og:image" content="https://www.vilijcorps.org/posts/2024_march/preview-image.png">
 </head>
 
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">title</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -104,45 +98,7 @@ gtag('config', 'G-P3W0Q1HS7T', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-right">
-      <h1 class="title">title</h1>
-                  <div>
-        <div class="description">
-          description
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">project</div>
-                <div class="quarto-category">game</div>
-                <div class="quarto-category">language</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-right">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p><a href="https://www.vilijcorps.org/">Vilij Corps</a> </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 15, 2024</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -478,18 +434,120 @@ gtag('config', 'G-P3W0Q1HS7T', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#renpy" id="toc-renpy" class="nav-link active" data-scroll-target="#renpy">Ren’Py</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#what-we-need" id="toc-what-we-need" class="nav-link" data-scroll-target="#what-we-need">What we need…</a></li>
+  <li><a href="#lets-make" id="toc-lets-make" class="nav-link" data-scroll-target="#lets-make">Let’s make…</a>
+  <ul class="collapse">
+  <li><a href="#a-splash-screen" id="toc-a-splash-screen" class="nav-link" data-scroll-target="#a-splash-screen">a Splash Screen</a></li>
+  <li><a href="#a-main-menu" id="toc-a-main-menu" class="nav-link" data-scroll-target="#a-main-menu">a Main Menu</a></li>
+  <li><a href="#a-navigation-map" id="toc-a-navigation-map" class="nav-link" data-scroll-target="#a-navigation-map">a Navigation Map</a></li>
+  <li><a href="#a-player-character" id="toc-a-player-character" class="nav-link" data-scroll-target="#a-player-character">a Player Character</a></li>
+  <li><a href="#a-street-scene" id="toc-a-street-scene" class="nav-link" data-scroll-target="#a-street-scene">a Street Scene</a></li>
+  <li><a href="#a-level-scene" id="toc-a-level-scene" class="nav-link" data-scroll-target="#a-level-scene">a Level Scene</a></li>
+  <li><a href="#an-npc-character" id="toc-an-npc-character" class="nav-link" data-scroll-target="#an-npc-character">an NPC Character</a></li>
+  <li><a href="#an-interactive-prop" id="toc-an-interactive-prop" class="nav-link" data-scroll-target="#an-interactive-prop">an Interactive Prop</a></li>
+  <li><a href="#the-progress-tracker-interfaces" id="toc-the-progress-tracker-interfaces" class="nav-link" data-scroll-target="#the-progress-tracker-interfaces">the Progress Tracker Interfaces</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 
 
+<section id="renpy" class="level1">
+<h1>Ren’Py</h1>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="what-we-need" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-need">What we need…</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">A splash screen that introduces the game when loading.</label></li>
+<li><label><input type="checkbox">That the player is greeted with a menu to start a new game or continue playing a previously saved (for progress persistence).</label></li>
+<li><label><input type="checkbox">A map is shown to teleport the player to a scene space ( street view).</label></li>
+<li><label><input type="checkbox">The player “walks” to a level entrance of interest ( level view ).</label></li>
+<li><label><input type="checkbox">Within the level, the player interacts with NPCs and objects.</label></li>
+<li><label><input type="checkbox">NPC interaction is based on a dialogue with text and voice overs.</label></li>
+<li><label><input type="checkbox">Object interaction is based on a mouse click.</label></li>
+<li><label><input type="checkbox">Player interactions are recorded in a progress tracker.</label></li>
+<li><label><input type="checkbox">The progress tracker can be viewed in abbreviated form or a full report similar to an inventory system of objects collected.</label></li>
+<li><label><input type="checkbox">Mission addons for fun, specialized cases, and practice.</label></li>
+<li><label><input type="checkbox">Cut-Scenes for fun and entertainment.</label></li>
+</ul>
+</section>
+<section id="lets-make" class="level2">
+<h2 class="anchored" data-anchor-id="lets-make">Let’s make…</h2>
+<section id="a-splash-screen" class="level3">
+<h3 class="anchored" data-anchor-id="a-splash-screen">a Splash Screen</h3>
+</section>
+<section id="a-main-menu" class="level3">
+<h3 class="anchored" data-anchor-id="a-main-menu">a Main Menu</h3>
+</section>
+<section id="a-navigation-map" class="level3">
+<h3 class="anchored" data-anchor-id="a-navigation-map">a Navigation Map</h3>
+</section>
+<section id="a-player-character" class="level3">
+<h3 class="anchored" data-anchor-id="a-player-character">a Player Character</h3>
+<ul>
+<li>Let’s blink</li>
+</ul>
+<pre><code>image my_character:
+    "my_character_open.png"
+    pause 3.0
+    "my_character_closed.png"
+    pause 0.15
+    repeat
+
+https://www.youtube.com/watch?v=oF6Hzj5UFbE</code></pre>
+</section>
+<section id="a-street-scene" class="level3">
+<h3 class="anchored" data-anchor-id="a-street-scene">a Street Scene</h3>
+<ul>
+<li>what you see</li>
+<li>what you hear</li>
+<li>what you do</li>
+</ul>
+</section>
+<section id="a-level-scene" class="level3">
+<h3 class="anchored" data-anchor-id="a-level-scene">a Level Scene</h3>
+<ul>
+<li>what you see</li>
+<li>what you hear</li>
+<li>what you do</li>
+</ul>
+</section>
+<section id="an-npc-character" class="level3">
+<h3 class="anchored" data-anchor-id="an-npc-character">an NPC Character</h3>
+<ul>
+<li>what he/she looks like</li>
+<li>what he/she does</li>
+<li>what he/she says</li>
+</ul>
+</section>
+<section id="an-interactive-prop" class="level3">
+<h3 class="anchored" data-anchor-id="an-interactive-prop">an Interactive Prop</h3>
+<ul>
+<li>Hi, I’m a goat!</li>
+</ul>
+</section>
+<section id="the-progress-tracker-interfaces" class="level3">
+<h3 class="anchored" data-anchor-id="the-progress-tracker-interfaces">the Progress Tracker Interfaces</h3>
 
 
-
+</section>
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,0 +1,24 @@
+# To Play is to Feel
+
+### Inspiring Emotion
+
+*Why should I care?*
+
+According to XYZ, there are three levels of emotion for a game player.
+
+1. Voyeuristic — you're curious
+2. Vicarious — you identify with what the characters are feeling
+3. Visceral — you have emotional reactions to the story
+
+From a learning and game design perspective, we see each of these levels as emotions that can incentivize and reinforce the learning experience.
+
+
+- Setting up the player to understand a role’s reactions. For example, audiences may not feel empathy for a sad child until they know **why** the child is sad.
+- A realistic situation that the viewer can relate to. This is especially important for the role-playing aspect of the game and the sense of immersion.
+
+
+## Sounds
+
+### Ambient
+
+As we focus on Uganda for our first implementation, there are many interesting and beautiful ambient sounds.  You can almost always hear the sounds of birds and nature.  You can hear the faints sounds of Afro beats or a football match.  On Sundays, the church choir is serenading neighborhoods across the country.

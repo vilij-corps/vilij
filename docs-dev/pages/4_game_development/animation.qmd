@@ -1,0 +1,50 @@
+### Street View Sequences
+---
+
+These animations are generally rendered at 30 FPS as a 4-way perspective with a **side-view camera**.
+
+#### Front / Back Facing
+
+- idle
+- 
+
+#### Angle Facing
+
+- idle
+- checking phone (map navigation pose)
+
+#### Side Facing
+
+- idle
+- walk
+- run
+- stairs, up / down (Y axis movement)
+- jump
+- sit
+- climb fence
+- climb ladder
+
+### Level View Sequences
+---
+
+These animations are generally rendered at 30 FPS as a 4-way perspective with a **45 degree down-facing camera**.
+
+#### Front / Back Facing
+
+- idle
+
+#### Angle Facing
+
+- idle
+- checking phone (map navigation pose)
+
+#### Side Facing
+
+- idle
+- walk
+- run
+- stairs, up / down (Y axis movement)
+- jump
+- sit
+- climb fence
+- climb ladder
