@@ -18,6 +18,13 @@ In so much as a masterpiece is physically formed from little more than a canvas 
 
 In artistic terms, we might generically call this combination a form of **figurativism** emphasizing that the imagery is derived from real sources. But there are a few key points to highlight that serve to differentiate the style from a purely shape and form depiction. Our representation seeks to capture the deeper meaning, symbol, and feeling presented on the game canvas and how we immerse the player into our painted game world. Let's take an example to explore this further.
 
+## Inspiration
+
+comics reportage and journalism -> empathetic media
+
+"I’m using a lot of photographic reference for this project — especially for the prologue. About half the images are directly from photos, while the others use photos as a resource, but the angle (and many details) come out of my head." -- Josh Neufeld
+
+
 ## Recipe
 
 -   Here's our recipe
