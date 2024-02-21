@@ -28,7 +28,7 @@ Current Active Subproject(s):
     
 - [x] scoring
     
-### Phase 3: Level Development ( on-going )
+### Phase 3: Scene Development ( on-going )
 
 - [ ] asset creation
 - [ ] scene assembly
