@@ -1,8 +1,0 @@
-# Stylized Post Processing
-
-
-The look development process begins with reference imagery and a model that has defined shapes, but may not have all of the details. A Look Development Artist adds displacement and/or procedural geometry to finalize the shapes before adding all of the color, texture, and material properties through layers of masks and expressions.
-
-Look development is the artistic process of defining how computer-generated characters or scenes appear using texture, shading, lighting, and compositing.
-
-In terms of coverage, look development can be divided into all the major areas of a game or movie: character design, environments, and props.

@@ -1,7 +1,0 @@
-# Workflow and Tools
-
-### Blender
-
-The majority of visual assets are created in **Blender**, starting with a 2D reference image and modeled to a low poly 3D mesh. Each mesh is stylized with **grease pencil**, lighting, shadow, camera perspective, compositing, and other features as needed to create the aesthetic seen in the game.
-
-All **character** assets are created with a similar workflow. An animated base mesh is used as a reference image to pose for folds and shadows.  The model is then textured / painted for aesthetics using grease pencil and other effects. The final animation rendered by frame to create a **sprite sheet** for use in **Godot**.

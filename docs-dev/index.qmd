@@ -12,6 +12,10 @@ You are greeted with a friendly face and warm welcome, *Wasuze otyano*.
 
 And so begins your adventure to learn the language and the culture. Thankfully, you have VILIJ to guide the way...
 
+Vilij is designed to simulate the location-specific features where the language is spoken as if you are there. It emulates the unique behavioral, cultural, ethnic, identity, and societal characteristics of those who speak the language with real-to-life dialogue and interactivity. To reinforce experiential learning, it provides role-playing and scenario-based experiences to practice the language in context and reinforce retention with multi-sensory and emotional cues based on real-life activities, actions, and events that you may face. 
+
+The game is designed to reinforce language learning with interactive experiences that enrich the understanding of the location such as current events and daily living to help you understand, adapt to, and succeed in the environment. Like most video games, the learning experience is incentivized with challenges, missions, progress tracking, and scoring to measure your developing fluency.
+
 ### What?
 
 VILIJ aspires to be ...
@@ -36,8 +40,9 @@ Importantly, to fully realize a **realistic immersive experience**, all visual a
 
 VILIJ is ideal for:
 
-- Development and Humanitarian Aid ( United Nations, USAID, Peace Corps, etc. )
-- Diplomacy, Military, and Civil Affairs ( emergency and crisis response )
-- Non-Governmental, Community, & Volunteer Organizations ( NGOs, missionaries, etc. )
-- Awareness Campaigns & Education ( public health, governance, safety, security, voting, etc. )
-- Business, Communications, and Marketing ( social responsibility & ethics, sustainability, etc. )
+- **Development and Humanitarian Aid**: United Nations, USAID, Peace Corps, etc.
+- **Diplomacy, Military, and Civil Affairs**: emergency and crisis response
+- **Non-Governmental, Community, & Volunteer Organizations**: NGOs, missionaries, etc.
+- **Awareness Campaigns & Education**: public health, governance, safety, security, voting, etc.
+- **Business, Communications, and Marketing**: social responsibility & ethics, sustainability, etc.
+- **Indigenous learners**: leading to greater empowerment and self-determination to promote cultural and heritage language proficiency within the community.

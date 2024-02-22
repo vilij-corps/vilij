@@ -1,19 +1,11 @@
 # Get involved -- volunteer!
 
-### About Us
+### What we need
 
 - Language content creators : phrases, scripts, voice actors
 - Source content creators : photographs, video, audio
 - Game content creators : game props and assets
 - Game developers : coding
-
-### Subject Matter Non-Experts
-
-
-- language content has been provided by **native speakers**.
-- however, the current team does not have any **linguistic** or **language teaching** expertise.
-- the project would greatly benefit from **subject matter experts** in the linguistic and language learning field.
-
 
 ### How can I learn and become a volunteer contributor?
 
