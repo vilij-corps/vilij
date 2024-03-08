@@ -12,3 +12,5 @@ saves/
 cache/
 /.quarto/
 /_site/
+*.rpyb
+*.rpyc

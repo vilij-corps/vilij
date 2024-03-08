@@ -1,11 +1,9 @@
 '''
-
  +-+-+ +-+-+ +-+-+-+
      |v|i|l|i|j|
   +-+-+ +-+-+ +-+-+-+
  |C|C| |B|Y| |4|.|0|
  +-+-+ +-+-+ +-+-+-+
-
 '''
 
 define doctor = Character("", image = "character-b-fl") # kind = bubble
