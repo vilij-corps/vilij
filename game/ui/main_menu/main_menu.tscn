@@ -1,0 +1,86 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbsjcrlddo75q"]
+
+[sub_resource type="GDScript" id="GDScript_t2ohc"]
+script/source = "'''
+
+ +-+-+ +-+-+ +-+-+-+
+	 |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
+extends Control
+
+@onready var start_btn = $Start_Btn
+@onready var exit_btn = $Exit_Btn
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	start_btn.button_down.connect(start_pressed)
+	exit_btn.button_down.connect(exit_pressed)
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+func start_pressed():
+	print(\"Start Pressed\")
+	get_tree().change_scene_to_file(\"res://ui/maps/map_level_one.tscn\")
+
+func exit_pressed():
+	get_tree().quit()
+"
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_t2ohc")
+
+[node name="Start_Btn" type="Button" parent="."]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 892.0
+offset_top = 480.0
+offset_right = 1042.0
+offset_bottom = 571.0
+scale = Vector2(0.5, 0.5)
+tooltip_text = "Airport"
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 60
+action_mode = 0
+text = "Start"
+flat = true
+icon_alignment = 1
+
+[node name="Exit_Btn" type="Button" parent="."]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 892.0
+offset_top = 564.0
+offset_right = 1042.0
+offset_bottom = 655.0
+scale = Vector2(0.5, 0.5)
+tooltip_text = "Airport"
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 60
+action_mode = 0
+text = "Exit"
+flat = true
+icon_alignment = 1

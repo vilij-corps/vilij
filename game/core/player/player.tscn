@@ -1,0 +1,218 @@
+[gd_scene load_steps=30 format=3 uid="uid://4qgjiwcctne3"]
+
+[ext_resource type="Script" path="res://core/player/player.gd" id="1_bgcos"]
+[ext_resource type="Texture2D" uid="uid://bxvtburi05bch" path="res://assets/scene/characters/player_sprite_sheet.png" id="2_gn3ui"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kqh7"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgq2q"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvabb"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c028u"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67t1d"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icg1h"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nvp6h"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1evv5"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(0, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwvox"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(64, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4d376"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(128, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nueid"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(192, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6gldj"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(256, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d4a6g"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(320, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxdap"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(384, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6jfu"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(448, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qig7"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(512, 576, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ro1ow"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(0, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kporg"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(64, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0obbe"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(128, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0kyu"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(192, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsfmc"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(256, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w57tp"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(320, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8u4u"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(384, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_egi08"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(448, 704, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xlrbv"]
+atlas = ExtResource("2_gn3ui")
+region = Rect2(512, 704, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r4fen"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kqh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgq2q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvabb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c028u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67t1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_icg1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nvp6h")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1evv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwvox")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4d376")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nueid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6gldj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d4a6g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxdap")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6jfu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qig7")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ro1ow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kporg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0obbe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0kyu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsfmc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w57tp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8u4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_egi08")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlrbv")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kk1ox"]
+size = Vector2(22.5, 18.2836)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_bgcos")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_r4fen")
+animation = &"idle"
+offset = Vector2(0, -30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -23.5)
+scale = Vector2(1.52, 2.68)
+shape = SubResource("RectangleShape2D_kk1ox")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_vertical_offset = -1.0
