@@ -1,3 +1,13 @@
+'''
+
+ +-+-+ +-+-+ +-+-+-+
+	 |v|i|l|i|j|
+  +-+-+ +-+-+ +-+-+-+
+ |C|C| |B|Y| |4|.|0|
+ +-+-+ +-+-+ +-+-+-+
+
+'''
+
 extends Label
 
 # Called when the node enters the scene tree for the first time.

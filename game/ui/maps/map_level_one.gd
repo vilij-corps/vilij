@@ -23,4 +23,4 @@ func _process(delta):
 
 func airport_pressed():
 	print("airport Pressed")
-	get_tree().change_scene_to_file("res://scenes/airport_scene.tscn")
+	get_tree().change_scene_to_file("res://scenes/airport.tscn")
