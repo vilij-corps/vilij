@@ -1,8 +1,7 @@
-[gd_scene load_steps=31 format=3 uid="uid://4qgjiwcctne3"]
+[gd_scene load_steps=30 format=3 uid="uid://4qgjiwcctne3"]
 
 [ext_resource type="Script" path="res://core/player/player.gd" id="1_bgcos"]
 [ext_resource type="Texture2D" uid="uid://bxvtburi05bch" path="res://assets/scene/characters/player_sprite_sheet.png" id="2_gn3ui"]
-[ext_resource type="PackedScene" uid="uid://x3cexgh4kxq1" path="res://ui/progress/hud.tscn" id="3_vrh3t"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1kqh7"]
 atlas = ExtResource("2_gn3ui")
@@ -217,5 +216,3 @@ shape = SubResource("RectangleShape2D_kk1ox")
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 drag_vertical_offset = -1.0
-
-[node name="hud" parent="." instance=ExtResource("3_vrh3t")]
