@@ -1,11 +1,9 @@
 '''
-
  +-+-+ +-+-+ +-+-+-+
 	 |v|i|l|i|j|
   +-+-+ +-+-+ +-+-+-+
  |C|C| |B|Y| |4|.|0|
  +-+-+ +-+-+ +-+-+-+
-
 '''
 
 extends CharacterBody2D
@@ -14,8 +12,13 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 
+func _ready():
+	pass
+
+func _process(delta):
+	pass
+
 func _physics_process(delta):
-	
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("walk_left", "walk_right")
@@ -35,3 +38,5 @@ func update_animations(direction) -> void:
 		animated_sprite.play("walk_right")	
 	elif direction == -1:
 		animated_sprite.play("walk_left")	
+
+	
