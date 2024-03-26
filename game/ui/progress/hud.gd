@@ -5,27 +5,20 @@
  |C|C| |B|Y| |4|.|0|
  +-+-+ +-+-+ +-+-+-+
 '''
-class_name HuD
-extends Node2D
 
-@export var scenarios = 0
-@export var vocabulary = 0
-@export var learning_time = 0
+extends Node2D
 
 @onready var scenarios_lbl = $scenarios_lbl
 @onready var learning_time_lbl = $learning_time_lbl
-
-const PROGRESS_FILE_PATH = "user://progress.save"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	# To update hud
-	scenarios_lbl.text = str(scenarios)
+	scenarios_lbl.text = str(ProgressTracker.scenarios)
 	# vocabulary_lbl = str(vocabulary)
 	
 	# Returns the amount of time passed in milliseconds since the engine started.
@@ -33,35 +26,5 @@ func _process(delta):
 	var seconds = msec/1000 as int
 	var minutes = seconds/60.00 as float
 	var hours = minutes/60.00 as float
-	update_learning_time(hours)
-	learning_time_lbl.text = str(learning_time)
-
-func update_scenarios():
-	print("+1 scenarios")
-	scenarios += 1
-	
-func update_vocabulary():
-	vocabulary += 1
-	
-func update_learning_time(elapsed_time):
-	learning_time += elapsed_time
-	
-func save_progress():
-	print("saving progress")
-	var file = FileAccess.open(PROGRESS_FILE_PATH, FileAccess.WRITE)
-	file.store_var(scenarios)
-	file.store_var(vocabulary)
-	file.store_var(learning_time)
-	file.close()
-	
-func load_progress():
-	if FileAccess.file_exists(PROGRESS_FILE_PATH):
-		var file = FileAccess.open(PROGRESS_FILE_PATH, FileAccess.READ)
-		scenarios = file.get_var(scenarios)
-		vocabulary = file.get_var(vocabulary)
-		learning_time = file.get_var(learning_time)
-	else:
-		print("no data saved...")
-		scenarios = 0
-		vocabulary = 0
-		learning_time = 0
+	ProgressTracker.update_learning_time(hours)
+	learning_time_lbl.text = str(ProgressTracker.learning_time)

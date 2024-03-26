@@ -10,10 +10,8 @@ extends Button
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	self.button_down.connect(return_to_map)
+	self.button_down.connect(return_to_main)
 
-
-func return_to_map():
-	print("Returning to Map")
-	ProgressTracker.update_scenarios()
-	get_tree().change_scene_to_file("res://ui/maps/map_level_one.tscn")
+func return_to_main():
+	print("Returning to Main")
+	get_tree().change_scene_to_file("res://ui/main_menu/main_menu.tscn")

@@ -1,11 +1,9 @@
 '''
-
  +-+-+ +-+-+ +-+-+-+
 	 |v|i|l|i|j|
   +-+-+ +-+-+ +-+-+-+
  |C|C| |B|Y| |4|.|0|
  +-+-+ +-+-+ +-+-+-+
-
 '''
 
 extends Control
@@ -23,4 +21,4 @@ func _process(delta):
 
 func airport_pressed():
 	print("airport Pressed")
-	get_tree().change_scene_to_file("res://scenes/airport.tscn")
+	get_tree().change_scene_to_file("res://scenes/airport/airport.tscn")

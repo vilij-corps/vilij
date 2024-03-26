@@ -4,13 +4,11 @@
 
 [sub_resource type="GDScript" id="GDScript_t2ohc"]
 script/source = "'''
-
  +-+-+ +-+-+ +-+-+-+
 	 |v|i|l|i|j|
   +-+-+ +-+-+ +-+-+-+
  |C|C| |B|Y| |4|.|0|
  +-+-+ +-+-+ +-+-+-+
-
 '''
 
 extends Control
@@ -23,16 +21,18 @@ func _ready():
 	start_btn.button_down.connect(start_pressed)
 	exit_btn.button_down.connect(exit_pressed)
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
 func start_pressed():
 	print(\"Start Pressed\")
+	ProgressTracker.load_progress()
 	get_tree().change_scene_to_file(\"res://ui/maps/map_level_one.tscn\")
 
 func exit_pressed():
+	print(\"Exit Pressed\")
+	ProgressTracker.save_progress()
 	get_tree().quit()
 "
 
