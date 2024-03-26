@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://dqqu5k10e1dfo"
+path="res://.godot/imported/formal_greetings.dialogue-cc996f926da27beff936f53ab41d1cfd.tres"
+
+[deps]
+
+source_file="res://scenes/greetings/formal_greetings.dialogue"
+dest_files=["res://.godot/imported/formal_greetings.dialogue-cc996f926da27beff936f53ab41d1cfd.tres"]
+
+[params]
+
+defaults=true

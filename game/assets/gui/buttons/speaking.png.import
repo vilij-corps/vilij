@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxvtburi05bch"
-path="res://.godot/imported/player_sprite_sheet.png-3df330cd5ffc5e3d562f9d7da49ea7d5.ctex"
+uid="uid://dsg34oe41uqj8"
+path="res://.godot/imported/speaking.png-2af83367ca502bbb289c9f532b3adbe2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/scene/characters/player_sprite_sheet.png"
-dest_files=["res://.godot/imported/player_sprite_sheet.png-3df330cd5ffc5e3d562f9d7da49ea7d5.ctex"]
+source_file="res://assets/gui/buttons/speaking.png"
+dest_files=["res://.godot/imported/speaking.png-2af83367ca502bbb289c9f532b3adbe2.ctex"]
 
 [params]
 

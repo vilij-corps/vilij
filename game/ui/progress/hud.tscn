@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://ui/progress/hud.gd" id="1_1ghic"]
 
-[node name="hud" type="Node2D"]
+[node name="HuD" type="Node2D"]
 script = ExtResource("1_1ghic")
 
 [node name="scenarios_lbl" type="Label" parent="."]

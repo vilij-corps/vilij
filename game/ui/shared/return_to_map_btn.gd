@@ -1,6 +1,6 @@
 extends Button
 
-var hud_scenario = HuD.new()
+var hud = HuD.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -14,6 +14,6 @@ func _process(delta):
 
 func return_to_map():
 	print("Returning to Map")
-	hud_scenario._update_scenarios()
-	hud_scenario.save_progress()
+	hud.update_scenarios()
+	hud.save_progress()
 	get_tree().change_scene_to_file("res://ui/maps/map_level_one.tscn")
