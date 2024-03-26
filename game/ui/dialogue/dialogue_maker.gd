@@ -1,5 +1,5 @@
-
-extends Node2D
+class_name DialogueMaker
+extends CanvasLayer
 
 @onready var learning_label = %learning_label
 @onready var english_label = %english_label
