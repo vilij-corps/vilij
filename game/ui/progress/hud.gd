@@ -18,7 +18,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	# To update hud
-	scenarios_lbl.text = str(ProgressTracker.scenarios)
+	scenarios_lbl.text = str(ProgressManager.scenarios)
 	# vocabulary_lbl = str(vocabulary)
 	
 	# Returns the amount of time passed in milliseconds since the engine started.
@@ -26,5 +26,5 @@ func _process(delta):
 	var seconds = msec/1000 as int
 	var minutes = seconds/60.00 as float
 	var hours = minutes/60.00 as float
-	ProgressTracker.update_learning_time(hours)
-	learning_time_lbl.text = str(ProgressTracker.learning_time)
+	ProgressManager.update_learning_time(hours)
+	learning_time_lbl.text = str(ProgressManager.learning_time)

@@ -8,10 +8,23 @@
 
 extends Node
 
+# Completion of all dialogs
+# Completion of all vocabularies
 var scenarios = 0
+
+# Itemized count
+var scenario_tally = null
+
+# Object clicks
 var vocabulary = 0
+
+# Count / Weight of repeats
 var experience = 0
+
+# Aggregate time playing game
 var learning_time = 0
+
+# Need a smart formula for this
 var proficiency_level = 0
 
 const PROGRESS_FILE_PATH = "user://progress.save"

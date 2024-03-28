@@ -12,8 +12,7 @@ extends Button
 func _process(delta):
 	self.button_down.connect(return_to_map)
 
-
 func return_to_map():
 	print("Returning to Map")
-	ProgressTracker.update_scenarios()
+	ProgressManager.update_scenarios()
 	get_tree().change_scene_to_file("res://ui/maps/map_level_one.tscn")
