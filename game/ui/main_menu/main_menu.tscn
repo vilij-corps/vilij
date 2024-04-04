@@ -1,9 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://cbsjcrlddo75q"]
+[gd_scene load_steps=6 format=3 uid="uid://cbsjcrlddo75q"]
 
 [ext_resource type="PackedScene" uid="uid://cp38dxru1kobh" path="res://ui/fps/fps.tscn" id="1_0uim6"]
 [ext_resource type="Script" path="res://ui/main_menu/main_menu.gd" id="1_6i8oh"]
+[ext_resource type="FontFile" uid="uid://bdwarbxwyv8x4" path="res://assets/fonts/whois-mono.ttf" id="3_fbv2k"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_15lyk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wmppg"]
+bg_color = Color(1, 1, 1, 1)
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -26,14 +30,21 @@ texture = SubResource("CanvasTexture_15lyk")
 [node name="fps" parent="." instance=ExtResource("1_0uim6")]
 layout_mode = 1
 
-[node name="Start_Btn" type="Button" parent="."]
+[node name="menu" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -110.5
+offset_bottom = 110.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Start_Btn" type="Button" parent="menu"]
 custom_minimum_size = Vector2(32, 32)
-layout_mode = 0
-offset_left = 892.0
-offset_top = 480.0
-offset_right = 1042.0
-offset_bottom = 571.0
-scale = Vector2(0.5, 0.5)
+layout_mode = 2
 tooltip_text = "Airport"
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -41,20 +52,26 @@ theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
+theme_override_fonts/font = ExtResource("3_fbv2k")
 theme_override_font_sizes/font_size = 60
 action_mode = 0
 text = "Start"
 flat = true
 icon_alignment = 1
 
-[node name="Exit_Btn" type="Button" parent="."]
+[node name="Options_Btn" type="Button" parent="menu"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_fbv2k")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_wmppg")
+text = "Options"
+icon_alignment = 1
+
+[node name="Progress_Btn" type="Button" parent="menu"]
 custom_minimum_size = Vector2(32, 32)
-layout_mode = 0
-offset_left = 892.0
-offset_top = 564.0
-offset_right = 1042.0
-offset_bottom = 655.0
-scale = Vector2(0.5, 0.5)
+layout_mode = 2
 tooltip_text = "Airport"
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -62,6 +79,24 @@ theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
+theme_override_fonts/font = ExtResource("3_fbv2k")
+theme_override_font_sizes/font_size = 60
+action_mode = 0
+text = "Progress"
+flat = true
+icon_alignment = 1
+
+[node name="Exit_Btn" type="Button" parent="menu"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+tooltip_text = "Airport"
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
+theme_override_fonts/font = ExtResource("3_fbv2k")
 theme_override_font_sizes/font_size = 60
 action_mode = 0
 text = "Exit"
