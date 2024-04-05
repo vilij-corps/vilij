@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dn7gl2j0fg232"]
+
+[node name="Rain" type="Node2D"]
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]

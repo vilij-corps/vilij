@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://m8y030a82qy7"]
 
 [ext_resource type="Texture2D" uid="uid://brhdya1w23sb8" path="res://assets/gui/buttons/return_to_map.svg" id="1_l6p50"]
-[ext_resource type="Script" path="res://ui/shared/return_to_map_btn.gd" id="2_au15k"]
+[ext_resource type="Script" path="res://ui/navigation/return_to_map_btn.gd" id="2_au15k"]
 
 [node name="ReturnToMap" type="Button"]
 offset_right = 305.0

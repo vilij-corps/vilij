@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwdn54c76i27w"]
+
+[ext_resource type="Script" path="res://components/vocabulary/word.gd" id="1_au6et"]
+[ext_resource type="Texture2D" uid="uid://dsg34oe41uqj8" path="res://assets/gui/buttons/speaking.png" id="2_5xn5p"]
+
+[node name="Word" type="Node2D"]
+script = ExtResource("1_au6et")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(500, 500)
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="balloon_margin_container" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="balloon_vbox" type="VBoxContainer" parent="VBoxContainer/balloon_margin_container"]
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 2
+alignment = 1
+
+[node name="learning" type="Label" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "Learning"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="english" type="Label" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "English"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="play" type="Button" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+layout_mode = 2
+icon = ExtResource("2_5xn5p")
+flat = true
+icon_alignment = 1
+
+[node name="word_marker" type="Button" parent="VBoxContainer"]
+layout_mode = 2

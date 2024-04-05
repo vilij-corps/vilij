@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://omgwj0qedkps"]
 
 [ext_resource type="PackedScene" uid="uid://4qgjiwcctne3" path="res://characters/player/player.tscn" id="1_jhaqb"]
-[ext_resource type="PackedScene" uid="uid://m8y030a82qy7" path="res://ui/shared/return_to_map_btn.tscn" id="2_v61ep"]
+[ext_resource type="PackedScene" uid="uid://m8y030a82qy7" path="res://ui/navigation/return_to_map_btn.tscn" id="2_v61ep"]
 [ext_resource type="PackedScene" uid="uid://x3cexgh4kxq1" path="res://ui/progress/hud.tscn" id="3_53t0j"]
 
 [node name="Airport_Scene" type="Node2D"]
