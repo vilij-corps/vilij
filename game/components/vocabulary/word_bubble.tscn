@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bwdn54c76i27w"]
 
-[ext_resource type="Script" path="res://components/vocabulary/word.gd" id="1_au6et"]
+[ext_resource type="Script" path="res://components/vocabulary/word_bubble.gd" id="1_au6et"]
 [ext_resource type="Texture2D" uid="uid://dsg34oe41uqj8" path="res://assets/gui/buttons/speaking.png" id="2_5xn5p"]
 
 [node name="Word" type="Node2D"]
