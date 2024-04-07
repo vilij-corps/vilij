@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://6iaydm1e7dax"]
+
+[ext_resource type="Script" path="res://scenes/cooking/watermelon_juice/watermelon_juice.gd" id="1_drbaa"]
+
+[node name="WatermelonJuice" type="Node2D"]
+script = ExtResource("1_drbaa")

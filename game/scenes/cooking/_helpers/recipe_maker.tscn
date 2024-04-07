@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://crj20wy8552wv"]
+
+[ext_resource type="Script" path="res://scenes/cooking/_helpers/recipe_maker.gd" id="1_b322t"]
+
+[node name="RecipeMaker" type="Node2D"]
+script = ExtResource("1_b322t")

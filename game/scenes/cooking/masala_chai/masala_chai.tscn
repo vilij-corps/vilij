@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bq07a73tpaxh8"]
+
+[ext_resource type="Script" path="res://scenes/cooking/masala_chai/masala_chai.gd" id="1_tkbfn"]
+
+[node name="MasalaChai" type="Node2D"]
+script = ExtResource("1_tkbfn")

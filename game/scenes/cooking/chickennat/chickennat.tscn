@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqqq73v6v7s66"]
+
+[ext_resource type="Script" path="res://scenes/cooking/chickennat/chickennat.gd" id="1_8f7ya"]
+
+[node name="Chickennat" type="Node2D"]
+script = ExtResource("1_8f7ya")

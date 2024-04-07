@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://swffxje5ho32"]
+
+[ext_resource type="Script" path="res://scenes/cooking/molokoni/molokoni.gd" id="1_u5s1u"]
+
+[node name="Molokoni" type="Node2D"]
+script = ExtResource("1_u5s1u")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://pds6wbv0wuer"]
+
+[ext_resource type="Script" path="res://scenes/cooking/groundnut_paste_chicken/groundnut_paste_chicken.gd" id="1_j0282"]
+
+[node name="GroundnutPasteChicken" type="Node2D"]
+script = ExtResource("1_j0282")

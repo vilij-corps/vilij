@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cc2l083euhq6h"]
+
+[ext_resource type="Script" path="res://scenes/cooking/daddies/daddies.gd" id="1_o2d2n"]
+
+[node name="Daddies" type="Node2D"]
+script = ExtResource("1_o2d2n")

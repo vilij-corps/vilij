@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bycd7k4tyi4b0"]
+
+[ext_resource type="Script" path="res://scenes/cooking/mandazi/mandazi.gd" id="1_rgr8x"]
+
+[node name="Mandazi" type="Node2D"]
+script = ExtResource("1_rgr8x")

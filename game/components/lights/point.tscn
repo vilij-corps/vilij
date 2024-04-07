@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://bs0ndy0uwsdix"]
+[gd_scene load_steps=2 format=3 uid="uid://bs0ndy0uwsdix"]
+
+[ext_resource type="Script" path="res://components/lights/point.gd" id="1_p1wru"]
 
 [node name="Point" type="Node2D"]
+script = ExtResource("1_p1wru")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]

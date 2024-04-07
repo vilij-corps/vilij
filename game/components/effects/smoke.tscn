@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://sc6e21skeqwt"]
+[gd_scene load_steps=2 format=3 uid="uid://sc6e21skeqwt"]
+
+[ext_resource type="Script" path="res://components/effects/smoke.gd" id="1_yp2ks"]
 
 [node name="Smoke" type="Node2D"]
+script = ExtResource("1_yp2ks")

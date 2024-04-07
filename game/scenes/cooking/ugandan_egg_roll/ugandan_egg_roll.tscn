@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0u0624d75rx5"]
+
+[ext_resource type="Script" path="res://scenes/cooking/ugandan_egg_roll/ugandan_egg_roll.gd" id="1_efp56"]
+
+[node name="UgandanEggRoll" type="Node2D"]
+script = ExtResource("1_efp56")
