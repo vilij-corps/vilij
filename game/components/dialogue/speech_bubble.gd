@@ -1,8 +1,9 @@
 extends Node2D
 
-@onready var learning_label = %learning_label
-@onready var english_label = %english_label
-@onready var voiceover = %voiceover
+@onready var character_speaking : String = ""
+@onready var learning_label : Label  = %learning_label
+@onready var english_label : Label  = %english_label
+@onready var voiceover : AudioStreamPlayer  = %voiceover
 
 var dialogue_script = null
 
@@ -17,7 +18,8 @@ func play_dialogue_line():
 	self.position = Vector2(500, 50)
 	# self.position = player_position
 	# set labels
-	learning_label.text = dialogue_script[DialogueManager.dialogue_state]["learning"]
+	character_speaking = dialogue_script[DialogueManager.dialogue_state]["character"]
+	learning_label.text = dialogue_script[DialogueManager.dialogue_state]["luganda"]
 	english_label.text = dialogue_script[DialogueManager.dialogue_state]["english"]
 	voiceover.stream = load(dialogue_script[DialogueManager.dialogue_state]["voiceover"])
 

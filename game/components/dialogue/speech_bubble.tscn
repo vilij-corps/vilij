@@ -1,81 +1,165 @@
-[gd_scene load_steps=4 format=3 uid="uid://b702l51hth3nx"]
+[gd_scene load_steps=11 format=3 uid="uid://b702l51hth3nx"]
 
 [ext_resource type="Script" path="res://components/dialogue/speech_bubble.gd" id="1_fxg6u"]
-[ext_resource type="Texture2D" uid="uid://dsg34oe41uqj8" path="res://assets/gui/buttons/speaking.png" id="3_xgyk6"]
+[ext_resource type="Texture2D" uid="uid://by5qymph28alf" path="res://assets/gui/dialogue/bubble.png" id="2_h0sio"]
+[ext_resource type="Texture2D" uid="uid://d2g22v4qq7kqq" path="res://assets/gui/dialogue/dialogue_marker.svg" id="3_kftsf"]
+[ext_resource type="Texture2D" uid="uid://cgauvvxwji48p" path="res://assets/gui/dialogue/back.svg" id="3_nqtax"]
 [ext_resource type="FontFile" uid="uid://bdwarbxwyv8x4" path="res://assets/fonts/whois-mono.ttf" id="4_0jxtl"]
+[ext_resource type="Texture2D" uid="uid://d24d4topiu1gy" path="res://assets/gui/dialogue/play.svg" id="4_jp5iu"]
+[ext_resource type="Texture2D" uid="uid://bxog2tu64les2" path="res://assets/gui/dialogue/forward.svg" id="5_bu20x"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_rcsc5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ityns"]
+bg_color = Color(0.737255, 0.576471, 0.164706, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xievc"]
+bg_color = Color(0.92549, 0.435294, 0.2, 1)
 
 [node name="SpeechBubble" type="Node2D"]
 script = ExtResource("1_fxg6u")
 
-[node name="CanvasLayer" type="MarginContainer" parent="."]
-
-[node name="Control" type="Control" parent="CanvasLayer"]
-layout_mode = 2
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control"]
-layout_mode = 0
-offset_right = 372.0
-offset_bottom = 598.0
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+layout_mode = 1
+offset_left = -1.0
+offset_top = 1.0
+offset_right = 619.0
+offset_bottom = 225.0
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="Panel" type="Panel" parent="CanvasLayer/Control/MarginContainer"]
+[node name="NinePatchRect" type="NinePatchRect" parent="Control/MarginContainer"]
 layout_mode = 2
+texture = ExtResource("2_h0sio")
+region_rect = Rect2(24, 24, 152, 152)
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer/Panel"]
+[node name="TextureRect" type="TextureRect" parent="Control/MarginContainer/NinePatchRect"]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 237.0
+offset_right = 194.0
+offset_bottom = 277.0
+scale = Vector2(7.68, 1)
+texture = SubResource("CanvasTexture_rcsc5")
+
+[node name="Control" type="Control" parent="Control/MarginContainer/NinePatchRect"]
+anchors_preset = 0
+offset_left = 304.0
+offset_top = 208.0
+offset_right = 344.0
+offset_bottom = 248.0
+
+[node name="tail" type="Sprite2D" parent="Control/MarginContainer/NinePatchRect/Control"]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_kftsf")
+
+[node name="Control2" type="Control" parent="Control/MarginContainer/NinePatchRect"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="play_back_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control2"]
+custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
-offset_right = 352.0
-offset_bottom = 578.0
-
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2"]
-layout_mode = 2
-
-[node name="learning_label" type="Label" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/VBoxContainer"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(200, 100)
-layout_mode = 2
-theme_override_fonts/font = ExtResource("4_0jxtl")
-theme_override_font_sizes/font_size = 40
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 3
-
-[node name="english_label" type="Label" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/VBoxContainer"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(200, 100)
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 3
-
-[node name="voiceover" type="AudioStreamPlayer" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/VBoxContainer"]
-unique_name_in_owner = true
-
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2"]
-layout_mode = 2
-
-[node name="play_back_btn" type="Button" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer"]
-layout_mode = 2
-text = "B"
-icon_alignment = 1
-
-[node name="play_voice_btn" type="Button" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer"]
-layout_mode = 2
+offset_left = 162.0
+offset_top = 241.0
+offset_right = 435.0
+offset_bottom = 549.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
 size_flags_horizontal = 4
 size_flags_vertical = 4
-icon = ExtResource("3_xgyk6")
+tooltip_text = "Go back"
+theme_override_styles/hover = SubResource("StyleBoxFlat_ityns")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xievc")
+icon = ExtResource("3_nqtax")
 flat = true
 icon_alignment = 1
 
-[node name="play_fwd_btn" type="Button" parent="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer"]
-layout_mode = 2
-text = "F"
+[node name="Control3" type="Control" parent="Control/MarginContainer/NinePatchRect"]
+anchors_preset = 0
+offset_left = 281.0
+offset_top = 286.0
+offset_right = 321.0
+offset_bottom = 326.0
+size_flags_vertical = 0
 
-[connection signal="pressed" from="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer/play_back_btn" to="." method="_on_play_back_btn_pressed"]
-[connection signal="pressed" from="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer/play_voice_btn" to="." method="_on_play_voice_btn_pressed"]
-[connection signal="pressed" from="CanvasLayer/Control/MarginContainer/Panel/VBoxContainer2/HBoxContainer/play_fwd_btn" to="." method="_on_play_fwd_btn_pressed"]
+[node name="play_voice_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control3"]
+custom_minimum_size = Vector2(48, 0)
+layout_mode = 2
+offset_left = 10.0
+offset_top = -44.0
+offset_right = 356.0
+offset_bottom = 264.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Play"
+icon = ExtResource("4_jp5iu")
+flat = true
+icon_alignment = 1
+
+[node name="Control4" type="Control" parent="Control/MarginContainer/NinePatchRect"]
+anchors_preset = 0
+offset_left = 423.0
+offset_top = 241.0
+offset_right = 463.0
+offset_bottom = 281.0
+
+[node name="play_fwd_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control4"]
+custom_minimum_size = Vector2(48, 0)
+layout_mode = 2
+offset_right = 273.0
+offset_bottom = 308.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Go forward"
+icon = ExtResource("5_bu20x")
+flat = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer"]
+layout_mode = 2
+
+[node name="learning_label" type="Label" parent="Control/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(600, 100)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_0jxtl")
+theme_override_font_sizes/font_size = 40
+text = "Learning Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="english_label" type="Label" parent="Control/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "English Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="voiceover" type="AudioStreamPlayer" parent="Control/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+
+[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control2/play_back_btn" to="." method="_on_play_back_btn_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control3/play_voice_btn" to="." method="_on_play_voice_btn_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control4/play_fwd_btn" to="." method="_on_play_fwd_btn_pressed"]
