@@ -44,10 +44,6 @@ theme_override_constants/margin_bottom = 25
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/TabContainer/Description/MarginContainer"]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Description/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Description"
-
 [node name="Ingredients" type="TabBar" parent="MarginContainer/TabContainer"]
 visible = false
 layout_mode = 2
@@ -64,12 +60,9 @@ theme_override_constants/margin_top = 25
 theme_override_constants/margin_right = 25
 theme_override_constants/margin_bottom = 25
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/TabContainer/Ingredients/MarginContainer"]
+[node name="list" type="VBoxContainer" parent="MarginContainer/TabContainer/Ingredients/MarginContainer"]
+unique_name_in_owner = true
 layout_mode = 2
-
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Ingredients/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Inngredients"
 
 [node name="Directions" type="TabBar" parent="MarginContainer/TabContainer"]
 visible = false
@@ -87,9 +80,6 @@ theme_override_constants/margin_top = 25
 theme_override_constants/margin_right = 25
 theme_override_constants/margin_bottom = 25
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/TabContainer/Directions/MarginContainer"]
+[node name="steps" type="VBoxContainer" parent="MarginContainer/TabContainer/Directions/MarginContainer"]
+unique_name_in_owner = true
 layout_mode = 2
-
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Directions/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Directions"
