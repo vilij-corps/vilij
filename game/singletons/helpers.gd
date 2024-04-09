@@ -8,12 +8,12 @@
 
 extends Node
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+func get_viewport_dims():
+	# size of game window
+	print(get_viewport().size)
+	# scaled size of game window
+	print(get_viewport().content_scale_size)
+	# size of screen resolution
+	print(DisplayServer.screen_get_size())
+	
+	# DisplayServer.window_set_size(DisplayServer.screen_get_size())

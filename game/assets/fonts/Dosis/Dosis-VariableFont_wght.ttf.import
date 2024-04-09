@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cjqkb3myekaqh"
-path="res://.godot/imported/komika_text_bi.ttf-7e206d37b2e228a7224a6e95f03e1659.fontdata"
+uid="uid://bracwlokcg3q"
+path="res://.godot/imported/Dosis-VariableFont_wght.ttf-2aa55b7570f91f61d43e75bb619a425c.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/komika_text_bi.ttf"
-dest_files=["res://.godot/imported/komika_text_bi.ttf-7e206d37b2e228a7224a6e95f03e1659.fontdata"]
+source_file="res://assets/fonts/Dosis/Dosis-VariableFont_wght.ttf"
+dest_files=["res://.godot/imported/Dosis-VariableFont_wght.ttf-2aa55b7570f91f61d43e75bb619a425c.fontdata"]
 
 [params]
 

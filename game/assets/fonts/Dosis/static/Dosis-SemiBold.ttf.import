@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://0vcj8tt1yndk"
-path="res://.godot/imported/komika_text_kaps.ttf-016798ac06c78718371ba4525ebe5bd9.fontdata"
+uid="uid://7ij2iwcp3lgk"
+path="res://.godot/imported/Dosis-SemiBold.ttf-89471aec07a274f74c9a201669cb6700.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/komika_text_kaps.ttf"
-dest_files=["res://.godot/imported/komika_text_kaps.ttf-016798ac06c78718371ba4525ebe5bd9.fontdata"]
+source_file="res://assets/fonts/Dosis/static/Dosis-SemiBold.ttf"
+dest_files=["res://.godot/imported/Dosis-SemiBold.ttf-89471aec07a274f74c9a201669cb6700.fontdata"]
 
 [params]
 

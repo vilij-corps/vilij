@@ -25,7 +25,7 @@ var experience = 0
 var learning_time = 0
 
 # Need a smart formula for this
-var proficiency_level = 0
+var proficiency_level = 1
 
 const PROGRESS_FILE_PATH = "user://progress.save"
 

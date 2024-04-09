@@ -1,48 +1,72 @@
-[gd_scene load_steps=3 format=3 uid="uid://bwdn54c76i27w"]
+[gd_scene load_steps=5 format=3 uid="uid://bwdn54c76i27w"]
 
 [ext_resource type="Script" path="res://components/vocabulary/word_bubble.gd" id="1_au6et"]
-[ext_resource type="Texture2D" uid="uid://dsg34oe41uqj8" path="res://assets/gui/buttons/speaking.png" id="2_5xn5p"]
+[ext_resource type="FontFile" uid="uid://ch3lmpth87fad" path="res://assets/fonts/Dosis/static/Dosis-Regular.ttf" id="2_dexll"]
+[ext_resource type="Texture2D" uid="uid://by5qymph28alf" path="res://assets/gui/dialogue/bubble.png" id="2_wy22l"]
+[ext_resource type="Texture2D" uid="uid://bs5hljerxh0k5" path="res://assets/gui/buttons/vocabulary_marker.svg" id="3_3spw1"]
 
-[node name="Word" type="Node2D"]
+[node name="Word" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_au6et")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-custom_minimum_size = Vector2(500, 500)
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="balloon_margin_container" type="MarginContainer" parent="VBoxContainer"]
-layout_mode = 2
+[node name="balloon_margin_container" type="MarginContainer" parent="."]
+offset_right = 500.0
+offset_bottom = 320.0
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="balloon_vbox" type="VBoxContainer" parent="VBoxContainer/balloon_margin_container"]
+[node name="bubble" type="NinePatchRect" parent="balloon_margin_container"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_wy22l")
+region_rect = Rect2(24, 24, 152, 152)
+
+[node name="balloon_vbox" type="VBoxContainer" parent="balloon_margin_container/bubble"]
 custom_minimum_size = Vector2(0, 300)
 layout_mode = 2
+offset_right = 480.0
+offset_bottom = 300.0
 alignment = 1
 
-[node name="learning" type="Label" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+[node name="lug" type="Label" parent="balloon_margin_container/bubble/balloon_vbox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 100)
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_dexll")
 theme_override_font_sizes/font_size = 45
 text = "Learning"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="english" type="Label" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+[node name="eng" type="Label" parent="balloon_margin_container/bubble/balloon_vbox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 100)
 layout_mode = 2
-theme_override_font_sizes/font_size = 45
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_dexll")
+theme_override_font_sizes/font_size = 36
 text = "English"
 horizontal_alignment = 1
 vertical_alignment = 1
+autowrap_mode = 3
 
-[node name="play" type="Button" parent="VBoxContainer/balloon_margin_container/balloon_vbox"]
+[node name="Control" type="Control" parent="balloon_margin_container"]
 layout_mode = 2
-icon = ExtResource("2_5xn5p")
+
+[node name="show_bubble" type="Button" parent="balloon_margin_container/Control"]
+layout_mode = 2
+offset_left = 172.0
+offset_top = 269.0
+offset_right = 652.0
+offset_bottom = 577.0
+scale = Vector2(0.25, 0.25)
+icon = ExtResource("3_3spw1")
 flat = true
 icon_alignment = 1
 
-[node name="word_marker" type="Button" parent="VBoxContainer"]
-layout_mode = 2
+[connection signal="pressed" from="balloon_margin_container/Control/show_bubble" to="." method="_on_show_bubble_pressed"]

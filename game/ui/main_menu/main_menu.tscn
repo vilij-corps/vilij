@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cp38dxru1kobh" path="res://ui/fps/fps.tscn" id="1_0uim6"]
 [ext_resource type="Script" path="res://ui/main_menu/main_menu.gd" id="1_6i8oh"]
-[ext_resource type="FontFile" uid="uid://bnuhuyicywahn" path="res://assets/fonts/komika_text.ttf" id="3_1xycf"]
+[ext_resource type="FontFile" uid="uid://d3uxmitxyvego" path="res://assets/fonts/Dosis/static/Dosis-Medium.ttf" id="3_7v86g"]
 [ext_resource type="Texture2D" uid="uid://47eyjxmm5ff8" path="res://assets/gui/buttons/start_btn.svg" id="4_qney6"]
 [ext_resource type="Texture2D" uid="uid://bswnixr554wf2" path="res://assets/gui/buttons/options_btn.svg" id="5_s3y5y"]
 [ext_resource type="Texture2D" uid="uid://bqm0ans5qxaks" path="res://assets/gui/buttons/progress_report_btn.svg" id="6_mou1j"]
@@ -62,7 +62,7 @@ theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_1xycf")
+theme_override_fonts/font = ExtResource("3_7v86g")
 theme_override_font_sizes/font_size = 45
 action_mode = 0
 text = "Start"
@@ -80,7 +80,7 @@ size_flags_horizontal = 0
 size_flags_vertical = 4
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("3_1xycf")
+theme_override_fonts/font = ExtResource("3_7v86g")
 theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxFlat_wmppg")
 text = "Options"
@@ -104,7 +104,7 @@ theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_1xycf")
+theme_override_fonts/font = ExtResource("3_7v86g")
 theme_override_font_sizes/font_size = 45
 action_mode = 0
 text = "Progress"
@@ -128,7 +128,7 @@ theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_colors/icon_pressed_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_color = Color(1, 1, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(1, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_1xycf")
+theme_override_fonts/font = ExtResource("3_7v86g")
 theme_override_font_sizes/font_size = 45
 action_mode = 0
 text = "Exit"

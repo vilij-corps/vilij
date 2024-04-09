@@ -17,7 +17,6 @@ var dialogue_end = null
 # which line is currently active
 var dialogue_state = 0
 
-var character_positions : Array = []
 
 func load_dialogue_file(load_path : String):
 	if FileAccess.file_exists(load_path):
@@ -44,17 +43,3 @@ func dialogue_forward():
 	
 func dialogue_back():
 	dialogue_state -= 1
-
-# where to place the dialogue bubble
-func dialogue_position():
-	pass
-	
-# set visibility to show for
-# character speaking
-func dialogue_show():
-	pass
-
-# set visibility to hide for
-# character not speaking
-func dialogue_hide():
-	pass

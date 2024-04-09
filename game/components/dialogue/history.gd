@@ -21,7 +21,9 @@ func populate_history():
 		var eng = Label.new()
 		var lu = Label.new()
 		lu.text = history[i]["luganda"]
+		lu.add_theme_font_size_override("font_size", 36)
 		eng.text = history[i]["english"]
+		eng.add_theme_font_size_override("font_size", 24)
 		row.add_child(lu)
 		row.add_child(eng)
 		history_list.add_child(row)

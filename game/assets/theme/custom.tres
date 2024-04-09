@@ -1,3 +1,15 @@
-[gd_resource type="Theme" format=3 uid="uid://dfnodlwruclvg"]
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dfnodlwruclvg"]
+
+[ext_resource type="FontFile" uid="uid://ch3lmpth87fad" path="res://assets/fonts/Dosis/static/Dosis-Regular.ttf" id="1_55lqt"]
 
 [resource]
+Button/fonts/font = ExtResource("1_55lqt")
+Label/fonts/font = ExtResource("1_55lqt")
+LineEdit/fonts/font = ExtResource("1_55lqt")
+MenuButton/fonts/font = ExtResource("1_55lqt")
+OptionButton/fonts/font = ExtResource("1_55lqt")
+ProgressBar/fonts/font = ExtResource("1_55lqt")
+TabBar/fonts/font = ExtResource("1_55lqt")
+TextEdit/fonts/font = ExtResource("1_55lqt")
+Tree/fonts/font = ExtResource("1_55lqt")
+Tree/fonts/title_button_font = ExtResource("1_55lqt")

@@ -4,9 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://by5qymph28alf" path="res://assets/gui/dialogue/bubble.png" id="2_h0sio"]
 [ext_resource type="Texture2D" uid="uid://d2g22v4qq7kqq" path="res://assets/gui/dialogue/dialogue_marker.svg" id="3_kftsf"]
 [ext_resource type="Texture2D" uid="uid://cgauvvxwji48p" path="res://assets/gui/dialogue/back.svg" id="3_nqtax"]
-[ext_resource type="FontFile" uid="uid://bdwarbxwyv8x4" path="res://assets/fonts/whois-mono.ttf" id="4_0jxtl"]
 [ext_resource type="Texture2D" uid="uid://d24d4topiu1gy" path="res://assets/gui/dialogue/play.svg" id="4_jp5iu"]
 [ext_resource type="Texture2D" uid="uid://bxog2tu64les2" path="res://assets/gui/dialogue/forward.svg" id="5_bu20x"]
+[ext_resource type="FontFile" uid="uid://ch3lmpth87fad" path="res://assets/fonts/Dosis/static/Dosis-Regular.ttf" id="7_ug4kp"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_rcsc5"]
 
@@ -141,7 +141,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(600, 100)
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("4_0jxtl")
+theme_override_fonts/font = ExtResource("7_ug4kp")
 theme_override_font_sizes/font_size = 40
 text = "Learning Label"
 horizontal_alignment = 1
@@ -153,7 +153,8 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("7_ug4kp")
+theme_override_font_sizes/font_size = 32
 text = "English Label"
 horizontal_alignment = 1
 vertical_alignment = 1
