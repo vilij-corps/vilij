@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 @onready var character_speaking : String = ""
 @onready var learning_label : Label  = %learning_label

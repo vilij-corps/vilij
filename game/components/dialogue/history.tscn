@@ -2,13 +2,16 @@
 
 [ext_resource type="Script" path="res://components/dialogue/history.gd" id="1_wirii"]
 
-[node name="History" type="Node2D"]
+[node name="History" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_wirii")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
-custom_minimum_size = Vector2(600, 600)
-offset_right = 40.0
-offset_bottom = 40.0
+custom_minimum_size = Vector2(500, 600)
+layout_mode = 1
+offset_right = 600.0
+offset_bottom = 600.0
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10

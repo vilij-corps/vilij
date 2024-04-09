@@ -1,10 +1,11 @@
-extends Node2D
+extends Control
 
 @onready var history_list : VBoxContainer = %HistoryList
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	populate_history()
+	# populate_history()
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
