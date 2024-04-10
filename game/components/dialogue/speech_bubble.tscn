@@ -1,107 +1,124 @@
 [gd_scene load_steps=11 format=3 uid="uid://b702l51hth3nx"]
 
 [ext_resource type="Script" path="res://components/dialogue/speech_bubble.gd" id="1_fxg6u"]
-[ext_resource type="Texture2D" uid="uid://by5qymph28alf" path="res://assets/gui/dialogue/bubble.png" id="2_h0sio"]
-[ext_resource type="Texture2D" uid="uid://d2g22v4qq7kqq" path="res://assets/gui/dialogue/dialogue_marker.svg" id="3_kftsf"]
 [ext_resource type="Texture2D" uid="uid://cgauvvxwji48p" path="res://assets/gui/dialogue/back.svg" id="3_nqtax"]
 [ext_resource type="Texture2D" uid="uid://d24d4topiu1gy" path="res://assets/gui/dialogue/play.svg" id="4_jp5iu"]
 [ext_resource type="Texture2D" uid="uid://bxog2tu64les2" path="res://assets/gui/dialogue/forward.svg" id="5_bu20x"]
+[ext_resource type="Texture2D" uid="uid://c00w5ndd274l6" path="res://assets/gui/dialogue/tail.svg" id="5_kv4yb"]
+[ext_resource type="Texture2D" uid="uid://blywqtna3bear" path="res://assets/gui/dialogue/back_pressed.svg" id="5_runxr"]
+[ext_resource type="Texture2D" uid="uid://rx8cleegsdag" path="res://assets/gui/dialogue/back_hover.svg" id="5_wr1vt"]
 [ext_resource type="FontFile" uid="uid://ch3lmpth87fad" path="res://assets/fonts/Dosis/static/Dosis-Regular.ttf" id="7_ug4kp"]
 
+[sub_resource type="CanvasTexture" id="CanvasTexture_j6r1q"]
+
 [sub_resource type="CanvasTexture" id="CanvasTexture_rcsc5"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ityns"]
-bg_color = Color(0.737255, 0.576471, 0.164706, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xievc"]
-bg_color = Color(0.92549, 0.435294, 0.2, 1)
 
 [node name="SpeechBubble" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_fxg6u")
 
-[node name="Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="MarginContainer" type="MarginContainer" parent="Control"]
+[node name="dialogue_container" type="MarginContainer" parent="."]
 layout_mode = 1
 offset_left = -1.0
 offset_top = 1.0
 offset_right = 619.0
-offset_bottom = 225.0
+offset_bottom = 287.0
 theme_override_constants/margin_left = 10
-theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="NinePatchRect" type="NinePatchRect" parent="Control/MarginContainer"]
+[node name="dialogue_bubble" type="Control" parent="dialogue_container"]
 layout_mode = 2
-texture = ExtResource("2_h0sio")
-region_rect = Rect2(24, 24, 152, 152)
 
-[node name="TextureRect" type="TextureRect" parent="Control/MarginContainer/NinePatchRect"]
-layout_mode = 0
-offset_left = 154.0
-offset_top = 237.0
-offset_right = 194.0
-offset_bottom = 277.0
-scale = Vector2(7.68, 1)
+[node name="dialogue_bubble" type="TextureRect" parent="dialogue_container/dialogue_bubble"]
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+offset_top = 57.0
+offset_right = 600.0
+offset_bottom = 261.0
+texture = SubResource("CanvasTexture_j6r1q")
+
+[node name="tail_cntrl" type="Control" parent="dialogue_container/dialogue_bubble/dialogue_bubble"]
+anchors_preset = 0
+offset_left = 279.0
+offset_top = 193.0
+offset_right = 319.0
+offset_bottom = 233.0
+
+[node name="tail_sprt" type="Sprite2D" parent="dialogue_container/dialogue_bubble/dialogue_bubble/tail_cntrl"]
+position = Vector2(20, 20)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_kv4yb")
+
+[node name="dialogue_labels" type="VBoxContainer" parent="dialogue_container/dialogue_bubble"]
+layout_mode = 2
+offset_top = 58.0
+offset_right = 600.0
+offset_bottom = 262.0
+
+[node name="learning_label" type="Label" parent="dialogue_container/dialogue_bubble/dialogue_labels"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(600, 100)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("7_ug4kp")
+theme_override_font_sizes/font_size = 32
+text = "Learning Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="english_label" type="Label" parent="dialogue_container/dialogue_bubble/dialogue_labels"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("7_ug4kp")
+theme_override_font_sizes/font_size = 24
+text = "English Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="voiceover" type="AudioStreamPlayer" parent="dialogue_container/dialogue_bubble/dialogue_labels"]
+unique_name_in_owner = true
+
+[node name="play_cntrls" type="Control" parent="dialogue_container"]
+layout_mode = 2
+
+[node name="play_cntrl_texrec" type="TextureRect" parent="dialogue_container/play_cntrls"]
+layout_mode = 2
+offset_left = 130.0
+offset_right = 467.0
+offset_bottom = 50.0
 texture = SubResource("CanvasTexture_rcsc5")
 
-[node name="Control" type="Control" parent="Control/MarginContainer/NinePatchRect"]
-anchors_preset = 0
-offset_left = 304.0
-offset_top = 208.0
-offset_right = 344.0
-offset_bottom = 248.0
-
-[node name="tail" type="Sprite2D" parent="Control/MarginContainer/NinePatchRect/Control"]
-scale = Vector2(0.1, 0.1)
-texture = ExtResource("3_kftsf")
-
-[node name="Control2" type="Control" parent="Control/MarginContainer/NinePatchRect"]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="play_back_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control2"]
+[node name="play_back_btn" type="TextureButton" parent="dialogue_container/play_cntrls"]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
-offset_left = 162.0
-offset_top = 241.0
-offset_right = 435.0
-offset_bottom = 549.0
+offset_left = 145.0
+offset_top = 8.0
+offset_right = 418.0
+offset_bottom = 316.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.1, 0.1)
 size_flags_horizontal = 4
 size_flags_vertical = 4
 tooltip_text = "Go back"
-theme_override_styles/hover = SubResource("StyleBoxFlat_ityns")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_xievc")
-icon = ExtResource("3_nqtax")
-flat = true
-icon_alignment = 1
+texture_normal = ExtResource("3_nqtax")
+texture_pressed = ExtResource("5_runxr")
+texture_hover = ExtResource("5_wr1vt")
 
-[node name="Control3" type="Control" parent="Control/MarginContainer/NinePatchRect"]
-anchors_preset = 0
-offset_left = 281.0
-offset_top = 286.0
-offset_right = 321.0
-offset_bottom = 326.0
-size_flags_vertical = 0
-
-[node name="play_voice_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control3"]
+[node name="play_voice_btn" type="Button" parent="dialogue_container/play_cntrls"]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
-offset_left = 10.0
-offset_top = -44.0
-offset_right = 356.0
-offset_bottom = 264.0
+offset_left = 281.0
+offset_top = 8.0
+offset_right = 627.0
+offset_bottom = 316.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.1, 0.1)
@@ -112,18 +129,13 @@ icon = ExtResource("4_jp5iu")
 flat = true
 icon_alignment = 1
 
-[node name="Control4" type="Control" parent="Control/MarginContainer/NinePatchRect"]
-anchors_preset = 0
-offset_left = 423.0
-offset_top = 241.0
-offset_right = 463.0
-offset_bottom = 281.0
-
-[node name="play_fwd_btn" type="Button" parent="Control/MarginContainer/NinePatchRect/Control4"]
+[node name="play_fwd_btn" type="Button" parent="dialogue_container/play_cntrls"]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
-offset_right = 273.0
-offset_bottom = 308.0
+offset_left = 424.0
+offset_top = 8.0
+offset_right = 697.0
+offset_bottom = 316.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.1, 0.1)
@@ -133,36 +145,11 @@ tooltip_text = "Go forward"
 icon = ExtResource("5_bu20x")
 flat = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer"]
-layout_mode = 2
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
 
-[node name="learning_label" type="Label" parent="Control/MarginContainer/VBoxContainer"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(600, 100)
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("7_ug4kp")
-theme_override_font_sizes/font_size = 40
-text = "Learning Label"
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 3
-
-[node name="english_label" type="Label" parent="Control/MarginContainer/VBoxContainer"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(500, 100)
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("7_ug4kp")
-theme_override_font_sizes/font_size = 32
-text = "English Label"
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 3
-
-[node name="voiceover" type="AudioStreamPlayer" parent="Control/MarginContainer/VBoxContainer"]
-unique_name_in_owner = true
-
-[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control2/play_back_btn" to="." method="_on_play_back_btn_pressed"]
-[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control3/play_voice_btn" to="." method="_on_play_voice_btn_pressed"]
-[connection signal="pressed" from="Control/MarginContainer/NinePatchRect/Control4/play_fwd_btn" to="." method="_on_play_fwd_btn_pressed"]
+[connection signal="pressed" from="dialogue_container/play_cntrls/play_back_btn" to="." method="_on_play_back_btn_pressed"]
+[connection signal="pressed" from="dialogue_container/play_cntrls/play_voice_btn" to="." method="_on_play_voice_btn_pressed"]
+[connection signal="pressed" from="dialogue_container/play_cntrls/play_fwd_btn" to="." method="_on_play_fwd_btn_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

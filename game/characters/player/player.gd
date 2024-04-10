@@ -39,6 +39,10 @@ func update_animations(direction) -> void:
 	elif direction == -1:
 		animated_sprite.play("walk_left")	
 
+func _unhandled_input(event):
+	if event.is_action_pressed("talk"):
+		pass
+
 func get_current_position():
 	print(self.position)
 	return self.position

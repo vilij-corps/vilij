@@ -11,9 +11,6 @@ extends Node2D
 # Dialogue Script
 var greetings_script = "res://scenes/greetings/greetings.json"
 
-var char_pos_one : Vector2 = Vector2(0,0)
-var char_pos_two : Vector2 = Vector2(0,0)
-
 func _ready():
 	DialogueManager.load_dialogue_file(greetings_script)
 	DialogueManager.dialogue_manager()

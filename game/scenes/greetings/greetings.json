@@ -12,7 +12,7 @@
 		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
 	},
 	{
-		"character": "B",
+		"character": "A",
 		"luganda": "Abeeka bali batya?",
 		"english": "How is everyone at home?",
 		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
