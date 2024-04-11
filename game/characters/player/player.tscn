@@ -1,7 +1,9 @@
-[gd_scene load_steps=30 format=3 uid="uid://4qgjiwcctne3"]
+[gd_scene load_steps=31 format=3 uid="uid://4qgjiwcctne3"]
 
 [ext_resource type="Script" path="res://characters/player/player.gd" id="1_bgcos"]
 [ext_resource type="Texture2D" uid="uid://bxvtburi05bch" path="res://assets/shared/characters/player_sprite_sheet.png" id="2_gn3ui"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l62yc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1kqh7"]
 atlas = ExtResource("2_gn3ui")
@@ -197,18 +199,46 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kk1ox"]
-size = Vector2(22.5, 18.2836)
+size = Vector2(32.2368, 18.2836)
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
+motion_mode = 1
 script = ExtResource("1_bgcos")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -48)
+shape = SubResource("CircleShape2D_l62yc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_r4fen")
 animation = &"idle"
 offset = Vector2(0, -30)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -23.5)
+[node name="InteractLabel" type="Label" parent="."]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -78.0
+offset_right = 20.0
+offset_bottom = -55.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Talk?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InteractionArea" type="Area2D" parent="."]
+z_index = 1
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+position = Vector2(0.5, -23.5)
 scale = Vector2(1.52, 2.68)
 shape = SubResource("RectangleShape2D_kk1ox")
 
@@ -216,3 +246,6 @@ shape = SubResource("RectangleShape2D_kk1ox")
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 drag_vertical_offset = -1.0
+
+[connection signal="area_entered" from="InteractionArea" to="." method="_on_interaction_area_area_entered"]
+[connection signal="area_exited" from="InteractionArea" to="." method="_on_interaction_area_area_exited"]
