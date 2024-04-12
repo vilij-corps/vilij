@@ -1,15 +1,65 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dfnodlwruclvg"]
+[gd_resource type="Theme" load_steps=14 format=3 uid="uid://dfnodlwruclvg"]
 
 [ext_resource type="FontFile" uid="uid://ch3lmpth87fad" path="res://assets/fonts/Dosis/static/Dosis-Regular.ttf" id="1_55lqt"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6vq1q"]
+bg_color = Color(1, 0.733333, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tl3ib"]
+bg_color = Color(1, 0.533333, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tiu3t"]
+bg_color = Color(1, 0.266667, 0.266667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kcgyv"]
+bg_color = Color(1, 0.733333, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yev6i"]
+bg_color = Color(1, 0.533333, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ihxrh"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ar7gn"]
+bg_color = Color(1, 0.733333, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2hj5m"]
+bg_color = Color(1, 0.733333, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n0pc4"]
+bg_color = Color(1, 0.533333, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r6ii7"]
+bg_color = Color(1, 0.266667, 0.266667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_260ia"]
+bg_color = Color(1, 0.733333, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jlklj"]
+bg_color = Color(1, 0.533333, 0, 1)
+
 [resource]
 Button/fonts/font = ExtResource("1_55lqt")
+HScrollBar/styles/grabber = SubResource("StyleBoxFlat_6vq1q")
+HScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_tl3ib")
+HScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_tiu3t")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_kcgyv")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_yev6i")
 Label/fonts/font = ExtResource("1_55lqt")
 LineEdit/fonts/font = ExtResource("1_55lqt")
 MenuButton/fonts/font = ExtResource("1_55lqt")
 OptionButton/fonts/font = ExtResource("1_55lqt")
+ProgressBar/colors/font_color = Color(0, 0, 0, 1)
+ProgressBar/font_sizes/font_size = 16
 ProgressBar/fonts/font = ExtResource("1_55lqt")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_ihxrh")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_ar7gn")
 TabBar/fonts/font = ExtResource("1_55lqt")
 TextEdit/fonts/font = ExtResource("1_55lqt")
 Tree/fonts/font = ExtResource("1_55lqt")
 Tree/fonts/title_button_font = ExtResource("1_55lqt")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_2hj5m")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_n0pc4")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_r6ii7")
+VSlider/styles/grabber_area = SubResource("StyleBoxFlat_260ia")
+VSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_jlklj")
