@@ -1,20 +1,50 @@
 [
 	{
-		"character": "A", 
-		"luganda": "Wasuze otyano Nnyabo",
-		"english": "Good morning Madam",
+		"character": "B", 
+		"luganda": "Wasuze otyano Nnyabo.",
+		"english": "Good morning Madam.",
 		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
 	},
 	{
-		"character": "B",
-		"luganda": "Wasuze otyano Ssebo",
-		"english": "Good morning Sir",
+		"character": "B", 
+		"luganda": "Gwe osiibye Nnyabo?",
+		"english": "How are you Madam?",
+		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
+	},
+	{
+		"character": "A",
+		"luganda": "Wasuze otyano Ssebo.",
+		"english": "Good morning Sir.",
+		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
+	},
+	{
+		"character": "A",
+		"luganda": "Bulungi Ssebo, gwe osiibye?",
+		"english": "Fine Sir, how are you?",
 		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
 	},
 	{
 		"character": "A",
 		"luganda": "Abeeka bali batya?",
 		"english": "How is everyone at home?",
+		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
+	},
+	{
+		"character": "B",
+		"luganda": "Gyeballi balungi.",
+		"english": "Everybody is fine.",
+		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
+	},
+	{
+		"character": "B",
+		"luganda": "Tunaalabagana enkya.",
+		"english": "See you again tomorrow.",
+		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
+	},
+	{
+		"character": "A",
+		"luganda": "Weeraba.",
+		"english": "Goodbye.",
 		"voiceover": "res://scenes/greetings/voiceovers/how-are-you-f.mp3"
 	}
 ]
