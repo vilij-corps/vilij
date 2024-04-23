@@ -1,3 +1,11 @@
+'''
+ +-+-+ +-+-+ +-+-+-+
+	vilij corps
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+'''
+
 # The root Control node ("Main") and AspectRatioContainer nodes are the most important
 # pieces of this demo.
 # Both nodes have their Layout set to Full Rect

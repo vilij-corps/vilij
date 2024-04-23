@@ -1,3 +1,11 @@
+'''
+ +-+-+ +-+-+ +-+-+-+
+	vilij corps
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+'''
+
 extends Control
 
 @onready var player = get_tree().get_nodes_in_group("player")[0]

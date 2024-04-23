@@ -1,3 +1,11 @@
+'''
+ +-+-+ +-+-+ +-+-+-+
+	vilij corps
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+'''
+
 extends Control
 
 @onready var history_list : VBoxContainer = %HistoryList
