@@ -39,3 +39,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.9072, 0, -25.322)
 subdiv = 3
 size = Vector3(340.804, 20, 299.041)
 data = SubResource("VoxelGIData_apytn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
