@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dm8kuu2aw8gf7"]
+[gd_scene load_steps=8 format=3 uid="uid://dm8kuu2aw8gf7"]
 
 [ext_resource type="Script" path="res://scenes/greetings/greetings.gd" id="1_77y6f"]
 [ext_resource type="PackedScene" uid="uid://b702l51hth3nx" path="res://components/dialogue/speech_bubble.tscn" id="2_lbe4y"]
@@ -7,9 +7,27 @@
 [ext_resource type="PackedScene" uid="uid://bwdn54c76i27w" path="res://components/vocabulary/word_bubble.tscn" id="5_c7sw3"]
 [ext_resource type="PackedScene" uid="uid://cy23vpgdv7uq6" path="res://components/interaction/area.tscn" id="6_x6y5n"]
 
+[sub_resource type="CanvasTexture" id="CanvasTexture_nejv0"]
+
 [node name="Greetings" type="Node2D"]
 position = Vector2(964, 58)
 script = ExtResource("1_77y6f")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(0.933333, 0.807843, 0.352941, 1)
+self_modulate = Color(0.933333, 0.807843, 0.352941, 1)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -971.0
+offset_top = -76.0
+offset_right = 976.0
+offset_bottom = 1033.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = SubResource("CanvasTexture_nejv0")
 
 [node name="SpeechBubble" parent="." instance=ExtResource("2_lbe4y")]
 unique_name_in_owner = true
@@ -29,7 +47,7 @@ size_flags_vertical = 4
 
 [node name="Player" parent="." instance=ExtResource("3_4x3ec")]
 unique_name_in_owner = true
-position = Vector2(0, 589)
+position = Vector2(21, 769)
 
 [node name="InteractArea" parent="." instance=ExtResource("6_x6y5n")]
 position = Vector2(-726, 563)

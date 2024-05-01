@@ -1,7 +1,8 @@
-[gd_scene load_steps=35 format=3 uid="uid://4qgjiwcctne3"]
+[gd_scene load_steps=36 format=3 uid="uid://4qgjiwcctne3"]
 
 [ext_resource type="Script" path="res://components/characters/player/player.gd" id="1_bgcos"]
 [ext_resource type="Texture2D" uid="uid://chbfumhbo5k54" path="res://assets/shared/characters/spritesheet.png" id="2_txx1i"]
+[ext_resource type="AudioStream" uid="uid://d0yxt48vn21ub" path="res://assets/audio/effects/footsteps_1.wav" id="3_477vf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_l62yc"]
 
@@ -234,7 +235,7 @@ motion_mode = 1
 script = ExtResource("1_bgcos")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -48)
+position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_l62yc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -255,6 +256,8 @@ offset_right = 20.0
 offset_bottom = -273.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
 text = "Talk?"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -274,6 +277,10 @@ shape = SubResource("RectangleShape2D_kk1ox")
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 drag_vertical_offset = -1.0
+
+[node name="footsteps" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("3_477vf")
 
 [connection signal="area_entered" from="InteractionArea" to="." method="_on_interaction_area_area_entered"]
 [connection signal="area_exited" from="InteractionArea" to="." method="_on_interaction_area_area_exited"]

@@ -17,6 +17,8 @@ extends Control
 @onready var exit_timer = $Timer
 
 var dialogue_script = null
+var player_position = null
+var npc_position = null
 var learning_text = ""
 var english_text = ""
 var voiceover_file = ""
@@ -26,16 +28,19 @@ var character_speaking : String = ""
 # for position placement of speech bubble
 var character_positions : Array = [Vector2(0, 50), Vector2(200, 50)]
 
+func _ready():
+	# set position
+	player_position = player.get_position()
+
 func init_dialogue():
 	dialogue_script = DialogueManager.current_dialogue
 	
 func play_dialogue_line():
 	# set visibility
 	dialogue_hide()
-	# set position
-	var player_position = player.get_position()
-	var player_bubble_position_x = player_position.x - ($dialogue_container.get_rect().size.x / 2)
-	var player_bubble_position_y = player_position.y - ($dialogue_container.get_rect().size.y) - 50
+	
+	var player_bubble_position_x = player_position.x - ($dialogue_container.get_rect().size.x / 2) - 30
+	var player_bubble_position_y = player_position.y - ($dialogue_container.get_rect().size.y) - 275
 	print(player_bubble_position_x)
 	print(player_bubble_position_y)
 	print($dialogue_container.get_rect().size.x)
@@ -43,7 +48,7 @@ func play_dialogue_line():
 	if character_speaking == "A":
 		dialogue_position(Vector2(player_bubble_position_x, player_bubble_position_y))
 	elif character_speaking == "B":
-		dialogue_position(character_positions[1])
+		dialogue_position(Vector2(player_bubble_position_x+200, player_bubble_position_y))
 	
 	# set labels
 	learning_text = dialogue_script[DialogueManager.dialogue_state]["luganda"]
@@ -104,3 +109,4 @@ func end_dialogue():
 # removes dialogue after displaying goodbye
 func _on_timer_timeout():
 	dialogue_hide()
+

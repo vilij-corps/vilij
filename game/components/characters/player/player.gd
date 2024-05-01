@@ -11,6 +11,7 @@ extends CharacterBody2D
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var all_interactions = []
 @onready var interact_label_display = %InteractLabel
+@onready var footsteps = %footsteps
 
 const SPEED = 300.0
 
@@ -39,10 +40,13 @@ func update_animations(direction) -> void:
 	
 	if direction == 0:
 		animated_sprite.play("idle")
+		footsteps.stop()
 	elif direction == 1:
 		animated_sprite.play("walk_right")	
+		footsteps.play()
 	elif direction == -1:
-		animated_sprite.play("walk_left")	
+		animated_sprite.play("walk_left")
+		footsteps.play()
 
 func get_current_position():
 	var player_position = get_position()
