@@ -6,14 +6,40 @@
  +-+-+ +-+-+ +-+-+-+
 '''
 
-extends Node2D
+extends Control
 
+@onready var report_list : VBoxContainer = %ReportList
 
-# Called when the node enters the scene tree for the first time.
+var report_data = null
+
 func _ready():
-	pass # Replace with function body.
+	report_data = SaveSystem._progressData
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+# add text to the UI
+func populate_summary():
+	var summary = report_data["summary"]
+	for i in summary.size():
+		var row = HBoxContainer.new()
+		var eng = Label.new()
+		var lu = Label.new()
+		lu.text = summary[i]["luganda"]
+		lu.add_theme_font_size_override("font_size", 36)
+		eng.text = summary[i]["english"]
+		eng.add_theme_font_size_override("font_size", 24)
+		row.add_child(lu)
+		row.add_child(eng)
+		report_list.add_child(row)
+		
+func populate_scenarios():
+	var scenes = report_data["scenes"]
+	for i in scenes.size():
+		var row = HBoxContainer.new()
+		var eng = Label.new()
+		var lu = Label.new()
+		lu.text = scenes[i]["luganda"]
+		lu.add_theme_font_size_override("font_size", 36)
+		eng.text = scenes[i]["english"]
+		eng.add_theme_font_size_override("font_size", 24)
+		row.add_child(lu)
+		row.add_child(eng)
+		report_list.add_child(row)

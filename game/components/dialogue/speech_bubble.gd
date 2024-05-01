@@ -17,8 +17,10 @@ extends Control
 @onready var exit_timer = $Timer
 
 var dialogue_script = null
+
 var player_position = null
 var npc_position = null
+
 var learning_text = ""
 var english_text = ""
 var voiceover_file = ""

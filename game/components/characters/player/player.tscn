@@ -231,6 +231,7 @@ animations = [{
 size = Vector2(203.947, 26.5169)
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
+position = Vector2(952, 653)
 motion_mode = 1
 script = ExtResource("1_bgcos")
 
@@ -274,6 +275,7 @@ scale = Vector2(1.52, 17.8)
 shape = SubResource("RectangleShape2D_kk1ox")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -173)
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 drag_vertical_offset = -1.0

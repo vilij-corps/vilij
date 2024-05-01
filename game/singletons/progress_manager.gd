@@ -53,6 +53,7 @@ func load_progress():
 		scenarios = file.get_var(scenarios)
 		vocabulary = file.get_var(vocabulary)
 		learning_time = file.get_var(learning_time)
+		file.close()
 	else:
 		print("no data saved...")
 		scenarios = 0
