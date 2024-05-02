@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://1gbb026nnaao"]
+
+[ext_resource type="Script" path="res://components/parallax/z0_background.gd" id="1_shx5t"]
+
+[node name="Z3Foreground" type="Node2D"]
+script = ExtResource("1_shx5t")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]

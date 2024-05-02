@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://b6l8wsv3mwhwi"
+path="res://.godot/imported/chapati.dialogue-ff3606687afb6b2547d8a204c57ced70.tres"
+
+[deps]
+
+source_file="res://scenes/greetings/chapati.dialogue"
+dest_files=["res://.godot/imported/chapati.dialogue-ff3606687afb6b2547d8a204c57ced70.tres"]
+
+[params]
+
+defaults=true

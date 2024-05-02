@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://clxvrfwrcq73y"]
+
+[ext_resource type="Script" path="res://components/navigation/return_to_main_btn.gd" id="1_eyik4"]
+[ext_resource type="Texture2D" uid="uid://ykktfhap2j53" path="res://assets/gui/buttons/main_menu_btn.svg" id="1_gx6ix"]
+
+[node name="ReturnToMainBtn" type="Button"]
+icon = ExtResource("1_gx6ix")
+flat = true
+script = ExtResource("1_eyik4")
