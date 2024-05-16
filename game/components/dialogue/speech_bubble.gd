@@ -36,6 +36,7 @@ func _ready():
 
 func init_dialogue():
 	dialogue_script = DialogueManager.current_dialogue
+	DialogueManager.can_move = false
 	
 func play_dialogue_line():
 	# set visibility
@@ -107,6 +108,7 @@ func end_dialogue():
 	learning_label.text = "Weeraba"
 	english_label.text = "Goodbye"
 	exit_timer.start()
+	DialogueManager.can_move = true
 
 # removes dialogue after displaying goodbye
 func _on_timer_timeout():

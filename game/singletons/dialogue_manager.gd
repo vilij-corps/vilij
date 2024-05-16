@@ -17,6 +17,10 @@ var dialogue_end = false
 # which line is currently active
 var dialogue_state = 0
 
+# variable check to pause player movement
+# during dialogue
+var can_move = true
+
 
 func load_dialogue_file(load_path : String):
 	if FileAccess.file_exists(load_path):
