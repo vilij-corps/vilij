@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crested Crane</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/text.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        /* Force the viewer to have a specific size. This can be changed, of course. */
+        babylon {
+          width: 800px;
+          height: 500px;
+        }
+    </style>
+
+    <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
+
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+
+    <header-component></header-component>
+    
+    <main>
+      <div>
+        <aside>
+          <img src="./assets/logo/crested-crane-logo.png" alt="Crested Crane" class="logo">
+        </aside>
+        <div class="badge">Food & Drink</div>
+        <babylon skybox="true" ground="true" model="./assets/models/wig-blender.glb"></babylon>
+        <h1>Hot Dawa Tea</h1>
+        <p>Dawa means <i>medicine</i> in <kbd>Swahili</kbd> and so it is fitting that a hot dawa tea is commonly used to soothe a sore throat and ease a cold or flu.<br>Aside from its medicinal properities, dawa tea is great for rainy day, a chilly night, or any time you need a strong kick of ginger!</p>
+        <h3><mark>Ingredients</mark></h3>
+        <ul>
+          <li>1 cup water</li>
+          <li>1/2 ginger ( 1 tablespoon of grated ginger )</li>
+          <li>1/8 teaspoon ground turmeric</li>
+          <li><i>Optional:</i>
+            <ul>
+              <li>1 cinnamon stick</li>
+              <li>5 clove seeds</li>
+            </ul>
+          </li>
+          <li>1 tablespoon honey</li>
+          <li>2 lemons</li>
+          </ul>
+        </div>
+        <h3>Directions</h3>
+        <ol>
+          <li>Add water and ginger, bring to a boil.</li>
+          <li>Add turmeric, cinnamon stick and clove seeds, let simmer for 5 minutes.</li>
+          <li>Strain solids from the water and pour into a glass jar.</li>
+          <li>Add the honey, freshly squeezed lemon, and stir</li>
+          <li>Enjoy!</li>
+        </ol>
+      </div>
+
+      <div>
+        <q>To promote data science skills and capabilities to make a difference.</q>
+      <aside>
+        <p>A note of reference that is set in the side margin or a page usually in <u>smaller type</u> than the text.</p>
+      </aside>
+      <details class="tip">
+        <summary>✱ Tip</summary>
+        a small but useful piece of practical advice.
+      </details>
+      </div>
+
+    </main>
+    
+    <footer-component></footer-component>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>

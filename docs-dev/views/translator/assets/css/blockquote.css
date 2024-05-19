@@ -1,0 +1,26 @@
+.quote {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 480px;
+    height: fit-content;
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+.quote figcaption,
+.quote blockquote {
+    margin: 5px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.quote blockquote {
+    font-style: italic;
+}
+
+.quote figcaption {
+    font-style: normal;
+    text-align: right;
+}

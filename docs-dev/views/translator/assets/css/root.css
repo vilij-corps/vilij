@@ -1,0 +1,13 @@
+
+:root {
+    --menu-font: 'Dosis', sans-serif;
+    --header-font: 'Rubik', sans-serif;
+    --para-font: 'Karla', sans-serif;
+    --font-size-largest: 24px;
+    --font-size-larger: 20px;
+    --font-size-large: 18px;
+    --font-size-normal: 16px;
+    --font-size-small: 14px;
+    --font-size-smaller: 12px;
+    --font-size-smallest: 10px;
+  }

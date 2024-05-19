@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html style="background: #F0F0F0;" lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+<title>Crested Crane</title>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+<style>
+
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 12px;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -15px;
+        width: 200px;;
+    }
+
+    .page {
+        display: flex;
+        flex-wrap:wrap;
+        margin: 10px auto; 
+        max-width: 70vw;
+        min-width: 70vw;
+        height:fit-content;
+        background-color: #ffffff;
+        border: 1px solid;
+        padding: 25px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 12px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+
+    .supsub {
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    .supsub sup,
+    .supsub sub {
+        position: relative;
+        display: block;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    .supsub sub {
+        top: .3em;
+    }
+
+    .card {
+        margin: 10px;
+        margin-top: 25px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width:fit-content;
+        min-width: 75px;
+        height:150px;
+        border-radius: 5px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .src_word {
+        border-bottom: 2px solid black;
+    }
+
+    .container {
+        padding: 10px 16px;
+    }
+
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .translate_btn {
+        margin: auto auto; 
+        width: fit-content; 
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .badge {
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 9px;
+        font-style: italic;
+    }
+
+</style>
+
+<script src="./libs/papaparse/papaparse.min.js"></script>
+<script src="./libs/voca/voca.min.js"></script>
+<script src="./libs/compromise/compromise.js"></script>
+<script src="./libs/minisearch/minisearch.min.js"></script>
+
+<script src="./code/tokenizers/sentences/naive.js"></script>
+<script src="./code/tokenizers/words/treebank.js"></script>
+
+<script src="./code/similarity/bag.js"></script>
+<script src="./code/similarity/damerau-levenshtein.js"></script>
+<script src="./code/similarity/hamming.js"></script>
+<script src="./code/similarity/jaccard.js"></script>
+<script src="./code/similarity/levenshtein.js"></script>
+<script src="./code/similarity/overlap.js"></script>
+
+<script src="./code/stemmers/porter.js"></script>
+
+<script src="./libs/sentence-similarity/clone.js"></script>
+<script src="./libs/sentence-similarity/SentenceSimilarity.js"></script>
+
+</head>
+<body>
+
+<img src="./assets/logo/crested-crane-logo.png" alt="Crested Crane" class="logo">
+
+<div style="display: block;">
+    <textarea id="eng" name="eng" class="page" style="resize: none;">The 10 whispering baby was in a canoe in great danger near the prison where banana pancakes were served near the stream at the curve. This is a toe.</textarea>
+    <div style="display: flex; margin: 10px auto; width: fit-content; vertical-align: middle; line-height: 20px;">
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle2"> Include Fuzzy Matches</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Show Pictogram</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Show Parts of Speech</label><br>
+    </div>
+    <div class="translate_btn">Translate<br><i class="arrow down"></i></div>
+    <div id="el" class="page"></div>
+    <div class="translate_btn"><i class="arrow up"></i><br>Make as Flashcard Deck</div>
+</div>
+
+<!-- UTILITIES -->
+<script type="text/javascript" src="./dictionary/dic.js"></script>
+<script type="text/javascript" src="./code/index_dictionary.js"></script>
+<script type="text/javascript" src="./code/render_translation.js"></script>
+<!--
+<script type="text/javascript" src="./dictionary/make_dictionary.js"></script>
+-->
+<script type="text/javascript" src="main.js"></script>
+
+<script>
+
+    var english = document.getElementById("eng").value;
+    const eng = document.getElementById("eng");
+    const element = document.getElementById("translation");
+    eng.addEventListener('change', render_translation)
+
+    let idx = index_dictionary();
+    
+    // let corpus = []
+
+    let doc=nlp(english).compute('root')
+    let corpus = doc.json()
+
+    /*
+    [
+        {   text: 'This is sentence one', 
+            terms: [ 
+                { chunk: 'Verb', root: 'whisper', tags: ['Gerund', 'Verb', 'PresentTense'], text: 'This', translation: ['first match', 'second match', '...']  }, 
+                {...}, 
+                {...} 
+            ] 
+        },
+        { }
+    ]
+
+    */
+
+
+    for (let i = 0; i < corpus.length; i++) {
+        
+        // sentence / phrase matching
+        let sentences = corpus[i].text
+
+        
+        // word matching
+        let words = corpus[i].terms;
+        // Iterate over tokenized words
+        for (let j = 0; j < words.length; j++) {
+            
+            let entry = words[j];
+            let the_word = words[j].text;
+            let chunk = words[j].chunk;
+            let root = words[j].root;
+            let tag = words[j].tags[2];
+            let pictogram = '';
+
+            let first_letter = the_word.charAt(0);
+            // console.log(first_letter)
+            if (root) {
+
+                pictogram = "./assets/pictograms/" + first_letter + "/" + root + ".svg";
+                
+            } else {
+
+                pictogram = "./assets/pictograms/" + first_letter + "/" + the_word + ".svg";
+                
+            }
+            
+
+            // Check if number
+            if (tag != 'NumericValue') {
+                
+                // search the index
+                let results = idx.search(the_word)
+                
+                if (results[0]) {
+                    
+                    entry.translation = results[0].Luganda
+                    entry.score = results[0].score
+
+                    entry.pictogram = pictogram;
+
+                } else {
+
+                    entry.translation = the_word;
+
+                }
+
+            } else {
+
+                entry.translation = the_word;
+
+            } // end number check
+
+        }
+        
+    }
+
+    console.log(corpus)
+    render_translation(corpus)
+    
+
+    
+
+</script>
+
+</body>
+</html>

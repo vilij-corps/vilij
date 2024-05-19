@@ -1,0 +1,31 @@
+.card {
+    width: 150px;
+    height: fit-content;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+}
+  
+.card:hover {
+    background-color: #f5f5f5
+}
+
+.card-img {
+    width: 50%;
+}
+
+.card-divider {
+    margin-top: 10px;
+}
+
+.card-container {
+    padding: 10px 10px;
+}
+
+.card-title {
+    font-style: normal;
+}
+
+.card-subtitle {
+    font-style: italic;
+}
