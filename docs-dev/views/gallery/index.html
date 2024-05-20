@@ -1,90 +1,288 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Crested Crane</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+<link href="./assets/css/grid.css" rel="stylesheet" />
+<meta charset=utf-8 />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<title>Vilij Corps Language Explorer</title>
 
-    <link rel="stylesheet" href="assets/css/root.css">
-    <link rel="stylesheet" href="assets/css/text.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+<script src="./libs/papaparse.min.js"></script>
+<script src="./libs/isotope.pkgd.min.js"></script>
 
-    <style>
-        /* Force the viewer to have a specific size. This can be changed, of course. */
-        babylon {
-          width: 800px;
-          height: 500px;
-        }
-    </style>
+</head>
+<body>
 
-    <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
+    <div style="margin: auto; width: 90vw;;">
 
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
-  </head>
-  <body>
+    <div class="button-groupp">
+        <button id="show_all" data-filter="*">show all</button>
+        <button id="dwellings" data-filter=".dwellings">dwellings</button>
+        <button id="walls" data-filter=".walls">walls</button>
+    </div>
 
-    <header-component></header-component>
-    
-    <main>
-      <div>
-        <aside>
-          <img src="./assets/logo/crested-crane-logo.png" alt="Crested Crane" class="logo">
-        </aside>
-        <div class="badge">Food & Drink</div>
-        <babylon skybox="true" ground="true" model="./assets/models/wig-blender.glb"></babylon>
-        <h1>Hot Dawa Tea</h1>
-        <p>Dawa means <i>medicine</i> in <kbd>Swahili</kbd> and so it is fitting that a hot dawa tea is commonly used to soothe a sore throat and ease a cold or flu.<br>Aside from its medicinal properities, dawa tea is great for rainy day, a chilly night, or any time you need a strong kick of ginger!</p>
-        <h3><mark>Ingredients</mark></h3>
-        <ul>
-          <li>1 cup water</li>
-          <li>1/2 ginger ( 1 tablespoon of grated ginger )</li>
-          <li>1/8 teaspoon ground turmeric</li>
-          <li><i>Optional:</i>
-            <ul>
-              <li>1 cinnamon stick</li>
-              <li>5 clove seeds</li>
-            </ul>
-          </li>
-          <li>1 tablespoon honey</li>
-          <li>2 lemons</li>
-          </ul>
+    <div class="grid">
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
         </div>
-        <h3>Directions</h3>
-        <ol>
-          <li>Add water and ginger, bring to a boil.</li>
-          <li>Add turmeric, cinnamon stick and clove seeds, let simmer for 5 minutes.</li>
-          <li>Strain solids from the water and pour into a glass jar.</li>
-          <li>Add the honey, freshly squeezed lemon, and stir</li>
-          <li>Enjoy!</li>
-        </ol>
-      </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <div>
-        <q>To promote data science skills and capabilities to make a difference.</q>
-      <aside>
-        <p>A note of reference that is set in the side margin or a page usually in <u>smaller type</u> than the text.</p>
-      </aside>
-      <details class="tip">
-        <summary>✱ Tip</summary>
-        a small but useful piece of practical advice.
-      </details>
-      </div>
+</div>
 
-    </main>
-    
-    <footer-component></footer-component>
+<!-- Load application code at the end to ensure DOM is loaded -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-    <script src="main.js"></script>
+<script>
 
-  </body>
+window.addEventListener('DOMContentLoaded',function () {
+
+    var iso = new Isotope( '.grid', {
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+    });
+
+    let all_btn = document.getElementById("show_all");
+    all_btn.addEventListener("click", function() { 
+        iso.arrange({ filter: '*' }); 
+    });
+
+    let dwellings_btn = document.getElementById("dwellings");
+    dwellings_btn.addEventListener("click", function() { 
+        iso.arrange({ filter: '.dwellings' });
+    });
+
+    let walls_btn = document.getElementById("walls");
+    walls_btn.addEventListener("click", function() { 
+        iso.arrange({ filter: '.walls' }); 
+    });
+
+});
+
+</script>
+
+</body>
 </html>
