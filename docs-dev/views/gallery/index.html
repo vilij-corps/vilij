@@ -12,16 +12,21 @@
 
 <script src="./libs/papaparse.min.js"></script>
 <script src="./libs/isotope.pkgd.min.js"></script>
+<script type="module" src="./libs/model-viewer.min.js"></script>
 
 </head>
 <body>
 
-    <div style="margin: auto; width: 90vw;;">
+    <div style="margin: auto; width: 90vw;">
 
-    <div class="button-groupp">
+    <div class="button-group" style="margin: auto; width: 500px; margin-top: 10px;">
+        <button id="newest" data-filter=".newest">new</button>
         <button id="show_all" data-filter="*">show all</button>
         <button id="dwellings" data-filter=".dwellings">dwellings</button>
         <button id="walls" data-filter=".walls">walls</button>
+        <button id="signs" data-filter=".signs">signs</button>
+        <button id="props" data-filter=".props">props</button>
+        <button id="transport" data-filter=".transport">transport</button>
     </div>
 
     <div class="grid">
@@ -32,9 +37,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="avocado">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -46,9 +52,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -60,9 +67,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -74,9 +82,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="avocado">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -88,9 +97,40 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item signs">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h3>John Doe</h3>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                    <button class="3d_model" data-file="helmet">3D Model</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item dwellings">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h3>John Doe</h3>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                    <button class="3d_model" data-file="avocado">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -102,9 +142,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -116,37 +157,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-item walls">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-item dwellings">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -158,9 +172,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                 </div>
                 <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="helmet">3D Model</button>
                 </div>
                 </div>
             </div>
@@ -172,9 +187,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="avocado">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -186,9 +202,40 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item signs">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h3>John Doe</h3>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                    <button class="3d_model" data-file="wig-blender">3D Model</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item walls">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h3>John Doe</h3>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                    <button class="3d_model" data-file="avocado">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -200,9 +247,10 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="duck">3D Model</button>
                   </div>
                 </div>
             </div>
@@ -214,41 +262,18 @@
                     <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>John Doe</h1>
+                    <h3>John Doe</h3>
                     <p>Architect & Engineer</p>
                     <p>We love that guy</p>
+                    <button class="3d_model" data-file="wig-blender">3D Model</button>
                   </div>
                 </div>
             </div>
         </div>
-        <div class="grid-item dwellings">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-item walls">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/logo/crested-crane-logo.png" alt="Avatar" style="width:240px;height:240px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>
-        </div>
+    </div>
+
+    <div >
+      <model-viewer id="model_viewer" alt="" src="./models/wig-blender.glb" tone-mapping="neutral" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
     </div>
 
 </div>
@@ -280,6 +305,32 @@ window.addEventListener('DOMContentLoaded',function () {
         iso.arrange({ filter: '.walls' }); 
     });
 
+    let signs_btn = document.getElementById("signs");
+    signs_btn.addEventListener("click", function() { 
+        iso.arrange({ filter: '.signs' }); 
+    });
+
+    function render_model(glb_file) {
+      
+      let model_viewer = document.getElementById("model_viewer");
+      model_viewer.src = './models/' + glb_file + '.glb';
+
+    }
+
+    // select model buttons and add event listener
+    // with data-file attribute referencing the
+    // model file name
+    const model_buttons = document.getElementsByClassName("3d_model");
+    for (let i = 0; i < model_buttons.length; i++) {
+          
+      model_buttons[i].addEventListener("click", function() { 
+
+        console.log(this.getAttribute('data-file'))
+        render_model(this.getAttribute('data-file'))
+      
+      });
+    
+    }
 });
 
 </script>

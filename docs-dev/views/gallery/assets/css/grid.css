@@ -47,7 +47,17 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    padding-top: 10px;
+    background-color: #FFD54F;
+    color: #111;
     transform: rotateY(180deg);
   }
+
+model-viewer {
+  max-width: 800px;
+  max-height: 500px;
+  width: 100%;
+  height: 600px;
+  background-color: #eee;
+  overflow-x: hidden;
+}
