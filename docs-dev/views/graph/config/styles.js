@@ -27,7 +27,11 @@ var style = cytoscape.stylesheet()
 
     .selector('edge')
       .css({
-        'curve-style': 'bezier',
+        'curve-style': 'round-taxi',
+        'taxi-direction': 'downward',
+        'taxi-turn': 20,
+        'taxi-turn-min-distance': 5,
+        'taxi-radius': 10,
         'width': 6,
         'target-arrow-shape': 'triangle',
         'line-color': '#dddddd',
