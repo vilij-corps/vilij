@@ -1,108 +1,158 @@
-var layout_opts = graphviz_circo
+var layout_opts = tidytree_opts
 
-var breadthfirst = {
+var breadthfirst_opts = {
     name: 'breadthfirst',
-    circle: true
+    padding: 30,
+    circle: true,
+    spacingFactor: 1.75
 }
 
-var elk_force = {
+var concentric_opts = {
+    name: 'concentric',
+    padding: 60
+}
+
+var cola_opts = {
+    name: 'cola',
+    nodeSpacing: function( node ){ return 10; },
+}
+
+var cose_opts = {
+    name: 'cose',
+    componentSpacing: 40,
+    nodeOverlap: 4,
+    nestingFactor: 1.2,
+    gravity: 1,
+    numIter: 1000,
+    initialTemp: 1000,
+    coolingFactor: 0.99,
+    minTemp: 1.0
+}
+
+// http://www.eclipse.org/elk/reference.html
+var elk_force_opts = {
     name: 'elk',
     elk: {
-      algorithm: 'force'
+      algorithm: 'force',
+      'spacing.nodeNode': 60,
+      'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_layered = {
+var elk_layered_opts = {
     name: 'elk',
     elk: {
-      algorithm: 'layered'
+      algorithm: 'layered',
+      'spacing.nodeNode': 60,
+      'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_mrtree = {
+var elk_mrtree_opts = {
     name: 'elk',
     elk: {
-      algorithm: 'mrtree'
+      algorithm: 'mrtree',
+      'spacing.nodeNode': 60,
+      'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_radial = {
+var elk_radial_opts = {
     name: 'elk',
     elk: {
-        algorithm: 'radial'
+        algorithm: 'radial',
+        'spacing.nodeNode': 60,
+        'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_rectpacking = {
+var elk_rectpacking_opts = {
     name: 'elk',
     elk: {
-        algorithm: 'rectpacking'
+        algorithm: 'rectpacking',
+        'spacing.nodeNode': 60,
+        'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_spore = {
+var elk_spore_opts = {
     name: 'elk',
     elk: {
-        algorithm: 'sporeCompaction'
+        algorithm: 'sporeCompaction',
+        'spacing.nodeNode': 60,
+        'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_stress = {
+var elk_stress_opts = {
     name: 'elk',
     elk: {
       algorithm: 'stress',
+      'spacing.nodeNode': 60,
+      'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var elk_topdownpacking = {
+var elk_topdownpacking_opts = {
     name: 'elk',
     elk: {
       algorithm: 'topdownpacking',
+      'spacing.nodeNode': 60,
+      'spacing.nodeNodeBetweenLayers': 60
     }
 }
 
-var graphviz_circo = {
-    name: 'elk',
-    graphviz: {
-        algorithm: 'twopi'
+var klay_opts = {
+    name: 'klay',
+    klay: {
+        aspectRatio: 1.78,
+        edgeRouting: 'ORTHOGONAL', // POLYLINE, ORTHOGONAL, SPLINES)
+        fixedAlignment: 'BALANCED',
+        nodeLayering:'NETWORK_SIMPLEX',
+        nodePlacement:'BRANDES_KOEPF',
+        spacing: 60,
+        thoroughness: 10
     }
 }
+
+var tidytree_opts = { 
+    name: 'tidytree',
+    horizontalSpacing: 60,
+    verticalSpacing: 40 
+};
 
 function set_layout(l) {
     console.log(l)
     switch (l) {
         case "breadthfirst":
-            layout_opts = breadthfirst;
+            layout_opts = breadthfirst_opts;
             break;
         case "cola":
-            layout_opts = { name: 'cola' };
+            layout_opts = cola_opts;
             break;
         case "concentric":
-            layout_opts = { name: 'concentric' };
-            break;
-        case "fcose":
-            layout_opts = { name: 'fcose' };
+            layout_opts = concentric_opts;
             break;
         case "force":
-            layout_opts = elk_force;
+            layout_opts = elk_force_opts;
             break;
         case "klay":
-            layout_opts = { name: 'klay' };
+            layout_opts = klay_opts;
             break; 
         case "layered":
-            layout_opts = elk_layered;
+            layout_opts = elk_layered_opts;
             break;
         case "mrtree":
-            layout_opts = elk_mrtree;
+            layout_opts = elk_mrtree_opts;
             break;
         case "radial":
-            layout_opts = elk_radial;
+            layout_opts = elk_radial_opts;
             break;
         case "stress":
-            layout_opts = elk_stress;
+            layout_opts = elk_stress_opts;
             break;
         case "tidytree":
-            layout_opts = { name: 'tidytree', horizontalSpacing: 60, verticalSpacing: 40 };
+            layout_opts = tidytree_opts
             break;
         default:
             console.log("invalid layout");

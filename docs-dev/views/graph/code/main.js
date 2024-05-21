@@ -9,13 +9,16 @@ var reset_btn = null;
 // Initialize
 var cy = cytoscape({
   container: document.getElementById('cy'),
-
   boxSelectionEnabled: false,
   autounselectify: true,
   style: style,
   elements: data,
-  layout: layout_opts
+  layout: tidytree_opts
 });
+
+cy.userPanningEnabled( true );
+cy.userZoomingEnabled( false );
+cy.maxZoom( 1.25 )
 
 function run_layout() {
   // re-run layout
@@ -25,24 +28,20 @@ function run_layout() {
 
 // reload initial state
 function refresh() {
-
   // remove old
   cy.elements().remove();
   // add new
   cy.add( data )
-
   // re-run layout
   run_layout()
 }
 
 // revert to previous state
 function revert() {
-
   // remove old
   cy.elements().remove();
   // add new
   cy.add( previous_data )
-
   // re-run layout
   run_layout()
 }
@@ -71,15 +70,9 @@ function regenerate(g) {
   cy.elements().remove();
   // add new
   cy.add( g )
-
   // re-run layout
   run_layout()
-
 }
-
-cy.userPanningEnabled( true );
-cy.userZoomingEnabled( false );
-cy.maxZoom( 1.25 )
 
 // show details of node
 cy.on('tap', 'node', function(evt){
@@ -88,7 +81,6 @@ cy.on('tap', 'node', function(evt){
 
 // traverse graph
 cy.on('dbltap', 'node', function(evt){
-  
   reset_nav_data()
   // node tapped
   let tapped = evt.target
