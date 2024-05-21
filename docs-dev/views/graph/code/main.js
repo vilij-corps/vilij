@@ -6,75 +6,27 @@ var d_field = null;
 var e_field = null;
 var reset_btn = null;
 
+
+set_layout("tidytree")
+
 // Initialize
-var cy = cytoscape({
-  container: document.getElementById('cy'),
-  boxSelectionEnabled: false,
-  autounselectify: true,
-  style: style,
-  elements: data,
-  layout: tidytree_opts
-});
+var cy
 
-cy.userPanningEnabled( true );
-cy.userZoomingEnabled( false );
-cy.maxZoom( 1.25 )
+function init_cy(graph) {
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    boxSelectionEnabled: false,
+    autounselectify: true,
+    style: style,
+    elements: graph,
+    layout: layout_opts
+  });
 
-function run_layout() {
-  // re-run layout
-  var layout = cy.layout(layout_opts);
-  layout.run();
-}
+  cy.userPanningEnabled( true );
+  cy.userZoomingEnabled( false );
+  cy.maxZoom( 1.25 )
 
-// reload initial state
-function refresh() {
-  // remove old
-  cy.elements().remove();
-  // add new
-  cy.add( data )
-  // re-run layout
-  run_layout()
-}
-
-// revert to previous state
-function revert() {
-  // remove old
-  cy.elements().remove();
-  // add new
-  cy.add( previous_data )
-  // re-run layout
-  run_layout()
-}
-
-// save current before traversing
-// to next
-function preserve() {
-  let save_data = cy.json()
-  previous_data = save_data['elements']
-  console.log(previous_data)
-}
-
-// on tap, show node details
-function show_details(node_data) {
-  // get each DOM element
-  // update inner html or text
-  console.log(node_data)
-  a_field.innerText = node_data.id
-}
-
-
-// On double tap, redraw graph with nav_data
-function regenerate(g) {
-  // copy current to revert
-  preserve();
-  cy.elements().remove();
-  // add new
-  cy.add( g )
-  // re-run layout
-  run_layout()
-}
-
-// show details of node
+  // show details of node
 cy.on('tap', 'node', function(evt){
   show_details(evt.target.data())
 })
@@ -136,21 +88,63 @@ cy.on('dbltap', 'node', function(evt){
 
 }); // on tap
 
+}
 
-// Load graph data
-Papa.parse("./data/languages_and_dialects_geo.csv", {
-  download: true,
-  header: true,
-  complete: function(results) {
-      // console.log("Finished:", results.data);
-      let data = results.data
-      console.log(JSON.stringify(data));
-      data.forEach(function(d) {
-          // let str = doc.match('#Possessive #Noun').text()
-          // console.log(str)
-      })
-  }
-});
+function run_layout() {
+  // re-run layout
+  var layout = cy.layout(layout_opts);
+  layout.run();
+}
+
+// reload initial state
+function refresh() {
+  // remove old
+  cy.elements().remove();
+  // add new
+  cy.add( graph )
+  // re-run layout
+  run_layout()
+}
+
+// revert to previous state
+function revert() {
+  // remove old
+  cy.elements().remove();
+  // add new
+  cy.add( previous_data )
+  // re-run layout
+  run_layout()
+}
+
+// save current before traversing
+// to next
+function preserve() {
+  let save_data = cy.json()
+  previous_data = save_data['elements']
+  console.log(previous_data)
+}
+
+// on tap, show node details
+function show_details(node_data) {
+  // get each DOM element
+  // update inner html or text
+  console.log(node_data)
+  a_field.innerText = node_data.id
+  b_field.innerText = node_data.type
+  c_field.innerText = node_data.size
+}
+
+
+// On double tap, redraw graph with nav_data
+function regenerate(g) {
+  // copy current to revert
+  preserve();
+  cy.elements().remove();
+  // add new
+  cy.add( g )
+  // re-run layout
+  run_layout()
+}
 
 window.addEventListener('DOMContentLoaded',function () {
   // map to dom elements
@@ -179,3 +173,50 @@ window.addEventListener('DOMContentLoaded',function () {
   e_field = document.getElementById("e_field");
 
 });
+
+function load_nodes() {
+  // Load graph data
+  Papa.parse("./data/afr-languages-nodes.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+        // console.log("Finished:", results.data);
+        let data = results.data
+        // console.log(JSON.stringify(data));
+        data.forEach(function(d) {
+          
+          let n = new Object();
+          n.data = d;
+          graph["nodes"].push(n)
+
+        })
+        // console.log(JSON.stringify(graph))
+        init_cy(graph);
+    }
+  });
+
+}
+
+function load_edges() {
+    // Load graph data
+    Papa.parse("./data/afr-languages-edges.csv", {
+      download: true,
+      header: true,
+      complete: function(results) {
+          // console.log("Finished:", results.data);
+          let data = results.data
+          // console.log(JSON.stringify(data));
+          data.forEach(function(d) {
+            
+            let e = new Object();
+            e.data = d;
+            graph["edges"].push(e)
+  
+          })
+          load_nodes()
+      }
+    });
+}
+
+
+load_edges();

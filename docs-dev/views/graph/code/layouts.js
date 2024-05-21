@@ -75,28 +75,10 @@ var elk_rectpacking_opts = {
     }
 }
 
-var elk_spore_opts = {
-    name: 'elk',
-    elk: {
-        algorithm: 'sporeCompaction',
-        'spacing.nodeNode': 60,
-        'spacing.nodeNodeBetweenLayers': 60
-    }
-}
-
 var elk_stress_opts = {
     name: 'elk',
     elk: {
       algorithm: 'stress',
-      'spacing.nodeNode': 60,
-      'spacing.nodeNodeBetweenLayers': 60
-    }
-}
-
-var elk_topdownpacking_opts = {
-    name: 'elk',
-    elk: {
-      algorithm: 'topdownpacking',
       'spacing.nodeNode': 60,
       'spacing.nodeNodeBetweenLayers': 60
     }
@@ -130,6 +112,9 @@ function set_layout(l) {
         case "cola":
             layout_opts = cola_opts;
             break;
+        case "cose":
+            layout_opts = cose_opts;
+            break;
         case "concentric":
             layout_opts = concentric_opts;
             break;
@@ -146,7 +131,10 @@ function set_layout(l) {
             layout_opts = elk_mrtree_opts;
             break;
         case "radial":
-            layout_opts = elk_radial_opts;
+            elk_radial_opts;
+            break;
+        case "rectpacking":
+            layout_opts = elk_rectpacking_opts;
             break;
         case "stress":
             layout_opts = elk_stress_opts;
