@@ -1,9 +1,3 @@
-/*
- * Custom CSS
- */
-
-
-
 body {
   margin: 0px;
 }
@@ -35,10 +29,12 @@ main {
 .header {
   display: inline-block;
   width: 100%;
-  height: fit-content;
+  min-height: 54px;
+  height: 54px;
   background-color: #ffffff;
   overflow: hidden;
   border-bottom: 1px solid black;
+  margin-bottom: 0px;
 }
 
 .topnav {
@@ -110,10 +106,8 @@ details {
   font-size: var(--font-size-normal);
 }
 
-
-
 footer {
-  height: 130px;
+  height: 40px;
   padding: 10px 10px;
   display: block;
   justify-content:left;
@@ -136,21 +130,6 @@ footer {
   letter-spacing: 2px;
 }
 
-.footer-menu {
-  height: 90px;
-  width: fit-content;
-  margin: auto auto;
-  padding: 0 10px;
-  display: flex;
-  align-items: center;
-  font-family: var(--menu-font);
-  font-size: var(--font-size-small);
-  /*
-  text-transform: uppercase;
-  font-variant: small-caps;
-  */
-  color: black;
-}
 
 .footer-section {
   width: fit-content;

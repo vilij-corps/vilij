@@ -108,12 +108,15 @@ function refresh() {
 
 // revert to previous state
 function revert() {
-  // remove old
-  cy.elements().remove();
-  // add new
-  cy.add( previous_data )
-  // re-run layout
-  run_layout()
+  // only if state has changed
+  if (previous_data != null) {
+    // remove old
+    cy.elements().remove();
+    // add new
+    cy.add( previous_data )
+    // re-run layout
+    run_layout()
+  }
 }
 
 // save current before traversing
