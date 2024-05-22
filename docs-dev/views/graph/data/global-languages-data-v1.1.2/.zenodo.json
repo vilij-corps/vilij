@@ -1,0 +1,30 @@
+{
+	"version": "1.1.1_FP2023",
+	"title": "Global linguistic data",
+	"description": "This repository contains the source linguistic data files for an analysis of global language characteristics as they relate to global environmental variables",
+	"keywords": [
+		"Linguistics",
+		"Global environmental data",
+		"Analysis",
+		"Visualization"
+	],
+	"creators": [
+		{
+			"name": "Maddieson, Ian",
+			"affiliation": "University of New Mexico",
+			"orcid": "0000-0002-0775-0555"
+		},
+    {
+			"name": "Benedict, Karl",
+			"affiliation": "University of New Mexico",
+			"orcid": "0000-0002-9109-2072"
+		}
+	],
+	"upload_type": "dataset",
+	"access_right": "open",
+	"license": "CC-BY-4.0",
+	"contributors": [
+		{"name":"University of New Mexico",
+		 "type":"HostingInstitution"}
+		]
+}
