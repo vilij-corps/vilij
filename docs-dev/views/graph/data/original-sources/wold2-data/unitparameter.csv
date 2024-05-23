@@ -1,3 +1,0 @@
-pk,jsondata,polymorphic_type,id,name,description,markup_description,updated,active,created,version
-1,{},base,cs,Contact Situation,,,2013-11-12T19:34:07.851334+01:00,True,2013-11-12T19:34:07.851328+01:00,1
-2,{},base,a,Age,,,2013-11-12T19:34:07.852055+01:00,True,2013-11-12T19:34:07.852050+01:00,1

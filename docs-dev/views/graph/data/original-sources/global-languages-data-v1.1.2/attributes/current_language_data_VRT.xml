@@ -1,9 +1,0 @@
-<OGRVRTDataSource>
-    <OGRVRTLayer name="languages">
-        <SrcDataSource relativeToVRT="1">LanguageDataExtended.xlsx</SrcDataSource>
-        <SrcLayer>LanguageDataExtended</SrcLayer>
-        <GeometryType>wkbPoint</GeometryType>
-        <LayerSRS>WGS84</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="Long" y="Lat"/>
-    </OGRVRTLayer>
-</OGRVRTDataSource>
