@@ -24,7 +24,8 @@ function init_cy(graph) {
 
   cy.userPanningEnabled( true );
   cy.userZoomingEnabled( false );
-  cy.maxZoom( 1.25 )
+  // cy.minZoom( 0.50 )
+  cy.maxZoom( 2.0 )
 
   // show details of node
 cy.on('tap', 'node', function(evt){
