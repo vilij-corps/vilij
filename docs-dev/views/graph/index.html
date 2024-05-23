@@ -23,6 +23,16 @@
 <script src="./libs/cytoscape-klay.js"></script>
 <script src="./libs/cytoscape-tidytree.min.js"></script>
 
+<script src="./libs/layout-base.js"></script>
+<script src="./libs/cose-base.js"></script>
+<script src="./libs/cytoscape-cose-bilkent.js"></script>
+<script src="./libs/cytoscape-fcose.js"></script>
+<script src="./libs/cytoscape-euler.js"></script>
+<script src="https://unpkg.com/dagre@0.7.4/dist/dagre.js"></script>
+<script src="./libs/dagre.js"> </script>
+
+<script src="./libs/cytoscape-hyse.js"></script>
+
 </head>
 <body>
     <header-component></header-component>
@@ -39,8 +49,12 @@
             <option value="breadthfirst">Breadthfirst</option>
             <option value="cola">Cola</option>
             <option value="cose">Cose</option>
+            <option value="cose-bilkent">Cose Bilkent</option>
+            <option value="fcose">fCose</option>
             <option value="concentric">Concentric</option>
+            <option value="euler">Euler</option>
             <option value="force">Force</option>
+            <option value="hyse">Hyse</option>
             <option value="klay">Klay</option>
             <option value="layered">Layered</option>
             <option value="mrtree">MrTree</option>
@@ -61,6 +75,7 @@
           <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Description:</label>
           <div id="d_field" class="data_field"></div>
           <div id="e_field" class="data_field"></div>
+          <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Sources:</div>
         </div>
     </div>
 

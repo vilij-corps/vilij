@@ -15,6 +15,7 @@ var concentric_opts = {
 var cola_opts = {
     name: 'cola',
     nodeSpacing: function( node ){ return 10; },
+    randomize: true
 }
 
 var cose_opts = {
@@ -27,6 +28,21 @@ var cose_opts = {
     initialTemp: 1000,
     coolingFactor: 0.99,
     minTemp: 1.0
+}
+
+var cose_bilkent_opts = {
+    name: 'cose-bilkent',
+    quality: 'proof',
+    padding: 30,
+    idealEdgeLength: 90
+}
+
+var fcose_opts = {
+    name: 'fcose',
+    quality: "proof",
+    padding: 60,
+    nodeSeparation: 110,
+    idealEdgeLength: 90
 }
 
 // http://www.eclipse.org/elk/reference.html
@@ -84,6 +100,15 @@ var elk_stress_opts = {
     }
 }
 
+var euler_opts = {
+    name: "euler",
+    springLength: edge => 100
+}
+
+var hyse_opts = {
+    name: "hyse"
+}
+
 var klay_opts = {
     name: 'klay',
     klay: {
@@ -115,11 +140,23 @@ function set_layout(l) {
         case "cose":
             layout_opts = cose_opts;
             break;
+        case "cose-bilkent":
+            layout_opts = cose_bilkent_opts;
+            break;
+        case "fcose":
+            layout_opts = fcose_opts;
+            break;
         case "concentric":
             layout_opts = concentric_opts;
             break;
         case "force":
             layout_opts = elk_force_opts;
+            break;
+        case "euler":
+            layout_opts = euler_opts;
+            break;
+        case "hyse":
+            layout_opts = hyse_opts;
             break;
         case "klay":
             layout_opts = klay_opts;

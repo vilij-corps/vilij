@@ -9,8 +9,15 @@ body {
 
 .header-logo {
   float: left;
-  width: 48px;
+  height: 46px;
   margin-right: 20px;
+}
+
+.nav-logo {
+  float: left;
+  height: 24px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .logo {

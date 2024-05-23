@@ -7,7 +7,7 @@ var e_field = null;
 var reset_btn = null;
 
 
-set_layout("tidytree")
+set_layout("stress")
 
 // Initialize
 var cy
