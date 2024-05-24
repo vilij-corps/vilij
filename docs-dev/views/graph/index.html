@@ -28,8 +28,8 @@
 <script src="./libs/cytoscape-cose-bilkent.js"></script>
 <script src="./libs/cytoscape-fcose.js"></script>
 <script src="./libs/cytoscape-euler.js"></script>
-<script src="https://unpkg.com/dagre@0.7.4/dist/dagre.js"></script>
-<script src="./libs/dagre.js"> </script>
+<script src="./libs/dagre.js"></script>
+<script src="./libs/cytoscape-dagre.js"> </script>
 
 <script src="./libs/cytoscape-hyse.js"></script>
 
@@ -41,9 +41,23 @@
     
     <!-- Sidebar -->
     <div class="" style="width: 280px; min-height: calc(100vh - 183px); margin-top: -4px; padding: 20px; border-right: 1px solid black; background-color: #f0f0f0;">
-        
+        <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Navigation:</div>
+        <select id="lang_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
+            <option selected>Select Language</option>
+        </select>
+        <select id="langfam_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
+            <option selected>Select Language Family</option>
+        </select>
+        <select id="region_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
+            <option selected>Select World Region</option>
+        </select>
+        <select id="country_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
+            <option selected>Select Country</option>
+        </select>
         <button id="reset_btn" type="button" class="" style="margin-bottom: 5px; width: 270px;">Reset to Root</button>
         <button id="revert_btn" type="button" class="" style="margin-bottom: 5px; width: 270px;">Revert to Last</button>
+        <hr>
+        <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Layout:</div>
         <select id="layout_select" class="" aria-label="Select Layout" style="width: 270px;">
             <option selected>Select Layout</option>
             <option value="breadthfirst">Breadthfirst</option>
@@ -76,6 +90,22 @@
           <div id="d_field" class="data_field"></div>
           <div id="e_field" class="data_field"></div>
           <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Sources:</div>
+          <div style="display: flex;" >
+            <div class="badge">Glottolog 5.0</div>
+            <div class="badge" style="margin-left: 5px;">Phoible 2.0</div>
+          </div>
+            <!-- 
+            Glottolog 5.0
+            Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2024.
+            Leipzig: Max Planck Institute for Evolutionary Anthropology.
+            https://doi.org/10.5281/zenodo.8131084
+            http://glottolog.org, Accessed on 2024-03-11.
+
+            Phoible 2.0.1
+            Steven Moran and Daniel McCloy. 2019.
+            Max Planck Institute for the Science of Human Historyhttp://phoible.org
+            https://phoible.org/
+            -->
         </div>
     </div>
 

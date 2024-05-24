@@ -180,7 +180,7 @@ window.addEventListener('DOMContentLoaded',function () {
 
 function load_nodes() {
   // Load graph data
-  Papa.parse("./data/afr-languages-nodes.csv", {
+  Papa.parse("./data/nodes.csv", {
     download: true,
     header: true,
     complete: function(results) {
@@ -203,7 +203,7 @@ function load_nodes() {
 
 function load_edges() {
     // Load graph data
-    Papa.parse("./data/afr-languages-edges.csv", {
+    Papa.parse("./data/edges.csv", {
       download: true,
       header: true,
       complete: function(results) {
