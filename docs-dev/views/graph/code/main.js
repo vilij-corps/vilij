@@ -38,6 +38,11 @@ var c_field = null;
 var d_field = null;
 var e_field = null;
 
+var tnn_field = null;
+var tne_field = null;
+var vnn_field = null;
+var vne_field = null;
+
 // initialize cytoscape after loading data
 function init_cy(g) {
   cy = cytoscape({
@@ -120,8 +125,8 @@ function show_details(node_data) {
   // update inner html or text
   // console.log(node_data)
   a_field.innerText = node_data.id
-  b_field.innerText = node_data.type
-  c_field.innerText = node_data.size
+  b_field.innerText = node_data.label
+  c_field.innerText = node_data.type
 }
 
 
@@ -165,6 +170,9 @@ function query_db(node_id) {
   else {
     init_cy(subgraph);
   }
+
+  vnn_field.innerText = subgraph.nodes.length;
+  vne_field.innerText = subgraph.edges.length;
   
 }
 
@@ -186,6 +194,8 @@ function load_db_edges() {
           })
           console.log('Number of nodes', graph_db.order);
           console.log('Number of edges', graph_db.size);
+          tnn_field.innerText = graph_db.order;
+          tne_field.innerText = graph_db.size;
           
           query_db('africa')
 
@@ -293,6 +303,11 @@ window.addEventListener('DOMContentLoaded',function () {
   e_field = document.getElementById("e_field");
 
   
+  tnn_field = document.getElementById("tnn");
+  tne_field = document.getElementById("tne");
+  vnn_field = document.getElementById("vnn");
+  vne_field = document.getElementById("vne");
+
   set_layout("cola")
   load_db_nodes()
 

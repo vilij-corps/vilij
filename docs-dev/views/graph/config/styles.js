@@ -27,15 +27,16 @@ var style = cytoscape.stylesheet()
 
     .selector('edge')
       .css({
-        'curve-style': 'straight-triangle',
+        'curve-style': 'straight',
         'taxi-direction': 'downward',
         'taxi-turn': 20,
         'taxi-turn-min-distance': 5,
         'taxi-radius': 10,
-        'width': 6,
-        // 'target-arrow-shape': 'triangle',
-        'line-color': '#dddddd'
-        // 'target-arrow-color': '#dddddd'
+        'width': 1,
+        'target-arrow-shape': 'circle',
+        'line-color': '#111111',
+        'target-arrow-color': '#111111',
+        'arrow-scale': 0.5
       })
       
     .selector('node')
