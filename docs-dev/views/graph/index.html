@@ -14,15 +14,12 @@
 <title>Vilij Corps Language Explorer</title>
 
 <script src="./libs/papaparse.min.js"></script>
-<script src="./libs/cytoscape.min.js"></script>
-<script src="./libs/cola.min.js"></script>
-<script src="./libs/cytoscape-cola.js"></script>
-<script src="./libs/elk.bundled.js"></script>
-<script src="./libs/cytoscape-elk.js"></script>
-<script src="./libs/klay.js"></script>
-<script src="./libs/cytoscape-klay.js"></script>
-<script src="./libs/cytoscape-tidytree.min.js"></script>
+<script src="./libs/slimselect.min.js"></script>
+<link rel="stylesheet" href="./assets/css/slimselect.css" />
 
+<script src="./libs/graphology.min.js"></script>
+<script src="./libs/graphology-library.min.js"></script>
+<script src="./libs/cytoscape.min.js"></script>
 <script src="./libs/layout-base.js"></script>
 <script src="./libs/cose-base.js"></script>
 <script src="./libs/cytoscape-cose-bilkent.js"></script>
@@ -30,6 +27,16 @@
 <script src="./libs/cytoscape-euler.js"></script>
 <script src="./libs/dagre.js"></script>
 <script src="./libs/cytoscape-dagre.js"> </script>
+<script src="./libs/cola.min.js"></script>
+<script src="./libs/cytoscape-cola.js"></script>
+<script src="./libs/elk.bundled.js"></script>
+<script src="./libs/cytoscape-elk.js"></script>
+<script src="./libs/klay.js"></script>
+<script src="./libs/cytoscape-klay.js"></script>
+<script src="https://unpkg.com/weaverjs@1.2.0/dist/weaver.min.js"></script>
+<script src="./libs/cytoscape-spread.js"></script>
+<script src="./libs/cytoscape-tidytree.min.js"></script>
+
 
 <script src="./libs/cytoscape-hyse.js"></script>
 
@@ -40,25 +47,21 @@
     <div class="" style="display: flex; margin-top: 0px;">
     
     <!-- Sidebar -->
-    <div class="" style="width: 280px; min-height: calc(100vh - 183px); margin-top: -4px; padding: 20px; border-right: 1px solid black; background-color: #f0f0f0;">
+    <div class="" style="width: 280px; min-height: calc(100vh - 183px); margin-top: -3px; padding: 20px; border-right: 1px solid black; background-color: #f0f0f0;">
         <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Navigation:</div>
-        <select id="lang_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
-            <option selected>Select Language</option>
-        </select>
-        <select id="langfam_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
-            <option selected>Select Language Family</option>
-        </select>
-        <select id="region_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
-            <option selected>Select World Region</option>
-        </select>
-        <select id="country_select" class="" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
-            <option selected>Select Country</option>
-        </select>
+        
+        <select id="lang_select" aria-label="Select Language" style="width: 270px; margin-bottom: 5px;"></select>
+        <select id="langfam_select" aria-label="Select Language Family" style="width: 270px; margin-bottom: 5px;"></select>
+        <select id="region_select" aria-label="Select Africa Region" style="width: 270px; margin-bottom: 5px;"></select>
+        <select id="country_select" aria-label="Select Country" style="width: 270px; margin-bottom: 5px;"></select>
+        
         <button id="reset_btn" type="button" class="" style="margin-bottom: 5px; width: 270px;">Reset to Root</button>
         <button id="revert_btn" type="button" class="" style="margin-bottom: 5px; width: 270px;">Revert to Last</button>
+        
         <hr>
         <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Layout:</div>
-        <select id="layout_select" class="" aria-label="Select Layout" style="width: 270px;">
+        <select id="layout_select" aria-label="Select Layout" style="width: 270px; margin-bottom: 5px;">
+            <!--
             <option selected>Select Layout</option>
             <option value="breadthfirst">Breadthfirst</option>
             <option value="cola">Cola</option>
@@ -74,8 +77,10 @@
             <option value="mrtree">MrTree</option>
             <option value="radial">Radial</option>
             <option value="rectpacking">RectPacking</option>
+            <option value="spread">Spread</option>
             <option value="stress">Stress</option>
             <option value="tidytree">Tidytree</option>
+            -->
         </select>
         <hr>
         <div class="">
@@ -106,6 +111,15 @@
             Max Planck Institute for the Science of Human Historyhttp://phoible.org
             https://phoible.org/
             -->
+            <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Data:</div>
+            <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Total number of nodes:</label>
+            <div id="tnn" class="data_field"></div>
+            <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Total number of edges:</label>
+            <div id="tne" class="data_field"></div>
+            <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">View number of nodes:</label>
+            <div id="vnn" class="data_field"></div>
+            <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">View number of edges:</label>
+            <div id="vne" class="data_field"></div>
         </div>
     </div>
 
@@ -118,11 +132,16 @@
 
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
+    
+    <script src="./data/layout_options.js"></script>
 
-<!-- Load application code at the end to ensure DOM is loaded -->
-<script src="./config/styles.js"></script>
-<script src="./data/graph.js"></script>
-<script src="./code/layouts.js"></script>
-<script src="./code/main.js"></script>
+    <script src="./data/languages.js"></script>
+    <script src="./data/language_family.js"></script>
+    <script src="./data/regions.js"></script>
+    <script src="./data/countries.js"></script>
+    
+    <script src="./config/styles.js"></script>
+    <script src="./code/layouts.js"></script>
+    <script src="./code/main.js"></script>
 </body>
 </html>

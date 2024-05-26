@@ -1,4 +1,4 @@
-var layout_opts = tidytree_opts
+var layout_opts = spread_opts
 
 var breadthfirst_opts = {
     name: 'breadthfirst',
@@ -12,6 +12,7 @@ var concentric_opts = {
     padding: 60
 }
 
+// https://github.com/cytoscape/cytoscape.js-cola
 var cola_opts = {
     name: 'cola',
     nodeSpacing: function( node ){ return 10; },
@@ -30,6 +31,7 @@ var cose_opts = {
     minTemp: 1.0
 }
 
+// https://github.com/cytoscape/cytoscape.js-cose-bilkent
 var cose_bilkent_opts = {
     name: 'cose-bilkent',
     quality: 'proof',
@@ -37,6 +39,7 @@ var cose_bilkent_opts = {
     idealEdgeLength: 90
 }
 
+https://github.com/iVis-at-Bilkent/cytoscape.js-fcose
 var fcose_opts = {
     name: 'fcose',
     quality: "proof",
@@ -100,6 +103,7 @@ var elk_stress_opts = {
     }
 }
 
+// https://github.com/cytoscape/cytoscape.js-euler
 var euler_opts = {
     name: "euler",
     springLength: edge => 100
@@ -120,6 +124,13 @@ var klay_opts = {
         spacing: 60,
         thoroughness: 10
     }
+}
+
+// https://github.com/cytoscape/cytoscape.js-spread
+var spread_opts = {
+    name: 'spread',
+    minDist: 40,
+    prelayout: { name: 'cola' }
 }
 
 var tidytree_opts = { 
@@ -168,10 +179,13 @@ function set_layout(l) {
             layout_opts = elk_mrtree_opts;
             break;
         case "radial":
-            elk_radial_opts;
+            layout_opts = elk_radial_opts;
             break;
         case "rectpacking":
             layout_opts = elk_rectpacking_opts;
+            break;
+        case "spread":
+            layout_opts = spread_opts;
             break;
         case "stress":
             layout_opts = elk_stress_opts;

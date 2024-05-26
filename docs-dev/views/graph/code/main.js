@@ -1,24 +1,51 @@
 
+
+// Initialize
+var cy = null;
+
+const graph_db = new graphology.Graph();
+
+var subgraph = {
+  nodes: [],
+  edges: []
+}
+
+function reset_subgraph() {
+  subgraph = {
+    nodes: [],
+    edges: []
+  }
+}
+
+var previous_data = null;
+
+var nav_data = {
+  nodes: [],
+  edges: []
+}
+
+function reset_nav_data() {
+  nav_data = {
+    nodes: [],
+    edges: []
+  }
+}
+
+// UI element references
 var a_field = null;
 var b_field = null;
 var c_field = null;
 var d_field = null;
 var e_field = null;
-var reset_btn = null;
 
-
-set_layout("stress")
-
-// Initialize
-var cy
-
-function init_cy(graph) {
+// initialize cytoscape after loading data
+function init_cy(g) {
   cy = cytoscape({
     container: document.getElementById('cy'),
     boxSelectionEnabled: false,
     autounselectify: true,
     style: style,
-    elements: graph,
+    elements: g,
     layout: layout_opts
   });
 
@@ -28,68 +55,27 @@ function init_cy(graph) {
   cy.maxZoom( 2.0 )
 
   // show details of node
-cy.on('tap', 'node', function(evt){
-  show_details(evt.target.data())
-})
+  cy.on('tap', 'node', function(evt){
+    show_details(evt.target.data())
+  })
 
 // traverse graph
 cy.on('dbltap', 'node', function(evt){
   reset_nav_data()
   // node tapped
   let tapped = evt.target
-  // console.log(tapped.data())
+  console.log(tapped.data())
 
   // add as root
   let root = new Object();
   root.data = tapped.data();
   nav_data["nodes"].push( root )
   
-  // get first level branch of selected
-  let outgoers = tapped.outgoers();
-  outgoers.nodes().forEach(function( ele ){
-    // console.log( "outgpers" );
-    // console.log( ele.id() );
-    // let n = new Object();
-    // n.data = ele.data();
-    // nav_data["nodes"].push( n )
-   });
-
-   outgoers.edges().forEach(function( ele ){
-    // console.log( "outgpers" );
-    // console.log( ele.id() );
-    // let e = new Object();
-    // e.data = ele.data();
-    // nav_data["edges"].push( e )
-   });
-
-  // get nodes of entire branch of selected
-  // add to nav_data
-  let successors = tapped.successors();
-  successors.nodes().forEach(function( ele ){
-    // console.log( "successors" );
-    // console.log( ele.data() );
-    let n = new Object();
-    n.data = ele.data();
-    nav_data["nodes"].push( n )
-   });
-
-   // get edges of entire branch of selected
-   // add to nav_data
-   successors.edges().forEach(function( ele ){
-    // console.log( "successors" );
-    // console.log( ele.data() );
-    let e = new Object();
-    e.data = ele.data();
-    nav_data["edges"].push( e )
-   });
-
-   // with new data created, regenerate view
-   // console.log(JSON.stringify(nav_data))
-   regenerate(nav_data)
+  query_db(root.data.id)
 
 }); // on tap
 
-}
+} // init_cy
 
 function run_layout() {
   // re-run layout
@@ -102,7 +88,7 @@ function refresh() {
   // remove old
   cy.elements().remove();
   // add new
-  cy.add( graph )
+  cy.add( subgraph )
   // re-run layout
   run_layout()
 }
@@ -132,7 +118,7 @@ function preserve() {
 function show_details(node_data) {
   // get each DOM element
   // update inner html or text
-  console.log(node_data)
+  // console.log(node_data)
   a_field.innerText = node_data.id
   b_field.innerText = node_data.type
   c_field.innerText = node_data.size
@@ -150,58 +136,39 @@ function regenerate(g) {
   run_layout()
 }
 
-window.addEventListener('DOMContentLoaded',function () {
-  // map to dom elements
-  reset_btn = document.getElementById("reset_btn");
-  reset_btn.addEventListener("click", function() { 
-    refresh(); 
-  });
-  revert_btn = document.getElementById("revert_btn");
-  revert_btn.addEventListener("click", function() { 
-    revert(); 
-  });
 
-  layout_select = document.getElementById("layout_select");
-  layout_select.addEventListener("change", function() { 
-    let selected = this.value;
-    let opt = set_layout(selected);
-    console.log(opt)
-    run_layout()
+function query_db(node_id) {
 
-  });
+  console.log(node_id)
+  reset_subgraph()
+  
+  let root = graph_db.getNodeAttributes(node_id)
+  subgraph["nodes"].push(root.n);
 
-  a_field = document.getElementById("a_field");
-  b_field = document.getElementById("b_field");
-  c_field = document.getElementById("c_field");
-  d_field = document.getElementById("d_field");
-  e_field = document.getElementById("e_field");
+  graph_db.forEachNeighbor(node_id, function(neighbor, attributes) {
+    // console.log(neighbor, attributes.n);
+    
+    let n = new Object();
+    n = graph_db.getNodeAttributes(neighbor);
+    subgraph["nodes"].push(n.n)
 
-});
+    let e = new Object();
+    e.data = {source: node_id, target: neighbor};
+    subgraph["edges"].push(e)
 
-function load_nodes() {
-  // Load graph data
-  Papa.parse("./data/nodes.csv", {
-    download: true,
-    header: true,
-    complete: function(results) {
-        // console.log("Finished:", results.data);
-        let data = results.data
-        // console.log(JSON.stringify(data));
-        data.forEach(function(d) {
-          
-          let n = new Object();
-          n.data = d;
-          graph["nodes"].push(n)
-
-        })
-        // console.log(JSON.stringify(graph))
-        init_cy(graph);
-    }
   });
 
+  console.log(subgraph)
+  if (cy) {
+    regenerate(subgraph)
+  }
+  else {
+    init_cy(subgraph);
+  }
+  
 }
 
-function load_edges() {
+function load_db_edges() {
     // Load graph data
     Papa.parse("./data/edges.csv", {
       download: true,
@@ -214,13 +181,119 @@ function load_edges() {
             
             let e = new Object();
             e.data = d;
-            graph["edges"].push(e)
+            graph_db.addEdge(e.data.source, e.data.target);
   
           })
-          load_nodes()
+          console.log('Number of nodes', graph_db.order);
+          console.log('Number of edges', graph_db.size);
+          
+          query_db('africa')
+
       }
     });
 }
 
+function load_db_nodes() {
+  // Load graph data
+  Papa.parse("./data/nodes_dd.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+        // console.log("Finished:", results.data);
+        let data = results.data
+        // console.log(JSON.stringify(data));
+        data.forEach(function(d) {
+          // console.log(d)
+          let n = new Object();
+          n.data = d;
+          // console.log(n)
+          graph_db.addNode(n.data.id, { n });
 
-load_edges();
+        })
+        
+        load_db_edges()
+    }
+  });
+
+}
+
+window.addEventListener('DOMContentLoaded',function () {
+
+  var lang_select = new SlimSelect({
+    select: '#lang_select',
+    data: languages,
+    events: {
+      afterChange: (newVal) => {
+        console.log(newVal[0].value);
+        query_db(newVal[0].value);
+      }
+    }
+  })
+
+  var langfam_select = new SlimSelect({
+    select: '#langfam_select',
+    data: language_family,
+    events: {
+      afterChange: (newVal) => {
+        console.log(newVal[0].value);
+        query_db(newVal[0].value);
+      }
+    }
+  })
+
+  var region_select = new SlimSelect({
+    select: '#region_select',
+    data: regions,
+    events: {
+      afterChange: (newVal) => {
+        console.log(newVal[0].value);
+        query_db(newVal[0].value);
+      }
+    }
+  })
+
+  var country_select = new SlimSelect({
+    select: '#country_select',
+    data: countries,
+    events: {
+      afterChange: (newVal) => {
+        console.log(newVal[0].value);
+        query_db(newVal[0].value);
+      }
+    }
+  })
+
+  var  layout_select = new SlimSelect({
+    select: '#layout_select',
+    data: layout_select_opts,
+    events: {
+      afterChange: (newVal) => {
+        console.log(newVal[0].value);
+        set_layout(newVal[0].value);
+        run_layout()
+      }
+    }
+  })
+
+  // map to dom elements
+  const reset_btn = document.getElementById("reset_btn");
+  reset_btn.addEventListener("click", function() { 
+    refresh(); 
+  });
+  
+  const revert_btn = document.getElementById("revert_btn");
+  revert_btn.addEventListener("click", function() { 
+    revert(); 
+  });
+
+  a_field = document.getElementById("a_field");
+  b_field = document.getElementById("b_field");
+  c_field = document.getElementById("c_field");
+  d_field = document.getElementById("d_field");
+  e_field = document.getElementById("e_field");
+
+  
+  set_layout("cola")
+  load_db_nodes()
+
+});

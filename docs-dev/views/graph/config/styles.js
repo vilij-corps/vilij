@@ -7,7 +7,7 @@ var style = cytoscape.stylesheet()
         'border-color': '#000',
         'border-width': 1,
         'border-opacity': 1,
-        'content': 'data(id)',
+        'content': 'data(label)',
         "text-background-opacity": 1,
         "color": "#111",
         "text-background-color": "#e5e5e5",
