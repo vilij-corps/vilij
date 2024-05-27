@@ -34,7 +34,7 @@ var style = cytoscape.stylesheet()
         'taxi-radius': 10,
         'width': 1,
         'target-arrow-shape': 'circle',
-        'line-color': '#111111',
+        'line-color': '#bbbbbb',
         'target-arrow-color': '#111111',
         'arrow-scale': 0.5
       })

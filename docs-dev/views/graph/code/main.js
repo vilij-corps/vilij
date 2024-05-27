@@ -285,15 +285,30 @@ window.addEventListener('DOMContentLoaded',function () {
     }
   })
 
+  tippy('#layout_info', {
+    content: 'Go back to previous view.',
+    placement: 'right',
+  });
+
   // map to dom elements
   const reset_btn = document.getElementById("reset_btn");
   reset_btn.addEventListener("click", function() { 
     refresh(); 
   });
+
+  tippy('#reset_btn', {
+    content: 'Reset view to root node Africa.',
+    placement: 'right',
+  });
   
   const revert_btn = document.getElementById("revert_btn");
   revert_btn.addEventListener("click", function() { 
     revert(); 
+  });
+
+  tippy('#revert_btn', {
+    content: 'Go back to previous view.',
+    placement: 'right',
   });
 
   a_field = document.getElementById("a_field");
@@ -307,6 +322,34 @@ window.addEventListener('DOMContentLoaded',function () {
   tne_field = document.getElementById("tne");
   vnn_field = document.getElementById("vnn");
   vne_field = document.getElementById("vne");
+
+  const glotttolog = `
+  Glottolog 5.0<br>
+  Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2024.<br>
+  Leipzig: Max Planck Institute for Evolutionary Anthropology.<br>
+  https://doi.org/10.5281/zenodo.8131084<br>
+  http://glottolog.org, Accessed on 2024-03-11.
+  `
+
+  const phoible = `
+  Phoible 2.0.1<br>
+  Steven Moran and Daniel McCloy. 2019.<br>
+  Max Planck Institute for the Science of Human History<br>
+  http://phoible.org<br>
+  https://phoible.org/
+  `
+
+  tippy('#glottolog', {
+    content: glotttolog,
+    allowHTML: true,
+    placement: 'bottom-end',
+  });
+
+  tippy('#phoible', {
+    content: phoible,
+    allowHTML: true,
+    placement: 'right',
+  });
 
   set_layout("cola")
   load_db_nodes()
