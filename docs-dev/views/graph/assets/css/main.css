@@ -1,5 +1,30 @@
-body {
+
+:root {
+  --menu-font: 'Dosis', sans-serif;
+  --header-font: 'Rubik', sans-serif;
+  --para-font: 'Karla', sans-serif;
+  --font-size-largest: 24px;
+  --font-size-larger: 20px;
+  --font-size-large: 18px;
+  --font-size-normal: 16px;
+  --font-size-small: 14px;
+  --font-size-smaller: 12px;
+  --font-size-smallest: 10px;
+}
+
+body { 
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   margin: 0px;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 .center {
@@ -90,6 +115,44 @@ main {
   font-weight: 600;
 }
 
+button {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #111;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#cy {
+  height: calc(100vh - 120px);
+  width: calc(100vw - 280px);
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.data_field {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #111;
+  min-height: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
 /* side, margin note */
 aside p {
   width: 20%;
@@ -163,4 +226,149 @@ footer {
   justify-content:center;
   align-items: center;
   text-align: center;
+}
+
+h1 {
+  font-family: var(--header-font);
+  /*
+  text-transform: uppercase;
+  font-variant: small-caps;
+  */
+  display: block;
+  font-size: var(--font-size-largest);
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: var(--header-font);
+  /*
+  text-transform: uppercase;
+  font-variant: small-caps;
+  */
+  display: block;
+  font-size: var(--font-size-larger);
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: var(--header-font);
+  /*
+  text-transform: uppercase;
+  font-variant: small-caps;
+  */
+  display: block;
+  font-size: var(--font-size-large);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: var(--header-font);
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: var(--header-font);
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: var(--header-font);
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+.badge {
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 4px 8px;
+  font-family: var(--menu-font);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 5px;
+  width:fit-content;
+}
+
+p {
+  font-family: var(--para-font);
+  font-size: var(--font-size-normal);
+}
+
+kbd {
+  font-family: var(--para-font);
+  background: #f1f8e9;
+  color: #111111;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* tag based highlight of text */
+mark {
+  background: #fce4ec;
+  color: #000;
+  padding: 5px;
+  padding-top: 0px;
+}
+
+q {
+  font-family: var(--para-font);
+  font-style: italic;
+  font-size: var(--font-size-normal);
+}
+
+ul {
+  font-family: var(--para-font);
+  font-size: var(--font-size-normal);
+}
+
+ol {
+  font-family: var(--para-font);
+  font-size: var(--font-size-normal);
+}
+
+li {
+  line-height: 1.5;;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+u.red {
+  font-family: 'Karla', sans-serif;
+  text-decoration-color:steelblue;
+  text-decoration-thickness: 3px;
 }

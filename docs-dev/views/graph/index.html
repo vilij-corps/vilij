@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="assets/css/root.css">
-<link rel="stylesheet" href="assets/css/text.css">
-<link rel="stylesheet" href="assets/css/main.css">
-<link href="./assets/css/style.css" rel="stylesheet" />
 <meta charset=utf-8 />
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
 <title>Vilij Corps Language Explorer</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
 <script src="./libs/papaparse.min.js"></script>
 <script src="./libs/slimselect.min.js"></script>
-<link rel="stylesheet" href="./assets/css/slimselect.css" />
-<script src="https://unpkg.com/@popperjs/core@2"></script>
-<script src="https://unpkg.com/tippy.js@6"></script>
-
+<link rel="stylesheet" href="./assets/css/slimselect.css">
+<script src="./libs/popper.min.js"></script>
+<script src="./libs/tippy-bundle.umd.min.js"></script>
 <script src="./libs/graphology.min.js"></script>
 <script src="./libs/graphology-library.min.js"></script>
 <script src="./libs/cytoscape.min.js"></script>
@@ -35,11 +29,9 @@
 <script src="./libs/cytoscape-elk.js"></script>
 <script src="./libs/klay.js"></script>
 <script src="./libs/cytoscape-klay.js"></script>
-<script src="https://unpkg.com/weaverjs@1.2.0/dist/weaver.min.js"></script>
+<script src="./libs//weaver.min.js"></script>
 <script src="./libs/cytoscape-spread.js"></script>
 <script src="./libs/cytoscape-tidytree.min.js"></script>
-
-
 <script src="./libs/cytoscape-hyse.js"></script>
 
 </head>
@@ -84,11 +76,11 @@
         <hr>
         <div class="">
           <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Details:</div>
-          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Label:</label>
+          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Id:</label>
           <div id="a_field" class="data_field"></div>
-          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Type:</label>
+          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Label:</label>
           <div id="b_field" class="data_field"></div>
-          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Size:</label>
+          <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Type:</label>
           <div id="c_field" class="data_field"></div>
           <label class="field_label" style="font-size: 14px; margin-bottom: 10px;">Description:</label>
           <div id="d_field" class="data_field"></div>
@@ -101,18 +93,7 @@
             <div id="phoible" class="badge" style="margin-left: 5px;">Phoible 2.0</div>
           </div>
           <hr>
-            <!-- 
-            Glottolog 5.0
-            Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2024.
-            Leipzig: Max Planck Institute for Evolutionary Anthropology.
-            https://doi.org/10.5281/zenodo.8131084
-            http://glottolog.org, Accessed on 2024-03-11.
-
-            Phoible 2.0.1
-            Steven Moran and Daniel McCloy. 2019.
-            Max Planck Institute for the Science of Human Historyhttp://phoible.org
-            https://phoible.org/
-            -->
+          
             <div class="title" style="margin-bottom: 10px; font-size: 16px; font-weight: 600;">Data:</div>
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;">

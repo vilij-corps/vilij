@@ -124,9 +124,27 @@ function show_details(node_data) {
   // get each DOM element
   // update inner html or text
   // console.log(node_data)
-  a_field.innerText = node_data.id
-  b_field.innerText = node_data.label
-  c_field.innerText = node_data.type
+  if (node_data.id) {
+    a_field.style.display = 'block';
+    a_field.innerText = node_data.id;
+  } else {
+    a_field.style.display = 'none';
+  }
+
+  if (node_data.label) {
+    b_field.style.display = 'block';
+    b_field.innerText = node_data.label;
+  } else {
+    b_field.style.display = 'none';
+  }
+
+  if (node_data.type) {
+    c_field.style.display = 'block';
+    c_field.innerText = node_data.type;
+  } else {
+    c_field.style.display = 'none';
+  }
+  
 }
 
 
@@ -229,6 +247,18 @@ function load_db_nodes() {
 
 window.addEventListener('DOMContentLoaded',function () {
 
+  a_field = document.getElementById("a_field");
+  b_field = document.getElementById("b_field");
+  c_field = document.getElementById("c_field");
+  d_field = document.getElementById("d_field");
+  e_field = document.getElementById("e_field");
+
+  
+  tnn_field = document.getElementById("tnn");
+  tne_field = document.getElementById("tne");
+  vnn_field = document.getElementById("vnn");
+  vne_field = document.getElementById("vne");
+
   var lang_select = new SlimSelect({
     select: '#lang_select',
     data: languages,
@@ -285,43 +315,92 @@ window.addEventListener('DOMContentLoaded',function () {
     }
   })
 
-  tippy('#layout_info', {
-    content: 'Go back to previous view.',
-    placement: 'right',
+  // map to dom elements
+  const home_btn = document.getElementById("home_btn");
+  home_btn.addEventListener("click", function() { 
+    window.location.assign("https://www.vilijcorps.org");
   });
 
-  // map to dom elements
+  const gallery_btn = document.getElementById("gallery_btn");
+  gallery_btn.addEventListener("click", function() { 
+    window.location.assign("https://www.vilijcorps.org");
+  });
+
+  const translator_btn = document.getElementById("translator_btn");
+  translator_btn.addEventListener("click", function() { 
+    window.location.assign("https://www.vilijcorps.org");
+  });
+
+  const github_btn = document.getElementById("github_btn");
+  github_btn.addEventListener("click", function() { 
+    window.location.assign("https://github.com/vilij-corps/vilij");
+  });
+
+
   const reset_btn = document.getElementById("reset_btn");
   reset_btn.addEventListener("click", function() { 
     refresh(); 
+  });
+
+  const revert_btn = document.getElementById("revert_btn");
+  revert_btn.addEventListener("click", function() { 
+    revert(); 
+  });
+
+  tippy('#home_btn', {
+    content: 'Home to vilijcorps.org',
+    placement: 'bottom',
+  });
+
+  tippy('#gallery_btn', {
+    content: '3D Asset Gallery',
+    placement: 'bottom',
+  });
+
+  tippy('#translator_btn', {
+    content: 'Language Translator',
+    placement: 'bottom',
+  });
+
+  tippy('#github_btn', {
+    content: 'Github Repository',
+    placement: 'bottom-start',
+  });
+
+  tippy('#lang_info', {
+    content: 'Set a language to root.',
+    placement: 'right',
+  });
+
+  tippy('#langfamt_info', {
+    content: 'Set a language family to root.',
+    placement: 'right',
+  });
+
+  tippy('#region_info', {
+    content: 'Set an African region to root.',
+    placement: 'right',
+  });
+
+  tippy('#country_info', {
+    content: 'Set a country to root.',
+    placement: 'right',
+  });
+  
+  tippy('#layout_info', {
+    content: 'Run layout to position graph.',
+    placement: 'right',
   });
 
   tippy('#reset_btn', {
     content: 'Reset view to root node Africa.',
     placement: 'right',
   });
-  
-  const revert_btn = document.getElementById("revert_btn");
-  revert_btn.addEventListener("click", function() { 
-    revert(); 
-  });
 
   tippy('#revert_btn', {
     content: 'Go back to previous view.',
     placement: 'right',
   });
-
-  a_field = document.getElementById("a_field");
-  b_field = document.getElementById("b_field");
-  c_field = document.getElementById("c_field");
-  d_field = document.getElementById("d_field");
-  e_field = document.getElementById("e_field");
-
-  
-  tnn_field = document.getElementById("tnn");
-  tne_field = document.getElementById("tne");
-  vnn_field = document.getElementById("vnn");
-  vne_field = document.getElementById("vne");
 
   const glotttolog = `
   Glottolog 5.0<br>
