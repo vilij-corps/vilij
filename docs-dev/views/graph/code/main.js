@@ -1,10 +1,12 @@
 
-
+// globals
 // Initialize
 var cy = null;
 
+// main database
 const graph_db = new graphology.Graph();
 
+// result of query
 var subgraph = {
   nodes: [],
   edges: []
@@ -29,6 +31,56 @@ function reset_nav_data() {
     nodes: [],
     edges: []
   }
+}
+
+// Needed for CISE layout
+function make_clusters() {
+
+  var clusters = [];
+  let region = [];
+  let family = [];
+  let subfamily = [];
+  let genus = [];
+  let language = [];
+  let country = [];
+
+  graph_db.forEachNode(function(node, attributes) {
+    
+    let id = attributes.n.data.id;
+    let cluster = attributes.n.data.type;
+    switch(cluster) {
+      case "region":
+        region.push(id);
+        break;
+      case "family":
+        family.push(id);
+        break;
+      case "subfamily":
+        subfamily.push(id);
+        break;
+      case "genus":
+        genus.push(id);
+        break;
+      case "language":
+        language.push(id);
+        break;
+      case "country":
+        country.push(id);
+        break;
+      default:
+        console.log("default");
+    }
+    
+  })
+
+  clusters.push(region);
+  clusters.push(family);
+  clusters.push(subfamily);
+  clusters.push(genus);
+  clusters.push(language);
+  clusters.push(country);
+  console.log(JSON.stringify(clusters))
+
 }
 
 // UI element references
@@ -82,6 +134,7 @@ cy.on('dbltap', 'node', function(evt){
 
 } // init_cy
 
+// position layout on select
 function run_layout() {
   // re-run layout
   var layout = cy.layout(layout_opts);
@@ -159,7 +212,7 @@ function regenerate(g) {
   run_layout()
 }
 
-
+// tap query to database
 function query_db(node_id) {
 
   console.log(node_id)
@@ -194,6 +247,7 @@ function query_db(node_id) {
   
 }
 
+// load edge table
 function load_db_edges() {
     // Load graph data
     Papa.parse("./data/edges.csv", {
@@ -216,11 +270,13 @@ function load_db_edges() {
           tne_field.innerText = graph_db.size;
           
           query_db('africa')
+          // make_clusters();
 
       }
     });
 }
 
+// load node table
 function load_db_nodes() {
   // Load graph data
   Papa.parse("./data/nodes_dd.csv", {
@@ -258,6 +314,8 @@ window.addEventListener('DOMContentLoaded',function () {
   tne_field = document.getElementById("tne");
   vnn_field = document.getElementById("vnn");
   vne_field = document.getElementById("vne");
+
+  // ui selects
 
   var lang_select = new SlimSelect({
     select: '#lang_select',
@@ -316,6 +374,7 @@ window.addEventListener('DOMContentLoaded',function () {
   })
 
   // map to dom elements
+  // click events
   const home_btn = document.getElementById("home_btn");
   home_btn.addEventListener("click", function() { 
     window.location.assign("https://www.vilijcorps.org");
@@ -346,6 +405,8 @@ window.addEventListener('DOMContentLoaded',function () {
   revert_btn.addEventListener("click", function() { 
     revert(); 
   });
+
+  // tooltips
 
   tippy('#home_btn', {
     content: 'Home to vilijcorps.org',
@@ -431,6 +492,7 @@ window.addEventListener('DOMContentLoaded',function () {
   });
 
   set_layout("cola")
+  // initialize data load
   load_db_nodes()
 
 });

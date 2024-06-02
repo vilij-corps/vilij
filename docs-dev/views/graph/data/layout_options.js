@@ -1,6 +1,7 @@
 var layout_select_opts = [
     {'placeholder': true, 'text': 'Select Layout'},
     { text: 'Breadthfirst', value: 'breadthfirst' },
+    { text: 'Cise', value: 'cise' },
     { text: 'Cola', value: 'cola' },
     { text: 'Cose', value: 'cose' },
     { text: 'Cose Bilkent', value: 'cose-bilkent' },
