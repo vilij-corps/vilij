@@ -1,0 +1,122 @@
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 12px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 100px;;
+}
+
+.page {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 10px auto; 
+    max-width: 70vw;
+    min-width: 70vw;
+    height:fit-content;
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 25px;
+    font-family: "Dosis", sans-serif;
+    font-size: 12px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.supsub {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.supsub sup,
+.supsub sub {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.supsub sub {
+    top: .3em;
+}
+
+.card {
+    margin: 10px;
+    margin-top: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:fit-content;
+    min-width: 75px;
+    height:150px;
+    border-radius: 5px;
+    font-family: "Dosis", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.src_word {
+    border-bottom: 2px solid black;
+}
+
+.container {
+    padding: 10px 16px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.translate_btn {
+    margin: auto auto; 
+    width: fit-content; 
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.badge {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    font-family: "Dosis", sans-serif;
+    font-size: 9px;
+    font-style: italic;
+}

@@ -1,3 +1,22 @@
+
+
+function imageExists(image_url){
+
+    var http = new XMLHttpRequest();
+
+    try {
+        http.open('HEAD', image_url, false);
+        http.send();
+    }
+    
+    catch(err) {
+        console.log('error');
+    }
+
+    return http.status != 404;
+
+}
+
 var render_translation = function() {
 
     let el = document.getElementById('el')
@@ -13,15 +32,26 @@ var render_translation = function() {
 
                 card = '<div class="card"><div class="container">'
 
-                if (terms[t].text != terms[t].translation) {
+                let check = imageExists(terms[t].pictogram)
+                // console.log(check)
 
-                    card += '<img src="' + terms[t].pictogram + '" style="height:48px;">'
-                    card += '<h4><b>' + terms[t].text + '</b></h4><div class="src_word"></div><p>' + terms[t].translation + '</p></div></div>'
+                if (check) {
+
+                    if (terms[t].text != terms[t].translation) {
+
+                        card += '<img src="' + terms[t].pictogram + '" style="height:48px;">'
+                        card += '<h4><b>' + terms[t].text + '</b></h4><div class="src_word"></div><p>' + terms[t].translation + '</p></div></div>'
+    
+                    } else {
+    
+                        card += '<h4><b>' + terms[t].text + '</b></h4><p></p></div></div>'
+    
+                    }
 
                 } else {
 
+                    card += '<h4 style="margin-top:40px;">-</h4>'
                     card += '<h4><b>' + terms[t].text + '</b></h4><p></p></div></div>'
-
                 }
 
                 card += '<div class="badge">' + terms[t].chunk + '</div>';
