@@ -1,1500 +1,801 @@
-"id","label","Family","Subfamily","Genus","Latitude","Longitude","Country_ID","type","iso3","latitude","longitude","least_developed","land_locked","small_island_developing"
-"aaa","Ghotuo","Niger-Congo","Benue-Congo","Edoid",7.08333333333,5.75,"NG","language",,,,,,
-"aal","Afade","Afro-Asiatic","Chadic","Biu-Mandara",11.3333333333,15.3333333333,"CF","language",,,,,,
-"aar","Afar","Afro-Asiatic","Cushitic","Lowland East Cushitic",12,42,"ET ER DJ","language",,,,,,
-"abb","Bankon","Niger-Congo","Benue-Congo","Bantu",4.41666666667,9.58333333333,"CM","language",,,,,,
-"abi","Abidji","Niger-Congo","Kwa","Agneby",5.66666666667,-4.58333333333,"CI","language",,,,,,
-"ach","Acoli","Eastern Sudanic","Nilotic","Western Nilotic",3,32.6666666667,"UG SS","language",,,,,,
-"adj","Adioukrou","Niger-Congo","Kwa","Agneby",5.41666666667,-4.58333333333,"CI","language",,,,,,
-"ads","Adamorobe Sign Language","other",,"Sign Languages",5.83333333333,-0.166666666667,"GH","language",,,,,,
-"aeb","Tunisian Arabic","Afro-Asiatic",,"Semitic",36.75,10.25,"TN","language",,,,,,
-"afn","Defaka","Ijoid",,"Ijoid",4.58333333333,7.5,"NG","language",,,,,,
-"afr","Afrikaans","Indo-European",,"Germanic",-31,22,"ZA","language",,,,,,
-"agb","Legbo","Niger-Congo","Benue-Congo","Upper Cross",6,8,"NG","language",,,,,,
-"agh","Ngelima","Niger-Congo","Benue-Congo","Bantu",1.75,25,"CD","language",,,,,,
-"agq","Aghem","Niger-Congo","Benue-Congo","Wide Grassfields",6.66666666667,10,"CM","language",,,,,,
-"ahg","Qimant","Afro-Asiatic","Cushitic","Central Cushitic",12.6666666667,37.4166666667,"ET","language",,,,,,
-"ahp","Aproumu Aizi","Niger-Congo",,"Kru",5.25,-4.5,"CI","language",,,,,,
-"aiw","Aari","Afro-Asiatic","Omotic","South Omotic",6,36.5833333333,"ET","language",,,,,,
-"aja","Aja (South Sudan)","Central Sudanic",,"Kresh",7.33333333333,25.6666666667,"CF SS","language",,,,,,
-"ajg","Aja (Benin)","Niger-Congo","Kwa","Gbe",7,1.75,"BJ TG","language",,,,,,
-"aka","Akan","Niger-Congo","Kwa","Tano",6.5,-1.25,"GH","language",,,,,,
-"akw","Akwa","Niger-Congo","Benue-Congo","Bantu",0,16.5,"CG","language",,,,,,
-"ald","Alladian","Niger-Congo","Kwa","Avikam-Alladian",5.16666666667,-4.33333333333,"CI","language",,,,,,
-"amf","Hamer-Banna","Afro-Asiatic","Omotic","South Omotic",5,36.5,"ET","language",,,,,,
-"amh","Amharic","Afro-Asiatic",,"Semitic",10,38,"ET","language",,,,,,
-"amo","Amo","Niger-Congo","Benue-Congo","Central Kainji",10.3333333333,8.66666666667,"NG","language",,,,,,
-"anc","Ngas","Afro-Asiatic","Chadic","West Chadic",9.5,9.5,"NG","language",,,,,,
-"ank","Goemai","Afro-Asiatic","Chadic","West Chadic",8.66666666667,9.75,"NG","language",,,,,,
-"ann","Obolo","Niger-Congo","Benue-Congo","Lower Cross",4.58333333333,7.83333333333,"NG","language",,,,,,
-"anu","Anuak","Eastern Sudanic","Nilotic","Western Nilotic",8,33.5,"ET SS","language",,,,,,
-"any","Anyin","Niger-Congo","Kwa","Tano",7,-3.5,"CI","language",,,,,,
-"aoa","Angolar","other",,"Creoles and Pidgins",0.25,6.5,"ST","language",,,,,,
-"arv","Arbore","Afro-Asiatic","Cushitic","Lowland East Cushitic",5,36.75,"ET","language",,,,,,
-"ary","Moroccan Arabic","Afro-Asiatic",,"Semitic",34,-6,"MA","language",,,,,,
-"arz","Egyptian Arabic","Afro-Asiatic",,"Semitic",30,31,"EG","language",,,,,,
-"asa","Asu (Tanzania)","Niger-Congo","Benue-Congo","Bantu",-4,36.5,"TZ","language",,,,,,
-"avi","Avikam","Niger-Congo","Kwa","Avikam-Alladian",5.16666666667,-5.5,"CI","language",,,,,,
-"avn","Avatime","Niger-Congo","Kwa","Ka-Togo",6.83333333333,0.416666666667,"GH","language",,,,,,
-"avu","Avokaya","Central Sudanic",,"Moru-Ma'di",4.66666666667,30,"CD SS","language",,,,,,
-"awn","Awngi","Afro-Asiatic","Cushitic","Central Cushitic",10.8333333333,36.6666666667,"ET","language",,,,,,
-"axk","Yaka (Central African Republic)","Niger-Congo","Benue-Congo","Bantu",2.66666666667,16.25,"CF CG","language",,,,,,
-"ayl","Libyan Arabic","Afro-Asiatic",,"Semitic",32,22,"LY","language",,,,,,
-"bag","Tuki","Niger-Congo","Benue-Congo","Bantu",4.58333333333,11.5,"CM","language",,,,,,
-"bam","Bambara","Mande",,"Western Mande",12.5,-7.5,"ML","language",,,,,,
-"bas","Basa (Cameroon)","Niger-Congo","Benue-Congo","Bantu",3.91666666667,10.5,"CM","language",,,,,,
-"bav","Vengo","Niger-Congo","Benue-Congo","Wide Grassfields",6.11666666667,10.4166666667,"CM","language",,,,,,
-"baw","Bambili-Bambui","Niger-Congo","Benue-Congo","Wide Grassfields",6.11666666667,10.2,"CM","language",,,,,,
-"bax","Bamun","Niger-Congo","Benue-Congo","Wide Grassfields",5.5,10.9166666667,"CM","language",,,,,,
-"bba","Baatonum","Niger-Congo","Gur","Baatonum",10,2.5,"NG BJ","language",,,,,,
-"bbo","Northern Bobo Madaré","Mande",,"Western Mande",12.4166666666667,-4.3333333333333,"BF","language",,,,,,
-"bci","Baoulé","Niger-Congo","Kwa","Tano",7,-5,"CI","language",,,,,,
-"bcq","Bench","Afro-Asiatic","Omotic","Ta-Ne-Omotic",7,35.75,"ET","language",,,,,,
-"bcs","Kohumono","Niger-Congo","Benue-Congo","Upper Cross",6,8.11666666667,"NG","language",,,,,,
-"bcw","Bana","Afro-Asiatic","Chadic","Biu-Mandara",10.4166666667,13.5833333333,"CM","language",,,,,,
-"bde","Bade","Afro-Asiatic","Chadic","West Chadic",12.8333333333,10.5,"NG","language",,,,,,
-"bdh","Baka (South Sudan)","Central Sudanic",,"Bongo-Bagirmi",4.83333333333,29.25,"SS","language",,,,,,
-"bdm","Buduma","Afro-Asiatic","Chadic","Biu-Mandara",13.5,14.5,"NG TD CM","language",,,,,,
-"bds","Burunge","Afro-Asiatic","Cushitic","Southern Cushitic",-5.33333333333,36,"TZ","language",,,,,,
-"bdu","Oroko","Niger-Congo","Benue-Congo","Bantu",4.83333333333,9.33333333333,"CM","language",,,,,,
-"bdu","Oroko","Niger-Congo","Benue-Congo","Bantu",5,9.16666666667,"CM","language",,,,,,
-"bej","Beja","Afro-Asiatic","Cushitic","Beja",18,36,"ER SD","language",,,,,,
-"bem","Bemba (Zambia)","Niger-Congo","Benue-Congo","Bantu",-10,28.25,"CD","language",,,,,,
-"beq","Beembe","Niger-Congo","Benue-Congo","Bantu",-3.91666666667,14.0833333333,"CG","language",,,,,,
-"bev","Daloa Bété","Niger-Congo",,"Kru",6.25,-6.25,"CI","language",,,,,,
-"bex","Jur Modo","Central Sudanic",,"Bongo-Bagirmi",6,30,"SS","language",,,,,,
-"bfa","Bari","Eastern Sudanic","Nilotic","Eastern Nilotic",5,31.6666666667,"SS","language",,,,,,
-"bfa","Bari","Eastern Sudanic","Nilotic","Western Nilotic",5.83333333333,31.6666666667,"SS","language",,,,,,
-"bfd","Bafut","Niger-Congo","Benue-Congo","Wide Grassfields",6.25,9.91666666667,"CM","language",,,,,,
-"bib","Bissa","Mande",,"Eastern Mande",11.5,-0.5,"BF GH","language",,,,,,
-"bid","Bidiyo","Afro-Asiatic","Chadic","East Chadic",11.9166666667,18.75,"TD","language",,,,,,
-"bif","Biafada","Niger-Congo","North-Central Atlantic","Jaad",11.4166666667,-15.1666666667,"GW","language",,,,,,
-"bim","Bimoba","Niger-Congo","Gur","Oti-Volta",10.5,0,"GH","language",,,,,,
-"bin","Bini","Niger-Congo","Benue-Congo","Edoid",6.41666666667,5.83333333333,"NG","language",,,,,,
-"bip","Bila","Niger-Congo","Benue-Congo","Bantu",1,28.75,"CD","language",,,,,,
-"bji","Burji","Afro-Asiatic","Cushitic","Highland East Cushitic",5.5,37.8333333333,"ET","language",,,,,,
-"bkc","Baka (Cameroon)","Niger-Congo","Adamawa-Ubangi","Ubangi",2.58333333333,13.5833333333,"CM","language",,,,,,
-"bkm","Kom (Cameroon)","Niger-Congo","Benue-Congo","Wide Grassfields",6.25,10.3333333333,"CM","language",,,,,,
-"bli","Bolia","Niger-Congo","Benue-Congo","Bantu",-1.25,18.3333333333,"CD","language",,,,,,
-"bmi","Bagirmi","Central Sudanic",,"Bongo-Bagirmi",11.6666666667,16,"TD","language",,,,,,
-"bng","Benga","Niger-Congo","Benue-Congo","Bantu",1.16666666667,9.41666666667,"GQ GA","language",,,,,,
-"bni","Bangi","Niger-Congo","Benue-Congo","Bantu",-1.33333333333,17.3333333333,"CD","language",,,,,,
-"bol","Bole","Afro-Asiatic","Chadic","West Chadic",11.3333333333,11.25,"NG","language",,,,,,
-"bom","Berom","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9.66666666667,8.83333333333,"NG","language",,,,,,
-"bot","Bongo","Central Sudanic",,"Bongo-Bagirmi",7.5,28.5,"SS","language",,,,,,
-"boz","Tiéyaxo Bozo","Mande",,"Western Mande",15,-4,"ML","language",,,,,,
-"bqc","Boko (Benin)","Mande",,"Eastern Mande",10.5,3.5,"NG BJ","language",,,,,,
-"bqp","Busa","Mande",,"Eastern Mande",9.66666666667,4,"NG","language",,,,,,
-"bri","Mokpwe","Niger-Congo","Benue-Congo","Bantu",4.25,9.25,"CM","language",,,,,,
-"brm","Barambu","Niger-Congo","Adamawa-Ubangi","Ubangi",3.5,27,"CD","language",,,,,,
-"bsc","Bassari","Niger-Congo","North-Central Atlantic","Tenda",12.6666666667,-13,"SN GN","language",,,,,,
-"bsp","Baga Sitemu","Niger-Congo","Mel","Northern Mel",10.5,-14.5,"GN","language",,,,,,
-"bsw","Baiso","Afro-Asiatic","Cushitic","Lowland East Cushitic",6.25,37.75,"ET","language",,,,,,
-"bud","Ntcham","Niger-Congo","Gur","Oti-Volta",9.33333333333,0.666666666667,"TG GH","language",,,,,,
-"buf","Bushoong","Niger-Congo","Benue-Congo","Bantu",-4.5,21.5,"CD","language",,,,,,
-"bum","Bulu (Cameroon)","Niger-Congo","Benue-Congo","Bantu",3,11,"CM","language",,,,,,
-"buu","Budu","Niger-Congo","Benue-Congo","Bantu",2,28,"CD","language",,,,,,
-"bvb","Bube","Niger-Congo","Benue-Congo","Bantu",3.5,8.66666666667,"GQ","language",,,,,,
-"bvq","Birri","Central Sudanic",,"Birri",5.5,25.1666666667,"CF","language",,,,,,
-"bvx","Dibole","Niger-Congo","Benue-Congo","Bantu",1.08333333333,17.25,"CG","language",,,,,,
-"bwo","Boro (Ethiopia)","Afro-Asiatic","Omotic","Ta-Ne-Omotic",10.4166666667,36.1666666667,"ET","language",,,,,,
-"bwr","Bura-Pabir","Afro-Asiatic","Chadic","Biu-Mandara",10.5,12.25,"NG","language",,,,,,
-"bwu","Buli (Ghana)","Niger-Congo","Gur","Oti-Volta",10.5,-1.25,"GH","language",,,,,,
-"bxk","Bukusu","Niger-Congo","Benue-Congo","Bantu",0.75,34.6666666667,"KE","language",,,,,,
-"byn","Bilin","Afro-Asiatic","Cushitic","Central Cushitic",15.75,38.5,"ER","language",,,,,,
-"bza","Bandi","Mande",,"Western Mande",8.08333333333,-10.25,"LR","language",,,,,,
-"cgg","Chiga","Niger-Congo","Benue-Congo","Bantu",-0.916666666667,29.8333333333,"UG","language",,,,,,
-"cko","Anufo","Niger-Congo","Kwa","Tano",10.0833333333,0.25,"TG BJ GH","language",,,,,,
-"cla","Ron","Afro-Asiatic","Chadic","West Chadic",9,8.75,"NG","language",,,,,,
-"cme","Cerma","Niger-Congo","Gur","Kirma-Tyurama",10.25,-4.83333333333,"BF","language",,,,,,
-"cop","Coptic","Afro-Asiatic",,"Egyptian-Coptic",26,32,"EG","language",,,,,,
-"cou","Wamey","Niger-Congo","North-Central Atlantic","Tenda",12.5,-13.25,"ML GN","language",,,,,,
-"daa","Dangaléat","Afro-Asiatic","Chadic","East Chadic",12.1666666667,18.3333333333,"TD","language",,,,,,
-"dag","Dagbani","Niger-Congo","Gur","Oti-Volta",9.58333333333,-0.5,"GH","language",,,,,,
-"dai","Day","Niger-Congo","Adamawa-Ubangi","Day",8.75,17.8333333333,"TD","language",,,,,,
-"daj","Dar Fur Daju","Eastern Sudanic",,"Daju",12.25,25.25,"SD","language",,,,,,
-"dal","Dahalo","Afro-Asiatic","Cushitic","Dahalo",-2.33333333333,40.5,"KE","language",,,,,,
-"dau","Dar Sila Daju","Eastern Sudanic",,"Daju",12.3333333333,21.75,"TD","language",,,,,,
-"dav","Taita","Niger-Congo","Benue-Congo","Bantu",-4,38.6666666667,"KE","language",,,,,,
-"dba","Bangime","Bangime",,"Bangime",14.9166666667,-3.83333333333,"ML","language",,,,,,
-"dbq","Daba","Afro-Asiatic","Chadic","Biu-Mandara",10.1666666667,13.75,"CM","language",,,,,,
-"dds","Donno So Dogon","Dogon",,"Dogon",14.3333333333,-3.58333333333,"BF ML","language",,,,,,
-"deg","Degema","Niger-Congo","Benue-Congo","Edoid",4.75,6.75,"NG","language",,,,,,
-"dga","Southern Dagaare","Niger-Congo","Gur","Oti-Volta",10.5,-2.66666666667,"BF GH","language",,,,,,
-"dgl","Andaandi","Eastern Sudanic",,"Nubian",18.25,30.75,"SD","language",,,,,,
-"dic","Lakota Dida","Niger-Congo",,"Kru",5.83333333333,-5.41666666667,"CI","language",,,,,,
-"did","Didinga","Eastern Sudanic","Surmic","South Surmic",4.5,33.5,"SS","language",,,,,,
-"dim","Dime","Afro-Asiatic","Omotic","South Omotic",6.16666666667,36.25,"ET","language",,,,,,
-"din","Dinka","Eastern Sudanic","Nilotic","Western Nilotic",8.5,28,"SS","language",,,,,,
-"diz","Ding","Niger-Congo","Benue-Congo","Bantu",-4.33333333333,19.5,"CD","language",,,,,,
-"dje","Zarma","Songhay",,"Songhay",13.8333333333,2.16666666667,"NE","language",,,,,,
-"djm","Jamsay Dogon","Dogon",,"Dogon",14.4166666667,-2.5,"ML","language",,,,,,
-"dma","Duma","Niger-Congo","Benue-Congo","Bantu",-0.95,13,"GA","language",,,,,,
-"dnj","Dan","Mande",,"Eastern Mande",7.5,-8,"CI GN LR","language",,,,,,
-"doo","Dongo","Niger-Congo","Adamawa-Ubangi","Ubangi",3,30,"CD","language",,,,,,
-"dow","Doyayo","Niger-Congo","Adamawa-Ubangi","Samba-Duru",8.66666666667,13.0833333333,"CM","language",,,,,,
-"dsh","Daasanach","Afro-Asiatic","Cushitic","Lowland East Cushitic",4.66666666667,36.3333333333,"ET","language",,,,,,
-"dto","Tommo So Dogon","Dogon",,"Dogon",15,-3,"ML","language",,,,,,
-"dts","Toro So Dogon","Dogon",,"Dogon",14.4166666667,-3.25,"BF ML","language",,,,,,
-"dua","Duala","Niger-Congo","Benue-Congo","Bantu",4,9.41666666667,"CM","language",,,,,,
-"dur","Dii","Niger-Congo","Adamawa-Ubangi","Samba-Duru",8,14,"CM","language",,,,,,
-"dwr","Dawro","Afro-Asiatic","Omotic","Ta-Ne-Omotic",6.75,37.0833333333,"ET","language",,,,,,
-"dyi","Djimini Senoufo","Niger-Congo",,"Senufo",8.41666666667,-4.41666666667,"CI","language",,,,,,
-"dyo","Jola-Fonyi","Niger-Congo","North-Central Atlantic","Jola",13,-16.25,"GM SN","language",,,,,,
-"dyu","Dyula","Mande",,"Western Mande",9.83333333333,-4.66666666667,"BF ML CI","language",,,,,,
-"efi","Efik","Niger-Congo","Benue-Congo","Lower Cross",4.91666666667,8.5,"NG","language",,,,,,
-"ega","Ega","Niger-Congo",,"Ega",5.5,-5.5,"CI","language",,,,,,
-"eko","Koti","Niger-Congo","Benue-Congo","Bantu",-16.5,39.5,"MZ","language",,,,,,
-"ema","Emai-Iuleha-Ora","Niger-Congo","Benue-Congo","Edoid",7.08333333333,5.91666666667,"NG","language",,,,,,
-"emk","Eastern Maninkakan","Mande",,"Western Mande",10.5,-9.5,"SL GN","language",,,,,,
-"enn","Engenni","Niger-Congo","Benue-Congo","Edoid",5.16666666667,6.38333333333,"NG","language",,,,,,
-"ets","Yekhee","Niger-Congo","Benue-Congo","Edoid",7.25,6.5,"NG","language",,,,,,
-"etu","Ejagham","Niger-Congo","Benue-Congo","Ekoid-Mbe",5.41666666667,8.66666666667,"NG CM","language",,,,,,
-"ewe","Ewe","Niger-Congo","Kwa","Gbe",6,1,"GH","language",,,,,,
-"ewe","Ewe","Niger-Congo","Kwa","Gbe",6.33333333333,0.416666666667,"TG GH","language",,,,,,
-"ewo","Ewondo","Niger-Congo","Benue-Congo","Bantu",4,12,"CM","language",,,,,,
-"fap","Paloor","Niger-Congo","North-Central Atlantic","Cangin",14.8333333333,-16.75,"SN","language",,,,,,
-"ffm","Maasina Fulfulde","Niger-Congo","North-Central Atlantic","Peul-Serer",15,-5,"ML","language",,,,,,
-"fia","Nobiin","Eastern Sudanic",,"Nubian",21,31,"EG SD","language",,,,,,
-"fmp","Fe'fe'","Niger-Congo","Benue-Congo","Wide Grassfields",5.25,10.1666666667,"CM","language",,,,,,
-"fon","Fon","Niger-Congo","Kwa","Gbe",6.41666666667,2.16666666667,"BJ","language",,,,,,
-"fub","Adamawa Fulfulde","Niger-Congo","North-Central Atlantic","Peul-Serer",9.16666666667,13.5,"CM","language",,,,,,
-"fuc","Pulaar","Niger-Congo","North-Central Atlantic","Peul-Serer",15,-14,"SN","language",,,,,,
-"fuc","Pulaar","Niger-Congo","North-Central Atlantic","Peul-Serer",16.5,-13.75,"MR","language",,,,,,
-"fuf","Pular","Niger-Congo","North-Central Atlantic","Peul-Serer",11.5,-12.5,"GN","language",,,,,,
-"fuh","Western Niger Fulfulde","Niger-Congo","North-Central Atlantic","Peul-Serer",13.5,0.5,"BF","language",,,,,,
-"fuh","Western Niger Fulfulde","Niger-Congo","North-Central Atlantic","Peul-Serer",14,0,"BF","language",,,,,,
-"fuu","Furu","Central Sudanic",,"Bongo-Bagirmi",4.33333333333,20.5833333333,"CF CD","language",,,,,,
-"fuv","Nigerian Fulfulde","Niger-Congo","North-Central Atlantic","Peul-Serer",10.25,11.25,"NG","language",,,,,,
-"fvr","Fur","Fur",,"Fur",13.5,25,"SD","language",,,,,,
-"gaa","Ga","Niger-Congo","Kwa","Ga-Dangme",5.66666666667,-0.166666666667,"GH","language",,,,,,
-"gax","Borana-Arsi-Guji Oromo","Afro-Asiatic","Cushitic","Lowland East Cushitic",4.5,38.5,"KE ET","language",,,,,,
-"gaz","West Central Oromo","Afro-Asiatic","Cushitic","Lowland East Cushitic",9,37,"ET","language",,,,,,
-"gbp","Gbaya-Bossangoa","Niger-Congo",,"Gbaya-Manza-Ngbaka",6.66666666667,17.5,"CF","language",,,,,,
-"gbr","Gbagyi","Niger-Congo","Benue-Congo","Nupoid",9.5,7,"NG","language",,,,,,
-"gde","Gude","Afro-Asiatic","Chadic","Biu-Mandara",10.4166666667,13.4166666667,"NG CM","language",,,,,,
-"gdf","Guduf-Gava","Afro-Asiatic","Chadic","Biu-Mandara",11.2333333333,13.8,"NG CM","language",,,,,,
-"gdm","Laal","Laal",,"Laal",10,17.6666666667,"TD","language",,,,,,
-"ged","Gade","Niger-Congo","Benue-Congo","Gade",8.66666666667,7.41666666667,"NG","language",,,,,,
-"gey","Enya","Niger-Congo","Benue-Congo","Bantu",-0.5,25.25,"CD","language",,,,,,
-"ghl","Ghulfan","Eastern Sudanic",,"Nubian",12,31,"SD","language",,,,,,
-"gid","Gidar","Afro-Asiatic","Chadic","Biu-Mandara",10,14,"CM","language",,,,,,
-"gis","North Giziga","Afro-Asiatic","Chadic","Biu-Mandara",10.3333333333,14.1666666667,"CM","language",,,,,,
-"gkn","Gokana","Niger-Congo","Benue-Congo","Ogonoid",4.58333333333,7.33333333333,"NG","language",,,,,,
-"glj","Gula Iro","Niger-Congo","Adamawa-Ubangi","Bua",10.25,19.4166666667,"TD","language",,,,,,
-"gmm","Gbaya-Mbodomo","Niger-Congo",,"Gbaya-Manza-Ngbaka",4.5,15.5,"CF","language",,,,,,
-"gmv","Gamo","Afro-Asiatic","Omotic","Ta-Ne-Omotic",6.66666666667,37.25,"ET","language",,,,,,
-"goa","Guro","Mande",,"Eastern Mande",7,-6,"CI","language",,,,,,
-"god","Godié","Niger-Congo",,"Kru",5.25,-5.66666666667,"CI","language",,,,,,
-"god","Godié","Niger-Congo",,"Kru",5.41666666667,-5.83333333333,"CI","language",,,,,,
-"gol","Gola","Niger-Congo","Mel","Gola",7.25,-10.8333333333,"SL LR","language",,,,,,
-"gow","Gorowa","Afro-Asiatic","Cushitic","Southern Cushitic",-4.5,36.5,"TZ","language",,,,,,
-"gqa","Ga'anda","Afro-Asiatic","Chadic","Biu-Mandara",10.3333333333,12.5833333333,"NG","language",,,,,,
-"grj","Southern Grebo","Niger-Congo",,"Kru",5,-8,"LR","language",,,,,,
-"grr","Taznatit","Afro-Asiatic",,"Berber",32.5,-1.5,"MA","language",,,,,,
-"gru","Kistane","Afro-Asiatic",,"Semitic",8.5,38.5,"ET","language",,,,,,
-"guk","Gumuz","Gumuz",,"Gumuz",12.5,35.8333333333,"ET SD","language",,,,,,
-"gur","Farefare","Niger-Congo","Gur","Oti-Volta",10.8333333333,-0.916666666667,"GH","language",,,,,,
-"guw","Gun","Niger-Congo","Kwa","Gbe",6.5,2.5,"BJ","language",,,,,,
-"gux","Gourmanchéma","Niger-Congo","Gur","Oti-Volta",12.25,1,"BF","language",,,,,,
-"guz","Gusii","Niger-Congo","Benue-Congo","Bantu",-0.75,34.8333333333,"KE","language",,,,,,
-"gwd","Gawwada","Afro-Asiatic","Cushitic","Lowland East Cushitic",5.5,37.25,"ET","language",,,,,,
-"gya","Northwest Gbaya","Niger-Congo",,"Gbaya-Manza-Ngbaka",6,15,"CF CM","language",,,,,,
-"hae","Eastern Oromo","Afro-Asiatic","Cushitic","Lowland East Cushitic",9,42,"ET","language",,,,,,
-"har","Harari","Afro-Asiatic",,"Semitic",9.25,42.1666666667,"ET","language",,,,,,
-"hau","Hausa","Afro-Asiatic","Chadic","West Chadic",12,7,"NG NE","language",,,,,,
-"hay","Haya","Niger-Congo","Benue-Congo","Bantu",-2,31.5,"TZ","language",,,,,,
-"hbb","Huba","Afro-Asiatic","Chadic","Biu-Mandara",10.3333333333,13.1666666667,"NG","language",,,,,,
-"heh","Hehe","Niger-Congo","Benue-Congo","Bantu",-8,36,"TZ","language",,,,,,
-"hem","Hemba","Niger-Congo","Benue-Congo","Bantu",-6.25,27.1666666667,"CD","language",,,,,,
-"her","Herero","Niger-Congo","Benue-Congo","Bantu",-20.5833333333,19,"NA BW","language",,,,,,
-"hia","Lamang","Afro-Asiatic","Chadic","Biu-Mandara",11.25,13.5833333333,"NG","language",,,,,,
-"hke","Hunde","Niger-Congo","Benue-Congo","Bantu",-1.16666666667,28.8333333333,"CD","language",,,,,,
-"hna","Mina (Cameroon)","Afro-Asiatic","Chadic","Biu-Mandara",10.3333333333,13.8333333333,"CM","language",,,,,,
-"hnh","ǁAni","Khoe-Kwadi",,"Khoe-Kwadi",-18.9166666667,21.9166666667,"BW","language",,,,,,
-"hoo","Holoholo","Niger-Congo","Benue-Congo","Bantu",-5.16666666667,29.9166666667,"TZ","language",,,,,,
-"hts","Hadza","Hadza",,"Hadza",-3.75,35.1666666667,"TZ","language",,,,,,
-"huc","ǂHua","Kxa",,"=|Hoan",-25.5,25,"BW","language",,,,,,
-"ibb","Ibibio","Niger-Congo","Benue-Congo","Lower Cross",5.25,7.83333333333,"NG","language",,,,,,
-"ibo","Igbo","Niger-Congo","Benue-Congo","Igboid",6,7.33333333333,"NG","language",,,,,,
-"idu","Idoma","Niger-Congo","Benue-Congo","Idomoid",6.91666666667,7.5,"NG","language",,,,,,
-"ifm","Teke-Fuumu","Niger-Congo","Benue-Congo","Bantu",-3.66666666667,15.3333333333,"CG","language",,,,,,
-"igb","Ebira","Niger-Congo","Benue-Congo","Nupoid",8.16666666667,7,"NG","language",,,,,,
-"ige","Igede","Niger-Congo","Benue-Congo","Idomoid",7,8.16666666667,"NG","language",,,,,,
-"ijc","Izon","Ijoid",,"Ijoid",4.91666666667,5.66666666667,"NG","language",,,,,,
-"ikx","Ik","Eastern Sudanic",,"Kuliak",3.75,34.1666666667,"UG","language",,,,,,
-"ilb","Ila","Niger-Congo","Benue-Congo","Bantu",-15.5833333333,26.5,"ZM ZW","language",,,,,,
-"irk","Iraqw","Afro-Asiatic","Cushitic","Southern Cushitic",-4,35.5,"TZ","language",,,,,,
-"isi","Nkem-Nkum","Niger-Congo","Benue-Congo","Ekoid-Mbe",6.58333333333,8.58333333333,"NG","language",,,,,,
-"iso","Isoko","Niger-Congo","Benue-Congo","Edoid",5.5,6.25,"NG","language",,,,,,
-"its","Isekiri","Niger-Congo","Benue-Congo","Defoid",5.66666666667,5.5,"NG","language",,,,,,
-"izr","Izere","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9.5,8.6666667,"NG","language",,,,,,
-"izz","Izii","Niger-Congo","Benue-Congo","Igboid",6.33333333333,8,"NG","language",,,,,,
-"jbu","Jukun Takum","Niger-Congo","Benue-Congo","Jukunoid",6.91666666667,10.4166666667,"NG","language",,,,,,
-"jek","Jeri Kuo","Mande",,"Western Mande",9.5,-5.66666666667,"CI","language",,,,,,
-"jle","Ngile","Kordofanian",,"Talodi",10.6666666667,30,"SD","language",,,,,,
-"jnj","Yemsa","Afro-Asiatic","Omotic","Ta-Ne-Omotic",7.83333333333,37.3333333333,"ET","language",,,,,,
-"kab","Kabyle","Afro-Asiatic",,"Berber",36.5,5,"DZ","language",,,,,,
-"kah","Kara (Central African Republic)","Central Sudanic",,"Bongo-Bagirmi",10,23,"CF","language",,,,,,
-"kam","Kamba (Kenya)","Niger-Congo","Benue-Congo","Bantu",-1.5,38,"KE","language",,,,,,
-"kao","Xaasongaxango","Mande",,"Western Mande",14.25,-10.5,"ML SN","language",,,,,,
-"kbl","Kanembu","Saharan","Saharan","Western Saharan",14,15,"NG TD NE","language",,,,,,
-"kbp","Kabiyè","Niger-Congo","Gur","Grusi",9.66666666667,1.16666666667,"TG","language",,,,,,
-"kbr","Kafa","Afro-Asiatic","Omotic","Ta-Ne-Omotic",7.25,36.25,"ET","language",,,,,,
-"kcg","Tyap","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9.91666666667,8.16666666667,"NG","language",,,,,,
-"kck","Kalanga","Niger-Congo","Benue-Congo","Bantu",-20.5,27.5,"BW ZW","language",,,,,,
-"kcm","Gula (Central African Republic)","Central Sudanic",,"Bongo-Bagirmi",9.5,22.5,"CF","language",,,,,,
-"kcn","Nubi","other",,"Creoles and Pidgins",0.666666666667,32.0833333333,"UG","language",,,,,,
-"kcr","Katla","Kordofanian",,"Katla-Tima",11.8333333333,29.3333333333,"SD","language",,,,,,
-"kcu","Kami (Tanzania)","Niger-Congo","Benue-Congo","Bantu",-6.75,38,"TZ","language",,,,,,
-"kcv","Kete","Niger-Congo","Benue-Congo","Bantu",-7,22.8333333333,"CD","language",,,,,,
-"kde","Makonde","Niger-Congo","Benue-Congo","Bantu",-11,40,"MZ TZ","language",,,,,,
-"kdh","Tem","Niger-Congo","Gur","Grusi",8.66666666667,0.5,"TG BJ GH","language",,,,,,
-"kdj","Karamojong","Eastern Sudanic","Nilotic","Eastern Nilotic",3,34.1666666667,"UG","language",,,,,,
-"kdm","Kagoma","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9.25,8.16666666667,"NG","language",,,,,,
-"ken","Kenyang","Niger-Congo","Benue-Congo","Mamfe",5.66666666667,9.5,"CM","language",,,,,,
-"ker","Kera","Afro-Asiatic","Chadic","East Chadic",9.83333333333,15.0833333333,"TD","language",,,,,,
-"kfz","Koromfé","Niger-Congo","Gur","Koromfe",14.25,-0.916666666667,"BF ML","language",,,,,,
-"kgo","Krongo","Kadu",,"Kadugli",10.5,30,"SD","language",,,,,,
-"khq","Koyra Chiini Songhay","Songhay",,"Songhay",17,-3,"ML","language",,,,,,
-"kia","Kim","Niger-Congo","Adamawa-Ubangi","Kim",9.91666666667,15.9166666667,"TD","language",,,,,,
-"kik","Kikuyu","Niger-Congo","Benue-Congo","Bantu",-0.75,36.75,"KE","language",,,,,,
-"kin","Kinyarwanda","Niger-Congo","Benue-Congo","Bantu",-2,30,"RW","language",,,,,,
-"kki","Kagulu","Niger-Congo","Benue-Congo","Bantu",-6.33333333333,37,"TZ","language",,,,,,
-"kkw","Teke-Kukuya","Niger-Congo","Benue-Congo","Bantu",-2.33333333333,14.5,"CG","language",,,,,,
-"klu","Klao","Niger-Congo",,"Kru",4.75,-8.75,"LR","language",,,,,,
-"kma","Konni","Niger-Congo","Gur","Oti-Volta",10.25,-1.58333333333,"GH","language",,,,,,
-"kna","Dera (Nigeria)","Afro-Asiatic","Chadic","West Chadic",10,12,"NG","language",,,,,,
-"knc","Central Kanuri","Saharan","Saharan","Western Saharan",12,13,"NG TD NE SD","language",,,,,,
-"knf","Mankanya","Niger-Congo","North-Central Atlantic","Manjaku",12.0833333333,-15.9166666667,"GW","language",,,,,,
-"kng","Koongo","Niger-Congo","Benue-Congo","Bantu",-5.5,14,"CD","language",,,,,,
-"kng","Koongo","Niger-Congo","Benue-Congo","Bantu",-5,15,"CD","language",,,,,,
-"knk","Kuranko","Mande",,"Western Mande",9.33333333333,-11.25,"SL GN","language",,,,,,
-"knw","Kung-Ekoka","Kxa",,"Ju-Kung",-19.6666666667,18,"AO NA","language",,,,,,
-"kny","Kanyok","Niger-Congo","Benue-Congo","Bantu",-7.33333333333,23.5833333333,"CD","language",,,,,,
-"koe","Kacipo-Bale Suri","Eastern Sudanic","Surmic","South Surmic",6.5,34.5,"SS","language",,,,,,
-"kot","Lagwan","Afro-Asiatic","Chadic","Biu-Mandara",11.5,14.8333333333,"CM","language",,,,,,
-"kpk","Kpan","Niger-Congo","Benue-Congo","Jukunoid",7.58333333333,10.1666666667,"NG","language",,,,,,
-"kpo","Ikposo","Niger-Congo","Kwa","Ka-Togo",7.5,0.833333333333,"TG","language",,,,,,
-"kpz","Kupsabiny","Eastern Sudanic","Nilotic","Southern Nilotic",1.33333333333,34.5833333333,"UG","language",,,,,,
-"kqy","Koorete","Afro-Asiatic","Omotic","Ta-Ne-Omotic",5.83333333333,37.8333333333,"ET","language",,,,,,
-"kqz","Korana","Khoe-Kwadi",,"Khoe-Kwadi",-29.5,20.5,"ZA","language",,,,,,
-"krs","Gbaya (Sudan)","Central Sudanic",,"Kresh",8.5,24.5,"SS","language",,,,,,
-"ksb","Shambala","Niger-Congo","Benue-Congo","Bantu",-4.25,38.25,"TZ","language",,,,,,
-"ksf","Bafia","Niger-Congo","Benue-Congo","Bantu",5,11.1666666667,"CM","language",,,,,,
-"ksq","Kwaami","Afro-Asiatic","Chadic","West Chadic",10.4166666667,11,"NG","language",,,,,,
-"kss","Southern Kisi","Niger-Congo","Mel","Southern Mel",8.5,-10.25,"GN LR","language",,,,,,
-"kss","Southern Kisi","Niger-Congo","Mel","Southern Mel",8.83333333333,-10.1666666667,"SL GN LR","language",,,,,,
-"kst","Winyé","Niger-Congo","Gur","Grusi",11.8666666667,-2.91666666667,"BF","language",,,,,,
-"ktu","Kituba (Democratic Republic of Congo)","other",,"Creoles and Pidgins",-5,17.5,"CD","language",,,,,,
-"ktz","Juǀʼhoan","Kxa",,"Ju-Kung",-19,21,"AO NA BW","language",,,,,,
-"kun","Kunama","Kunama",,"Kunama",14.5,37,"ET ER","language",,,,,,
-"kwn","Kwangali","Niger-Congo","Benue-Congo","Bantu",-18,19.5,"AO NA","language",,,,,,
-"kyq","Kenga","Central Sudanic",,"Bongo-Bagirmi",12,18,"TD","language",,,,,,
-"kza","Western Karaboro","Niger-Congo",,"Senufo",10.6666666667,-4.5,"BF","language",,,,,,
-"laf","Lafofa","Kordofanian",,"Lafofa",10.25,31.25,"SD","language",,,,,,
-"lag","Rangi","Niger-Congo","Benue-Congo","Bantu",-4.5,36,"TZ","language",,,,,,
-"laj","Lango (Uganda)","Eastern Sudanic","Nilotic","Western Nilotic",2.16666666667,33,"UG","language",,,,,,
-"lam","Lamba","Niger-Congo","Benue-Congo","Bantu",-13,28,"CD ZM","language",,,,,,
-"lch","Luchazi","Niger-Congo","Benue-Congo","Bantu",-14,20,"AO","language",,,,,,
-"lea","Lega-Shabunda","Niger-Congo","Benue-Congo","Bantu",-2.83333333333,27.1666666667,"CD","language",,,,,,
-"led","Lendu","Central Sudanic",,"Lendu",2,30.5,"CD","language",,,,,,
-"lee","Lyélé","Niger-Congo","Gur","Grusi",12.5,-2.66666666667,"BF","language",,,,,,
-"lef","Lelemi","Niger-Congo","Kwa","Na-Togo",7.33333333333,0.5,"GH","language",,,,,,
-"les","Lese","Central Sudanic",,"Mangbutu-Efe",2,29,"CD","language",,,,,,
-"lgg","Lugbara","Central Sudanic",,"Moru-Ma'di",3.08333333333,30.9166666667,"CD UG","language",,,,,,
-"lin","Lingala","Niger-Congo","Benue-Congo","Bantu",2,18.5,"CD","language",,,,,,
-"liy","Banda-Bambari","Niger-Congo","Adamawa-Ubangi","Ubangi",6.5,20.75,"CF","language",,,,,,
-"lkr","Päri","Eastern Sudanic","Nilotic","Western Nilotic",5,32.5,"SS","language",,,,,,
-"lln","Lele (Chad)","Afro-Asiatic","Chadic","East Chadic",9.08333333333,15.5833333333,"TD","language",,,,,,
-"lme","Pévé","Afro-Asiatic","Chadic","Masa",9,14.5,"TD CM","language",,,,,,
-"lnb","Mbalanhu","Niger-Congo","Benue-Congo","Bantu",-17.5,15,"NA","language",,,,,,
-"lns","Lamnso'","Niger-Congo","Benue-Congo","Wide Grassfields",6.16666666667,10.75,"CM","language",,,,,,
-"lob","Lobi","Niger-Congo","Gur","Lobiri-Jaane",10.5,-3.25,"BF CI","language",,,,,,
-"log","Logo","Central Sudanic",,"Moru-Ma'di",3.5,30,"CD","language",,,,,,
-"lok","Loko","Mande",,"Western Mande",9.33333333333,-12.0833333333,"SL","language",,,,,,
-"lol","Mongo","Niger-Congo","Benue-Congo","Bantu",0,21,"CD","language",,,,,,
-"lom","Loma (Liberia)","Mande",,"Western Mande",8,-9.5,"GN LR","language",,,,,,
-"loz","Lozi","Niger-Congo","Benue-Congo","Bantu",-17.8333333333,26,"ZM","language",,,,,,
-"lua","Luba-Lulua","Niger-Congo","Benue-Congo","Bantu",-6,21,"CD","language",,,,,,
-"lua","Luba-Lulua","Niger-Congo","Benue-Congo","Bantu",-6,22,"CD","language",,,,,,
-"lub","Luba-Katanga","Niger-Congo","Benue-Congo","Bantu",-8,26,"CD","language",,,,,,
-"lue","Luvale","Niger-Congo","Benue-Congo","Bantu",-12,22,"AO","language",,,,,,
-"lug","Ganda","Niger-Congo","Benue-Congo","Bantu",0.5,32.1666666667,"UG","language",,,,,,
-"lun","Lunda","Niger-Congo","Benue-Congo","Bantu",-10.6666666667,24,"CD","language",,,,,,
-"luo","Luo (Kenya and Tanzania)","Eastern Sudanic","Nilotic","Western Nilotic",-0.5,34.75,"KE TZ","language",,,,,,
-"luy","Luyia","Niger-Congo","Benue-Congo","Bantu",0.416666666667,34.5,"KE","language",,,,,,
-"lwo","Luwo","Eastern Sudanic","Nilotic","Western Nilotic",8,28,"SS","language",,,,,,
-"mas","Masai","Eastern Sudanic","Nilotic","Eastern Nilotic",-3,36,"KE TZ","language",,,,,,
-"maw","Mampruli","Niger-Congo","Gur","Oti-Volta",10.3333333333,-0.666666666667,"TG GH","language",,,,,,
-"mcn","Masana","Afro-Asiatic","Chadic","Masa",10.5,15.5,"TD CM","language",,,,,,
-"mcp","Makaa","Niger-Congo","Benue-Congo","Bantu",3.41666666667,12.25,"CM","language",,,,,,
-"mcs","Mambai","Niger-Congo","Adamawa-Ubangi","Mbumic",9.66666666667,14,"TD","language",,,,,,
-"mda","Mada (Nigeria)","Niger-Congo","Benue-Congo","Benue-Congo Plateau",8.75,8.25,"NG","language",,,,,,
-"mdd","Mbum","Niger-Congo","Adamawa-Ubangi","Mbumic",7.75,13.1666666667,"CF TD CM","language",,,,,,
-"mde","Maba (Chad)","Maban",,"Maban",13.75,20.8333333333,"TD","language",,,,,,
-"mdi","Mamvu","Central Sudanic",,"Mangbutu-Efe",3.25,29,"CD","language",,,,,,
-"mdj","Mangbetu","Central Sudanic",,"Mangbetu",2.5,26.5,"CD","language",,,,,,
-"mdm","Mayogo","Niger-Congo","Adamawa-Ubangi","Ubangi",3,29,"CD","language",,,,,,
-"mdq","Mbole","Niger-Congo","Benue-Congo","Bantu",-0.666666666667,24.6666666667,"CD","language",,,,,,
-"mdt","Mbere","Niger-Congo","Benue-Congo","Bantu",-0.5,14,"CG GA","language",,,,,,
-"mdw","Mbosi","Niger-Congo","Benue-Congo","Bantu",-1.25,15.5,"CG","language",,,,,,
-"mdx","Dizin","Afro-Asiatic","Omotic","Dizoid",6.16666666667,36.5,"ET","language",,,,,,
-"mdy","Male (Ethiopia)","Afro-Asiatic","Omotic","Ta-Ne-Omotic",6,36.9166666667,"ET","language",,,,,,
-"mei","Midob","Eastern Sudanic",,"Nubian",15.0833333333,26.25,"SD","language",,,,,,
-"men","Mende (Sierra Leone)","Mande",,"Western Mande",7.83333333333,-11.5,"SL","language",,,,,,
-"mev","Mano","Mande",,"Eastern Mande",7,-9,"GN LR","language",,,,,,
-"mey","Hassaniyya","Afro-Asiatic",,"Semitic",20,-10,"MR","language",,,,,,
-"mfc","Mba","Niger-Congo","Adamawa-Ubangi","Ubangi",1,25,"CD","language",,,,,,
-"mfe","Morisyen","other",,"Creoles and Pidgins",-20.3333333333,57.5,"MU","language",,,,,,
-"mfv","Mandjak","Niger-Congo","North-Central Atlantic","Manjaku",12,-16.25,"GW","language",,,,,,
-"mgd","Moru","Central Sudanic",,"Moru-Ma'di",4.75,29.75,"SS","language",,,,,,
-"mge","Mango","Central Sudanic",,"Bongo-Bagirmi",8.75,17,"TD","language",,,,,,
-"mgh","Makhuwa-Meetto","Niger-Congo","Benue-Congo","Bantu",-15,38.6666666667,"MZ","language",,,,,,
-"mgr","Mambwe-Lungu","Niger-Congo","Benue-Congo","Bantu",-9.08333333333,31.1666666667,"ZM TZ","language",,,,,,
-"mgw","Matumbi","Niger-Congo","Benue-Congo","Bantu",-8.5,39,"TZ","language",,,,,,
-"mhd","Mbugu","Afro-Asiatic","Cushitic","Southern Cushitic",-4.33333333333,38.1666666667,"TZ","language",,,,,,
-"mhi","Ma'di","Central Sudanic",,"Moru-Ma'di",3.25,31.5,"UG SS","language",,,,,,
-"mhk","Mungaka","Niger-Congo","Benue-Congo","Wide Grassfields",5.91666666667,10,"CM","language",,,,,,
-"mif","Mofu-Gudur","Afro-Asiatic","Chadic","Biu-Mandara",10.5,14,"CM","language",,,,,,
-"mkf","Miya","Afro-Asiatic","Chadic","West Chadic",10.9166666667,9.66666666667,"NG","language",,,,,,
-"mlq","Western Maninkakan","Mande",,"Western Mande",13,-11,"ML","language",,,,,,
-"mls","Masalit","Maban",,"Maban",13.3333333333,22,"TD SD","language",,,,,,
-"mmy","Migaama","Afro-Asiatic","Chadic","East Chadic",12.1666666667,19.8333333333,"TD","language",,,,,,
-"mnf","Mundani","Niger-Congo","Benue-Congo","Wide Grassfields",5.66666666667,9.91666666667,"CM","language",,,,,,
-"mnk","Mandinka","Mande",,"Western Mande",13,-15.6666666667,"ML SN GN","language",,,,,,
-"mnk","Mandinka","Mande",,"Western Mande",13.4166666667,-16,"GM","language",,,,,,
-"moj","Monzombo","Niger-Congo","Adamawa-Ubangi","Ubangi",3,18.4166666667,"CG","language",,,,,,
-"mor","Moro","Kordofanian",,"Heiban",11,30.1666666667,"SD","language",,,,,,
-"mos","Mossi","Niger-Congo","Gur","Oti-Volta",12.8333333333,-1.25,"BF","language",,,,,,
-"moy","Shekkacho","Afro-Asiatic","Omotic","Ta-Ne-Omotic",7.58333333333,35.5,"ET","language",,,,,,
-"moz","Mukulu","Afro-Asiatic","Chadic","East Chadic",11.9166666667,18.0833333333,"TD","language",,,,,,
-"mpe","Majang","Eastern Sudanic","Surmic","Majang",6.75,35,"ET","language",,,,,,
-"mpk","Mbara (Chad)","Afro-Asiatic","Chadic","Biu-Mandara",11,15.4166666667,"TD","language",,,,,,
-"mrt","Marghi Central","Afro-Asiatic","Chadic","Biu-Mandara",11,13,"NG","language",,,,,,
-"msj","Ma (Democratic Republic of Congo)","Niger-Congo","Adamawa-Ubangi","Ubangi",3.5,28,"CD","language",,,,,,
-"mtk","Mbe'","Niger-Congo","Benue-Congo","Bantu",6.28333333333,11.0833333333,"CM","language",,,,,,
-"mua","Mundang","Niger-Congo","Adamawa-Ubangi","Mbumic",9.66666666667,14.5,"TD","language",,,,,,
-"mug","Musgu","Afro-Asiatic","Chadic","Biu-Mandara",10.8333333333,14.9166666667,"TD CM","language",,,,,,
-"muh","Mündü","Niger-Congo","Adamawa-Ubangi","Ubangi",4.5,30,"CD SS","language",,,,,,
-"mur","Murle","Eastern Sudanic","Surmic","South Surmic",6.5,33.5,"SS","language",,,,,,
-"muz","Mursi","Eastern Sudanic","Surmic","South Surmic",5.58333333333,36.0833333333,"ET","language",,,,,,
-"mwe","Mwera (Chimwera)","Niger-Congo","Benue-Congo","Bantu",-9,39,"TZ","language",,,,,,
-"mxu","Mada (Cameroon)","Afro-Asiatic","Chadic","Biu-Mandara",10.8333333333,14.1666666667,"CM","language",,,,,,
-"mxx","Mahou","Mande",,"Western Mande",8.33333333333,-7.5,"CI","language",,,,,,
-"myb","Mbay","Central Sudanic",,"Bongo-Bagirmi",8.25,17.5,"TD","language",,,,,,
-"mye","Myene","Niger-Congo","Benue-Congo","Bantu",-1.25,9.5,"GA","language",,,,,,
-"mym","Me'en","Eastern Sudanic","Surmic","South Surmic",5,37,"ET","language",,,,,,
-"mzb","Tumzabt","Afro-Asiatic",,"Berber",32.5,3.5,"DZ","language",,,,,,
-"mzm","Mumuye","Niger-Congo","Adamawa-Ubangi","Mumuye-Yandang",9,11.6666666667,"NG","language",,,,,,
-"naq","Khoekhoe","Khoe-Kwadi",,"Khoe-Kwadi",-25.5,18,"NA","language",,,,,,
-"nbm","Ngbaka Ma'bo","Niger-Congo","Adamawa-Ubangi","Ubangi",3.56,18.36,"CD","language",,,,,,
-"ncu","Chumburung","Niger-Congo","Kwa","Tano",7.75,0.25,"GH","language",,,,,,
-"nde","North Ndebele","Niger-Congo","Benue-Congo","Bantu",-25.3333333333,29,"ZA","language",,,,,,
-"ndi","Samba Leko","Niger-Congo","Adamawa-Ubangi","Samba-Duru",8.5,12.5,"NG CM","language",,,,,,
-"ndo","Ndonga","Niger-Congo","Benue-Congo","Bantu",-18,17,"AO NA","language",,,,,,
-"ndt","Ndunga","Niger-Congo","Adamawa-Ubangi","Ubangi",2.25,21.5,"CD","language",,,,,,
-"ndv","Ndut","Niger-Congo","North-Central Atlantic","Cangin",14.9166666667,-16.9166666667,"SN","language",,,,,,
-"ndz","Ndogo","Niger-Congo","Adamawa-Ubangi","Ubangi",7.75,27,"SS","language",,,,,,
-"ney","Neyo","Niger-Congo",,"Kru",5,-6,"CI","language",,,,,,
-"nfr","Nafaanra","Niger-Congo",,"Senufo",8,-2.58333333333,"CI GH","language",,,,,,
-"nga","Ngbaka","Niger-Congo",,"Gbaya-Manza-Ngbaka",3.5,20,"CD","language",,,,,,
-"ngb","Northern Ngbandi","Niger-Congo","Adamawa-Ubangi","Ubangi",3.75,22,"CD","language",,,,,,
-"ngc","Ngombe (Democratic Republic of Congo)","Niger-Congo","Benue-Congo","Bantu",3,23,"CD","language",,,,,,
-"ngc","Ngombe (Democratic Republic of Congo)","Niger-Congo","Benue-Congo","Bantu",3.216666667,19.28333333,"CD","language",,,,,,
-"nge","Ngemba","Niger-Congo","Benue-Congo","Bantu",6.2,10,"CM","language",,,,,,
-"nge","Ngemba","Niger-Congo","Benue-Congo","Wide Grassfields",6,10.1666666667,"CM","language",,,,,,
-"ngi","Ngizim","Afro-Asiatic","Chadic","West Chadic",12.0833333333,10.9166666667,"NG","language",,,,,,
-"nhb","Beng","Mande",,"Eastern Mande",7.83333333333,-4.25,"CI","language",,,,,,
-"nhr","Naro","Khoe-Kwadi",,"Khoe-Kwadi",-22.3333333333,20.5,"NA BW","language",,,,,,
-"nhu","Noone","Niger-Congo","Benue-Congo","Beboid",6.41666666667,10.5833333333,"CM","language",,,,,,
-"nie","Niellim","Niger-Congo","Adamawa-Ubangi","Bua",9.75,17.75,"TD","language",,,,,,
-"nih","Nyiha (Tanzania)","Niger-Congo","Benue-Congo","Bantu",-10,33,"ZM TZ","language",,,,,,
-"niq","Nandi","Eastern Sudanic","Nilotic","Eastern Nilotic",0.25,35,"KE","language",,,,,,
-"niy","Ngiti","Central Sudanic",,"Lendu",1.33333333333,30.25,"CD","language",,,,,,
-"nko","Nkonya","Niger-Congo","Kwa","Tano",7.16666666667,0.25,"GH","language",,,,,,
-"nmd","Ndumu","Niger-Congo","Benue-Congo","Bantu",-1.66666666667,13.5833333333,"GA","language",,,,,,
-"nmg","Kwasio","Niger-Congo","Benue-Congo","Bantu",3,10.1666666667,"GQ CM","language",,,,,,
-"nmn","ǃXóõ","Tu",,"Tu",-24,21.5,"BW","language",,,,,,
-"nnb","Nande","Niger-Congo","Benue-Congo","Bantu",-0.0833333333333,29.1666666667,"CD","language",,,,,,
-"now","Nyambo","Niger-Congo","Benue-Congo","Bantu",-1,31.3333333333,"TZ","language",,,,,,
-"nrb","Nara","Eastern Sudanic",,"Nara",15.0833333333,37.5833333333,"ER","language",,,,,,
-"nse","Nsenga","Niger-Congo","Benue-Congo","Bantu",-14.5,30.8333333333,"ZM","language",,,,,,
-"nso","Pedi","Niger-Congo","Benue-Congo","Bantu",-24,29,"ZA","language",,,,,,
-"ntm","Nateni","Niger-Congo","Gur","Oti-Volta",10.5,1.16666666667,"BJ","language",,,,,,
-"nto","Ntomba","Niger-Congo","Benue-Congo","Bantu",-2,18.3333333333,"CD","language",,,,,,
-"nup","Nupe-Nupe-Tako","Niger-Congo","Benue-Congo","Nupoid",9.16666666667,5.41666666667,"NG","language",,,,,,
-"nus","Nuer","Eastern Sudanic","Nilotic","Western Nilotic",8.33333333333,32,"ET SS","language",,,,,,
-"nuv","Northern Nuni","Niger-Congo","Gur","Grusi",12.1666666667,-3,"BF","language",,,,,,
-"nya","Nyanja","Niger-Congo","Benue-Congo","Bantu",-14,34,"MZ MW ZM ZW","language",,,,,,
-"nyi","Ama (Sudan)","Eastern Sudanic",,"Nyimang",12.1666666667,29.3333333333,"SD","language",,,,,,
-"nyj","Nyanga","Niger-Congo","Benue-Congo","Bantu",-1.25,28.1666666667,"CD","language",,,,,,
-"nym","Nyamwezi","Niger-Congo","Benue-Congo","Bantu",-5,33,"TZ","language",,,,,,
-"nyn","Nyankole","Niger-Congo","Benue-Congo","Bantu",-0.5,30.5,"UG","language",,,,,,
-"nyo","Nyoro","Niger-Congo","Benue-Congo","Bantu",1.5,31.3333333333,"UG","language",,,,,,
-"nyp","Nyang'i","Eastern Sudanic",,"Kuliak",3.41666666667,33.5833333333,"UG","language",,,,,,
-"nzk","Nzakara","Niger-Congo","Adamawa-Ubangi","Ubangi",5,23,"CF CD","language",,,,,,
-"ogb","Ogbia","Niger-Congo","Benue-Congo","Central Delta",4.66666666667,6.25,"NG","language",,,,,,
-"ogo","Khana","Niger-Congo","Benue-Congo","Ogonoid",4.75,7.41666666667,"NG","language",,,,,,
-"ogu","Ogbronuagum","Niger-Congo","Benue-Congo","Central Delta",4.75,6.86666666667,"NG","language",,,,,,
-"oku","Oku","Niger-Congo","Benue-Congo","Wide Grassfields",6.25,10.5,"CM","language",,,,,,
-"old","Mochi","Niger-Congo","Benue-Congo","Bantu",-3,37,"TZ","language",,,,,,
-"otr","Otoro","Kordofanian",,"Heiban",11.1666666667,30.5,"SD","language",,,,,,
-"oua","Tagargrent","Afro-Asiatic",,"Berber",31.9166666667,5.33333333333,"DZ","language",,,,,,
-"pbi","Parkwa","Afro-Asiatic","Chadic","Biu-Mandara",11,14.0833333333,"CM","language",,,,,,
-"pbr","Pangwa","Niger-Congo","Benue-Congo","Bantu",-10,34.75,"TZ","language",,,,,,
-"pcm","Nigerian Pidgin","other",,"Creoles and Pidgins",6.5,3.33333333333,"NG","language",,,,,,
-"pip","Pero","Afro-Asiatic","Chadic","West Chadic",9.58333333333,11,"NG","language",,,,,,
-"pko","Pökoot","Eastern Sudanic","Nilotic","Southern Nilotic",1.5,35.5,"KE UG","language",,,,,,
-"plt","Plateau Malagasy","Austronesian",,"Barito",-20,47,"MG","language",,,,,,
-"pov","Upper Guinea Crioulo","other",,"Creoles and Pidgins",12,-15,"GW","language",,,,,,
-"poy","Pogolo","Niger-Congo","Benue-Congo","Bantu",-8.75,36.5,"TZ","language",,,,,,
-"pqa","Pa'a","Afro-Asiatic","Chadic","West Chadic",11,9.25,"NG","language",,,,,,
-"pre","Principense","other",,"Creoles and Pidgins",1.61666666667,7.36666666667,"ST","language",,,,,,
-"pym","Fyam","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9.58333333333,9.33333333333,"NG","language",,,,,,
-"ras","Tegali","Kordofanian",,"Rashad",11.8333333333,31.05,"SD","language",,,,,,
-"rel","Rendille","Afro-Asiatic","Cushitic","Lowland East Cushitic",2,37.5,"KE","language",,,,,,
-"rif","Tarifit","Afro-Asiatic",,"Berber",33.3333333333,-4.66666666667,"MA","language",,,,,,
-"rif","Tarifit","Afro-Asiatic",,"Berber",34.5,-4,"MA DZ","language",,,,,,
-"rim","Nyaturu","Niger-Congo","Benue-Congo","Bantu",-5,34.6666666667,"TZ","language",,,,,,
-"rng","Ronga","Niger-Congo","Benue-Congo","Bantu",-26,32.5,"MZ","language",,,,,,
-"rou","Runga","Maban",,"Maban",10.3333333333,21,"CF TD","language",,,,,,
-"run","Rundi","Niger-Congo","Benue-Congo","Bantu",-3.5,30,"BI","language",,,,,,
-"sad","Sandawe","Sandawe",,"Sandawe",-5,35,"TZ","language",,,,,,
-"sag","Sango","Niger-Congo","Adamawa-Ubangi","Ubangi",5,18,"CF","language",,,,,,
-"sba","Ngambay","Central Sudanic",,"Bongo-Bagirmi",8.66666666667,16,"TD CM","language",,,,,,
-"sbf","Chabu","Shabo",,"Shabo",7.58333333333,35.4166666667,"ET","language",,,,,,
-"sbs","Subiya","Niger-Congo","Benue-Congo","Bantu",-17.75,24.9166666667,"NA","language",,,,,,
-"sef","Cebaara Senoufo","Niger-Congo",,"Senufo",9.5,-6.25,"CI","language",,,,,,
-"seh","Sena","Niger-Congo","Benue-Congo","Bantu",-18,35.25,"MZ","language",,,,,,
-"sen","Nanerigé Sénoufo","Niger-Congo",,"Senufo",11.75,-5,"BF","language",,,,,,
-"ses","Koyraboro Senni Songhai","Songhay",,"Songhay",16,0,"ML NE","language",,,,,,
-"sgw","Sebat Bet Gurage","Afro-Asiatic",,"Semitic",8.112935,37.93267,"ET","language",,,,,,
-"sgw","Sebat Bet Gurage","Afro-Asiatic",,"Semitic",8.16666666667,38.1666666667,"ET","language",,,,,,
-"shg","Shua","Khoe-Kwadi",,"Khoe-Kwadi",-20.5,24.5,"BW","language",,,,,,
-"shi","Tachelhit","Afro-Asiatic",,"Berber",31,-5,"MA","language",,,,,,
-"shj","Shatt","Eastern Sudanic",,"Daju",10.8333333333,30,"SD","language",,,,,,
-"shk","Shilluk","Eastern Sudanic","Nilotic","Western Nilotic",9.66666666667,31.75,"SS","language",,,,,,
-"shu","Chadian Arabic","Afro-Asiatic",,"Semitic",8.58333333333,12.4166666667,"NG","language",,,,,,
-"shu","Chadian Arabic","Afro-Asiatic",,"Semitic",13.8333333333,20.8333333333,"TD","language",,,,,,
-"shy","Tachawit","Afro-Asiatic",,"Berber",35,7,"DZ","language",,,,,,
-"sid","Sidamo","Afro-Asiatic","Cushitic","Highland East Cushitic",6.66666666667,38.5,"ET","language",,,,,,
-"sif","Siamou","Siamou",,"Siamou",11,-4.91666666667,"BF","language",,,,,,
-"sil","Tumulung Sisaala","Niger-Congo","Gur","Grusi",10.8333333333,-2.66666666667,"GH","language",,,,,,
-"siz","Siwi","Afro-Asiatic",,"Berber",29.1666666667,25.5,"EG","language",,,,,,
-"sjg","Assangori","Eastern Sudanic",,"Taman",13.75,21.5,"TD","language",,,,,,
-"sna","Shona","Niger-Congo","Benue-Congo","Bantu",-20,31,"ZW","language",,,,,,
-"sna","Shona","Niger-Congo","Benue-Congo","Bantu",-18,31,"ZW","language",,,,,,
-"snf","Noon","Niger-Congo","North-Central Atlantic","Cangin",14.8333333333,-16.8333333333,"SN","language",,,,,,
-"snk","Soninke","Mande",,"Western Mande",15,-10.5,"BF ML CI SN","language",,,,,,
-"snq","Sangu (Gabon)","Niger-Congo","Benue-Congo","Bantu",-1.5,11.8333333333,"GA","language",,,,,,
-"som","Somali","Afro-Asiatic","Cushitic","Lowland East Cushitic",3,45,"SO","language",,,,,,
-"sop","Songe","Niger-Congo","Benue-Congo","Bantu",-6.83333333333,22,"CD","language",,,,,,
-"sot","Southern Sotho","Niger-Congo","Benue-Congo","Bantu",-28,27,"LS ZA","language",,,,,,
-"spp","Supyire Senoufo","Niger-Congo",,"Senufo",11.5,-5.58333333333,"ML","language",,,,,,
-"sqt","Soqotri","Afro-Asiatic",,"Semitic",12.5,54,"YE","language",,,,,,
-"ssn","Waata","Afro-Asiatic","Cushitic","Lowland East Cushitic",-3.33333333333,39.8333333333,"KE","language",,,,,,
-"ssw","Swati","Niger-Congo","Benue-Congo","Bantu",-26.5,31,"ZA SZ","language",,,,,,
-"ssy","Saho","Afro-Asiatic","Cushitic","Lowland East Cushitic",14.75,39.75,"ET ER","language",,,,,,
-"sub","Suku","Niger-Congo","Benue-Congo","Bantu",-6,17.6666666667,"AO CD","language",,,,,,
-"suk","Sukuma","Niger-Congo","Benue-Congo","Bantu",-2.83333333333,32,"TZ","language",,,,,,
-"suq","Tirmaga-Chai Suri","Eastern Sudanic","Surmic","South Surmic",5.33333333333,35.3333333333,"ET SS","language",,,,,,
-"suq","Tirmaga-Chai Suri","Eastern Sudanic","Surmic","South Surmic",5.75,35.25,"ET","language",,,,,,
-"sur","Mwaghavul","Afro-Asiatic","Chadic","West Chadic",9.5,8.83333333333,"NG","language",,,,,,
-"sus","Susu","Mande",,"Western Mande",10,-13,"GN","language",,,,,,
-"swb","Maore Comorian","Niger-Congo","Benue-Congo","Bantu",-12,44,"KM YT","language",,,,,,
-"swh","Swahili (individual language)","Niger-Congo","Benue-Congo","Bantu",-6.5,39,"TZ","language",,,,,,
-"szg","Sengele","Niger-Congo","Benue-Congo","Bantu",-1.83333333333,17.3333333333,"CD","language",,,,,,
-"tag","Tagoi","Kordofanian",,"Rashad",12.1666666667,30.8333333333,"SD","language",,,,,,
-"tan","Tangale","Afro-Asiatic","Chadic","West Chadic",9.75,11.3333333333,"NG","language",,,,,,
-"tap","Taabwa","Niger-Congo","Benue-Congo","Bantu",-8,29.5,"CD ZM","language",,,,,,
-"taq","Tamasheq","Afro-Asiatic",,"Berber",20,-2,"ML","language",,,,,,
-"tbi","Gaam","Eastern Sudanic",,"Eastern Jebel",11.5,34,"SD","language",,,,,,
-"tcc","Datooga","Eastern Sudanic","Nilotic","Southern Nilotic",-4.33333333333,35.3333333333,"TZ","language",,,,,,
-"tem","Timne","Niger-Congo","Mel","Northern Mel",8.66666666667,-13.0833333333,"SL","language",,,,,,
-"teo","Teso","Eastern Sudanic","Nilotic","Eastern Nilotic",1.83333333333,33.8333333333,"UG","language",,,,,,
-"teq","Temein","Eastern Sudanic",,"Temein",11.9166666667,29.4166666667,"SD","language",,,,,,
-"teu","Soo","Eastern Sudanic",,"Kuliak",2.58333333333,34.75,"UG","language",,,,,,
-"tex","Tennet","Eastern Sudanic","Surmic","South Surmic",4.41666666667,32.5,"SS","language",,,,,,
-"thv","Tahaggart Tamahaq","Afro-Asiatic",,"Berber",23,6,"LY NE DZ","language",,,,,,
-"thv","Tahaggart Tamahaq","Afro-Asiatic",,"Berber",25,10.1666666667,"LY","language",,,,,,
-"thz","Tayart Tamajeq","Afro-Asiatic",,"Berber",19,9,"NE","language",,,,,,
-"tig","Tigre","Afro-Asiatic",,"Semitic",15.5,38,"ER","language",,,,,,
-"tig","Tigre","Afro-Asiatic",,"Semitic",16.5,38.5,"ER","language",,,,,,
-"tik","Tikar","Niger-Congo","Benue-Congo","Tikar",5.83333333333,11.6666666667,"CM","language",,,,,,
-"tir","Tigrinya","Afro-Asiatic",,"Semitic",14.5,38.5,"ET ER","language",,,,,,
-"tiv","Tiv","Niger-Congo","Benue-Congo","Tivoid",7.5,9,"NG","language",,,,,,
-"tlj","Talinga-Bwisi","Niger-Congo","Benue-Congo","Bantu",0.416666666667,29.6666666667,"CD UG","language",,,,,,
-"tll","Tetela","Niger-Congo","Benue-Congo","Bantu",-4,24,"CD","language",,,,,,
-"tlo","Talodi","Kordofanian",,"Talodi",10.5833333333,30.5,"SD","language",,,,,,
-"tma","Tama (Chad)","Eastern Sudanic",,"Taman",14.5,22,"TD SD","language",,,,,,
-"tmc","Tumak","Afro-Asiatic","Chadic","East Chadic",9.5,17.3333333333,"TD","language",,,,,,
-"tms","Tima","Kordofanian",,"Katla-Tima",11.6666666667,29.25,"SD","language",,,,,,
-"toi","Tonga (Zambia)","Niger-Congo","Benue-Congo","Bantu",-17,27,"ZM","language",,,,,,
-"tpm","Tampulma","Niger-Congo","Gur","Grusi",10.4166666667,-0.583333333333,"GH","language",,,,,,
-"tsn","Tswana","Niger-Congo","Benue-Congo","Bantu",-24,26,"ZA BW","language",,,,,,
-"tso","Tsonga","Niger-Congo","Benue-Congo","Bantu",-24,32,"MZ ZA","language",,,,,,
-"tsv","Tsogo","Niger-Congo","Benue-Congo","Bantu",-1.5,11.3333333333,"GA","language",,,,,,
-"ttr","Tera","Afro-Asiatic","Chadic","Biu-Mandara",11,11.8333333333,"NG","language",,,,,,
-"tui","Tupuri","Niger-Congo","Adamawa-Ubangi","Mbumic",10.1666666667,14.75,"TD CM","language",,,,,,
-"tuv","Turkana","Eastern Sudanic","Nilotic","Eastern Nilotic",3,35.5,"KE UG","language",,,,,,
-"tvu","Tunen","Niger-Congo","Benue-Congo","Bantu",4.75,10.6666666667,"CM","language",,,,,,
-"tza","Tanzanian Sign Language","other",,"Sign Languages",-6,35,"TZ","language",,,,,,
-"tzm","Central Atlas Tamazight","Afro-Asiatic",,"Berber",33,-5,"MA","language",,,,,,
-"udl","Wuzlam","Afro-Asiatic","Chadic","Biu-Mandara",10.95,14.1166666667,"CM","language",,,,,,
-"ugn","Ugandan Sign Language","other",,"Sign Languages",1,32.5,"UG","language",,,,,,
-"umb","Umbundu","Niger-Congo","Benue-Congo","Bantu",-12.5,15,"AO","language",,,,,,
-"urh","Urhobo","Niger-Congo","Benue-Congo","Edoid",5.58333333333,6,"NG","language",,,,,,
-"vag","Vagla","Niger-Congo","Gur","Grusi",9.41666666667,-2.41666666667,"GH","language",,,,,,
-"vai","Vai","Mande",,"Western Mande",6.91666666667,-11.25,"SL LR","language",,,,,,
-"ven","Venda","Niger-Congo","Benue-Congo","Bantu",-22,30,"ZA ZW","language",,,,,,
-"vif","Vili","Niger-Congo","Benue-Congo","Bantu",-5.5,14,"CG GA","language",,,,,,
-"wal","Wolaytta","Afro-Asiatic","Omotic","Ta-Ne-Omotic",6.83333333333,37.75,"ET","language",,,,,,
-"wan","Wan","Mande",,"Eastern Mande",7.83333333333,-5.86666666667,"CI","language",,,,,,
-"wbj","Alagwa","Afro-Asiatic","Cushitic","Southern Cushitic",-5.5,35.75,"TZ","language",,,,,,
-"wem","Weme Gbe","Niger-Congo","Kwa","Tano",6.66666666667,2.5,"BJ","language",,,,,,
-"wib","Southern Toussian","Niger-Congo","Gur","Tusia",11,-4.66666666667,"BF","language",,,,,,
-"wob","Wè Northern","Niger-Congo",,"Kru",7.41666666667,-7.33333333333,"CI","language",,,,,,
-"wol","Wolof","Niger-Congo","North-Central Atlantic","Wolof",15.25,-16,"GM SN","language",,,,,,
-"wti","Berta","Berta",,"Berta",10.3333333333,34.6666666667,"ET SD","language",,,,,,
-"wwa","Waama","Niger-Congo","Gur","Oti-Volta",10.5833333333,1.66666666667,"BJ","language",,,,,,
-"xam","ǀXam","Tu",,"Tu",-31,21,"ZA","language",,,,,,
-"xed","Hdi","Afro-Asiatic","Chadic","Biu-Mandara",11.8666666667,13.7166666667,"NG CM","language",,,,,,
-"xho","Xhosa","Niger-Congo","Benue-Congo","Bantu",-32,27,"ZA","language",,,,,,
-"xki","Kenyan Sign Language","other",,"Sign Languages",0,38,"KE","language",,,,,,
-"xnz","Kenzi","Eastern Sudanic",,"Nubian",23,33,"EG","language",,,,,,
-"xom","Komo (Sudan)","Koman",,"Koman",8.75,33.75,"ET SS","language",,,,,,
-"xon","Konkomba","Niger-Congo","Gur","Oti-Volta",10,0.0833333333333,"TG GH","language",,,,,,
-"xpe","Liberia Kpelle","Mande",,"Western Mande",7,-10,"LR","language",,,,,,
-"xsm","Kasem","Niger-Congo","Gur","Grusi",11.25,-1.25,"BF","language",,,,,,
-"xtc","Katcha-Kadugli-Miri","Kadu",,"Kadugli",10.8333333333,29.6666666667,"SD","language",,,,,,
-"xtc","Katcha-Kadugli-Miri","Kadu",,"Kadugli",11,29.6666666667,"SD","language",,,,,,
-"xuo","Kuo","Niger-Congo","Adamawa-Ubangi","Mbumic",8,15.5,"TD CM","language",,,,,,
-"xuu","Kxoe","Khoe-Kwadi",,"Khoe-Kwadi",-17.5,22.5,"AO NA","language",,,,,,
-"xwg","Kwegu","Eastern Sudanic","Surmic","South Surmic",7,36.0833333333,"ET","language",,,,,,
-"yaf","Yaka (Democratic Republic of Congo)","Niger-Congo","Benue-Congo","Bantu",-7,17.5,"AO CD","language",,,,,,
-"yam","Yamba","Niger-Congo","Benue-Congo","Wide Grassfields",6.41666666667,11.0833333333,"CM","language",,,,,,
-"yao","Yao","Niger-Congo","Benue-Congo","Bantu",-14.5,35.5,"MZ MW","language",,,,,,
-"yas","Nugunu (Cameroon)","Niger-Congo","Benue-Congo","Bantu",4.58333333333,11.25,"CM","language",,,,,,
-"ybb","Yemba","Niger-Congo","Benue-Congo","Wide Grassfields",5.41666666667,10.0833333333,"CM","language",,,,,,
-"yer","Tarok","Niger-Congo","Benue-Congo","Benue-Congo Plateau",9,10.0833333333,"NG","language",,,,,,
-"yey","Yeyi","Niger-Congo","Benue-Congo","Bantu",-20,23.5,"NA BW","language",,,,,,
-"yky","Yakoma","Niger-Congo","Adamawa-Ubangi","Ubangi",4.41666666667,18.4166666667,"CF","language",,,,,,
-"yns","Yansi","Niger-Congo","Benue-Congo","Bantu",-3.83333333333,18,"CD","language",,,,,,
-"yom","Yombe","Niger-Congo","Benue-Congo","Bantu",-5.5,12.25,"AO","language",,,,,,
-"yor","Yoruba","Niger-Congo","Benue-Congo","Defoid",8,4.33333333333,"NG BJ","language",,,,,,
-"yul","Yulu","Central Sudanic",,"Bongo-Bagirmi",8,25,"CF SS","language",,,,,,
-"yul","Yulu","Central Sudanic",,"Bongo-Bagirmi",8.5,25.25,"SS","language",,,,,,
-"zag","Zaghawa","Saharan","Saharan","Eastern Saharan",16,23,"TD SD","language",,,,,,
-"zay","Zayse-Zergulla","Afro-Asiatic","Omotic","Ta-Ne-Omotic",5.91666666667,37.3333333333,"ET","language",,,,,,
-"zen","Zenaga","Afro-Asiatic",,"Berber",17.3333333333,-16,"MR","language",,,,,,
-"zga","Kinga","Niger-Congo","Benue-Congo","Bantu",-9,34,"TZ","language",,,,,,
-"zmq","Mituku","Niger-Congo","Benue-Congo","Bantu",-1.66666666667,25.5,"CD","language",,,,,,
-"zne","Zande (individual language)","Niger-Congo","Adamawa-Ubangi","Ubangi",4,26,"CF CD SS","language",,,,,,
-"zul","Zulu","Niger-Congo","Benue-Congo","Bantu",-31,30,"ZA","language",,,,,,
-"zul","Zulu","Niger-Congo","Benue-Congo","Bantu",-30,30,"ZA","language",,,,,,
-"zul","Zulu","Niger-Congo","Benue-Congo","Bantu",-28,31,"ZA","language",,,,,,
-"afro-asiatic","Afro-Asiatic",,,,,,,"family",,,,,,
-"austronesian","Austronesian",,,,,,,"family",,,,,,
-"bangime","Bangime",,,,,,,"family",,,,,,
-"berta","Berta",,,,,,,"family",,,,,,
-"central-sudanic","Central Sudanic",,,,,,,"family",,,,,,
-"dogon","Dogon",,,,,,,"family",,,,,,
-"eastern-sudanic","Eastern Sudanic",,,,,,,"family",,,,,,
-"fur","Fur",,,,,,,"family",,,,,,
-"gumuz","Gumuz",,,,,,,"family",,,,,,
-"hadza","Hadza",,,,,,,"family",,,,,,
-"ijoid","Ijoid",,,,,,,"family",,,,,,
-"indo-european","Indo-European",,,,,,,"family",,,,,,
-"kadu","Kadu",,,,,,,"family",,,,,,
-"khoe-kwadi","Khoe-Kwadi",,,,,,,"family",,,,,,
-"koman","Koman",,,,,,,"family",,,,,,
-"kordofanian","Kordofanian",,,,,,,"family",,,,,,
-"kunama","Kunama",,,,,,,"family",,,,,,
-"kxa","Kxa",,,,,,,"family",,,,,,
-"laal","Laal",,,,,,,"family",,,,,,
-"maban","Maban",,,,,,,"family",,,,,,
-"mande","Mande",,,,,,,"family",,,,,,
-"niger-congo","Niger-Congo",,,,,,,"family",,,,,,
-"saharan","Saharan",,,,,,,"family",,,,,,
-"sandawe","Sandawe",,,,,,,"family",,,,,,
-"shabo","Shabo",,,,,,,"family",,,,,,
-"siamou","Siamou",,,,,,,"family",,,,,,
-"songhay","Songhay",,,,,,,"family",,,,,,
-"tu","Tu",,,,,,,"family",,,,,,
-"other","other",,,,,,,"family",,,,,,
-"adamawa-ubangi","Adamawa-Ubangi",,,,,,,"subfamily",,,,,,
-"benue-congo","Benue-Congo",,,,,,,"subfamily",,,,,,
-"chadic","Chadic",,,,,,,"subfamily",,,,,,
-"cushitic","Cushitic",,,,,,,"subfamily",,,,,,
-"gur","Gur",,,,,,,"subfamily",,,,,,
-"kwa","Kwa",,,,,,,"subfamily",,,,,,
-"mel","Mel",,,,,,,"subfamily",,,,,,
-"nilotic","Nilotic",,,,,,,"subfamily",,,,,,
-"north-central-atlantic","North-Central Atlantic",,,,,,,"subfamily",,,,,,
-"omotic","Omotic",,,,,,,"subfamily",,,,,,
-"saharan","Saharan",,,,,,,"subfamily",,,,,,
-"surmic","Surmic",,,,,,,"subfamily",,,,,,
-"=|hoan","=|Hoan",,,,,,,"genus",,,,,,
-"agneby","Agneby",,,,,,,"genus",,,,,,
-"avikam-alladian","Avikam-Alladian",,,,,,,"genus",,,,,,
-"baatonum","Baatonum",,,,,,,"genus",,,,,,
-"bangime","Bangime",,,,,,,"genus",,,,,,
-"bantu","Bantu",,,,,,,"genus",,,,,,
-"barito","Barito",,,,,,,"genus",,,,,,
-"beboid","Beboid",,,,,,,"genus",,,,,,
-"beja","Beja",,,,,,,"genus",,,,,,
-"benue-congo-plateau","Benue-Congo Plateau",,,,,,,"genus",,,,,,
-"berber","Berber",,,,,,,"genus",,,,,,
-"berta","Berta",,,,,,,"genus",,,,,,
-"birri","Birri",,,,,,,"genus",,,,,,
-"biu-mandara","Biu-Mandara",,,,,,,"genus",,,,,,
-"bongo-bagirmi","Bongo-Bagirmi",,,,,,,"genus",,,,,,
-"bua","Bua",,,,,,,"genus",,,,,,
-"cangin","Cangin",,,,,,,"genus",,,,,,
-"central-cushitic","Central Cushitic",,,,,,,"genus",,,,,,
-"central-delta","Central Delta",,,,,,,"genus",,,,,,
-"central-kainji","Central Kainji",,,,,,,"genus",,,,,,
-"creoles-and-pidgins","Creoles and Pidgins",,,,,,,"genus",,,,,,
-"dahalo","Dahalo",,,,,,,"genus",,,,,,
-"daju","Daju",,,,,,,"genus",,,,,,
-"day","Day",,,,,,,"genus",,,,,,
-"defoid","Defoid",,,,,,,"genus",,,,,,
-"dizoid","Dizoid",,,,,,,"genus",,,,,,
-"dogon","Dogon",,,,,,,"genus",,,,,,
-"east-chadic","East Chadic",,,,,,,"genus",,,,,,
-"eastern-jebel","Eastern Jebel",,,,,,,"genus",,,,,,
-"eastern-mande","Eastern Mande",,,,,,,"genus",,,,,,
-"eastern-nilotic","Eastern Nilotic",,,,,,,"genus",,,,,,
-"eastern-saharan","Eastern Saharan",,,,,,,"genus",,,,,,
-"edoid","Edoid",,,,,,,"genus",,,,,,
-"ega","Ega",,,,,,,"genus",,,,,,
-"egyptian-coptic","Egyptian-Coptic",,,,,,,"genus",,,,,,
-"ekoid-mbe","Ekoid-Mbe",,,,,,,"genus",,,,,,
-"fur","Fur",,,,,,,"genus",,,,,,
-"ga-dangme","Ga-Dangme",,,,,,,"genus",,,,,,
-"gade","Gade",,,,,,,"genus",,,,,,
-"gbaya-manza-ngbaka","Gbaya-Manza-Ngbaka",,,,,,,"genus",,,,,,
-"gbe","Gbe",,,,,,,"genus",,,,,,
-"germanic","Germanic",,,,,,,"genus",,,,,,
-"gola","Gola",,,,,,,"genus",,,,,,
-"grusi","Grusi",,,,,,,"genus",,,,,,
-"gumuz","Gumuz",,,,,,,"genus",,,,,,
-"hadza","Hadza",,,,,,,"genus",,,,,,
-"heiban","Heiban",,,,,,,"genus",,,,,,
-"highland-east-cushitic","Highland East Cushitic",,,,,,,"genus",,,,,,
-"idomoid","Idomoid",,,,,,,"genus",,,,,,
-"igboid","Igboid",,,,,,,"genus",,,,,,
-"ijoid","Ijoid",,,,,,,"genus",,,,,,
-"jaad","Jaad",,,,,,,"genus",,,,,,
-"jola","Jola",,,,,,,"genus",,,,,,
-"ju-kung","Ju-Kung",,,,,,,"genus",,,,,,
-"jukunoid","Jukunoid",,,,,,,"genus",,,,,,
-"ka-togo","Ka-Togo",,,,,,,"genus",,,,,,
-"kadugli","Kadugli",,,,,,,"genus",,,,,,
-"katla-tima","Katla-Tima",,,,,,,"genus",,,,,,
-"khoe-kwadi","Khoe-Kwadi",,,,,,,"genus",,,,,,
-"kim","Kim",,,,,,,"genus",,,,,,
-"kirma-tyurama","Kirma-Tyurama",,,,,,,"genus",,,,,,
-"koman","Koman",,,,,,,"genus",,,,,,
-"koromfe","Koromfe",,,,,,,"genus",,,,,,
-"kresh","Kresh",,,,,,,"genus",,,,,,
-"kru","Kru",,,,,,,"genus",,,,,,
-"kuliak","Kuliak",,,,,,,"genus",,,,,,
-"kunama","Kunama",,,,,,,"genus",,,,,,
-"laal","Laal",,,,,,,"genus",,,,,,
-"lafofa","Lafofa",,,,,,,"genus",,,,,,
-"lendu","Lendu",,,,,,,"genus",,,,,,
-"lobiri-jaane","Lobiri-Jaane",,,,,,,"genus",,,,,,
-"lower-cross","Lower Cross",,,,,,,"genus",,,,,,
-"lowland-east-cushitic","Lowland East Cushitic",,,,,,,"genus",,,,,,
-"maban","Maban",,,,,,,"genus",,,,,,
-"majang","Majang",,,,,,,"genus",,,,,,
-"mamfe","Mamfe",,,,,,,"genus",,,,,,
-"mangbetu","Mangbetu",,,,,,,"genus",,,,,,
-"mangbutu-efe","Mangbutu-Efe",,,,,,,"genus",,,,,,
-"manjaku","Manjaku",,,,,,,"genus",,,,,,
-"masa","Masa",,,,,,,"genus",,,,,,
-"mbumic","Mbumic",,,,,,,"genus",,,,,,
-"moru-ma'di","Moru-Ma'di",,,,,,,"genus",,,,,,
-"mumuye-yandang","Mumuye-Yandang",,,,,,,"genus",,,,,,
-"na-togo","Na-Togo",,,,,,,"genus",,,,,,
-"nara","Nara",,,,,,,"genus",,,,,,
-"northern-mel","Northern Mel",,,,,,,"genus",,,,,,
-"nubian","Nubian",,,,,,,"genus",,,,,,
-"nupoid","Nupoid",,,,,,,"genus",,,,,,
-"nyimang","Nyimang",,,,,,,"genus",,,,,,
-"ogonoid","Ogonoid",,,,,,,"genus",,,,,,
-"oti-volta","Oti-Volta",,,,,,,"genus",,,,,,
-"peul-serer","Peul-Serer",,,,,,,"genus",,,,,,
-"rashad","Rashad",,,,,,,"genus",,,,,,
-"samba-duru","Samba-Duru",,,,,,,"genus",,,,,,
-"sandawe","Sandawe",,,,,,,"genus",,,,,,
-"semitic","Semitic",,,,,,,"genus",,,,,,
-"senufo","Senufo",,,,,,,"genus",,,,,,
-"shabo","Shabo",,,,,,,"genus",,,,,,
-"siamou","Siamou",,,,,,,"genus",,,,,,
-"sign-languages","Sign Languages",,,,,,,"genus",,,,,,
-"songhay","Songhay",,,,,,,"genus",,,,,,
-"south-omotic","South Omotic",,,,,,,"genus",,,,,,
-"south-surmic","South Surmic",,,,,,,"genus",,,,,,
-"southern-cushitic","Southern Cushitic",,,,,,,"genus",,,,,,
-"southern-mel","Southern Mel",,,,,,,"genus",,,,,,
-"southern-nilotic","Southern Nilotic",,,,,,,"genus",,,,,,
-"ta-ne-omotic","Ta-Ne-Omotic",,,,,,,"genus",,,,,,
-"talodi","Talodi",,,,,,,"genus",,,,,,
-"taman","Taman",,,,,,,"genus",,,,,,
-"tano","Tano",,,,,,,"genus",,,,,,
-"temein","Temein",,,,,,,"genus",,,,,,
-"tenda","Tenda",,,,,,,"genus",,,,,,
-"tikar","Tikar",,,,,,,"genus",,,,,,
-"tivoid","Tivoid",,,,,,,"genus",,,,,,
-"tu","Tu",,,,,,,"genus",,,,,,
-"tusia","Tusia",,,,,,,"genus",,,,,,
-"ubangi","Ubangi",,,,,,,"genus",,,,,,
-"upper-cross","Upper Cross",,,,,,,"genus",,,,,,
-"west-chadic","West Chadic",,,,,,,"genus",,,,,,
-"western-mande","Western Mande",,,,,,,"genus",,,,,,
-"western-nilotic","Western Nilotic",,,,,,,"genus",,,,,,
-"western-saharan","Western Saharan",,,,,,,"genus",,,,,,
-"wide-grassfields","Wide Grassfields",,,,,,,"genus",,,,,,
-"wolof","Wolof",,,,,,,"genus",,,,,,
-"africa","Africa",,,,,,,"region",,,,,,
-"asia","Asia",,,,,,,"region",,,,,,
-"northern-africa","Northern Africa",,,,,,,"subregion",,,,,,
-"sub-saharan-africa","Sub-Saharan Africa",,,,,,,"subregion",,,,,,
-"western-asia","Western Asia",,,,,,,"subregion",,,,,,
-"eastern-africa","Eastern Africa",,,,,,,"intregion",,,,,,
-"middle-africa","Middle Africa",,,,,,,"intregion",,,,,,
-"southern-africa","Southern Africa",,,,,,,"intregion",,,,,,
-"western-africa","Western Africa",,,,,,,"intregion",,,,,,
-"za","South Africa",,,,,,,"za","ZAF",-32,27,,,
-"za","South Africa",,,,,,,"za","ZAF",-31,21,,,
-"za","South Africa",,,,,,,"za","ZAF",-31,22,,,
-"za","South Africa",,,,,,,"za","ZAF",-31,30,,,
-"za","South Africa",,,,,,,"za","ZAF",-30,30,,,
-"za","South Africa",,,,,,,"za","ZAF",-29.5,20.5,,,
-"ls","Lesotho",,,,,,,"ls","LSO",-28,27,"x","x",
-"za","South Africa",,,,,,,"za","ZAF",-28,27,,,
-"za","South Africa",,,,,,,"za","ZAF",-28,31,,,
-"sz","Eswatini",,,,,,,"sz","SWZ",-26.5,31,,"x",
-"za","South Africa",,,,,,,"za","ZAF",-26.5,31,,,
-"mz","Mozambique",,,,,,,"mz","MOZ",-26,32.5,"x",,
-"na","Namibia",,,,,,,"na","NAM",-25.5,18,,,
-"bw","Botswana",,,,,,,"bw","BWA",-25.5,25,,"x",
-"za","South Africa",,,,,,,"za","ZAF",-25.3333333333,29,,,
-"bw","Botswana",,,,,,,"bw","BWA",-24,21.5,,"x",
-"bw","Botswana",,,,,,,"bw","BWA",-24,26,,"x",
-"za","South Africa",,,,,,,"za","ZAF",-24,26,,,
-"za","South Africa",,,,,,,"za","ZAF",-24,29,,,
-"mz","Mozambique",,,,,,,"mz","MOZ",-24,32,"x",,
-"za","South Africa",,,,,,,"za","ZAF",-24,32,,,
-"bw","Botswana",,,,,,,"bw","BWA",-22.3333333333,20.5,,"x",
-"na","Namibia",,,,,,,"na","NAM",-22.3333333333,20.5,,,
-"za","South Africa",,,,,,,"za","ZAF",-22,30,,,
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-22,30,,"x",
-"bw","Botswana",,,,,,,"bw","BWA",-20.5833333333,19,,"x",
-"na","Namibia",,,,,,,"na","NAM",-20.5833333333,19,,,
-"bw","Botswana",,,,,,,"bw","BWA",-20.5,24.5,,"x",
-"bw","Botswana",,,,,,,"bw","BWA",-20.5,27.5,,"x",
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-20.5,27.5,,"x",
-"mu","Mauritius",,,,,,,"mu","MUS",-20.3333333333,57.5,,,"x"
-"bw","Botswana",,,,,,,"bw","BWA",-20,23.5,,"x",
-"na","Namibia",,,,,,,"na","NAM",-20,23.5,,,
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-20,31,,"x",
-"mg","Madagascar",,,,,,,"mg","MDG",-20,47,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-19.6666666667,18,"x",,
-"na","Namibia",,,,,,,"na","NAM",-19.6666666667,18,,,
-"ao","Angola",,,,,,,"ao","AGO",-19,21,"x",,
-"bw","Botswana",,,,,,,"bw","BWA",-19,21,,"x",
-"na","Namibia",,,,,,,"na","NAM",-19,21,,,
-"bw","Botswana",,,,,,,"bw","BWA",-18.9166666667,21.9166666667,,"x",
-"ao","Angola",,,,,,,"ao","AGO",-18,17,"x",,
-"na","Namibia",,,,,,,"na","NAM",-18,17,,,
-"ao","Angola",,,,,,,"ao","AGO",-18,19.5,"x",,
-"na","Namibia",,,,,,,"na","NAM",-18,19.5,,,
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-18,31,,"x",
-"mz","Mozambique",,,,,,,"mz","MOZ",-18,35.25,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-17.8333333333,26,"x","x",
-"na","Namibia",,,,,,,"na","NAM",-17.75,24.9166666667,,,
-"na","Namibia",,,,,,,"na","NAM",-17.5,15,,,
-"ao","Angola",,,,,,,"ao","AGO",-17.5,22.5,"x",,
-"na","Namibia",,,,,,,"na","NAM",-17.5,22.5,,,
-"zm","Zambia",,,,,,,"zm","ZMB",-17,27,"x","x",
-"mz","Mozambique",,,,,,,"mz","MOZ",-16.5,39.5,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-15.5833333333,26.5,"x","x",
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-15.5833333333,26.5,,"x",
-"mz","Mozambique",,,,,,,"mz","MOZ",-15,38.6666666667,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-14.5,30.8333333333,"x","x",
-"mw","Malawi",,,,,,,"mw","MWI",-14.5,35.5,"x","x",
-"mz","Mozambique",,,,,,,"mz","MOZ",-14.5,35.5,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-14,20,"x",,
-"mw","Malawi",,,,,,,"mw","MWI",-14,34,"x","x",
-"mz","Mozambique",,,,,,,"mz","MOZ",-14,34,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-14,34,"x","x",
-"zw","Zimbabwe",,,,,,,"zw","ZWE",-14,34,,"x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-13,28,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-13,28,"x","x",
-"ao","Angola",,,,,,,"ao","AGO",-12.5,15,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-12,22,"x",,
-"km","Comoros",,,,,,,"km","COM",-12,44,"x",,"x"
-"yt","Mayotte",,,,,,,"yt","MYT",-12,44,,,
-"mz","Mozambique",,,,,,,"mz","MOZ",-11,40,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-11,40,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-10.6666666667,24,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-10,28.25,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-10,33,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-10,33,"x","x",
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-10,34.75,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-9.08333333333,31.1666666667,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-9.08333333333,31.1666666667,"x","x",
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-9,34,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-9,39,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-8.75,36.5,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-8.5,39,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-8,26,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-8,29.5,"x",,
-"zm","Zambia",,,,,,,"zm","ZMB",-8,29.5,"x","x",
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-8,36,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-7.33333333333,23.5833333333,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-7,17.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-7,17.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-7,22.8333333333,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-6.83333333333,22,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-6.75,38,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-6.5,39,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-6.33333333333,37,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-6.25,27.1666666667,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-6,17.6666666667,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-6,17.6666666667,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-6,21,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-6,22,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-6,35,"x",,
-"ao","Angola",,,,,,,"ao","AGO",-5.5,12.25,"x",,
-"cg","Congo",,,,,,,"cg","COG",-5.5,14,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-5.5,14,"x",,
-"ga","Gabon",,,,,,,"ga","GAB",-5.5,14,,,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5.5,35.75,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5.33333333333,36,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5.16666666667,29.9166666667,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-5,15,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-5,17.5,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5,33,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5,34.6666666667,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-5,35,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-4.5,21.5,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4.5,36,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4.5,36.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-4.33333333333,19.5,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4.33333333333,35.3333333333,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4.33333333333,38.1666666667,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4.25,38.25,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-4,24,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4,35.5,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-4,36.5,"x",,
-"ke","Kenya",,,,,,,"ke","KEN",-4,38.6666666667,,,
-"cg","Congo",,,,,,,"cg","COG",-3.91666666667,14.0833333333,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-3.83333333333,18,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-3.75,35.1666666667,"x",,
-"cg","Congo",,,,,,,"cg","COG",-3.66666666667,15.3333333333,,,
-"bi","Burundi",,,,,,,"bi","BDI",-3.5,30,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",-3.33333333333,39.8333333333,,,
-"ke","Kenya",,,,,,,"ke","KEN",-3,36,,,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-3,36,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-3,37,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-2.83333333333,27.1666666667,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-2.83333333333,32,"x",,
-"cg","Congo",,,,,,,"cg","COG",-2.33333333333,14.5,,,
-"ke","Kenya",,,,,,,"ke","KEN",-2.33333333333,40.5,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-2,18.3333333333,"x",,
-"rw","Rwanda",,,,,,,"rw","RWA",-2,30,"x","x",
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-2,31.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.83333333333,17.3333333333,"x",,
-"ga","Gabon",,,,,,,"ga","GAB",-1.66666666667,13.5833333333,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.66666666667,25.5,"x",,
-"ga","Gabon",,,,,,,"ga","GAB",-1.5,11.3333333333,,,
-"ga","Gabon",,,,,,,"ga","GAB",-1.5,11.8333333333,,,
-"ke","Kenya",,,,,,,"ke","KEN",-1.5,38,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.33333333333,17.3333333333,"x",,
-"ga","Gabon",,,,,,,"ga","GAB",-1.25,9.5,,,
-"cg","Congo",,,,,,,"cg","COG",-1.25,15.5,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.25,18.3333333333,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.25,28.1666666667,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-1.16666666667,28.8333333333,"x",,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-1,31.3333333333,"x",,
-"ga","Gabon",,,,,,,"ga","GAB",-0.95,13,,,
-"ug","Uganda",,,,,,,"ug","UGA",-0.916666666667,29.8333333333,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",-0.75,34.8333333333,,,
-"ke","Kenya",,,,,,,"ke","KEN",-0.75,36.75,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-0.666666666667,24.6666666667,"x",,
-"cg","Congo",,,,,,,"cg","COG",-0.5,14,,,
-"ga","Gabon",,,,,,,"ga","GAB",-0.5,14,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-0.5,25.25,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",-0.5,30.5,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",-0.5,34.75,,,
-"tz","United Republic of Tanzania",,,,,,,"tz","TZA",-0.5,34.75,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",-0.0833333333333,29.1666666667,"x",,
-"cg","Congo",,,,,,,"cg","COG",0,16.5,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",0,21,"x",,
-"ke","Kenya",,,,,,,"ke","KEN",0,38,,,
-"st","Sao Tome and Principe",,,,,,,"st","STP",0.25,6.5,"x",,"x"
-"ke","Kenya",,,,,,,"ke","KEN",0.25,35,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",0.416666666667,29.6666666667,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",0.416666666667,29.6666666667,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",0.416666666667,34.5,,,
-"ug","Uganda",,,,,,,"ug","UGA",0.5,32.1666666667,"x","x",
-"ug","Uganda",,,,,,,"ug","UGA",0.666666666667,32.0833333333,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",0.75,34.6666666667,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",1,25,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",1,28.75,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",1,32.5,"x","x",
-"cg","Congo",,,,,,,"cg","COG",1.08333333333,17.25,,,
-"gq","Equatorial Guinea",,,,,,,"gq","GNQ",1.16666666667,9.41666666667,,,
-"ga","Gabon",,,,,,,"ga","GAB",1.16666666667,9.41666666667,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",1.33333333333,30.25,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",1.33333333333,34.5833333333,"x","x",
-"ug","Uganda",,,,,,,"ug","UGA",1.5,31.3333333333,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",1.5,35.5,,,
-"ug","Uganda",,,,,,,"ug","UGA",1.5,35.5,"x","x",
-"st","Sao Tome and Principe",,,,,,,"st","STP",1.61666666667,7.36666666667,"x",,"x"
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",1.75,25,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",1.83333333333,33.8333333333,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2,18.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2,28,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2,29,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2,30.5,"x",,
-"ke","Kenya",,,,,,,"ke","KEN",2,37.5,,,
-"ug","Uganda",,,,,,,"ug","UGA",2.16666666667,33,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2.25,21.5,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",2.5,26.5,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",2.58333333333,13.5833333333,,,
-"ug","Uganda",,,,,,,"ug","UGA",2.58333333333,34.75,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",2.66666666667,16.25,"x","x",
-"cg","Congo",,,,,,,"cg","COG",2.66666666667,16.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",3,10.1666666667,,,
-"gq","Equatorial Guinea",,,,,,,"gq","GNQ",3,10.1666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",3,11,,,
-"cg","Congo",,,,,,,"cg","COG",3,18.4166666667,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3,23,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3,29,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3,30,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",3,32.6666666667,"x","x",
-"ug","Uganda",,,,,,,"ug","UGA",3,32.6666666667,"x","x",
-"ug","Uganda",,,,,,,"ug","UGA",3,34.1666666667,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",3,35.5,,,
-"ug","Uganda",,,,,,,"ug","UGA",3,35.5,"x","x",
-"so","Somalia",,,,,,,"so","SOM",3,45,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.08333333333,30.9166666667,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",3.08333333333,30.9166666667,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.216666667,19.28333333,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.25,29,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",3.25,31.5,"x","x",
-"ug","Uganda",,,,,,,"ug","UGA",3.25,31.5,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",3.41666666667,12.25,,,
-"ug","Uganda",,,,,,,"ug","UGA",3.41666666667,33.5833333333,"x","x",
-"gq","Equatorial Guinea",,,,,,,"gq","GNQ",3.5,8.66666666667,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.5,20,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.5,27,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.5,28,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.5,30,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.56,18.36,"x",,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",3.75,22,"x",,
-"ug","Uganda",,,,,,,"ug","UGA",3.75,34.1666666667,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",3.91666666667,10.5,,,
-"cm","Cameroon",,,,,,,"cm","CMR",4,9.41666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",4,12,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",4,26,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",4,26,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",4,26,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",4.25,9.25,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",4.33333333333,20.5833333333,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",4.33333333333,20.5833333333,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",4.41666666667,9.58333333333,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",4.41666666667,18.4166666667,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",4.41666666667,32.5,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",4.5,15.5,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",4.5,30,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",4.5,30,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",4.5,33.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",4.5,38.5,"x","x",
-"ke","Kenya",,,,,,,"ke","KEN",4.5,38.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.58333333333,7.33333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.58333333333,7.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.58333333333,7.83333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",4.58333333333,11.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",4.58333333333,11.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.66666666667,6.25,,,
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",4.66666666667,30,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",4.66666666667,30,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",4.66666666667,36.3333333333,"x","x",
-"lr","Liberia",,,,,,,"lr","LBR",4.75,-8.75,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",4.75,6.75,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.75,6.86666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.75,7.41666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",4.75,10.6666666667,,,
-"ss","South Sudan",,,,,,,"ss","SSD",4.75,29.75,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",4.83333333333,9.33333333333,,,
-"ss","South Sudan",,,,,,,"ss","SSD",4.83333333333,29.25,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",4.91666666667,5.66666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",4.91666666667,8.5,,,
-"lr","Liberia",,,,,,,"lr","LBR",5,-8,"x",,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5,-6,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5,9.16666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5,11.1666666667,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",5,18,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",5,23,"x","x",
-"cd","Democratic Republic of the Congo",,,,,,,"cd","COD",5,23,"x",,
-"ss","South Sudan",,,,,,,"ss","SSD",5,31.6666666667,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",5,32.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5,36.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5,36.75,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5,37,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.16666666667,-5.5,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.16666666667,-4.33333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",5.16666666667,6.38333333333,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.25,-5.66666666667,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.25,-4.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",5.25,7.83333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.25,10.1666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",5.33333333333,35.3333333333,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",5.33333333333,35.3333333333,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.41666666667,-5.83333333333,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.41666666667,-4.58333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.41666666667,8.66666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",5.41666666667,8.66666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.41666666667,10.0833333333,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.5,-5.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",5.5,6.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.5,10.9166666667,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",5.5,25.1666666667,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5.5,37.25,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5.5,37.8333333333,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",5.58333333333,6,,,
-"et","Ethiopia",,,,,,,"et","ETH",5.58333333333,36.0833333333,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.66666666667,-4.58333333333,,,
-"gh","Ghana",,,,,,,"gh","GHA",5.66666666667,-0.166666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",5.66666666667,5.5,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.66666666667,9.5,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.66666666667,9.91666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",5.75,35.25,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",5.83333333333,-5.41666666667,,,
-"gh","Ghana",,,,,,,"gh","GHA",5.83333333333,-0.166666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",5.83333333333,11.6666666667,,,
-"ss","South Sudan",,,,,,,"ss","SSD",5.83333333333,31.6666666667,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",5.83333333333,37.8333333333,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",5.91666666667,10,,,
-"et","Ethiopia",,,,,,,"et","ETH",5.91666666667,37.3333333333,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",6,1,,,
-"ng","Nigeria",,,,,,,"ng","NGA",6,7.33333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",6,8,,,
-"ng","Nigeria",,,,,,,"ng","NGA",6,8.11666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6,10.1666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6,15,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",6,15,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",6,30,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6,36.5833333333,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6,36.9166666667,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",6.11666666667,10.2,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.11666666667,10.4166666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.16666666667,10.75,,,
-"et","Ethiopia",,,,,,,"et","ETH",6.16666666667,36.25,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6.16666666667,36.5,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",6.2,10,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",6.25,-6.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.25,9.91666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.25,10.3333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.25,10.5,,,
-"et","Ethiopia",,,,,,,"et","ETH",6.25,37.75,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",6.28333333333,11.0833333333,,,
-"gh","Ghana",,,,,,,"gh","GHA",6.33333333333,0.416666666667,,,
-"tg","Togo",,,,,,,"tg","TGO",6.33333333333,0.416666666667,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",6.33333333333,8,,,
-"bj","Benin",,,,,,,"bj","BEN",6.41666666667,2.16666666667,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",6.41666666667,5.83333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.41666666667,10.5833333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",6.41666666667,11.0833333333,,,
-"gh","Ghana",,,,,,,"gh","GHA",6.5,-1.25,,,
-"bj","Benin",,,,,,,"bj","BEN",6.5,2.5,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",6.5,3.33333333333,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",6.5,20.75,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",6.5,33.5,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",6.5,34.5,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",6.58333333333,8.58333333333,,,
-"bj","Benin",,,,,,,"bj","BEN",6.66666666667,2.5,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",6.66666666667,10,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",6.66666666667,17.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6.66666666667,37.25,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6.66666666667,38.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6.75,35,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",6.75,37.0833333333,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",6.83333333333,0.416666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",6.83333333333,37.75,"x","x",
-"lr","Liberia",,,,,,,"lr","LBR",6.91666666667,-11.25,"x",,
-"sl","Sierra Leone",,,,,,,"sl","SLE",6.91666666667,-11.25,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",6.91666666667,7.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",6.91666666667,10.4166666667,,,
-"lr","Liberia",,,,,,,"lr","LBR",7,-10,"x",,
-"gn","Guinea",,,,,,,"gn","GIN",7,-9,"x",,
-"lr","Liberia",,,,,,,"lr","LBR",7,-9,"x",,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7,-6,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7,-5,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7,-3.5,,,
-"bj","Benin",,,,,,,"bj","BEN",7,1.75,"x",,
-"tg","Togo",,,,,,,"tg","TGO",7,1.75,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",7,8.16666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",7,35.75,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",7,36.0833333333,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",7.08333333333,5.75,,,
-"ng","Nigeria",,,,,,,"ng","NGA",7.08333333333,5.91666666667,,,
-"gh","Ghana",,,,,,,"gh","GHA",7.16666666667,0.25,,,
-"lr","Liberia",,,,,,,"lr","LBR",7.25,-10.8333333333,"x",,
-"sl","Sierra Leone",,,,,,,"sl","SLE",7.25,-10.8333333333,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",7.25,6.5,,,
-"et","Ethiopia",,,,,,,"et","ETH",7.25,36.25,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",7.33333333333,0.5,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",7.33333333333,25.6666666667,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",7.33333333333,25.6666666667,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7.41666666667,-7.33333333333,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7.5,-8,,,
-"gn","Guinea",,,,,,,"gn","GIN",7.5,-8,"x",,
-"lr","Liberia",,,,,,,"lr","LBR",7.5,-8,"x",,
-"tg","Togo",,,,,,,"tg","TGO",7.5,0.833333333333,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",7.5,9,,,
-"ss","South Sudan",,,,,,,"ss","SSD",7.5,28.5,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",7.58333333333,10.1666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",7.58333333333,35.4166666667,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",7.58333333333,35.5,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",7.75,0.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",7.75,13.1666666667,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",7.75,13.1666666667,"x","x",
-"td","Chad",,,,,,,"td","TCD",7.75,13.1666666667,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",7.75,27,"x","x",
-"sl","Sierra Leone",,,,,,,"sl","SLE",7.83333333333,-11.5,"x",,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7.83333333333,-5.86666666667,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",7.83333333333,-4.25,,,
-"et","Ethiopia",,,,,,,"et","ETH",7.83333333333,37.3333333333,"x","x",
-"gn","Guinea",,,,,,,"gn","GIN",8,-9.5,"x",,
-"lr","Liberia",,,,,,,"lr","LBR",8,-9.5,"x",,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",8,-2.58333333333,,,
-"gh","Ghana",,,,,,,"gh","GHA",8,-2.58333333333,,,
-"bj","Benin",,,,,,,"bj","BEN",8,4.33333333333,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",8,4.33333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",8,14,,,
-"cm","Cameroon",,,,,,,"cm","CMR",8,15.5,,,
-"td","Chad",,,,,,,"td","TCD",8,15.5,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",8,25,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8,25,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8,28,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",8,33.5,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8,33.5,"x","x",
-"lr","Liberia",,,,,,,"lr","LBR",8.08333333333,-10.25,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",8.112935,37.93267,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",8.16666666667,7,,,
-"et","Ethiopia",,,,,,,"et","ETH",8.16666666667,38.1666666667,"x","x",
-"td","Chad",,,,,,,"td","TCD",8.25,17.5,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",8.33333333333,-7.5,,,
-"et","Ethiopia",,,,,,,"et","ETH",8.33333333333,32,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8.33333333333,32,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",8.41666666667,-4.41666666667,,,
-"gn","Guinea",,,,,,,"gn","GIN",8.5,-10.25,"x",,
-"lr","Liberia",,,,,,,"lr","LBR",8.5,-10.25,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",8.5,12.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",8.5,12.5,,,
-"ss","South Sudan",,,,,,,"ss","SSD",8.5,24.5,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8.5,25.25,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8.5,28,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",8.5,38.5,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",8.58333333333,12.4166666667,,,
-"sl","Sierra Leone",,,,,,,"sl","SLE",8.66666666667,-13.0833333333,"x",,
-"bj","Benin",,,,,,,"bj","BEN",8.66666666667,0.5,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",8.66666666667,0.5,,,
-"tg","Togo",,,,,,,"tg","TGO",8.66666666667,0.5,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",8.66666666667,7.41666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",8.66666666667,9.75,,,
-"cm","Cameroon",,,,,,,"cm","CMR",8.66666666667,13.0833333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",8.66666666667,16,,,
-"td","Chad",,,,,,,"td","TCD",8.66666666667,16,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",8.75,8.25,,,
-"td","Chad",,,,,,,"td","TCD",8.75,17,"x","x",
-"td","Chad",,,,,,,"td","TCD",8.75,17.8333333333,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",8.75,33.75,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",8.75,33.75,"x","x",
-"gn","Guinea",,,,,,,"gn","GIN",8.83333333333,-10.1666666667,"x",,
-"lr","Liberia",,,,,,,"lr","LBR",8.83333333333,-10.1666666667,"x",,
-"sl","Sierra Leone",,,,,,,"sl","SLE",8.83333333333,-10.1666666667,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",9,8.75,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9,10.0833333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9,11.6666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",9,14.5,,,
-"td","Chad",,,,,,,"td","TCD",9,14.5,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",9,37,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",9,42,"x","x",
-"td","Chad",,,,,,,"td","TCD",9.08333333333,15.5833333333,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",9.16666666667,5.41666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",9.16666666667,13.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.25,8.16666666667,,,
-"et","Ethiopia",,,,,,,"et","ETH",9.25,42.1666666667,"x","x",
-"sl","Sierra Leone",,,,,,,"sl","SLE",9.33333333333,-12.0833333333,"x",,
-"gn","Guinea",,,,,,,"gn","GIN",9.33333333333,-11.25,"x",,
-"sl","Sierra Leone",,,,,,,"sl","SLE",9.33333333333,-11.25,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",9.33333333333,0.666666666667,,,
-"tg","Togo",,,,,,,"tg","TGO",9.33333333333,0.666666666667,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",9.41666666667,-2.41666666667,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",9.5,-6.25,,,
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",9.5,-5.66666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.5,7,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.5,8.6666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.5,8.83333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.5,9.5,,,
-"td","Chad",,,,,,,"td","TCD",9.5,17.3333333333,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",9.5,22.5,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",9.58333333333,-0.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.58333333333,9.33333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.58333333333,11,,,
-"tg","Togo",,,,,,,"tg","TGO",9.66666666667,1.16666666667,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",9.66666666667,4,,,
-"ng","Nigeria",,,,,,,"ng","NGA",9.66666666667,8.83333333333,,,
-"td","Chad",,,,,,,"td","TCD",9.66666666667,14,"x","x",
-"td","Chad",,,,,,,"td","TCD",9.66666666667,14.5,"x","x",
-"ss","South Sudan",,,,,,,"ss","SSD",9.66666666667,31.75,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",9.75,11.3333333333,,,
-"td","Chad",,,,,,,"td","TCD",9.75,17.75,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",9.83333333333,-4.66666666667,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",9.83333333333,-4.66666666667,,,
-"ml","Mali",,,,,,,"ml","MLI",9.83333333333,-4.66666666667,"x","x",
-"td","Chad",,,,,,,"td","TCD",9.83333333333,15.0833333333,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",9.91666666667,8.16666666667,,,
-"td","Chad",,,,,,,"td","TCD",9.91666666667,15.9166666667,"x","x",
-"gn","Guinea",,,,,,,"gn","GIN",10,-13,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",10,0.0833333333333,,,
-"tg","Togo",,,,,,,"tg","TGO",10,0.0833333333333,"x",,
-"bj","Benin",,,,,,,"bj","BEN",10,2.5,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",10,2.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10,12,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10,14,,,
-"td","Chad",,,,,,,"td","TCD",10,17.6666666667,"x","x",
-"cf","Central African Republic",,,,,,,"cf","CAF",10,23,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",10,38,"x","x",
-"bj","Benin",,,,,,,"bj","BEN",10.0833333333,0.25,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",10.0833333333,0.25,,,
-"tg","Togo",,,,,,,"tg","TGO",10.0833333333,0.25,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",10.1666666667,13.75,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.1666666667,14.75,,,
-"td","Chad",,,,,,,"td","TCD",10.1666666667,14.75,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",10.25,-4.83333333333,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",10.25,-1.58333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.25,11.25,,,
-"td","Chad",,,,,,,"td","TCD",10.25,19.4166666667,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",10.25,31.25,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",10.3333333333,-0.666666666667,,,
-"tg","Togo",,,,,,,"tg","TGO",10.3333333333,-0.666666666667,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",10.3333333333,8.66666666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.3333333333,12.5833333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.3333333333,13.1666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.3333333333,13.8333333333,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.3333333333,14.1666666667,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",10.3333333333,21,"x","x",
-"td","Chad",,,,,,,"td","TCD",10.3333333333,21,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",10.3333333333,34.6666666667,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",10.3333333333,34.6666666667,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",10.4166666667,-0.583333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.4166666667,11,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.4166666667,13.4166666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.4166666667,13.4166666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.4166666667,13.5833333333,,,
-"et","Ethiopia",,,,,,,"et","ETH",10.4166666667,36.1666666667,"x","x",
-"gn","Guinea",,,,,,,"gn","GIN",10.5,-14.5,"x",,
-"gn","Guinea",,,,,,,"gn","GIN",10.5,-9.5,"x",,
-"sl","Sierra Leone",,,,,,,"sl","SLE",10.5,-9.5,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",10.5,-3.25,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",10.5,-3.25,,,
-"bf","Burkina Faso",,,,,,,"bf","BFA",10.5,-2.66666666667,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",10.5,-2.66666666667,,,
-"gh","Ghana",,,,,,,"gh","GHA",10.5,-1.25,,,
-"gh","Ghana",,,,,,,"gh","GHA",10.5,0,,,
-"bj","Benin",,,,,,,"bj","BEN",10.5,1.16666666667,"x",,
-"bj","Benin",,,,,,,"bj","BEN",10.5,3.5,"x",,
-"ng","Nigeria",,,,,,,"ng","NGA",10.5,3.5,,,
-"ng","Nigeria",,,,,,,"ng","NGA",10.5,12.25,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.5,14,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.5,15.5,,,
-"td","Chad",,,,,,,"td","TCD",10.5,15.5,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",10.5,30,"x",,
-"bj","Benin",,,,,,,"bj","BEN",10.5833333333,1.66666666667,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",10.5833333333,30.5,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",10.6666666667,-4.5,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",10.6666666667,30,"x",,
-"gh","Ghana",,,,,,,"gh","GHA",10.8333333333,-2.66666666667,,,
-"gh","Ghana",,,,,,,"gh","GHA",10.8333333333,-0.916666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.8333333333,14.1666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.8333333333,14.9166666667,,,
-"td","Chad",,,,,,,"td","TCD",10.8333333333,14.9166666667,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",10.8333333333,29.6666666667,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",10.8333333333,30,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",10.8333333333,36.6666666667,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",10.9166666667,9.66666666667,,,
-"cm","Cameroon",,,,,,,"cm","CMR",10.95,14.1166666667,,,
-"bf","Burkina Faso",,,,,,,"bf","BFA",11,-4.91666666667,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",11,-4.66666666667,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",11,9.25,,,
-"ng","Nigeria",,,,,,,"ng","NGA",11,11.8333333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",11,13,,,
-"cm","Cameroon",,,,,,,"cm","CMR",11,14.0833333333,,,
-"td","Chad",,,,,,,"td","TCD",11,15.4166666667,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",11,29.6666666667,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",11,30.1666666667,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",11.1666666667,30.5,"x",,
-"cm","Cameroon",,,,,,,"cm","CMR",11.2333333333,13.8,,,
-"ng","Nigeria",,,,,,,"ng","NGA",11.2333333333,13.8,,,
-"bf","Burkina Faso",,,,,,,"bf","BFA",11.25,-1.25,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",11.25,13.5833333333,,,
-"ng","Nigeria",,,,,,,"ng","NGA",11.3333333333,11.25,,,
-"cf","Central African Republic",,,,,,,"cf","CAF",11.3333333333,15.3333333333,"x","x",
-"gw","Guinea-Bissau",,,,,,,"gw","GNB",11.4166666667,-15.1666666667,"x",,"x"
-"gn","Guinea",,,,,,,"gn","GIN",11.5,-12.5,"x",,
-"ml","Mali",,,,,,,"ml","MLI",11.5,-5.58333333333,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",11.5,-0.5,"x","x",
-"gh","Ghana",,,,,,,"gh","GHA",11.5,-0.5,,,
-"cm","Cameroon",,,,,,,"cm","CMR",11.5,14.8333333333,,,
-"sd","Sudan",,,,,,,"sd","SDN",11.5,34,"x",,
-"td","Chad",,,,,,,"td","TCD",11.6666666667,16,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",11.6666666667,29.25,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",11.75,-5,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",11.8333333333,29.3333333333,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",11.8333333333,31.05,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",11.8666666667,-2.91666666667,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",11.8666666667,13.7166666667,,,
-"ng","Nigeria",,,,,,,"ng","NGA",11.8666666667,13.7166666667,,,
-"td","Chad",,,,,,,"td","TCD",11.9166666667,18.0833333333,"x","x",
-"td","Chad",,,,,,,"td","TCD",11.9166666667,18.75,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",11.9166666667,29.4166666667,"x",,
-"gw","Guinea-Bissau",,,,,,,"gw","GNB",12,-16.25,"x",,"x"
-"gw","Guinea-Bissau",,,,,,,"gw","GNB",12,-15,"x",,"x"
-"ne","Niger",,,,,,,"ne","NER",12,7,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",12,7,,,
-"td","Chad",,,,,,,"td","TCD",12,13,"x","x",
-"ne","Niger",,,,,,,"ne","NER",12,13,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",12,13,,,
-"sd","Sudan",,,,,,,"sd","SDN",12,13,"x",,
-"td","Chad",,,,,,,"td","TCD",12,18,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",12,31,"x",,
-"dj","Djibouti",,,,,,,"dj","DJI",12,42,"x",,
-"er","Eritrea",,,,,,,"er","ERI",12,42,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",12,42,"x","x",
-"gw","Guinea-Bissau",,,,,,,"gw","GNB",12.0833333333,-15.9166666667,"x",,"x"
-"ng","Nigeria",,,,,,,"ng","NGA",12.0833333333,10.9166666667,,,
-"bf","Burkina Faso",,,,,,,"bf","BFA",12.1666666667,-3,"x","x",
-"td","Chad",,,,,,,"td","TCD",12.1666666667,18.3333333333,"x","x",
-"td","Chad",,,,,,,"td","TCD",12.1666666667,19.8333333333,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",12.1666666667,29.3333333333,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",12.1666666667,30.8333333333,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",12.25,1,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",12.25,25.25,"x",,
-"td","Chad",,,,,,,"td","TCD",12.3333333333,21.75,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",12.4166666666667,-4.3333333333333,"x","x",
-"gn","Guinea",,,,,,,"gn","GIN",12.5,-13.25,"x",,
-"ml","Mali",,,,,,,"ml","MLI",12.5,-13.25,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",12.5,-7.5,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",12.5,-2.66666666667,"x","x",
-"et","Ethiopia",,,,,,,"et","ETH",12.5,35.8333333333,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",12.5,35.8333333333,"x",,
-"ye","Yemen",,,,,,,"ye","YEM",12.5,54,"x",,
-"gn","Guinea",,,,,,,"gn","GIN",12.6666666667,-13,"x",,
-"sn","Senegal",,,,,,,"sn","SEN",12.6666666667,-13,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",12.6666666667,37.4166666667,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",12.8333333333,-1.25,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",12.8333333333,10.5,,,
-"gm","Gambia",,,,,,,"gm","GMB",13,-16.25,"x",,
-"sn","Senegal",,,,,,,"sn","SEN",13,-16.25,"x",,
-"gn","Guinea",,,,,,,"gn","GIN",13,-15.6666666667,"x",,
-"ml","Mali",,,,,,,"ml","MLI",13,-15.6666666667,"x","x",
-"sn","Senegal",,,,,,,"sn","SEN",13,-15.6666666667,"x",,
-"ml","Mali",,,,,,,"ml","MLI",13,-11,"x","x",
-"td","Chad",,,,,,,"td","TCD",13.3333333333,22,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",13.3333333333,22,"x",,
-"gm","Gambia",,,,,,,"gm","GMB",13.4166666667,-16,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",13.5,0.5,"x","x",
-"cm","Cameroon",,,,,,,"cm","CMR",13.5,14.5,,,
-"td","Chad",,,,,,,"td","TCD",13.5,14.5,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",13.5,14.5,,,
-"sd","Sudan",,,,,,,"sd","SDN",13.5,25,"x",,
-"td","Chad",,,,,,,"td","TCD",13.75,20.8333333333,"x","x",
-"td","Chad",,,,,,,"td","TCD",13.75,21.5,"x","x",
-"ne","Niger",,,,,,,"ne","NER",13.8333333333,2.16666666667,"x","x",
-"td","Chad",,,,,,,"td","TCD",13.8333333333,20.8333333333,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",14,0,"x","x",
-"td","Chad",,,,,,,"td","TCD",14,15,"x","x",
-"ne","Niger",,,,,,,"ne","NER",14,15,"x","x",
-"ng","Nigeria",,,,,,,"ng","NGA",14,15,,,
-"ml","Mali",,,,,,,"ml","MLI",14.25,-10.5,"x","x",
-"sn","Senegal",,,,,,,"sn","SEN",14.25,-10.5,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",14.25,-0.916666666667,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",14.25,-0.916666666667,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",14.3333333333,-3.58333333333,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",14.3333333333,-3.58333333333,"x","x",
-"bf","Burkina Faso",,,,,,,"bf","BFA",14.4166666667,-3.25,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",14.4166666667,-3.25,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",14.4166666667,-2.5,"x","x",
-"td","Chad",,,,,,,"td","TCD",14.5,22,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",14.5,22,"x",,
-"er","Eritrea",,,,,,,"er","ERI",14.5,37,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",14.5,37,"x","x",
-"er","Eritrea",,,,,,,"er","ERI",14.5,38.5,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",14.5,38.5,"x","x",
-"er","Eritrea",,,,,,,"er","ERI",14.75,39.75,"x",,
-"et","Ethiopia",,,,,,,"et","ETH",14.75,39.75,"x","x",
-"sn","Senegal",,,,,,,"sn","SEN",14.8333333333,-16.8333333333,"x",,
-"sn","Senegal",,,,,,,"sn","SEN",14.8333333333,-16.75,"x",,
-"sn","Senegal",,,,,,,"sn","SEN",14.9166666667,-16.9166666667,"x",,
-"ml","Mali",,,,,,,"ml","MLI",14.9166666667,-3.83333333333,"x","x",
-"sn","Senegal",,,,,,,"sn","SEN",15,-14,"x",,
-"bf","Burkina Faso",,,,,,,"bf","BFA",15,-10.5,"x","x",
-"ci","Côte d’Ivoire",,,,,,,"ci","CIV",15,-10.5,,,
-"ml","Mali",,,,,,,"ml","MLI",15,-10.5,"x","x",
-"sn","Senegal",,,,,,,"sn","SEN",15,-10.5,"x",,
-"ml","Mali",,,,,,,"ml","MLI",15,-5,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",15,-4,"x","x",
-"ml","Mali",,,,,,,"ml","MLI",15,-3,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",15.0833333333,26.25,"x",,
-"er","Eritrea",,,,,,,"er","ERI",15.0833333333,37.5833333333,"x",,
-"gm","Gambia",,,,,,,"gm","GMB",15.25,-16,"x",,
-"sn","Senegal",,,,,,,"sn","SEN",15.25,-16,"x",,
-"er","Eritrea",,,,,,,"er","ERI",15.5,38,"x",,
-"er","Eritrea",,,,,,,"er","ERI",15.75,38.5,"x",,
-"ml","Mali",,,,,,,"ml","MLI",16,0,"x","x",
-"ne","Niger",,,,,,,"ne","NER",16,0,"x","x",
-"td","Chad",,,,,,,"td","TCD",16,23,"x","x",
-"sd","Sudan",,,,,,,"sd","SDN",16,23,"x",,
-"mr","Mauritania",,,,,,,"mr","MRT",16.5,-13.75,"x",,
-"er","Eritrea",,,,,,,"er","ERI",16.5,38.5,"x",,
-"ml","Mali",,,,,,,"ml","MLI",17,-3,"x","x",
-"mr","Mauritania",,,,,,,"mr","MRT",17.3333333333,-16,"x",,
-"er","Eritrea",,,,,,,"er","ERI",18,36,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",18,36,"x",,
-"sd","Sudan",,,,,,,"sd","SDN",18.25,30.75,"x",,
-"ne","Niger",,,,,,,"ne","NER",19,9,"x","x",
-"mr","Mauritania",,,,,,,"mr","MRT",20,-10,"x",,
-"ml","Mali",,,,,,,"ml","MLI",20,-2,"x","x",
-"eg","Egypt",,,,,,,"eg","EGY",21,31,,,
-"sd","Sudan",,,,,,,"sd","SDN",21,31,"x",,
-"dz","Algeria",,,,,,,"dz","DZA",23,6,,,
-"ly","Libya",,,,,,,"ly","LBY",23,6,,,
-"ne","Niger",,,,,,,"ne","NER",23,6,"x","x",
-"eg","Egypt",,,,,,,"eg","EGY",23,33,,,
-"ly","Libya",,,,,,,"ly","LBY",25,10.1666666667,,,
-"eg","Egypt",,,,,,,"eg","EGY",26,32,,,
-"eg","Egypt",,,,,,,"eg","EGY",29.1666666667,25.5,,,
-"eg","Egypt",,,,,,,"eg","EGY",30,31,,,
-"ma","Morocco",,,,,,,"ma","MAR",31,-5,,,
-"dz","Algeria",,,,,,,"dz","DZA",31.9166666667,5.33333333333,,,
-"ly","Libya",,,,,,,"ly","LBY",32,22,,,
-"ma","Morocco",,,,,,,"ma","MAR",32.5,-1.5,,,
-"dz","Algeria",,,,,,,"dz","DZA",32.5,3.5,,,
-"ma","Morocco",,,,,,,"ma","MAR",33,-5,,,
-"ma","Morocco",,,,,,,"ma","MAR",33.3333333333,-4.66666666667,,,
-"ma","Morocco",,,,,,,"ma","MAR",34,-6,,,
-"dz","Algeria",,,,,,,"dz","DZA",34.5,-4,,,
-"ma","Morocco",,,,,,,"ma","MAR",34.5,-4,,,
-"dz","Algeria",,,,,,,"dz","DZA",35,7,,,
-"dz","Algeria",,,,,,,"dz","DZA",36.5,5,,,
-"tn","Tunisia",,,,,,,"tn","TUN",36.75,10.25,,,
+"id","label","icon","cluster"
+"aaa-language","Ghotuo","language","language"
+"aal-language","Afade","language","language"
+"aar-language","Afar","language","language"
+"abb-language","Bankon","language","language"
+"abi-language","Abidji","language","language"
+"ach-language","Acoli","language","language"
+"adj-language","Adioukrou","language","language"
+"ads-language","Adamorobe Sign Language","language","language"
+"aeb-language","Tunisian Arabic","language","language"
+"afn-language","Defaka","language","language"
+"afr-language","Afrikaans","language","language"
+"agb-language","Legbo","language","language"
+"agh-language","Ngelima","language","language"
+"agq-language","Aghem","language","language"
+"ahg-language","Qimant","language","language"
+"ahp-language","Aproumu Aizi","language","language"
+"aiw-language","Aari","language","language"
+"aja-language","Aja (South Sudan)","language","language"
+"ajg-language","Aja (Benin)","language","language"
+"aka-language","Akan","language","language"
+"akw-language","Akwa","language","language"
+"ald-language","Alladian","language","language"
+"amf-language","Hamer-Banna","language","language"
+"amh-language","Amharic","language","language"
+"amo-language","Amo","language","language"
+"anc-language","Ngas","language","language"
+"ank-language","Goemai","language","language"
+"ann-language","Obolo","language","language"
+"anu-language","Anuak","language","language"
+"any-language","Anyin","language","language"
+"aoa-language","Angolar","language","language"
+"arv-language","Arbore","language","language"
+"ary-language","Moroccan Arabic","language","language"
+"arz-language","Egyptian Arabic","language","language"
+"asa-language","Asu (Tanzania)","language","language"
+"avi-language","Avikam","language","language"
+"avn-language","Avatime","language","language"
+"avu-language","Avokaya","language","language"
+"awn-language","Awngi","language","language"
+"axk-language","Yaka (Central African Republic)","language","language"
+"ayl-language","Libyan Arabic","language","language"
+"bag-language","Tuki","language","language"
+"bam-language","Bambara","language","language"
+"bas-language","Basa (Cameroon)","language","language"
+"bav-language","Vengo","language","language"
+"baw-language","Bambili-Bambui","language","language"
+"bax-language","Bamun","language","language"
+"bba-language","Baatonum","language","language"
+"bbo-language","Northern Bobo Madaré","language","language"
+"bci-language","Baoulé","language","language"
+"bcq-language","Bench","language","language"
+"bcs-language","Kohumono","language","language"
+"bcw-language","Bana","language","language"
+"bde-language","Bade","language","language"
+"bdh-language","Baka (South Sudan)","language","language"
+"bdm-language","Buduma","language","language"
+"bds-language","Burunge","language","language"
+"bdu-language","Oroko","language","language"
+"bej-language","Beja","language","language"
+"bem-language","Bemba (Zambia)","language","language"
+"beq-language","Beembe","language","language"
+"bev-language","Daloa Bété","language","language"
+"bex-language","Jur Modo","language","language"
+"bfa-language","Bari","language","language"
+"bfd-language","Bafut","language","language"
+"bib-language","Bissa","language","language"
+"bid-language","Bidiyo","language","language"
+"bif-language","Biafada","language","language"
+"bim-language","Bimoba","language","language"
+"bin-language","Bini","language","language"
+"bip-language","Bila","language","language"
+"bji-language","Burji","language","language"
+"bkc-language","Baka (Cameroon)","language","language"
+"bkm-language","Kom (Cameroon)","language","language"
+"bli-language","Bolia","language","language"
+"bmi-language","Bagirmi","language","language"
+"bng-language","Benga","language","language"
+"bni-language","Bangi","language","language"
+"bol-language","Bole","language","language"
+"bom-language","Berom","language","language"
+"bot-language","Bongo","language","language"
+"boz-language","Tiéyaxo Bozo","language","language"
+"bqc-language","Boko (Benin)","language","language"
+"bqp-language","Busa","language","language"
+"bri-language","Mokpwe","language","language"
+"brm-language","Barambu","language","language"
+"bsc-language","Bassari","language","language"
+"bsp-language","Baga Sitemu","language","language"
+"bsw-language","Baiso","language","language"
+"bud-language","Ntcham","language","language"
+"buf-language","Bushoong","language","language"
+"bum-language","Bulu (Cameroon)","language","language"
+"buu-language","Budu","language","language"
+"bvb-language","Bube","language","language"
+"bvq-language","Birri","language","language"
+"bvx-language","Dibole","language","language"
+"bwo-language","Boro (Ethiopia)","language","language"
+"bwr-language","Bura-Pabir","language","language"
+"bwu-language","Buli (Ghana)","language","language"
+"bxk-language","Bukusu","language","language"
+"byn-language","Bilin","language","language"
+"bza-language","Bandi","language","language"
+"cgg-language","Chiga","language","language"
+"cko-language","Anufo","language","language"
+"cla-language","Ron","language","language"
+"cme-language","Cerma","language","language"
+"cop-language","Coptic","language","language"
+"cou-language","Wamey","language","language"
+"daa-language","Dangaléat","language","language"
+"dag-language","Dagbani","language","language"
+"dai-language","Day","language","language"
+"daj-language","Dar Fur Daju","language","language"
+"dal-language","Dahalo","language","language"
+"dau-language","Dar Sila Daju","language","language"
+"dav-language","Taita","language","language"
+"dba-language","Bangime","language","language"
+"dbq-language","Daba","language","language"
+"dds-language","Donno So Dogon","language","language"
+"deg-language","Degema","language","language"
+"dga-language","Southern Dagaare","language","language"
+"dgl-language","Andaandi","language","language"
+"dic-language","Lakota Dida","language","language"
+"did-language","Didinga","language","language"
+"dim-language","Dime","language","language"
+"din-language","Dinka","language","language"
+"diz-language","Ding","language","language"
+"dje-language","Zarma","language","language"
+"djm-language","Jamsay Dogon","language","language"
+"dma-language","Duma","language","language"
+"dnj-language","Dan","language","language"
+"doo-language","Dongo","language","language"
+"dow-language","Doyayo","language","language"
+"dsh-language","Daasanach","language","language"
+"dto-language","Tommo So Dogon","language","language"
+"dts-language","Toro So Dogon","language","language"
+"dua-language","Duala","language","language"
+"dur-language","Dii","language","language"
+"dwr-language","Dawro","language","language"
+"dyi-language","Djimini Senoufo","language","language"
+"dyo-language","Jola-Fonyi","language","language"
+"dyu-language","Dyula","language","language"
+"efi-language","Efik","language","language"
+"ega-language","Ega","language","language"
+"eko-language","Koti","language","language"
+"ema-language","Emai-Iuleha-Ora","language","language"
+"emk-language","Eastern Maninkakan","language","language"
+"enn-language","Engenni","language","language"
+"ets-language","Yekhee","language","language"
+"etu-language","Ejagham","language","language"
+"ewe-language","Ewe","language","language"
+"ewo-language","Ewondo","language","language"
+"fap-language","Paloor","language","language"
+"ffm-language","Maasina Fulfulde","language","language"
+"fia-language","Nobiin","language","language"
+"fmp-language","Fe'fe'","language","language"
+"fon-language","Fon","language","language"
+"fub-language","Adamawa Fulfulde","language","language"
+"fuc-language","Pulaar","language","language"
+"fuf-language","Pular","language","language"
+"fuh-language","Western Niger Fulfulde","language","language"
+"fuu-language","Furu","language","language"
+"fuv-language","Nigerian Fulfulde","language","language"
+"fvr-language","Fur","language","language"
+"gaa-language","Ga","language","language"
+"gax-language","Borana-Arsi-Guji Oromo","language","language"
+"gaz-language","West Central Oromo","language","language"
+"gbp-language","Gbaya-Bossangoa","language","language"
+"gbr-language","Gbagyi","language","language"
+"gde-language","Gude","language","language"
+"gdf-language","Guduf-Gava","language","language"
+"gdm-language","Laal","language","language"
+"ged-language","Gade","language","language"
+"gey-language","Enya","language","language"
+"ghl-language","Ghulfan","language","language"
+"gid-language","Gidar","language","language"
+"gis-language","North Giziga","language","language"
+"gkn-language","Gokana","language","language"
+"glj-language","Gula Iro","language","language"
+"gmm-language","Gbaya-Mbodomo","language","language"
+"gmv-language","Gamo","language","language"
+"goa-language","Guro","language","language"
+"god-language","Godié","language","language"
+"gol-language","Gola","language","language"
+"gow-language","Gorowa","language","language"
+"gqa-language","Ga'anda","language","language"
+"grj-language","Southern Grebo","language","language"
+"grr-language","Taznatit","language","language"
+"gru-language","Kistane","language","language"
+"guk-language","Gumuz","language","language"
+"gur-language","Farefare","language","language"
+"guw-language","Gun","language","language"
+"gux-language","Gourmanchéma","language","language"
+"guz-language","Gusii","language","language"
+"gwd-language","Gawwada","language","language"
+"gya-language","Northwest Gbaya","language","language"
+"hae-language","Eastern Oromo","language","language"
+"har-language","Harari","language","language"
+"hau-language","Hausa","language","language"
+"hay-language","Haya","language","language"
+"hbb-language","Huba","language","language"
+"heh-language","Hehe","language","language"
+"hem-language","Hemba","language","language"
+"her-language","Herero","language","language"
+"hia-language","Lamang","language","language"
+"hke-language","Hunde","language","language"
+"hna-language","Mina (Cameroon)","language","language"
+"hnh-language","ǁAni","language","language"
+"hoo-language","Holoholo","language","language"
+"hts-language","Hadza","language","language"
+"huc-language","ǂHua","language","language"
+"ibb-language","Ibibio","language","language"
+"ibo-language","Igbo","language","language"
+"idu-language","Idoma","language","language"
+"ifm-language","Teke-Fuumu","language","language"
+"igb-language","Ebira","language","language"
+"ige-language","Igede","language","language"
+"ijc-language","Izon","language","language"
+"ikx-language","Ik","language","language"
+"ilb-language","Ila","language","language"
+"irk-language","Iraqw","language","language"
+"isi-language","Nkem-Nkum","language","language"
+"iso-language","Isoko","language","language"
+"its-language","Isekiri","language","language"
+"izr-language","Izere","language","language"
+"izz-language","Izii","language","language"
+"jbu-language","Jukun Takum","language","language"
+"jek-language","Jeri Kuo","language","language"
+"jle-language","Ngile","language","language"
+"jnj-language","Yemsa","language","language"
+"kab-language","Kabyle","language","language"
+"kah-language","Kara (Central African Republic)","language","language"
+"kam-language","Kamba (Kenya)","language","language"
+"kao-language","Xaasongaxango","language","language"
+"kbl-language","Kanembu","language","language"
+"kbp-language","Kabiyè","language","language"
+"kbr-language","Kafa","language","language"
+"kcg-language","Tyap","language","language"
+"kck-language","Kalanga","language","language"
+"kcm-language","Gula (Central African Republic)","language","language"
+"kcn-language","Nubi","language","language"
+"kcr-language","Katla","language","language"
+"kcu-language","Kami (Tanzania)","language","language"
+"kcv-language","Kete","language","language"
+"kde-language","Makonde","language","language"
+"kdh-language","Tem","language","language"
+"kdj-language","Karamojong","language","language"
+"kdm-language","Kagoma","language","language"
+"ken-language","Kenyang","language","language"
+"ker-language","Kera","language","language"
+"kfz-language","Koromfé","language","language"
+"kgo-language","Krongo","language","language"
+"khq-language","Koyra Chiini Songhay","language","language"
+"kia-language","Kim","language","language"
+"kik-language","Kikuyu","language","language"
+"kin-language","Kinyarwanda","language","language"
+"kki-language","Kagulu","language","language"
+"kkw-language","Teke-Kukuya","language","language"
+"klu-language","Klao","language","language"
+"kma-language","Konni","language","language"
+"kna-language","Dera (Nigeria)","language","language"
+"knc-language","Central Kanuri","language","language"
+"knf-language","Mankanya","language","language"
+"kng-language","Koongo","language","language"
+"knk-language","Kuranko","language","language"
+"knw-language","Kung-Ekoka","language","language"
+"kny-language","Kanyok","language","language"
+"koe-language","Kacipo-Bale Suri","language","language"
+"kot-language","Lagwan","language","language"
+"kpk-language","Kpan","language","language"
+"kpo-language","Ikposo","language","language"
+"kpz-language","Kupsabiny","language","language"
+"kqy-language","Koorete","language","language"
+"kqz-language","Korana","language","language"
+"krs-language","Gbaya (Sudan)","language","language"
+"ksb-language","Shambala","language","language"
+"ksf-language","Bafia","language","language"
+"ksq-language","Kwaami","language","language"
+"kss-language","Southern Kisi","language","language"
+"kst-language","Winyé","language","language"
+"ktu-language","Kituba (Democratic Republic of Congo)","language","language"
+"ktz-language","Juǀʼhoan","language","language"
+"kun-language","Kunama","language","language"
+"kwn-language","Kwangali","language","language"
+"kyq-language","Kenga","language","language"
+"kza-language","Western Karaboro","language","language"
+"laf-language","Lafofa","language","language"
+"lag-language","Rangi","language","language"
+"laj-language","Lango (Uganda)","language","language"
+"lam-language","Lamba","language","language"
+"lch-language","Luchazi","language","language"
+"lea-language","Lega-Shabunda","language","language"
+"led-language","Lendu","language","language"
+"lee-language","Lyélé","language","language"
+"lef-language","Lelemi","language","language"
+"les-language","Lese","language","language"
+"lgg-language","Lugbara","language","language"
+"lin-language","Lingala","language","language"
+"liy-language","Banda-Bambari","language","language"
+"lkr-language","Päri","language","language"
+"lln-language","Lele (Chad)","language","language"
+"lme-language","Pévé","language","language"
+"lnb-language","Mbalanhu","language","language"
+"lns-language","Lamnso'","language","language"
+"lob-language","Lobi","language","language"
+"log-language","Logo","language","language"
+"lok-language","Loko","language","language"
+"lol-language","Mongo","language","language"
+"lom-language","Loma (Liberia)","language","language"
+"loz-language","Lozi","language","language"
+"lua-language","Luba-Lulua","language","language"
+"lub-language","Luba-Katanga","language","language"
+"lue-language","Luvale","language","language"
+"lug-language","Ganda","language","language"
+"lun-language","Lunda","language","language"
+"luo-language","Luo (Kenya and Tanzania)","language","language"
+"luy-language","Luyia","language","language"
+"lwo-language","Luwo","language","language"
+"mas-language","Masai","language","language"
+"maw-language","Mampruli","language","language"
+"mcn-language","Masana","language","language"
+"mcp-language","Makaa","language","language"
+"mcs-language","Mambai","language","language"
+"mda-language","Mada (Nigeria)","language","language"
+"mdd-language","Mbum","language","language"
+"mde-language","Maba (Chad)","language","language"
+"mdi-language","Mamvu","language","language"
+"mdj-language","Mangbetu","language","language"
+"mdm-language","Mayogo","language","language"
+"mdq-language","Mbole","language","language"
+"mdt-language","Mbere","language","language"
+"mdw-language","Mbosi","language","language"
+"mdx-language","Dizin","language","language"
+"mdy-language","Male (Ethiopia)","language","language"
+"mei-language","Midob","language","language"
+"men-language","Mende (Sierra Leone)","language","language"
+"mev-language","Mano","language","language"
+"mey-language","Hassaniyya","language","language"
+"mfc-language","Mba","language","language"
+"mfe-language","Morisyen","language","language"
+"mfv-language","Mandjak","language","language"
+"mgd-language","Moru","language","language"
+"mge-language","Mango","language","language"
+"mgh-language","Makhuwa-Meetto","language","language"
+"mgr-language","Mambwe-Lungu","language","language"
+"mgw-language","Matumbi","language","language"
+"mhd-language","Mbugu","language","language"
+"mhi-language","Ma'di","language","language"
+"mhk-language","Mungaka","language","language"
+"mif-language","Mofu-Gudur","language","language"
+"mkf-language","Miya","language","language"
+"mlq-language","Western Maninkakan","language","language"
+"mls-language","Masalit","language","language"
+"mmy-language","Migaama","language","language"
+"mnf-language","Mundani","language","language"
+"mnk-language","Mandinka","language","language"
+"moj-language","Monzombo","language","language"
+"mor-language","Moro","language","language"
+"mos-language","Mossi","language","language"
+"moy-language","Shekkacho","language","language"
+"moz-language","Mukulu","language","language"
+"mpe-language","Majang","language","language"
+"mpk-language","Mbara (Chad)","language","language"
+"mrt-language","Marghi Central","language","language"
+"msj-language","Ma (Democratic Republic of Congo)","language","language"
+"mtk-language","Mbe'","language","language"
+"mua-language","Mundang","language","language"
+"mug-language","Musgu","language","language"
+"muh-language","Mündü","language","language"
+"mur-language","Murle","language","language"
+"muz-language","Mursi","language","language"
+"mwe-language","Mwera (Chimwera)","language","language"
+"mxu-language","Mada (Cameroon)","language","language"
+"mxx-language","Mahou","language","language"
+"myb-language","Mbay","language","language"
+"mye-language","Myene","language","language"
+"mym-language","Me'en","language","language"
+"mzb-language","Tumzabt","language","language"
+"mzm-language","Mumuye","language","language"
+"naq-language","Khoekhoe","language","language"
+"nbm-language","Ngbaka Ma'bo","language","language"
+"ncu-language","Chumburung","language","language"
+"nde-language","North Ndebele","language","language"
+"ndi-language","Samba Leko","language","language"
+"ndo-language","Ndonga","language","language"
+"ndt-language","Ndunga","language","language"
+"ndv-language","Ndut","language","language"
+"ndz-language","Ndogo","language","language"
+"ney-language","Neyo","language","language"
+"nfr-language","Nafaanra","language","language"
+"nga-language","Ngbaka","language","language"
+"ngb-language","Northern Ngbandi","language","language"
+"ngc-language","Ngombe (Democratic Republic of Congo)","language","language"
+"nge-language","Ngemba","language","language"
+"ngi-language","Ngizim","language","language"
+"nhb-language","Beng","language","language"
+"nhr-language","Naro","language","language"
+"nhu-language","Noone","language","language"
+"nie-language","Niellim","language","language"
+"nih-language","Nyiha (Tanzania)","language","language"
+"niq-language","Nandi","language","language"
+"niy-language","Ngiti","language","language"
+"nko-language","Nkonya","language","language"
+"nmd-language","Ndumu","language","language"
+"nmg-language","Kwasio","language","language"
+"nmn-language","ǃXóõ","language","language"
+"nnb-language","Nande","language","language"
+"now-language","Nyambo","language","language"
+"nrb-language","Nara","language","language"
+"nse-language","Nsenga","language","language"
+"nso-language","Pedi","language","language"
+"ntm-language","Nateni","language","language"
+"nto-language","Ntomba","language","language"
+"nup-language","Nupe-Nupe-Tako","language","language"
+"nus-language","Nuer","language","language"
+"nuv-language","Northern Nuni","language","language"
+"nya-language","Nyanja","language","language"
+"nyi-language","Ama (Sudan)","language","language"
+"nyj-language","Nyanga","language","language"
+"nym-language","Nyamwezi","language","language"
+"nyn-language","Nyankole","language","language"
+"nyo-language","Nyoro","language","language"
+"nyp-language","Nyang'i","language","language"
+"nzk-language","Nzakara","language","language"
+"ogb-language","Ogbia","language","language"
+"ogo-language","Khana","language","language"
+"ogu-language","Ogbronuagum","language","language"
+"oku-language","Oku","language","language"
+"old-language","Mochi","language","language"
+"otr-language","Otoro","language","language"
+"oua-language","Tagargrent","language","language"
+"pbi-language","Parkwa","language","language"
+"pbr-language","Pangwa","language","language"
+"pcm-language","Nigerian Pidgin","language","language"
+"pip-language","Pero","language","language"
+"pko-language","Pökoot","language","language"
+"plt-language","Plateau Malagasy","language","language"
+"pov-language","Upper Guinea Crioulo","language","language"
+"poy-language","Pogolo","language","language"
+"pqa-language","Pa'a","language","language"
+"pre-language","Principense","language","language"
+"pym-language","Fyam","language","language"
+"ras-language","Tegali","language","language"
+"rel-language","Rendille","language","language"
+"rif-language","Tarifit","language","language"
+"rim-language","Nyaturu","language","language"
+"rng-language","Ronga","language","language"
+"rou-language","Runga","language","language"
+"run-language","Rundi","language","language"
+"sad-language","Sandawe","language","language"
+"sag-language","Sango","language","language"
+"sba-language","Ngambay","language","language"
+"sbf-language","Chabu","language","language"
+"sbs-language","Subiya","language","language"
+"sef-language","Cebaara Senoufo","language","language"
+"seh-language","Sena","language","language"
+"sen-language","Nanerigé Sénoufo","language","language"
+"ses-language","Koyraboro Senni Songhai","language","language"
+"sgw-language","Sebat Bet Gurage","language","language"
+"shg-language","Shua","language","language"
+"shi-language","Tachelhit","language","language"
+"shj-language","Shatt","language","language"
+"shk-language","Shilluk","language","language"
+"shu-language","Chadian Arabic","language","language"
+"shy-language","Tachawit","language","language"
+"sid-language","Sidamo","language","language"
+"sif-language","Siamou","language","language"
+"sil-language","Tumulung Sisaala","language","language"
+"siz-language","Siwi","language","language"
+"sjg-language","Assangori","language","language"
+"sna-language","Shona","language","language"
+"snf-language","Noon","language","language"
+"snk-language","Soninke","language","language"
+"snq-language","Sangu (Gabon)","language","language"
+"som-language","Somali","language","language"
+"sop-language","Songe","language","language"
+"sot-language","Southern Sotho","language","language"
+"spp-language","Supyire Senoufo","language","language"
+"sqt-language","Soqotri","language","language"
+"ssn-language","Waata","language","language"
+"ssw-language","Swati","language","language"
+"ssy-language","Saho","language","language"
+"sub-language","Suku","language","language"
+"suk-language","Sukuma","language","language"
+"suq-language","Tirmaga-Chai Suri","language","language"
+"sur-language","Mwaghavul","language","language"
+"sus-language","Susu","language","language"
+"swb-language","Maore Comorian","language","language"
+"swh-language","Swahili (individual language)","language","language"
+"szg-language","Sengele","language","language"
+"tag-language","Tagoi","language","language"
+"tan-language","Tangale","language","language"
+"tap-language","Taabwa","language","language"
+"taq-language","Tamasheq","language","language"
+"tbi-language","Gaam","language","language"
+"tcc-language","Datooga","language","language"
+"tem-language","Timne","language","language"
+"teo-language","Teso","language","language"
+"teq-language","Temein","language","language"
+"teu-language","Soo","language","language"
+"tex-language","Tennet","language","language"
+"thv-language","Tahaggart Tamahaq","language","language"
+"thz-language","Tayart Tamajeq","language","language"
+"tig-language","Tigre","language","language"
+"tik-language","Tikar","language","language"
+"tir-language","Tigrinya","language","language"
+"tiv-language","Tiv","language","language"
+"tlj-language","Talinga-Bwisi","language","language"
+"tll-language","Tetela","language","language"
+"tlo-language","Talodi","language","language"
+"tma-language","Tama (Chad)","language","language"
+"tmc-language","Tumak","language","language"
+"tms-language","Tima","language","language"
+"toi-language","Tonga (Zambia)","language","language"
+"tpm-language","Tampulma","language","language"
+"tsn-language","Tswana","language","language"
+"tso-language","Tsonga","language","language"
+"tsv-language","Tsogo","language","language"
+"ttr-language","Tera","language","language"
+"tui-language","Tupuri","language","language"
+"tuv-language","Turkana","language","language"
+"tvu-language","Tunen","language","language"
+"tza-language","Tanzanian Sign Language","language","language"
+"tzm-language","Central Atlas Tamazight","language","language"
+"udl-language","Wuzlam","language","language"
+"ugn-language","Ugandan Sign Language","language","language"
+"umb-language","Umbundu","language","language"
+"urh-language","Urhobo","language","language"
+"vag-language","Vagla","language","language"
+"vai-language","Vai","language","language"
+"ven-language","Venda","language","language"
+"vif-language","Vili","language","language"
+"wal-language","Wolaytta","language","language"
+"wan-language","Wan","language","language"
+"wbj-language","Alagwa","language","language"
+"wem-language","Weme Gbe","language","language"
+"wib-language","Southern Toussian","language","language"
+"wob-language","Wè Northern","language","language"
+"wol-language","Wolof","language","language"
+"wti-language","Berta","language","language"
+"wwa-language","Waama","language","language"
+"xam-language","ǀXam","language","language"
+"xed-language","Hdi","language","language"
+"xho-language","Xhosa","language","language"
+"xki-language","Kenyan Sign Language","language","language"
+"xnz-language","Kenzi","language","language"
+"xom-language","Komo (Sudan)","language","language"
+"xon-language","Konkomba","language","language"
+"xpe-language","Liberia Kpelle","language","language"
+"xsm-language","Kasem","language","language"
+"xtc-language","Katcha-Kadugli-Miri","language","language"
+"xuo-language","Kuo","language","language"
+"xuu-language","Kxoe","language","language"
+"xwg-language","Kwegu","language","language"
+"yaf-language","Yaka (Democratic Republic of Congo)","language","language"
+"yam-language","Yamba","language","language"
+"yao-language","Yao","language","language"
+"yas-language","Nugunu (Cameroon)","language","language"
+"ybb-language","Yemba","language","language"
+"yer-language","Tarok","language","language"
+"yey-language","Yeyi","language","language"
+"yky-language","Yakoma","language","language"
+"yns-language","Yansi","language","language"
+"yom-language","Yombe","language","language"
+"yor-language","Yoruba","language","language"
+"yul-language","Yulu","language","language"
+"zag-language","Zaghawa","language","language"
+"zay-language","Zayse-Zergulla","language","language"
+"zen-language","Zenaga","language","language"
+"zga-language","Kinga","language","language"
+"zmq-language","Mituku","language","language"
+"zne-language","Zande (individual language)","language","language"
+"zul-language","Zulu","language","language"
+"afro-asiatic-family","Afro-Asiatic","family","family"
+"austronesian-family","Austronesian","family","family"
+"bangime-family","Bangime","family","family"
+"berta-family","Berta","family","family"
+"central-sudanic-family","Central Sudanic","family","family"
+"dogon-family","Dogon","family","family"
+"eastern-sudanic-family","Eastern Sudanic","family","family"
+"fur-family","Fur","family","family"
+"gumuz-family","Gumuz","family","family"
+"hadza-family","Hadza","family","family"
+"ijoid-family","Ijoid","family","family"
+"indo-european-family","Indo-European","family","family"
+"kadu-family","Kadu","family","family"
+"khoe-kwadi-family","Khoe-Kwadi","family","family"
+"koman-family","Koman","family","family"
+"kordofanian-family","Kordofanian","family","family"
+"kunama-family","Kunama","family","family"
+"kxa-family","Kxa","family","family"
+"laal-family","Laal","family","family"
+"maban-family","Maban","family","family"
+"mande-family","Mande","family","family"
+"niger-congo-family","Niger-Congo","family","family"
+"saharan-family","Saharan","family","family"
+"sandawe-family","Sandawe","family","family"
+"shabo-family","Shabo","family","family"
+"siamou-family","Siamou","family","family"
+"songhay-family","Songhay","family","family"
+"tu-family","Tu","family","family"
+"other-family","other","family","family"
+"adamawa-ubangi-subfamily","Adamawa-Ubangi","subfamily","subfamily"
+"benue-congo-subfamily","Benue-Congo","subfamily","subfamily"
+"chadic-subfamily","Chadic","subfamily","subfamily"
+"cushitic-subfamily","Cushitic","subfamily","subfamily"
+"gur-subfamily","Gur","subfamily","subfamily"
+"kwa-subfamily","Kwa","subfamily","subfamily"
+"mel-subfamily","Mel","subfamily","subfamily"
+"nilotic-subfamily","Nilotic","subfamily","subfamily"
+"north-central-atlantic-subfamily","North-Central Atlantic","subfamily","subfamily"
+"omotic-subfamily","Omotic","subfamily","subfamily"
+"saharan-subfamily","Saharan","subfamily","subfamily"
+"surmic-subfamily","Surmic","subfamily","subfamily"
+"=|hoan-genus","=|Hoan","genus","genus"
+"agneby-genus","Agneby","genus","genus"
+"avikam-alladian-genus","Avikam-Alladian","genus","genus"
+"baatonum-genus","Baatonum","genus","genus"
+"bangime-genus","Bangime","genus","genus"
+"bantu-genus","Bantu","genus","genus"
+"barito-genus","Barito","genus","genus"
+"beboid-genus","Beboid","genus","genus"
+"beja-genus","Beja","genus","genus"
+"benue-congo-plateau-genus","Benue-Congo Plateau","genus","genus"
+"berber-genus","Berber","genus","genus"
+"berta-genus","Berta","genus","genus"
+"birri-genus","Birri","genus","genus"
+"biu-mandara-genus","Biu-Mandara","genus","genus"
+"bongo-bagirmi-genus","Bongo-Bagirmi","genus","genus"
+"bua-genus","Bua","genus","genus"
+"cangin-genus","Cangin","genus","genus"
+"central-cushitic-genus","Central Cushitic","genus","genus"
+"central-delta-genus","Central Delta","genus","genus"
+"central-kainji-genus","Central Kainji","genus","genus"
+"creoles-and-pidgins-genus","Creoles and Pidgins","genus","genus"
+"dahalo-genus","Dahalo","genus","genus"
+"daju-genus","Daju","genus","genus"
+"day-genus","Day","genus","genus"
+"defoid-genus","Defoid","genus","genus"
+"dizoid-genus","Dizoid","genus","genus"
+"dogon-genus","Dogon","genus","genus"
+"east-chadic-genus","East Chadic","genus","genus"
+"eastern-jebel-genus","Eastern Jebel","genus","genus"
+"eastern-mande-genus","Eastern Mande","genus","genus"
+"eastern-nilotic-genus","Eastern Nilotic","genus","genus"
+"eastern-saharan-genus","Eastern Saharan","genus","genus"
+"edoid-genus","Edoid","genus","genus"
+"ega-genus","Ega","genus","genus"
+"egyptian-coptic-genus","Egyptian-Coptic","genus","genus"
+"ekoid-mbe-genus","Ekoid-Mbe","genus","genus"
+"fur-genus","Fur","genus","genus"
+"ga-dangme-genus","Ga-Dangme","genus","genus"
+"gade-genus","Gade","genus","genus"
+"gbaya-manza-ngbaka-genus","Gbaya-Manza-Ngbaka","genus","genus"
+"gbe-genus","Gbe","genus","genus"
+"germanic-genus","Germanic","genus","genus"
+"gola-genus","Gola","genus","genus"
+"grusi-genus","Grusi","genus","genus"
+"gumuz-genus","Gumuz","genus","genus"
+"hadza-genus","Hadza","genus","genus"
+"heiban-genus","Heiban","genus","genus"
+"highland-east-cushitic-genus","Highland East Cushitic","genus","genus"
+"idomoid-genus","Idomoid","genus","genus"
+"igboid-genus","Igboid","genus","genus"
+"ijoid-genus","Ijoid","genus","genus"
+"jaad-genus","Jaad","genus","genus"
+"jola-genus","Jola","genus","genus"
+"ju-kung-genus","Ju-Kung","genus","genus"
+"jukunoid-genus","Jukunoid","genus","genus"
+"ka-togo-genus","Ka-Togo","genus","genus"
+"kadugli-genus","Kadugli","genus","genus"
+"katla-tima-genus","Katla-Tima","genus","genus"
+"khoe-kwadi-genus","Khoe-Kwadi","genus","genus"
+"kim-genus","Kim","genus","genus"
+"kirma-tyurama-genus","Kirma-Tyurama","genus","genus"
+"koman-genus","Koman","genus","genus"
+"koromfe-genus","Koromfe","genus","genus"
+"kresh-genus","Kresh","genus","genus"
+"kru-genus","Kru","genus","genus"
+"kuliak-genus","Kuliak","genus","genus"
+"kunama-genus","Kunama","genus","genus"
+"laal-genus","Laal","genus","genus"
+"lafofa-genus","Lafofa","genus","genus"
+"lendu-genus","Lendu","genus","genus"
+"lobiri-jaane-genus","Lobiri-Jaane","genus","genus"
+"lower-cross-genus","Lower Cross","genus","genus"
+"lowland-east-cushitic-genus","Lowland East Cushitic","genus","genus"
+"maban-genus","Maban","genus","genus"
+"majang-genus","Majang","genus","genus"
+"mamfe-genus","Mamfe","genus","genus"
+"mangbetu-genus","Mangbetu","genus","genus"
+"mangbutu-efe-genus","Mangbutu-Efe","genus","genus"
+"manjaku-genus","Manjaku","genus","genus"
+"masa-genus","Masa","genus","genus"
+"mbumic-genus","Mbumic","genus","genus"
+"moru-ma'di-genus","Moru-Ma'di","genus","genus"
+"mumuye-yandang-genus","Mumuye-Yandang","genus","genus"
+"na-togo-genus","Na-Togo","genus","genus"
+"nara-genus","Nara","genus","genus"
+"northern-mel-genus","Northern Mel","genus","genus"
+"nubian-genus","Nubian","genus","genus"
+"nupoid-genus","Nupoid","genus","genus"
+"nyimang-genus","Nyimang","genus","genus"
+"ogonoid-genus","Ogonoid","genus","genus"
+"oti-volta-genus","Oti-Volta","genus","genus"
+"peul-serer-genus","Peul-Serer","genus","genus"
+"rashad-genus","Rashad","genus","genus"
+"samba-duru-genus","Samba-Duru","genus","genus"
+"sandawe-genus","Sandawe","genus","genus"
+"semitic-genus","Semitic","genus","genus"
+"senufo-genus","Senufo","genus","genus"
+"shabo-genus","Shabo","genus","genus"
+"siamou-genus","Siamou","genus","genus"
+"sign-languages-genus","Sign Languages","genus","genus"
+"songhay-genus","Songhay","genus","genus"
+"south-omotic-genus","South Omotic","genus","genus"
+"south-surmic-genus","South Surmic","genus","genus"
+"southern-cushitic-genus","Southern Cushitic","genus","genus"
+"southern-mel-genus","Southern Mel","genus","genus"
+"southern-nilotic-genus","Southern Nilotic","genus","genus"
+"ta-ne-omotic-genus","Ta-Ne-Omotic","genus","genus"
+"talodi-genus","Talodi","genus","genus"
+"taman-genus","Taman","genus","genus"
+"tano-genus","Tano","genus","genus"
+"temein-genus","Temein","genus","genus"
+"tenda-genus","Tenda","genus","genus"
+"tikar-genus","Tikar","genus","genus"
+"tivoid-genus","Tivoid","genus","genus"
+"tu-genus","Tu","genus","genus"
+"tusia-genus","Tusia","genus","genus"
+"ubangi-genus","Ubangi","genus","genus"
+"upper-cross-genus","Upper Cross","genus","genus"
+"west-chadic-genus","West Chadic","genus","genus"
+"western-mande-genus","Western Mande","genus","genus"
+"western-nilotic-genus","Western Nilotic","genus","genus"
+"western-saharan-genus","Western Saharan","genus","genus"
+"wide-grassfields-genus","Wide Grassfields","genus","genus"
+"wolof-genus","Wolof","genus","genus"
+"africa-region","Africa","africa","region"
+"asia-region","Asia","asia","region"
+"northern-africa-sub-region","Northern Africa","northern-africa","region"
+"sub-saharan-africa-sub-region","Sub-Saharan Africa","sub-saharan-africa","region"
+"western-asia-sub-region","Western Asia","western-asia","region"
+"eastern-africa-int-region","Eastern Africa","eastern-africa","region"
+"middle-africa-int-region","Middle Africa","middle-africa","region"
+"southern-africa-int-region","Southern Africa","southern-africa","region"
+"western-africa-int-region","Western Africa","western-africa","region"
+"dz-country","Algeria","dz","country"
+"ao-country","Angola","ao","country"
+"bj-country","Benin","bj","country"
+"bw-country","Botswana","bw","country"
+"bf-country","Burkina Faso","bf","country"
+"bi-country","Burundi","bi","country"
+"cm-country","Cameroon","cm","country"
+"cf-country","Central African Republic","cf","country"
+"td-country","Chad","td","country"
+"km-country","Comoros","km","country"
+"cg-country","Congo","cg","country"
+"ci-country","Côte d’Ivoire","ci","country"
+"cd-country","Democratic Republic of the Congo","cd","country"
+"dj-country","Djibouti","dj","country"
+"eg-country","Egypt","eg","country"
+"gq-country","Equatorial Guinea","gq","country"
+"er-country","Eritrea","er","country"
+"sz-country","Eswatini","sz","country"
+"et-country","Ethiopia","et","country"
+"ga-country","Gabon","ga","country"
+"gm-country","Gambia","gm","country"
+"gh-country","Ghana","gh","country"
+"gn-country","Guinea","gn","country"
+"gw-country","Guinea-Bissau","gw","country"
+"ke-country","Kenya","ke","country"
+"ls-country","Lesotho","ls","country"
+"lr-country","Liberia","lr","country"
+"ly-country","Libya","ly","country"
+"mg-country","Madagascar","mg","country"
+"mw-country","Malawi","mw","country"
+"ml-country","Mali","ml","country"
+"mr-country","Mauritania","mr","country"
+"mu-country","Mauritius","mu","country"
+"yt-country","Mayotte","yt","country"
+"ma-country","Morocco","ma","country"
+"mz-country","Mozambique","mz","country"
+"na-country","Namibia","na","country"
+"ne-country","Niger","ne","country"
+"ng-country","Nigeria","ng","country"
+"rw-country","Rwanda","rw","country"
+"st-country","Sao Tome and Principe","st","country"
+"sn-country","Senegal","sn","country"
+"sl-country","Sierra Leone","sl","country"
+"so-country","Somalia","so","country"
+"za-country","South Africa","za","country"
+"ss-country","South Sudan","ss","country"
+"sd-country","Sudan","sd","country"
+"tg-country","Togo","tg","country"
+"tn-country","Tunisia","tn","country"
+"ug-country","Uganda","ug","country"
+"tz-country","United Republic of Tanzania","tz","country"
+"ye-country","Yemen","ye","country"
+"zm-country","Zambia","zm","country"
+"zw-country","Zimbabwe","zw","country"

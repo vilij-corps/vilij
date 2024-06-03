@@ -41,5 +41,5 @@ var style = cytoscape.stylesheet()
       
     .selector('node')
       .css({
-        'background-image': function( ele ){ return './assets/images/' + ele.data('type') + '.png' }
+        'background-image': function( ele ){ return './assets/images/' + ele.data('icon') + '.png' }
       })

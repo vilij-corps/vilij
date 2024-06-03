@@ -84,11 +84,14 @@ function make_clusters() {
 }
 
 // UI element references
+var label_grp = null;
+var type_grp = null;
+var desc_grp = null;
+
 var a_field = null;
 var b_field = null;
 var c_field = null;
 var d_field = null;
-var e_field = null;
 
 var tnn_field = null;
 var tne_field = null;
@@ -178,24 +181,31 @@ function show_details(node_data) {
   // update inner html or text
   // console.log(node_data)
   if (node_data.id) {
-    a_field.style.display = 'block';
-    a_field.innerText = node_data.id;
+    // a_field.style.display = 'block';
+    // a_field.innerText = node_data.id;
   } else {
-    a_field.style.display = 'none';
+    // a_field.style.display = 'none';
   }
 
   if (node_data.label) {
-    b_field.style.display = 'block';
+    label_grp.style.display = 'block';
     b_field.innerText = node_data.label;
   } else {
-    b_field.style.display = 'none';
+    label_grp.style.display = 'none';
   }
 
-  if (node_data.type) {
-    c_field.style.display = 'block';
-    c_field.innerText = node_data.type;
+  if (node_data.cluster) {
+    type_grp.style.display = 'block';
+    c_field.innerText = node_data.cluster;
   } else {
-    c_field.style.display = 'none';
+    type_grp.style.display = 'none';
+  }
+
+  if (node_data.desc) {
+    desc_grp.style.display = 'block';
+    d_field.innerText = node_data.desc;
+  } else {
+    desc_grp.style.display = 'none';
   }
   
 }
@@ -258,7 +268,7 @@ function load_db_edges() {
           let data = results.data
           // console.log(JSON.stringify(data));
           data.forEach(function(d) {
-            
+            console.log(d)
             let e = new Object();
             e.data = d;
             graph_db.addEdge(e.data.source, e.data.target);
@@ -269,7 +279,7 @@ function load_db_edges() {
           tnn_field.innerText = graph_db.order;
           tne_field.innerText = graph_db.size;
           
-          query_db('africa')
+          query_db('africa-region')
           // make_clusters();
 
       }
@@ -279,7 +289,7 @@ function load_db_edges() {
 // load node table
 function load_db_nodes() {
   // Load graph data
-  Papa.parse("./data/nodes_dd.csv", {
+  Papa.parse("./data/nodes.csv", {
     download: true,
     header: true,
     complete: function(results) {
@@ -303,13 +313,15 @@ function load_db_nodes() {
 
 window.addEventListener('DOMContentLoaded',function () {
 
+  label_grp = document.getElementById("label_grp");
+  type_grp = document.getElementById("type_grp");
+  desc_grp = document.getElementById("desc_grp");
+
   a_field = document.getElementById("a_field");
   b_field = document.getElementById("b_field");
   c_field = document.getElementById("c_field");
   d_field = document.getElementById("d_field");
-  e_field = document.getElementById("e_field");
 
-  
   tnn_field = document.getElementById("tnn");
   tne_field = document.getElementById("tne");
   vnn_field = document.getElementById("vnn");
@@ -479,6 +491,13 @@ window.addEventListener('DOMContentLoaded',function () {
   https://phoible.org/
   `
 
+  const wals = `
+  Dryer, Matthew S. & Haspelmath, Martin (eds.) 2013.
+  WALS Online (v2020.3) [Data set]. Zenodo.
+  https://doi.org/10.5281/zenodo.7385533
+  (Available online at https://wals.info, Accessed on 2024-06-03.)
+  `
+
   tippy('#glottolog', {
     content: glotttolog,
     allowHTML: true,
@@ -487,6 +506,12 @@ window.addEventListener('DOMContentLoaded',function () {
 
   tippy('#phoible', {
     content: phoible,
+    allowHTML: true,
+    placement: 'right',
+  });
+
+  tippy('#wals', {
+    content: wals,
     allowHTML: true,
     placement: 'right',
   });
