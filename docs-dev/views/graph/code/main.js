@@ -47,7 +47,7 @@ function make_clusters() {
   graph_db.forEachNode(function(node, attributes) {
     
     let id = attributes.n.data.id;
-    let cluster = attributes.n.data.type;
+    let cluster = attributes.n.data.cluster;
     switch(cluster) {
       case "region":
         region.push(id);
