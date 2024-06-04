@@ -76,7 +76,28 @@ function run_translation() {
             if (tag != 'NumericValue') {
                 
                 // search the index
-                let results = idx.search(the_word)
+                let search_opts = {
+                    prefix: false,
+                    fuzzy: 0.2
+                }
+                let results = idx.search(the_word);
+
+                if (document.getElementById("fuzzy").checked) {
+                    let auto = idx.autoSuggest(the_word, search_opts); // 
+                    console.log(the_word)
+                    console.log(the_word.length)
+                    console.log(auto)
+
+                let maxValue = Math.max.apply(null, auto.map(function (o) { 
+                    return o.score; })
+                );
+                console.log(maxValue)
+
+                auto.sort((a, b) => b.score - a.score); 
+                const max = auto[0]; 
+                console.log(max); // 20
+
+                }
                 
                 if (results[0]) {
                     entry.translation = results[0].Luganda
