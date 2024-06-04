@@ -13,7 +13,6 @@
  * probabilistic information retrieval. London: British Library.
  * (British Library Research and Development Report, no. 5587).
  */
-var stemmer_porter = function() {
 
 /**
  * Suffixes.
@@ -156,14 +155,13 @@ function match(regex, string) {
   return m;
 }
 
-
 /**
  * Function stemming the given world using the Porter algorithm.
  *
  * @param  {string} word - The word to stem.
  * @return {string}      - The resulting stem.
  */
-function porter(word) {
+var porter = function(word) {
   word = word.toLowerCase();
 
   // If the word is too short, we return it unscathed
@@ -254,14 +252,5 @@ function porter(word) {
   return word.toLowerCase();
 }
 
-var exec = function(word) {
-
-  return porter(word);
-
-}
-
-return {
-    exec : exec
-};
-
-}();
+// Test
+// console.log(porter("running"))

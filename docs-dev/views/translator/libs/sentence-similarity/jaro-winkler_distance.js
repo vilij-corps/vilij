@@ -123,5 +123,3 @@ function JaroWinklerDistance (s1, s2, options) {
     return jaro + l * p * (1 - jaro)
   }
 }
-
-module.exports = JaroWinklerDistance
