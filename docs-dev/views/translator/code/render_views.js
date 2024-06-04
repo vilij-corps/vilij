@@ -13,7 +13,9 @@ function pictogram_exists(image_url){
 // card view
 var render_translation = function() {
 
-    let el = document.getElementById('el')
+    // clear canvas
+    element.textContent = "";
+    
     let card = ''
 
         // sentence loop
@@ -51,7 +53,7 @@ var render_translation = function() {
 
                 let card_word = document.createElement("div");
                 card_word.innerHTML = card
-                el.appendChild(card_word);
+                element.appendChild(card_word);
 
                 // reset
                 card = ''

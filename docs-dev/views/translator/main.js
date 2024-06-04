@@ -28,6 +28,9 @@ function run_nlp() {
 
 function run_translation() {
 
+    // get new value from user input
+    english = eng.value;
+    // process the text
     run_nlp();
 
     /*
@@ -102,7 +105,7 @@ window.addEventListener('DOMContentLoaded',function () {
     // ui components
     eng = document.getElementById("eng");
     english = eng.value;
-    element = document.getElementById("translation");
+    element = document.getElementById("translation_pg");
 
     // event to run translation
     const run_btn = document.getElementById("run_btn");
