@@ -1,0 +1,94 @@
+[gd_scene load_steps=9 format=3 uid="uid://x3cexgh4kxq1"]
+
+[ext_resource type="Script" path="res://components/progress/hud.gd" id="1_1ghic"]
+[ext_resource type="Texture2D" uid="uid://bnnovuvwxssot" path="res://assets/gui/progress/hud.svg" id="2_qdvwh"]
+[ext_resource type="FontFile" uid="uid://demy6yat6gksk" path="res://assets/fonts/Dosis/static/Dosis-Bold.ttf" id="3_w83h0"]
+[ext_resource type="Texture2D" uid="uid://c2gkrlm8uvbdo" path="res://assets/gui/progress/level_one.svg" id="4_gnxad"]
+[ext_resource type="Texture2D" uid="uid://sqmvk8ff802k" path="res://assets/gui/progress/level_two.svg" id="5_d4pgd"]
+[ext_resource type="Texture2D" uid="uid://c8ejjlu22spwb" path="res://assets/gui/progress/level_three.svg" id="6_wwoy4"]
+[ext_resource type="Texture2D" uid="uid://bjoewgfro2ffq" path="res://assets/gui/progress/level_four.svg" id="7_8d3p3"]
+[ext_resource type="Texture2D" uid="uid://dya33tsfggjuy" path="res://assets/gui/progress/level_five.svg" id="8_1atad"]
+
+[node name="HuD" type="Node2D"]
+script = ExtResource("1_1ghic")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 5497.0
+offset_bottom = 778.0
+scale = Vector2(0.2, 0.2)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("2_qdvwh")
+stretch_mode = 2
+
+[node name="scenarios_lbl" type="Label" parent="."]
+offset_left = 89.0
+offset_top = 61.0
+offset_right = 225.0
+offset_bottom = 138.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_w83h0")
+theme_override_font_sizes/font_size = 32
+text = "0000"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="vocabulary_lbl" type="Label" parent="."]
+offset_left = 342.0
+offset_top = 81.0
+offset_right = 396.0
+offset_bottom = 122.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_w83h0")
+theme_override_font_sizes/font_size = 32
+text = "000"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="experience_lbl" type="Label" parent="."]
+offset_left = 797.0
+offset_top = 82.0
+offset_right = 837.0
+offset_bottom = 123.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_w83h0")
+theme_override_font_sizes/font_size = 32
+text = "10"
+
+[node name="learning_time_lbl" type="Label" parent="."]
+offset_left = 938.0
+offset_top = 61.0
+offset_right = 1108.0
+offset_bottom = 138.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_w83h0")
+theme_override_font_sizes/font_size = 32
+text = "00000
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="level_one" type="Sprite2D" parent="."]
+position = Vector2(548, 101)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_gnxad")
+
+[node name="level_two" type="Sprite2D" parent="."]
+position = Vector2(548, 101)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("5_d4pgd")
+
+[node name="level_three" type="Sprite2D" parent="."]
+position = Vector2(548, 101)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_wwoy4")
+
+[node name="level_four" type="Sprite2D" parent="."]
+position = Vector2(548, 101)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("7_8d3p3")
+
+[node name="level_five" type="Sprite2D" parent="."]
+position = Vector2(548, 101)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("8_1atad")

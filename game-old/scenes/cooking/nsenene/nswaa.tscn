@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5ngm8ootxeny"]
+
+[ext_resource type="Script" path="res://scenes/cooking/nswaa/nswaa.gd" id="1_a0aib"]
+
+[node name="Nswaa" type="Node2D"]
+script = ExtResource("1_a0aib")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://6sy1rpkid3ho"]
+
+[ext_resource type="Script" path="res://scenes/cooking/cooking.gd" id="1_idbf8"]
+
+[node name="cooking" type="Node2D"]
+script = ExtResource("1_idbf8")

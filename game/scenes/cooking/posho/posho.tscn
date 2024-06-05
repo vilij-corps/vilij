@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6q3jnqyftcpw"]
-
-[ext_resource type="Script" path="res://scenes/cooking/posho/posho.gd" id="1_ih48b"]
-
-[node name="Posho" type="Node2D"]
-script = ExtResource("1_ih48b")

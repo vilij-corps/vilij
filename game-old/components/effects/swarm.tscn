@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://143wv3422ce8"]
+
+[ext_resource type="Script" path="res://components/effects/swarm.gd" id="1_5u18e"]
+
+[node name="Swarm" type="Node2D"]
+script = ExtResource("1_5u18e")

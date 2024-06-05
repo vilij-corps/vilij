@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bo4vo843lww36"]
+
+[ext_resource type="Script" path="res://scenes/cooking/mukene/mukene.gd" id="1_oxpgv"]
+
+[node name="Mukene" type="Node2D"]
+script = ExtResource("1_oxpgv")

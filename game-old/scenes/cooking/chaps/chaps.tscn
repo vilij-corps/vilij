@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6o32joo3t63d"]
+
+[ext_resource type="Script" path="res://scenes/cooking/chaps/chaps.gd" id="1_yk1dr"]
+
+[node name="Chaps" type="Node2D"]
+script = ExtResource("1_yk1dr")

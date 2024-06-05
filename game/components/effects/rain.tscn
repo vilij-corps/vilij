@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dn7gl2j0fg232"]
-
-[ext_resource type="Script" path="res://components/effects/rain.gd" id="1_n4avn"]
-
-[node name="Rain" type="Node2D"]
-script = ExtResource("1_n4avn")
-
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]

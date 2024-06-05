@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6gc7a580p7ss"]
+
+[ext_resource type="Script" path="res://scenes/cooking/katogo/katogo.gd" id="1_w01ef"]
+
+[node name="Katogo" type="Node2D"]
+script = ExtResource("1_w01ef")

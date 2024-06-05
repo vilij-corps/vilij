@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://dm8kuu2aw8gf7"]
-
-[ext_resource type="Script" path="res://scenes/greetings/greetings.gd" id="1_77y6f"]
-[ext_resource type="PackedScene" uid="uid://b702l51hth3nx" path="res://components/dialogue/speech_bubble.tscn" id="2_lbe4y"]
-
-[node name="Greetings" type="Node2D"]
-script = ExtResource("1_77y6f")
-
-[node name="SpeechBubble" parent="." instance=ExtResource("2_lbe4y")]

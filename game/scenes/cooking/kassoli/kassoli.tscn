@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dg7fcsp0fm2xv"]
-
-[ext_resource type="Script" path="res://scenes/cooking/kassoli/kassoli.gd" id="1_yw4fy"]
-
-[node name="Kassoli" type="Node2D"]
-script = ExtResource("1_yw4fy")

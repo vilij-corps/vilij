@@ -1,0 +1,38 @@
+~ formal_greetings
+
+A: Wasuze otyano Nnyabo
+# "Good morning Madam"
+
+A: Osiibye otyano Nnyabo
+# "Good afternoon Madam"
+
+B: Wasuze otyano Ssebo
+# "Good morning Sir"
+
+B: Osiibye otyano Ssebo
+# "Good afternoon Sir"
+
+B: Bulungi Ssebo, gwe osiibye Ssebo?
+# "Fine, and how are you Sir?"
+
+A: Bulungi Nnyabo, gwe osiibye Nnyabo?
+# "Fine, and how are you Madam?"
+
+A: Abeeka bali batya?
+# "How is everyone at home?"
+
+B: Gyeballi balungi
+# "Everybody is fine"
+
+B: Tunaalabagana enkya
+# "See you again tomorrow"
+
+A: Weeraba
+# "Goodbye (singular)"
+
+B: Mweraba
+# "Goodbye (plural)"
+
+You have finished this scenario.
+
+=> END

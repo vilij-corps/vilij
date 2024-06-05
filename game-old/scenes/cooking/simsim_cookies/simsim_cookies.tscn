@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b36f4mwa7hmft"]
+
+[ext_resource type="Script" path="res://scenes/cooking/simsim_cookies/simsim_cookies.gd" id="1_y6m57"]
+
+[node name="SimsimCookies" type="Node2D"]
+script = ExtResource("1_y6m57")
