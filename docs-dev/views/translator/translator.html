@@ -43,32 +43,45 @@
 <img src="./assets/logo/lindah.svg" alt="Crested Crane" class="logo">
 
 <div style="display: block;">
-    <textarea id="eng" name="eng" class="page" style="resize: none;">The 10 whispering baby was in a canoe in great danger near the prison where banana pancakes were served near the stream at the curve. This is a toe.</textarea>
+    <textarea id="eng" name="eng" class="page" style="resize: none;">The 10 whispering baby was in a canoe in great danger near the prison where bananas pancakes were served near the stream at the curve. This is a toe.</textarea>
+    <div class="translate_btn">
+        <i class="arrow down"></i><br>
+        <label>Select Language</label><br>
+        <select name="cars" id="cars">
+            <option value="volvo">Acholi</option>
+            <option value="saab">Luganda</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Swahili</option>
+        </select>
+    </div>
     <div style="display: flex; margin: 10px auto; width: fit-content; vertical-align: middle; line-height: 20px;">
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle2"> Include Fuzzy Matches</label><br>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Show Pictogram</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Show Parts of Speech</label><br>
+        <input id="fuzzy" type="checkbox" id="fuzzy" name="fuzzy" value="fuzzy" checked>
+        <label for="fuzzy"> Include Fuzzy Matches</label><br>
+        <input id="pos" type="checkbox" id="pos" name="pos" value="pos" checked>
+        <label for="pos"> Show Parts of Speech</label><br>
     </div>
     <div class="translate_btn">
         <button id="run_btn" type="button" style="width: 270px; background-color: black; color: white;">Run Translation</button>
         <br><i class="arrow down"></i>
     </div>
     <div id="translation_pg" class="page"></div>
-    <div class="translate_btn"><i class="arrow up"></i><br>Make as Flashcard Deck</div>
+    <div class="translate_btn">
+        <i class="arrow down"></i>
+        <br><button id="run_flashcard_btn" type="button" style="width: 270px; background-color: black; color: white;">Make Flashcards</button>
+        <br><i class="arrow down"></i>
+    </div>
+    <div id="flashcard_pg" class="page"></div>
 </div>
 
 <footer-component></footer-component>
 
-<!-- UTILITIES -->
-<script src="components/footer.js" type="text/javascript" defer></script>
+<!-- APP -->
+<script type="text/javascript" src="components/footer.js" defer></script>
 <script type="text/javascript" src="./dictionary/dic.js"></script>
-<script type="text/javascript" src="./code/globals.js"></script>
-<script type="text/javascript" src="./code/render_views.js"></script>
-<script type="text/javascript" src="./code/process_text.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="./code/0_globals.js"></script>
+<script type="text/javascript" src="./code/3_render_views.js"></script>
+<script type="text/javascript" src="./code/1_process_text.js"></script>
+<script type="text/javascript" src="./code/2_translate_text.js"></script>
 
 <!--
 <script type="text/javascript" src="./dictionary/make_dictionary.js"></script>

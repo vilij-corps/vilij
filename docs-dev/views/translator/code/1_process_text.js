@@ -24,7 +24,6 @@ var test_compromise = function(corpus) {
     let doc=nlp(corpus).compute('root');
     
     doc.contractions().expand()
-    doc.text()
 
     let str = doc.verbs().normalize().text()
     console.log(str)
@@ -34,8 +33,6 @@ var test_compromise = function(corpus) {
     
     let strip = doc.possessives().strip()
     console.log(strip)
-
-    doc.contractions().expand()
 
     let result = doc.json();
     console.log(result)
