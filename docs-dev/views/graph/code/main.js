@@ -308,7 +308,6 @@ function load_db_nodes() {
         load_db_edges()
     }
   });
-
 }
 
 window.addEventListener('DOMContentLoaded',function () {

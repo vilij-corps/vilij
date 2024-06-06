@@ -19,20 +19,29 @@ var dialogue_state = 0
 // during dialogue
 var can_move = true
 
-
-function load_dialogue_file(load_path : String):
-	if FileAccess.file_exists(load_path):
-		print("file found")
-		var file = FileAccess.open(load_path, FileAccess.READ)
-		var json_as_array = JSON.parse_string(file.get_as_text())
-		if json_as_array is Array:
-			print("success reading file")
-			current_dialogue = json_as_array
-			return json_as_array
-		else:
-			print("error reading file")
-	else:
-		print("file not found")
+// load node table
+function load_dialogue_file(df) {
+	// Load graph data
+	Papa.parse(df, {
+	  download: true,
+	  header: true,
+	  complete: function(results) {
+		  // console.log("Finished:", results.data);
+		  let data = results
+		  // console.log(JSON.stringify(data));
+		  current_dialogue = data
+		  data.forEach(function(d) {
+			// console.log(d)
+			let n = new Object();
+			n.data = d;
+			// console.log(n)
+		  })
+		  
+		  // do something with data
+		  return json_as_array
+	  }
+	});
+}
 
 function dialogue_manager() {
 	dialogue_lines = current_dialogue.size()
