@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cqvbmuj5xptk8"]
-
-[ext_resource type="Script" path="res://scenes/cooking/stewed_beans/stewed_beans.gd" id="1_qsc0i"]
-
-[node name="StewedBeans" type="Node2D"]
-script = ExtResource("1_qsc0i")

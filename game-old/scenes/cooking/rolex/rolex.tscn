@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://u8a1cak8ygwo"]
-
-[ext_resource type="Script" path="res://scenes/cooking/rolex/rolex.gd" id="1_v6hsk"]
-
-[node name="Rolex" type="Node2D"]
-script = ExtResource("1_v6hsk")

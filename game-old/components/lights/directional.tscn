@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b1n2ww0hfl813"]
-
-[ext_resource type="Script" path="res://components/lights/directional.gd" id="1_hwwv1"]
-
-[node name="Directional" type="Node2D"]
-script = ExtResource("1_hwwv1")
-
-[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]

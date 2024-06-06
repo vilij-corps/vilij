@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cmpx5ych5ofi8"]
-
-[ext_resource type="Script" path="res://scenes/cooking/sparkling_tangawizi/sparkling_tangawizi.gd" id="1_b8uow"]
-
-[node name="SparklingTangawizi" type="Node2D"]
-script = ExtResource("1_b8uow")

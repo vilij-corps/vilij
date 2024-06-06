@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://buw4gohqptv1a"]
-
-[ext_resource type="Script" path="res://scenes/cooking/bagiya/bagiya.gd" id="1_cv2j6"]
-
-[node name="Bagiya" type="Node2D"]
-script = ExtResource("1_cv2j6")

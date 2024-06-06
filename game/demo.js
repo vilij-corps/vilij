@@ -1,8 +1,8 @@
 
 var config = {
     type: Phaser.AUTO,
-    width: 800, // 1280; 1920; 3840
-    height: 600, // 720; 1080; 2160
+    width: 1920, // 1280; 1920; 3840
+    height: 1080, // 720; 1080; 2160
     physics: {
         default: 'arcade',
         arcade: {
@@ -41,6 +41,8 @@ function create ()
 {
     //  A simple background for our game
     this.add.image(400, 300, 'sky');
+    this.add.image(800, 300, 'sky');
+    this.add.image(1200, 300, 'sky');
 
     //  The platforms group contains the ground and the 2 ledges we can jump on
     platforms = this.physics.add.staticGroup();
@@ -48,6 +50,8 @@ function create ()
     //  Here we create the ground.
     //  Scale it to fit the width of the game (the original sprite is 400x32 in size)
     platforms.create(400, 568, 'ground').setScale(2).refreshBody();
+    platforms.create(800, 568, 'ground').setScale(2).refreshBody();
+    platforms.create(1200, 568, 'ground').setScale(2).refreshBody();
 
     //  Now let's create some ledges
     platforms.create(600, 400, 'ground');
