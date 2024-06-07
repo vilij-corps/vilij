@@ -1,3 +1,15 @@
-[gd_scene format=3 uid="uid://cpgd6winm7877"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}
 
-[node name="Gulu" type="Node2D"]

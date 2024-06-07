@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://b8snqmdc2saik"]
-
-[node name="Kitgum" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

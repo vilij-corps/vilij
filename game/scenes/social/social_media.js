@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://cebbopxy6tefn"]
-
-[node name="SocialMedia" type="Node2D"]
+class SocialMediaScene extends Scene {
+    constructor() {
+      super('social-media-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

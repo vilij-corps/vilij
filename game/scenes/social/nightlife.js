@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://b6y5xp3ro1f3w"]
-
-[node name="Nightlife" type="Node2D"]
+class NightlifeScene extends Scene {
+    constructor() {
+      super('nightlife-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+  }

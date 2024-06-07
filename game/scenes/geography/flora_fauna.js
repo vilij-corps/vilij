@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://bfo7hjvm1f811"]
-
-[node name="FloraFauna" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

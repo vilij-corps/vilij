@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://cqmg2x5wlvw5o"]
-
-[node name="Office" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

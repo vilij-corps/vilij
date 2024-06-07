@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://b23eo223p4o1r"]
-
-[node name="Jinja" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

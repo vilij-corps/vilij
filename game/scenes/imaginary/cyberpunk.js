@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://dmcx5rov670m5"]
-
-[node name="Cyberpunk" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://ct0lmgxyml42w"]
-
-[node name="Art" type="Node2D"]
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}

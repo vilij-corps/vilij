@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://g6ykyemi4qo0"]
-
-[node name="Greetings" type="Node2D"]
+class GreetingsScene extends Scene {
+    constructor() {
+      super('greetings-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+  }

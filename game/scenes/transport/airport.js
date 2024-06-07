@@ -1,19 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://omgwj0qedkps"]
-
-[ext_resource type="PackedScene" uid="uid://4qgjiwcctne3" path="res://components/characters/player/third_person.tscn" id="1_jhaqb"]
-[ext_resource type="PackedScene" uid="uid://m8y030a82qy7" path="res://components/navigation/return_to_map_btn.tscn" id="2_v61ep"]
-[ext_resource type="PackedScene" uid="uid://x3cexgh4kxq1" path="res://components/progress/hud.tscn" id="3_53t0j"]
-
-[node name="Airport_Scene" type="Node2D"]
-
-[node name="Player" parent="." instance=ExtResource("1_jhaqb")]
-position = Vector2(956, 650)
-
-[node name="MapButton" parent="." instance=ExtResource("2_v61ep")]
-offset_left = 1554.0
-offset_top = 705.0
-offset_right = 1859.0
-offset_bottom = 1010.0
-
-[node name="HuD" parent="." instance=ExtResource("3_53t0j")]
-position = Vector2(52, 23)
+class TemplateScene extends Scene {
+    constructor() {
+      super('template-scene');
+    }
+  
+    preload() {
+      // preload assets
+    }
+  
+    create() {
+      // render scene
+      this.cameras.main.setBackgroundColor(0x2299CC);
+    }
+}
