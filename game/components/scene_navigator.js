@@ -1,6 +1,6 @@
 
 
-class PopupManager {
+class SceneNavigator {
     constructor() {
 
     }

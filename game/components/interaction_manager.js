@@ -1,9 +1,14 @@
 
+class InteractionManager {
+    constructor() {
 
-function on_area_enter() {
+    }
 
-}
+    on_area_enter() {
 
-function on_area_exit() {
+    }
+
+    on_area_exit() {
     
+    }
 }

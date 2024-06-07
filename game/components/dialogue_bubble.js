@@ -6,15 +6,26 @@
  +-+-+ +-+-+ +-+-+-+
 */
 
-var player = null
+class DialogueBubble extends Phaser.Scene {
+    preload() {
+      // preload scene
+    }
+
+    create() {
+      // create scene
+    }
+
+    update(time, delta) {
+      // game loop
+    }
+}
+
+// Global variable
+var PLAYER = null
 
 var DialogueManager = null;
 
-var learning_label = null
-var english_label = null
-var voiceover = null
-
-var exit_timer = null
+var learning_label, english_label, voiceover, exit_timer;
 
 var dialogue_script = null
 
@@ -50,11 +61,11 @@ function play_dialogue_line() {
 	print(player_bubble_position_y)
 	print($dialogue_container.get_rect().size.x)
 	character_speaking = dialogue_script[DialogueManager.dialogue_state]["character"]
-	if character_speaking == "A":
+	if (character_speaking == "A") {
 		dialogue_position(Vector2(player_bubble_position_x, player_bubble_position_y))
-	elif character_speaking == "B":
+	} else if (character_speaking == "B") {
 		dialogue_position(Vector2(player_bubble_position_x+200, player_bubble_position_y))
-	
+	}
 	// set labels
 	learning_text = dialogue_script[DialogueManager.dialogue_state]["luganda"]
 	english_text = dialogue_script[DialogueManager.dialogue_state]["english"]
@@ -75,7 +86,7 @@ function _on_play_voice_btn_pressed() {
 // previous line in script
 function _on_play_back_btn_pressed() {
 	DialogueManager.dialogue_back()
-	if DialogueManager.dialogue_state == 0 {
+	if (DialogueManager.dialogue_state == 0) {
 		pass
 	} else {
 		play_dialogue_line()
@@ -85,7 +96,7 @@ function _on_play_back_btn_pressed() {
 // next line in script
 function _on_play_fwd_btn_pressed() {
 	DialogueManager.dialogue_forward()
-	if DialogueManager.dialogue_state >= DialogueManager.dialogue_lines {
+	if (DialogueManager.dialogue_state >= DialogueManager.dialogue_lines) {
 			DialogueManager.dialogue_lines = 0
 			end_dialogue()
 			return
