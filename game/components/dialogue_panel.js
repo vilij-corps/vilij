@@ -1,3 +1,10 @@
+/*
+ +-+-+ +-+-+ +-+-+-+
+		vilij
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+*/
 
 
 var history_list : VBoxContainer = %HistoryList

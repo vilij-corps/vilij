@@ -1,6 +1,6 @@
-class TemplateScene extends Scene {
+class GroceriesScene extends Scene {
     constructor() {
-      super('template-scene');
+      super('groceries-scene');
     }
   
     preload() {

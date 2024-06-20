@@ -20,22 +20,25 @@ class DialogueManager {
 		// variable check to pause player movement
 		// during dialogue
 		this.can_move = true;
+
 	}
 
-	load_dialogue_file(dialogue_file) {
+	load_dialogue_db() {
 		// Load graph data
-		Papa.parse(dialogue_file, {
-		  download: true,
-		  header: true,
-		  complete: function(dialogue) {
-			// console.log("Dialogue Loaded"results);
-			// console.log(results);
-			this.current_dialogue = dialogue;
-			this.dialogue_lines = this.current_dialogue.size()
-			this.dialogue_end = this.dialogue_lines - 1
-			// ready to render in speech bubble and panel
-		  }
-		});
+		Papa.parse("./data/dialogues.csv", {
+			download: true,
+			header: true,
+			complete: function(results) {
+				console.log("Dialogue Database Loaded");
+				DIALOGUES = results.data
+			}
+		  });
+	}
+
+	query_dialogue_db(c) {
+		// console.log(DIALOGUES)
+		const result = DIALOGUES.filter(d => d.CATEGORY === c);
+		console.log(JSON.stringify(result))
 	}
 
 	dialogue_forward() {
@@ -50,3 +53,5 @@ class DialogueManager {
 		console.log(this.dialogue_state)
 	}
 }
+
+

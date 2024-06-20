@@ -1,11 +1,4 @@
-var cooking_vocabulary = 0
-var cooking_dialogues = 0
-var culture_vocabulary = 0
-var culture_dialogues = 0
-var date_time_vocabulary = 0
-var date_time_dialogues = 0
 
-var progress_file = "user://progress.json"
 
 var _progressData = {}
 

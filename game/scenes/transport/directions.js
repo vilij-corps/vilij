@@ -1,6 +1,6 @@
-class TemplateScene extends Scene {
+class DirectionsScene extends Scene {
     constructor() {
-      super('template-scene');
+      super('directions-scene');
     }
   
     preload() {
@@ -12,4 +12,3 @@ class TemplateScene extends Scene {
       this.cameras.main.setBackgroundColor(0x2299CC);
     }
 }
-

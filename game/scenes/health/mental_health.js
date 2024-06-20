@@ -1,6 +1,6 @@
-class TemplateScene extends Scene {
+class MentalHealthScene extends Scene {
     constructor() {
-      super('template-scene');
+      super('mental-health-scene');
     }
   
     preload() {

@@ -1,3 +1,11 @@
+/*
+ +-+-+ +-+-+ +-+-+-+
+		vilij
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+*/
+
 class TemplateScene extends Scene {
     constructor() {
       super('template-scene');

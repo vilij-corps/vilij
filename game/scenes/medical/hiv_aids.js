@@ -1,6 +1,6 @@
-class TemplateScene extends Scene {
+class HivScene extends Scene {
     constructor() {
-      super('template-scene');
+      super('hiv-scene');
     }
   
     preload() {

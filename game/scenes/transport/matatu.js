@@ -1,6 +1,6 @@
-class TemplateScene extends Scene {
+class MatatuScene extends Scene {
     constructor() {
-      super('template-scene');
+      super('matatu-scene');
     }
   
     preload() {

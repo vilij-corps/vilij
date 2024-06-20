@@ -1,3 +1,12 @@
+/*
+ +-+-+ +-+-+ +-+-+-+
+		vilij
+ +-+-+ +-+-+ +-+-+-+
+	  CC BY 4.0
+ +-+-+ +-+-+ +-+-+-+
+*/
+
+
 const scene_key = 'my_scene'
 const asset_keys = {
     BACKGROUND: 'BACKGROUND',
