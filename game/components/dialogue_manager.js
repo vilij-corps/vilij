@@ -39,6 +39,12 @@ class DialogueManager {
 		// console.log(DIALOGUES)
 		const result = DIALOGUES.filter(d => d.CATEGORY === c);
 		console.log(JSON.stringify(result))
+
+		// const dialogue_order = Number(obj.propertyName)
+		// result.sort((a, b) => a.dialogue_order - b.dialogue_order)
+		this.dialogue_lines = result.length;
+		console.log(this.dialogue_lines);
+		this.current_dialogue = result;
 	}
 
 	dialogue_forward() {

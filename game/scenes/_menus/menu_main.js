@@ -29,6 +29,16 @@ class MainMenu extends Phaser.Scene
       const screenCenterX = this.cameras.main.worldView.x + this.cameras.main.width / 2;
       const screenCenterY = this.cameras.main.worldView.y + this.cameras.main.height / 2;
 
+      // const rect = new Phaser.Geom.Rectangle(screenCenterX, screenCenterY - 24, 300, 48)
+      // const graphics = this.add.graphics({ fillStyle: { color: 0xffffff } });
+      // graphics.fillRectShape(rect);
+      // graphics.strokeRectShape(rect);
+      // graphics.lineStyle(2, 0x000000);
+
+      let g = this.add.graphics();
+      g.fillStyle(0xffffff, 1.0).fillRect(screenCenterX - (offset_x * 2), screenCenterY - 8, 300, 48);
+      g.lineStyle(2, 0x000000).strokeRect(screenCenterX - (offset_x * 2), screenCenterY - 8, 300, 48);
+
       const start_icon = this.add.sprite(screenCenterX - offset_x, screenCenterY + 16, 'start_icon').setOrigin(0.5).setInteractive();
       const progress_rpt_icon = this.add.sprite(screenCenterX - offset_x, screenCenterY + offset_y + 12, 'progress_rpt_icon').setOrigin(0.5).setInteractive();
       const exit_icon = this.add.sprite(screenCenterX - offset_x, screenCenterY + (offset_y * 2) + 16, 'exit_icon').setOrigin(0.5).setInteractive();

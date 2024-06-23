@@ -7,12 +7,15 @@
 */
 
 
-var history_list : VBoxContainer = %HistoryList
-
 // add text to the UI
-function populate_history() {
-	var history = DialogueManager.current_dialogue
-	for i in history.size() {
+var populate_history = function() {
+	
+	var history = DM.current_dialogue
+	
+	let i = 0;
+	const s = DM.dialogue_lines
+	for (i; i < s; i++) {
+
 		var row = VBoxContainer.new()
 		var eng = Label.new()
 		var lu = Label.new()
@@ -23,5 +26,6 @@ function populate_history() {
 		row.add_child(lu)
 		row.add_child(eng)
 		history_list.add_child(row)
-    }
+
+	}
 }
